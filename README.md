@@ -18,6 +18,7 @@
     - Aether Therawood Log
     - Aether Wisproot Log
   - Implementing crafting recipes:
+    - (nothing yet)
 
 ## Version history
 
