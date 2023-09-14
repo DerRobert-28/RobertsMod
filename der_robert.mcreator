@@ -2162,8 +2162,8 @@
       "item.der_robert.classic_herobrine_spawn_egg": "Classic Herobrine Spawn Egg",
       "block.der_robert.classic_dirt_block": "Classic Dirt",
       "block.der_robert.classic_sand_block": "Classic Sand",
-      "item.der_robert.template_human_spawn_egg": "Template Human Spawn Egg",
       "block.der_robert.alpha_gravel_block": "Alpha Gravel",
+      "item.der_robert.template_human_spawn_egg": "Template Human Spawn Egg",
       "block.der_robert.unknown_pack_block": "Unknown Pack Block",
       "block.der_robert.aether_dirt_block": "Aether Dirt",
       "block.der_robert.alpha_grass_block": "Alpha Grass",
@@ -2215,7 +2215,7 @@
       "block.der_robert.modern_pack_block": "Pack Block",
       "block.der_robert.aether_greatroot_log": "Aether Greatroot Log",
       "entity.der_robert.classic_zombie": "Classic Zombie",
-      "block.der_robert.aether_skyroot_log": "Aether Skyroot  Log",
+      "block.der_robert.aether_skyroot_log": "Aether Skyroot Log",
       "item_group.der_robert.roberts_beta_tab": "Robert\u0027s Beta",
       "item_group.der_robert.roberts_classic_tab": "Robert\u0027s Classic",
       "block.der_robert.aether_amberoot_log": "Aether Amberroot Log",
@@ -2229,7 +2229,7 @@
       "item.der_robert.creeper_pig_spawn_egg": "Creeper Pig Spawn Egg",
       "gui.der_robert.classic_workbench_gui.label_workbench": "Workbench",
       "block.der_robert.classic_tnt_block": "Classic TNT",
-      "block.der_robert.aether_therawood_log": "Aether Therawood  Log",
+      "block.der_robert.aether_therawood_log": "Aether Therawood Log",
       "entity.der_robert.classic_human": "Classic Human"
     }
   },
