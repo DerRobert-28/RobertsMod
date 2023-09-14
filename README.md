@@ -2,7 +2,11 @@
 
 - Mainly decorative blocks of miscellaneous Minecraft mods and versions.
 - Buildable with MCreator
-- Usable with Minecraft Forge 1.20.1
+- How to use:
+  - Install Minecraft Forge 1.20.1
+  - Download the archive " Robert's Mod.jar".
+  - Put it in the Minecraft mods folder.
+  - Have fun!
 
 ## Recent version
 
