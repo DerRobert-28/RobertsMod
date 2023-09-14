@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicNetherrackBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HerobrineNetherrack"
+    },
+    "name": "herobrine_netherrack_recipe",
+    "namespace": "mod"
+  }
+}

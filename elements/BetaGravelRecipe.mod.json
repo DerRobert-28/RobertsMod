@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 9,
+    "group": "block",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGravelBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BetaGravelBlock"
+    },
+    "name": "beta_gravel_recipe",
+    "namespace": "mod"
+  }
+}

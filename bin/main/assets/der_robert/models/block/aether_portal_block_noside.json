@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "der_robert:block/aether_portal"
+  },
+  "render_type": "solid"
+}

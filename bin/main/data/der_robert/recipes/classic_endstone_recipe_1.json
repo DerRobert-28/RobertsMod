@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "block",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_endstone_block",
+    "count": 1
+  }
+}

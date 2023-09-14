@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "der_robert:classic_workbench_block",
+    "der_robert:classic_wood_block",
+    "der_robert:classic_wood_door"
+  ]
+}

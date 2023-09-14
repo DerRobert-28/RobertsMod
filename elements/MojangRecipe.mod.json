@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      },
+      {
+        "value": "Items.THING_BANNER_PATTERN"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MojangBlock"
+    },
+    "name": "mojang_recipe",
+    "namespace": "mod"
+  }
+}

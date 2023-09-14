@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/classic_wood",
+    "up": "der_robert:block/workbench_top",
+    "north": "der_robert:block/workbench_front",
+    "east": "der_robert:block/workbench_side",
+    "south": "der_robert:block/workbench_front",
+    "west": "der_robert:block/workbench_side",
+    "particle": "der_robert:block/classic_wood"
+  },
+  "render_type": "solid"
+}

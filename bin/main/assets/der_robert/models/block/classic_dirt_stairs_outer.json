@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "der_robert:block/classic_dirt",
+    "top": "der_robert:block/classic_dirt",
+    "side": "der_robert:block/classic_dirt"
+  },
+  "render_type": "solid"
+}

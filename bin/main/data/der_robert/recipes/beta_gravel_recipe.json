@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "block",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    },
+    {
+      "item": "der_robert:classic_gravel_block"
+    }
+  ],
+  "result": {
+    "item": "der_robert:beta_gravel_block",
+    "count": 9
+  }
+}

@@ -1,0 +1,1036 @@
+Java Launcher: A:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Arguments: '--input, C:\Users\Robert\MCreatorWorkspaces\der_robert\build\libs\modid-1.0.jar, --output, C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\output.jar, --names, C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\mappings.tsrg, --lib, C:\Users\Robert\MCreatorWorkspaces\der_robert\build\fg_cache\net\minecraftforge\forge\1.20.1-47.1.0_mapped_official_1.20.1\forge-1.20.1-47.1.0_mapped_official_1.20.1-recomp.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.1.0\f7b5e4ef130d184e0ea48e6d8bf0a2d90757e8c6\fmlloader-1.20.1-47.1.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.0\69ca36ae5b8d45c377a5485dc38a7343e5ebf33c\fmlcore-1.20.1-47.1.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.1.0\faf61a8a8cc80e82a5691fac00149f06eeaf0438\fmlearlydisplay-1.20.1-47.1.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.0\a2cd58d15791eaac9983e30be0995e66bd48633e\javafmllanguage-1.20.1-47.1.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.0\f1f11b7217b8320f1b3eb81c746b7b8a70a9ba06\lowcodelanguage-1.20.1-47.1.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.0\ff1b8eeb1bd00dfb130263b8952b931f5369252e\mclanguage-1.20.1-47.1.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\Robert\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\1.0.5\ForgeAutoRenamingTool-1.0.5-all.jar
+Working directory: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar
+Main class: net.minecraftforge.fart.Main
+====================================
+Forge Auto Renaming Tool v1.0.5
+lib: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\fg_cache\net\minecraftforge\forge\1.20.1-47.1.0_mapped_official_1.20.1\forge-1.20.1-47.1.0_mapped_official_1.20.1-recomp.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.1.0\f7b5e4ef130d184e0ea48e6d8bf0a2d90757e8c6\fmlloader-1.20.1-47.1.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.0\69ca36ae5b8d45c377a5485dc38a7343e5ebf33c\fmlcore-1.20.1-47.1.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.1.0\faf61a8a8cc80e82a5691fac00149f06eeaf0438\fmlearlydisplay-1.20.1-47.1.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.0\a2cd58d15791eaac9983e30be0995e66bd48633e\javafmllanguage-1.20.1-47.1.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.0\f1f11b7217b8320f1b3eb81c746b7b8a70a9ba06\lowcodelanguage-1.20.1-47.1.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.0\ff1b8eeb1bd00dfb130263b8952b931f5369252e\mclanguage-1.20.1-47.1.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\Robert\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\libs\modid-1.0.jar
+output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\output.jar
+threads: 6
+Names: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\libs\modid-1.0.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherDirtBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherDirtBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherAmberootLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherAmberootLogBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherGreatrootLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherGreatrootLogBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherSkyrootLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherSkyrootLogBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherGrassBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherGrassBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherPortalBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherTherawoodLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherTherawoodLogBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherWisprootLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AetherWisprootLogBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AlphaGrassBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AlphaGrassBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AlphaGravelBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/AlphaGravelBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BackgroundDirtBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BackgroundDirtBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaEndStoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaEndStoneBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaGravelBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaGravelBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaMonsterSpawnerBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaMonsterSpawnerBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaMonsterSpawnerBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/BetaMonsterSpawnerBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicBedrockBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicBedrockBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicBrickBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicBrickBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicCryingObsidianBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicCryingObsidianBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicDirtBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicDirtBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicEndstoneBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicEndstoneBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicDirtSlabBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicDirtStairsBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicDirtStairsBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicDirtStairsBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGrassBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGrassBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGravelBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGravelBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGlowstoneBlockBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGlowstoneBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicGlowstoneBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicMossyStoneBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicMossyStoneBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicNetherQuartzOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicNetherrackBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicNetherrackBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicNetherQuartzOreBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicObsidianBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicObsidianBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicOakLeavesBlockBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicOakLeavesBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/LeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicOakLeavesBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicPackBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicPackBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSoulSandBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSpongeBlockBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSoulSandBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSoulSandBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSpongeBlockBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSpongeBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSpongeBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSpongeBlockBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSpongeBlockBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSandBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSoulSandBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicStoneBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicStoneBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/wasExploded(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V from net/minecraft/world/level/block/Block/wasExploded(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V: wasExploded -> m_7592_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V: neighborChanged -> m_6861_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/attack(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/state/BlockBehaviour/attack(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;)V: attack -> m_6256_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicTntBlockBlock/onProjectileHit(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/entity/projectile/Projectile;)V from net/minecraft/world/level/block/state/BlockBehaviour/onProjectileHit(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/entity/projectile/Projectile;)V: onProjectileHit -> m_5581_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicSandBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWoodDoorBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWoodBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWoodBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/mcreator/derrobert/block/CreeponiaBrickBlockBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/derrobert/block/CreeponiaBrickBlockBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/CreeponiaBrickBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/CreeponiaBrickBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/GlassDoorBlock/wasExploded(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V from net/minecraft/world/level/block/Block/wasExploded(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V: wasExploded -> m_7592_
+Conflicting propagated mapping for net/mcreator/derrobert/block/GlowingObsidianBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/GlowingObsidianBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/GlowingObsidianBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/HerobrineNetherrackBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/HerobrineNetherrackBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/MissingNoBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/MissingNoBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ModernPackBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/ModernPackBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/MojangBlockBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/derrobert/block/MojangBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/MojangBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/block/UnknownPackBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/derrobert/block/UnknownPackBlockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/ClassicHerobrineRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/AlphaCreeperRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/ClassicHumanRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/isPauseScreen()Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/isPauseScreen()Z: isPauseScreen -> m_7043_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/ClassicZombieRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Zombie/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_34328_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/CreeperPigRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/monster/Zombie/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/monster/Zombie/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/registerGoals()V from net/minecraft/world/entity/monster/Zombie/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity/getMyRidingOffset()D from net/minecraft/world/entity/monster/Zombie/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Zombie/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_34328_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/monster/Zombie/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/monster/Zombie/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/registerGoals()V from net/minecraft/world/entity/monster/Zombie/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity/getMyRidingOffset()D from net/minecraft/world/entity/monster/Zombie/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/animal/Pig/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Creeper/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/animal/Pig/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_29503_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/animal/Pig/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/animal/Pig/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Creeper/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_32318_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/animal/Pig/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/animal/Pig/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Creeper/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity/registerGoals()V from net/minecraft/world/entity/animal/Pig/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity/registerGoals()V from net/minecraft/world/entity/monster/Creeper/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/EvilHerobrineRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/customServerAiStep()V from net/minecraft/world/entity/Mob/customServerAiStep()V: customServerAiStep -> m_8024_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Zombie/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_34328_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/monster/Zombie/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/monster/Zombie/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/registerGoals()V from net/minecraft/world/entity/monster/Zombie/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity/getMyRidingOffset()D from net/minecraft/world/entity/monster/Zombie/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/PiggyCreeperRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/client/renderer/TemplateHumanRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Creeper/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Creeper/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_32318_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Creeper/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity/registerGoals()V from net/minecraft/world/entity/monster/Creeper/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/AlphaCreeperEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHerobrineEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicHumanEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/ClassicZombieEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/CreeperPigEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/EvilHerobrineEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/PiggyCreeperEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/entity/TemplateHumanEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherAmberootLogFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherDirtBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherGrassBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherGreatrootLogFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherSkyrootLogFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherTherawoodLogFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AetherWisprootLogFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/GlowingObsidianFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/CreeponiaBrickBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/GlassDoorFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/HerobrineNetherrackFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/MissingNoBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicWorkbenchBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicBedrockBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicBrickBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicCryingObsidianFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicDirtBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicDirtSlabFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicDirtStairsFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicEndstoneBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicGlowstoneBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicGrassBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicGravelBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicMonsterSpawnerFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicMossyStoneBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicNetherrackBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicNetherQuartzOreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicOakLeavesBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicObsidianBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicSandBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicSoulSandFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicSpongeBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicStoneBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicWoodBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/ClassicWoodDoorFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AlphaGrassBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/AlphaGravelBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/BackgroundDirtFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/MojangBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/BetaGravelBlockFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/BetaMonsterSpawnerFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/derrobert/world/features/ores/BetaEndStoneFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7993_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Conflicting propagated mapping for net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$10/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Adding extras
+Sorting
+Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  META-INF/accesstransformer.cfg
+  META-INF/mods.toml
+  assets/
+  assets/der_robert/
+  assets/der_robert/blockstates/
+  assets/der_robert/blockstates/aether_amberoot_log.json
+  assets/der_robert/blockstates/aether_dirt_block.json
+  assets/der_robert/blockstates/aether_grass_block.json
+  assets/der_robert/blockstates/aether_greatroot_log.json
+  assets/der_robert/blockstates/aether_portal_block.json
+  assets/der_robert/blockstates/aether_skyroot_log.json
+  assets/der_robert/blockstates/aether_therawood_log.json
+  assets/der_robert/blockstates/aether_wisproot_log.json
+  assets/der_robert/blockstates/alpha_grass_block.json
+  assets/der_robert/blockstates/alpha_gravel_block.json
+  assets/der_robert/blockstates/background_dirt.json
+  assets/der_robert/blockstates/beta_end_stone.json
+  assets/der_robert/blockstates/beta_gravel_block.json
+  assets/der_robert/blockstates/beta_monster_spawner.json
+  assets/der_robert/blockstates/classic_bedrock_block.json
+  assets/der_robert/blockstates/classic_brick_block.json
+  assets/der_robert/blockstates/classic_crying_obsidian.json
+  assets/der_robert/blockstates/classic_dirt_block.json
+  assets/der_robert/blockstates/classic_dirt_slab.json
+  assets/der_robert/blockstates/classic_dirt_stairs.json
+  assets/der_robert/blockstates/classic_endstone_block.json
+  assets/der_robert/blockstates/classic_glowstone_block.json
+  assets/der_robert/blockstates/classic_grass_block.json
+  assets/der_robert/blockstates/classic_gravel_block.json
+  assets/der_robert/blockstates/classic_monster_spawner.json
+  assets/der_robert/blockstates/classic_mossy_stone_block.json
+  assets/der_robert/blockstates/classic_nether_quartz_ore.json
+  assets/der_robert/blockstates/classic_netherrack_block.json
+  assets/der_robert/blockstates/classic_oak_leaves_block.json
+  assets/der_robert/blockstates/classic_obsidian_block.json
+  assets/der_robert/blockstates/classic_pack_block.json
+  assets/der_robert/blockstates/classic_sand_block.json
+  assets/der_robert/blockstates/classic_soul_sand.json
+  assets/der_robert/blockstates/classic_sponge_block.json
+  assets/der_robert/blockstates/classic_stone_block.json
+  assets/der_robert/blockstates/classic_tnt_block.json
+  assets/der_robert/blockstates/classic_wood_block.json
+  assets/der_robert/blockstates/classic_wood_door.json
+  assets/der_robert/blockstates/classic_workbench_block.json
+  assets/der_robert/blockstates/creeponia_brick_block.json
+  assets/der_robert/blockstates/glass_door.json
+  assets/der_robert/blockstates/glowing_obsidian.json
+  assets/der_robert/blockstates/herobrine_netherrack.json
+  assets/der_robert/blockstates/missing_no_block.json
+  assets/der_robert/blockstates/modern_pack_block.json
+  assets/der_robert/blockstates/mojang_block.json
+  assets/der_robert/blockstates/unknown_pack_block.json
+  assets/der_robert/lang/
+  assets/der_robert/lang/en_us.json
+  assets/der_robert/models/
+  assets/der_robert/models/block/
+  assets/der_robert/models/block/aether_amberoot_log.json
+  assets/der_robert/models/block/aether_dirt_block.json
+  assets/der_robert/models/block/aether_grass_block.json
+  assets/der_robert/models/block/aether_greatroot_log.json
+  assets/der_robert/models/block/aether_portal_block_noside.json
+  assets/der_robert/models/block/aether_portal_block_noside_alt.json
+  assets/der_robert/models/block/aether_portal_block_post.json
+  assets/der_robert/models/block/aether_portal_block_side.json
+  assets/der_robert/models/block/aether_portal_block_side_alt.json
+  assets/der_robert/models/block/aether_skyroot_log.json
+  assets/der_robert/models/block/aether_therawood_log.json
+  assets/der_robert/models/block/aether_wisproot_log.json
+  assets/der_robert/models/block/alpha_grass_block.json
+  assets/der_robert/models/block/alpha_gravel_block.json
+  assets/der_robert/models/block/background_dirt.json
+  assets/der_robert/models/block/beta_end_stone.json
+  assets/der_robert/models/block/beta_gravel_block.json
+  assets/der_robert/models/block/beta_monster_spawner.json
+  assets/der_robert/models/block/classic_bedrock_block.json
+  assets/der_robert/models/block/classic_brick_block.json
+  assets/der_robert/models/block/classic_crying_obsidian.json
+  assets/der_robert/models/block/classic_dirt_block.json
+  assets/der_robert/models/block/classic_dirt_slab.json
+  assets/der_robert/models/block/classic_dirt_slab_full.json
+  assets/der_robert/models/block/classic_dirt_slab_top.json
+  assets/der_robert/models/block/classic_dirt_stairs.json
+  assets/der_robert/models/block/classic_dirt_stairs_inner.json
+  assets/der_robert/models/block/classic_dirt_stairs_outer.json
+  assets/der_robert/models/block/classic_endstone_block.json
+  assets/der_robert/models/block/classic_glowstone_block.json
+  assets/der_robert/models/block/classic_grass_block.json
+  assets/der_robert/models/block/classic_gravel_block.json
+  assets/der_robert/models/block/classic_monster_spawner.json
+  assets/der_robert/models/block/classic_mossy_stone_block.json
+  assets/der_robert/models/block/classic_nether_quartz_ore.json
+  assets/der_robert/models/block/classic_netherrack_block.json
+  assets/der_robert/models/block/classic_oak_leaves_block.json
+  assets/der_robert/models/block/classic_obsidian_block.json
+  assets/der_robert/models/block/classic_pack_block.json
+  assets/der_robert/models/block/classic_sand_block.json
+  assets/der_robert/models/block/classic_soul_sand.json
+  assets/der_robert/models/block/classic_sponge_block.json
+  assets/der_robert/models/block/classic_stone_block.json
+  assets/der_robert/models/block/classic_tnt_block.json
+  assets/der_robert/models/block/classic_wood_block.json
+  assets/der_robert/models/block/classic_wood_door_bottom_left.json
+  assets/der_robert/models/block/classic_wood_door_bottom_left_open.json
+  assets/der_robert/models/block/classic_wood_door_bottom_right.json
+  assets/der_robert/models/block/classic_wood_door_bottom_right_open.json
+  assets/der_robert/models/block/classic_wood_door_top_left.json
+  assets/der_robert/models/block/classic_wood_door_top_left_open.json
+  assets/der_robert/models/block/classic_wood_door_top_right.json
+  assets/der_robert/models/block/classic_wood_door_top_right_open.json
+  assets/der_robert/models/block/classic_workbench_block.json
+  assets/der_robert/models/block/creeponia_brick_block.json
+  assets/der_robert/models/block/glass_door_bottom_left.json
+  assets/der_robert/models/block/glass_door_bottom_left_open.json
+  assets/der_robert/models/block/glass_door_bottom_right.json
+  assets/der_robert/models/block/glass_door_bottom_right_open.json
+  assets/der_robert/models/block/glass_door_top_left.json
+  assets/der_robert/models/block/glass_door_top_left_open.json
+  assets/der_robert/models/block/glass_door_top_right.json
+  assets/der_robert/models/block/glass_door_top_right_open.json
+  assets/der_robert/models/block/glowing_obsidian.json
+  assets/der_robert/models/block/herobrine_netherrack.json
+  assets/der_robert/models/block/missing_no_block.json
+  assets/der_robert/models/block/modern_pack_block.json
+  assets/der_robert/models/block/mojang_block.json
+  assets/der_robert/models/block/unknown_pack_block.json
+  assets/der_robert/models/item/
+  assets/der_robert/models/item/aether_amberoot_log.json
+  assets/der_robert/models/item/aether_dirt_block.json
+  assets/der_robert/models/item/aether_grass_block.json
+  assets/der_robert/models/item/aether_greatroot_log.json
+  assets/der_robert/models/item/aether_portal_block.json
+  assets/der_robert/models/item/aether_skyroot_log.json
+  assets/der_robert/models/item/aether_therawood_log.json
+  assets/der_robert/models/item/aether_wisproot_log.json
+  assets/der_robert/models/item/alpha_creeper_spawn_egg.json
+  assets/der_robert/models/item/alpha_grass_block.json
+  assets/der_robert/models/item/alpha_gravel_block.json
+  assets/der_robert/models/item/background_dirt.json
+  assets/der_robert/models/item/beta_end_stone.json
+  assets/der_robert/models/item/beta_gravel_block.json
+  assets/der_robert/models/item/beta_monster_spawner.json
+  assets/der_robert/models/item/classic_bedrock_block.json
+  assets/der_robert/models/item/classic_brick_block.json
+  assets/der_robert/models/item/classic_crying_obsidian.json
+  assets/der_robert/models/item/classic_dirt_block.json
+  assets/der_robert/models/item/classic_dirt_slab.json
+  assets/der_robert/models/item/classic_dirt_stairs.json
+  assets/der_robert/models/item/classic_endstone_block.json
+  assets/der_robert/models/item/classic_glowstone_block.json
+  assets/der_robert/models/item/classic_grass_block.json
+  assets/der_robert/models/item/classic_gravel_block.json
+  assets/der_robert/models/item/classic_herobrine_spawn_egg.json
+  assets/der_robert/models/item/classic_human_spawn_egg.json
+  assets/der_robert/models/item/classic_monster_spawner.json
+  assets/der_robert/models/item/classic_mossy_stone_block.json
+  assets/der_robert/models/item/classic_nether_quartz_ore.json
+  assets/der_robert/models/item/classic_netherrack_block.json
+  assets/der_robert/models/item/classic_oak_leaves_block.json
+  assets/der_robert/models/item/classic_obsidian_block.json
+  assets/der_robert/models/item/classic_pack_block.json
+  assets/der_robert/models/item/classic_sand_block.json
+  assets/der_robert/models/item/classic_soul_sand.json
+  assets/der_robert/models/item/classic_sponge_block.json
+  assets/der_robert/models/item/classic_stone_block.json
+  assets/der_robert/models/item/classic_tnt_block.json
+  assets/der_robert/models/item/classic_wood_block.json
+  assets/der_robert/models/item/classic_wood_door.json
+  assets/der_robert/models/item/classic_workbench_block.json
+  assets/der_robert/models/item/classic_zombie_spawn_egg.json
+  assets/der_robert/models/item/creeper_pig_spawn_egg.json
+  assets/der_robert/models/item/creeponia_brick_block.json
+  assets/der_robert/models/item/evil_herobrine_spawn_egg.json
+  assets/der_robert/models/item/glass_door.json
+  assets/der_robert/models/item/glowing_obsidian.json
+  assets/der_robert/models/item/herobrine_netherrack.json
+  assets/der_robert/models/item/missing_no_block.json
+  assets/der_robert/models/item/modern_pack_block.json
+  assets/der_robert/models/item/mojang_block.json
+  assets/der_robert/models/item/piggy_creeper_spawn_egg.json
+  assets/der_robert/models/item/template_human_spawn_egg.json
+  assets/der_robert/models/item/unknown_pack_block.json
+  assets/der_robert/textures/
+  assets/der_robert/textures/block/
+  assets/der_robert/textures/block/aether_amberoot_log_side.png
+  assets/der_robert/textures/block/aether_amberoot_log_top.png
+  assets/der_robert/textures/block/aether_ambrosium_torch.png
+  assets/der_robert/textures/block/aether_dirt.png
+  assets/der_robert/textures/block/aether_grass_side.png
+  assets/der_robert/textures/block/aether_grass_top.png
+  assets/der_robert/textures/block/aether_greatroot_log_side.png
+  assets/der_robert/textures/block/aether_greatroot_log_top.png
+  assets/der_robert/textures/block/aether_portal.png
+  assets/der_robert/textures/block/aether_portal.png.mcmeta
+  assets/der_robert/textures/block/aether_skyroot_log_side.png
+  assets/der_robert/textures/block/aether_skyroot_log_top.png
+  assets/der_robert/textures/block/aether_therawood_log_side.png
+  assets/der_robert/textures/block/aether_therawood_log_top.png
+  assets/der_robert/textures/block/aether_wisproot_log_side.png
+  assets/der_robert/textures/block/aether_wisproot_log_top.png
+  assets/der_robert/textures/block/alpha_grass_block.png
+  assets/der_robert/textures/block/alpha_gravel.png
+  assets/der_robert/textures/block/background_dirt.png
+  assets/der_robert/textures/block/beta_endstone.png
+  assets/der_robert/textures/block/beta_gravel.png
+  assets/der_robert/textures/block/beta_monster_spawner.png
+  assets/der_robert/textures/block/classic_bedrock.png
+  assets/der_robert/textures/block/classic_bricks.png
+  assets/der_robert/textures/block/classic_crying_obsidian.png
+  assets/der_robert/textures/block/classic_dirt.png
+  assets/der_robert/textures/block/classic_door_bottom.png
+  assets/der_robert/textures/block/classic_door_top.png
+  assets/der_robert/textures/block/classic_endstone.png
+  assets/der_robert/textures/block/classic_glowstone.png
+  assets/der_robert/textures/block/classic_grass_block.png
+  assets/der_robert/textures/block/classic_gravel.png
+  assets/der_robert/textures/block/classic_monster_spawner.png
+  assets/der_robert/textures/block/classic_mossy_stone.png
+  assets/der_robert/textures/block/classic_nether_quartz_ore.png
+  assets/der_robert/textures/block/classic_netherrack.png
+  assets/der_robert/textures/block/classic_oak_leaves.png
+  assets/der_robert/textures/block/classic_obsidian.png
+  assets/der_robert/textures/block/classic_pack_block.png
+  assets/der_robert/textures/block/classic_sand.png
+  assets/der_robert/textures/block/classic_soul_sand.png
+  assets/der_robert/textures/block/classic_sponge.png
+  assets/der_robert/textures/block/classic_stone.png
+  assets/der_robert/textures/block/classic_tnt-bottom.png
+  assets/der_robert/textures/block/classic_tnt_side.png
+  assets/der_robert/textures/block/classic_tnt_top.png
+  assets/der_robert/textures/block/classic_wood.png
+  assets/der_robert/textures/block/creeponia_bricks.png
+  assets/der_robert/textures/block/glass_door_bottom.png
+  assets/der_robert/textures/block/glass_door_top.png
+  assets/der_robert/textures/block/glowing_obsidian.png
+  assets/der_robert/textures/block/herobrine_netherack.png
+  assets/der_robert/textures/block/missingno_block.png
+  assets/der_robert/textures/block/modern_pack_block.png
+  assets/der_robert/textures/block/mojang_block.png
+  assets/der_robert/textures/block/unknown_pack_block.png
+  assets/der_robert/textures/block/workbench_front.png
+  assets/der_robert/textures/block/workbench_side.png
+  assets/der_robert/textures/block/workbench_top.png
+  assets/der_robert/textures/entities/
+  assets/der_robert/textures/entities/alpha_creeper.png
+  assets/der_robert/textures/entities/classic_char.png
+  assets/der_robert/textures/entities/classic_herobrine.png
+  assets/der_robert/textures/entities/classic_zombie.png
+  assets/der_robert/textures/entities/creeper_pig.png
+  assets/der_robert/textures/entities/evil_herobrine.png
+  assets/der_robert/textures/entities/piggy_creeper.png
+  assets/der_robert/textures/entities/template.png
+  assets/der_robert/textures/item/
+  assets/der_robert/textures/item/classic_door.png
+  assets/der_robert/textures/item/glass_door.png
+  assets/der_robert/textures/screens/
+  assets/der_robert/textures/screens/classic_workbench_gui.png
+  data/
+  data/der_robert/
+  data/der_robert/forge/
+  data/der_robert/forge/biome_modifier/
+  data/der_robert/forge/biome_modifier/aether_amberoot_log_biome_modifier.json
+  data/der_robert/forge/biome_modifier/aether_dirt_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/aether_grass_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/aether_greatroot_log_biome_modifier.json
+  data/der_robert/forge/biome_modifier/aether_skyroot_log_biome_modifier.json
+  data/der_robert/forge/biome_modifier/aether_therawood_log_biome_modifier.json
+  data/der_robert/forge/biome_modifier/aether_wisproot_log_biome_modifier.json
+  data/der_robert/forge/biome_modifier/alpha_creeper_biome_modifier.json
+  data/der_robert/forge/biome_modifier/alpha_grass_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/alpha_gravel_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/background_dirt_biome_modifier.json
+  data/der_robert/forge/biome_modifier/beta_end_stone_biome_modifier.json
+  data/der_robert/forge/biome_modifier/beta_gravel_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/beta_monster_spawner_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_bedrock_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_brick_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_crying_obsidian_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_dirt_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_dirt_slab_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_dirt_stairs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_endstone_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_glowstone_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_grass_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_gravel_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_herobrine_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_human_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_monster_spawner_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_mossy_stone_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_nether_quartz_ore_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_netherrack_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_oak_leaves_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_obsidian_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_sand_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_soul_sand_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_sponge_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_stone_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_wood_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_wood_door_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_workbench_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_zombie_biome_modifier.json
+  data/der_robert/forge/biome_modifier/creeper_pig_biome_modifier.json
+  data/der_robert/forge/biome_modifier/creeponia_brick_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/evil_herobrine_biome_modifier.json
+  data/der_robert/forge/biome_modifier/glass_door_biome_modifier.json
+  data/der_robert/forge/biome_modifier/glowing_obsidian_biome_modifier.json
+  data/der_robert/forge/biome_modifier/herobrine_netherrack_biome_modifier.json
+  data/der_robert/forge/biome_modifier/missing_no_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/mojang_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/piggy_creeper_biome_modifier.json
+  data/der_robert/recipes/
+  data/der_robert/recipes/aether_dirt_recipe.json
+  data/der_robert/recipes/aether_grass_recipe.json
+  data/der_robert/recipes/alpha_grass_recipe.json
+  data/der_robert/recipes/alpha_gravel_recipe_1.json
+  data/der_robert/recipes/alpha_gravel_recipe_2.json
+  data/der_robert/recipes/bedrock_recipe.json
+  data/der_robert/recipes/beta_gravel_recipe.json
+  data/der_robert/recipes/beta_monster_spawner_recipe_1.json
+  data/der_robert/recipes/beta_monster_spawner_recipe_2.json
+  data/der_robert/recipes/classic_brick_recipe.json
+  data/der_robert/recipes/classic_crying_obsidian_recipe_1.json
+  data/der_robert/recipes/classic_crying_obsidian_recipe_2.json
+  data/der_robert/recipes/classic_dirt_recipe_1.json
+  data/der_robert/recipes/classic_dirt_recipe_2.json
+  data/der_robert/recipes/classic_dirt_slab_recipe_1.json
+  data/der_robert/recipes/classic_dirt_slab_recipe_2.json
+  data/der_robert/recipes/classic_dirt_stairs_recipe.json
+  data/der_robert/recipes/classic_endstone_recipe_1.json
+  data/der_robert/recipes/classic_endstone_recipe_2.json
+  data/der_robert/recipes/classic_glowstone_recipe_1.json
+  data/der_robert/recipes/classic_glowstone_recipe_2.json
+  data/der_robert/recipes/classic_grass_recipe_1.json
+  data/der_robert/recipes/classic_grass_recipe_2.json
+  data/der_robert/recipes/classic_gravel_recipe_1.json
+  data/der_robert/recipes/classic_gravel_recipe_2.json
+  data/der_robert/recipes/classic_leaves_recipe_1.json
+  data/der_robert/recipes/classic_leaves_recipe_2.json
+  data/der_robert/recipes/classic_monster_spawner_recipe_1.json
+  data/der_robert/recipes/classic_monster_spawner_recipe_2.json
+  data/der_robert/recipes/classic_mossy_stone_recipe_1.json
+  data/der_robert/recipes/classic_mossy_stone_recipe_2.json
+  data/der_robert/recipes/classic_nether_quartz_ore_recipe_1.json
+  data/der_robert/recipes/classic_nether_quartz_ore_recipe_2.json
+  data/der_robert/recipes/classic_nether_rack_recipe_2.json
+  data/der_robert/recipes/classic_netherrack_recipe.json
+  data/der_robert/recipes/classic_obsidian_recipe_1.json
+  data/der_robert/recipes/classic_obsidian_recipe_2.json
+  data/der_robert/recipes/classic_soul_sand_recipe_1.json
+  data/der_robert/recipes/classic_soul_sand_recipe_2.json
+  data/der_robert/recipes/classic_soul_sand_recipe_3.json
+  data/der_robert/recipes/classic_stone_recipe_1.json
+  data/der_robert/recipes/classic_stone_recipe_2.json
+  data/der_robert/recipes/classic_stone_recipe_3.json
+  data/der_robert/recipes/classic_tnt_recipe_1.json
+  data/der_robert/recipes/classic_tnt_recipe_2.json
+  data/der_robert/recipes/classic_wood_recipe_1.json
+  data/der_robert/recipes/classic_wood_recipe_2.json
+  data/der_robert/recipes/classic_workbench_recipe_1.json
+  data/der_robert/recipes/classic_workbench_recipe_2.json
+  data/der_robert/recipes/classic_workbench_recipe_3.json
+  data/der_robert/recipes/create_barrier_recipe.json
+  data/der_robert/recipes/create_bedrock_recipe.json
+  data/der_robert/recipes/creeponia_brick_recipe.json
+  data/der_robert/recipes/glass_door_recipe.json
+  data/der_robert/recipes/glowing_obsidian_recipe.json
+  data/der_robert/recipes/herobrine_netherrack_recipe.json
+  data/der_robert/recipes/mojang_recipe.json
+  data/der_robert/worldgen/
+  data/der_robert/worldgen/biome/
+  data/der_robert/worldgen/biome/classic_biome_1.json
+  data/der_robert/worldgen/biome/classic_biome_2.json
+  data/der_robert/worldgen/configured_feature/
+  data/der_robert/worldgen/configured_feature/aether_amberoot_log.json
+  data/der_robert/worldgen/configured_feature/aether_dirt_block.json
+  data/der_robert/worldgen/configured_feature/aether_grass_block.json
+  data/der_robert/worldgen/configured_feature/aether_greatroot_log.json
+  data/der_robert/worldgen/configured_feature/aether_skyroot_log.json
+  data/der_robert/worldgen/configured_feature/aether_therawood_log.json
+  data/der_robert/worldgen/configured_feature/aether_wisproot_log.json
+  data/der_robert/worldgen/configured_feature/alpha_grass_block.json
+  data/der_robert/worldgen/configured_feature/alpha_gravel_block.json
+  data/der_robert/worldgen/configured_feature/background_dirt.json
+  data/der_robert/worldgen/configured_feature/beta_end_stone.json
+  data/der_robert/worldgen/configured_feature/beta_gravel_block.json
+  data/der_robert/worldgen/configured_feature/beta_monster_spawner.json
+  data/der_robert/worldgen/configured_feature/classic_bedrock_block.json
+  data/der_robert/worldgen/configured_feature/classic_biome_1_tree.json
+  data/der_robert/worldgen/configured_feature/classic_biome_2_tree.json
+  data/der_robert/worldgen/configured_feature/classic_brick_block.json
+  data/der_robert/worldgen/configured_feature/classic_crying_obsidian.json
+  data/der_robert/worldgen/configured_feature/classic_dirt_block.json
+  data/der_robert/worldgen/configured_feature/classic_dirt_slab.json
+  data/der_robert/worldgen/configured_feature/classic_dirt_stairs.json
+  data/der_robert/worldgen/configured_feature/classic_endstone_block.json
+  data/der_robert/worldgen/configured_feature/classic_glowstone_block.json
+  data/der_robert/worldgen/configured_feature/classic_grass_block.json
+  data/der_robert/worldgen/configured_feature/classic_gravel_block.json
+  data/der_robert/worldgen/configured_feature/classic_monster_spawner.json
+  data/der_robert/worldgen/configured_feature/classic_mossy_stone_block.json
+  data/der_robert/worldgen/configured_feature/classic_nether_quartz_ore.json
+  data/der_robert/worldgen/configured_feature/classic_netherrack_block.json
+  data/der_robert/worldgen/configured_feature/classic_oak_leaves_block.json
+  data/der_robert/worldgen/configured_feature/classic_obsidian_block.json
+  data/der_robert/worldgen/configured_feature/classic_sand_block.json
+  data/der_robert/worldgen/configured_feature/classic_soul_sand.json
+  data/der_robert/worldgen/configured_feature/classic_sponge_block.json
+  data/der_robert/worldgen/configured_feature/classic_stone_block.json
+  data/der_robert/worldgen/configured_feature/classic_wood_block.json
+  data/der_robert/worldgen/configured_feature/classic_wood_door.json
+  data/der_robert/worldgen/configured_feature/classic_workbench_block.json
+  data/der_robert/worldgen/configured_feature/creeponia_brick_block.json
+  data/der_robert/worldgen/configured_feature/glass_door.json
+  data/der_robert/worldgen/configured_feature/glowing_obsidian.json
+  data/der_robert/worldgen/configured_feature/herobrine_netherrack.json
+  data/der_robert/worldgen/configured_feature/missing_no_block.json
+  data/der_robert/worldgen/configured_feature/mojang_block.json
+  data/der_robert/worldgen/placed_feature/
+  data/der_robert/worldgen/placed_feature/aether_amberoot_log.json
+  data/der_robert/worldgen/placed_feature/aether_dirt_block.json
+  data/der_robert/worldgen/placed_feature/aether_grass_block.json
+  data/der_robert/worldgen/placed_feature/aether_greatroot_log.json
+  data/der_robert/worldgen/placed_feature/aether_skyroot_log.json
+  data/der_robert/worldgen/placed_feature/aether_therawood_log.json
+  data/der_robert/worldgen/placed_feature/aether_wisproot_log.json
+  data/der_robert/worldgen/placed_feature/alpha_grass_block.json
+  data/der_robert/worldgen/placed_feature/alpha_gravel_block.json
+  data/der_robert/worldgen/placed_feature/background_dirt.json
+  data/der_robert/worldgen/placed_feature/beta_end_stone.json
+  data/der_robert/worldgen/placed_feature/beta_gravel_block.json
+  data/der_robert/worldgen/placed_feature/beta_monster_spawner.json
+  data/der_robert/worldgen/placed_feature/classic_bedrock_block.json
+  data/der_robert/worldgen/placed_feature/classic_biome_1_tree.json
+  data/der_robert/worldgen/placed_feature/classic_biome_2_tree.json
+  data/der_robert/worldgen/placed_feature/classic_brick_block.json
+  data/der_robert/worldgen/placed_feature/classic_crying_obsidian.json
+  data/der_robert/worldgen/placed_feature/classic_dirt_block.json
+  data/der_robert/worldgen/placed_feature/classic_dirt_slab.json
+  data/der_robert/worldgen/placed_feature/classic_dirt_stairs.json
+  data/der_robert/worldgen/placed_feature/classic_endstone_block.json
+  data/der_robert/worldgen/placed_feature/classic_glowstone_block.json
+  data/der_robert/worldgen/placed_feature/classic_grass_block.json
+  data/der_robert/worldgen/placed_feature/classic_gravel_block.json
+  data/der_robert/worldgen/placed_feature/classic_monster_spawner.json
+  data/der_robert/worldgen/placed_feature/classic_mossy_stone_block.json
+  data/der_robert/worldgen/placed_feature/classic_nether_quartz_ore.json
+  data/der_robert/worldgen/placed_feature/classic_netherrack_block.json
+  data/der_robert/worldgen/placed_feature/classic_oak_leaves_block.json
+  data/der_robert/worldgen/placed_feature/classic_obsidian_block.json
+  data/der_robert/worldgen/placed_feature/classic_sand_block.json
+  data/der_robert/worldgen/placed_feature/classic_soul_sand.json
+  data/der_robert/worldgen/placed_feature/classic_sponge_block.json
+  data/der_robert/worldgen/placed_feature/classic_stone_block.json
+  data/der_robert/worldgen/placed_feature/classic_wood_block.json
+  data/der_robert/worldgen/placed_feature/classic_wood_door.json
+  data/der_robert/worldgen/placed_feature/classic_workbench_block.json
+  data/der_robert/worldgen/placed_feature/creeponia_brick_block.json
+  data/der_robert/worldgen/placed_feature/glass_door.json
+  data/der_robert/worldgen/placed_feature/glowing_obsidian.json
+  data/der_robert/worldgen/placed_feature/herobrine_netherrack.json
+  data/der_robert/worldgen/placed_feature/missing_no_block.json
+  data/der_robert/worldgen/placed_feature/mojang_block.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/axe.json
+  data/minecraft/tags/blocks/mineable/hoe.json
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/mineable/shovel.json
+  data/minecraft/tags/worldgen/
+  data/minecraft/tags/worldgen/biome/
+  data/minecraft/tags/worldgen/biome/has_structure/
+  data/minecraft/tags/worldgen/biome/has_structure/village_plains.json
+  net/
+  net/mcreator/
+  net/mcreator/derrobert/
+  net/mcreator/derrobert/DerRobertMod.class
+  net/mcreator/derrobert/block/
+  net/mcreator/derrobert/block/AetherAmberootLogBlock.class
+  net/mcreator/derrobert/block/AetherDirtBlockBlock.class
+  net/mcreator/derrobert/block/AetherGrassBlockBlock.class
+  net/mcreator/derrobert/block/AetherGreatrootLogBlock.class
+  net/mcreator/derrobert/block/AetherPortalBlockBlock.class
+  net/mcreator/derrobert/block/AetherSkyrootLogBlock.class
+  net/mcreator/derrobert/block/AetherTherawoodLogBlock.class
+  net/mcreator/derrobert/block/AetherWisprootLogBlock.class
+  net/mcreator/derrobert/block/AlphaGrassBlockBlock.class
+  net/mcreator/derrobert/block/AlphaGravelBlockBlock.class
+  net/mcreator/derrobert/block/BackgroundDirtBlock.class
+  net/mcreator/derrobert/block/BetaEndStoneBlock.class
+  net/mcreator/derrobert/block/BetaGravelBlockBlock.class
+  net/mcreator/derrobert/block/BetaMonsterSpawnerBlock.class
+  net/mcreator/derrobert/block/ClassicBedrockBlockBlock.class
+  net/mcreator/derrobert/block/ClassicBrickBlockBlock.class
+  net/mcreator/derrobert/block/ClassicCryingObsidianBlock.class
+  net/mcreator/derrobert/block/ClassicDirtBlockBlock.class
+  net/mcreator/derrobert/block/ClassicDirtSlabBlock.class
+  net/mcreator/derrobert/block/ClassicDirtStairsBlock.class
+  net/mcreator/derrobert/block/ClassicEndstoneBlockBlock.class
+  net/mcreator/derrobert/block/ClassicGlowstoneBlockBlock.class
+  net/mcreator/derrobert/block/ClassicGrassBlockBlock.class
+  net/mcreator/derrobert/block/ClassicGravelBlockBlock.class
+  net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock.class
+  net/mcreator/derrobert/block/ClassicMossyStoneBlockBlock.class
+  net/mcreator/derrobert/block/ClassicNetherQuartzOreBlock.class
+  net/mcreator/derrobert/block/ClassicNetherrackBlockBlock.class
+  net/mcreator/derrobert/block/ClassicOakLeavesBlockBlock.class
+  net/mcreator/derrobert/block/ClassicObsidianBlockBlock.class
+  net/mcreator/derrobert/block/ClassicPackBlockBlock.class
+  net/mcreator/derrobert/block/ClassicSandBlockBlock.class
+  net/mcreator/derrobert/block/ClassicSoulSandBlock.class
+  net/mcreator/derrobert/block/ClassicSpongeBlockBlock.class
+  net/mcreator/derrobert/block/ClassicStoneBlockBlock.class
+  net/mcreator/derrobert/block/ClassicTntBlockBlock.class
+  net/mcreator/derrobert/block/ClassicWoodBlockBlock.class
+  net/mcreator/derrobert/block/ClassicWoodDoorBlock.class
+  net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock$1.class
+  net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock.class
+  net/mcreator/derrobert/block/CreeponiaBrickBlockBlock.class
+  net/mcreator/derrobert/block/GlassDoorBlock.class
+  net/mcreator/derrobert/block/GlowingObsidianBlock.class
+  net/mcreator/derrobert/block/HerobrineNetherrackBlock.class
+  net/mcreator/derrobert/block/MissingNoBlockBlock.class
+  net/mcreator/derrobert/block/ModernPackBlockBlock.class
+  net/mcreator/derrobert/block/MojangBlockBlock.class
+  net/mcreator/derrobert/block/UnknownPackBlockBlock.class
+  net/mcreator/derrobert/client/
+  net/mcreator/derrobert/client/gui/
+  net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen.class
+  net/mcreator/derrobert/client/renderer/
+  net/mcreator/derrobert/client/renderer/AlphaCreeperRenderer.class
+  net/mcreator/derrobert/client/renderer/ClassicHerobrineRenderer.class
+  net/mcreator/derrobert/client/renderer/ClassicHumanRenderer.class
+  net/mcreator/derrobert/client/renderer/ClassicZombieRenderer.class
+  net/mcreator/derrobert/client/renderer/CreeperPigRenderer.class
+  net/mcreator/derrobert/client/renderer/EvilHerobrineRenderer.class
+  net/mcreator/derrobert/client/renderer/PiggyCreeperRenderer.class
+  net/mcreator/derrobert/client/renderer/TemplateHumanRenderer.class
+  net/mcreator/derrobert/entity/
+  net/mcreator/derrobert/entity/AlphaCreeperEntity$1.class
+  net/mcreator/derrobert/entity/AlphaCreeperEntity.class
+  net/mcreator/derrobert/entity/ClassicHerobrineEntity$1.class
+  net/mcreator/derrobert/entity/ClassicHerobrineEntity.class
+  net/mcreator/derrobert/entity/ClassicHumanEntity$1.class
+  net/mcreator/derrobert/entity/ClassicHumanEntity.class
+  net/mcreator/derrobert/entity/ClassicZombieEntity$1.class
+  net/mcreator/derrobert/entity/ClassicZombieEntity.class
+  net/mcreator/derrobert/entity/CreeperPigEntity$1.class
+  net/mcreator/derrobert/entity/CreeperPigEntity.class
+  net/mcreator/derrobert/entity/EvilHerobrineEntity$1.class
+  net/mcreator/derrobert/entity/EvilHerobrineEntity.class
+  net/mcreator/derrobert/entity/PiggyCreeperEntity$1.class
+  net/mcreator/derrobert/entity/PiggyCreeperEntity.class
+  net/mcreator/derrobert/entity/TemplateHumanEntity$1.class
+  net/mcreator/derrobert/entity/TemplateHumanEntity.class
+  net/mcreator/derrobert/init/
+  net/mcreator/derrobert/init/DerRobertModBiomes.class
+  net/mcreator/derrobert/init/DerRobertModBlocks.class
+  net/mcreator/derrobert/init/DerRobertModEntities.class
+  net/mcreator/derrobert/init/DerRobertModEntityRenderers.class
+  net/mcreator/derrobert/init/DerRobertModFeatures.class
+  net/mcreator/derrobert/init/DerRobertModItems.class
+  net/mcreator/derrobert/init/DerRobertModMenus.class
+  net/mcreator/derrobert/init/DerRobertModScreens.class
+  net/mcreator/derrobert/init/DerRobertModTabs.class
+  net/mcreator/derrobert/procedures/
+  net/mcreator/derrobert/procedures/ClassicTntIgnitionProcProcedure.class
+  net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure$1.class
+  net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure.class
+  net/mcreator/derrobert/procedures/GlassDoorBreakProcedureProcedure.class
+  net/mcreator/derrobert/world/
+  net/mcreator/derrobert/world/features/
+  net/mcreator/derrobert/world/features/ores/
+  net/mcreator/derrobert/world/features/ores/AetherAmberootLogFeature.class
+  net/mcreator/derrobert/world/features/ores/AetherDirtBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/AetherGrassBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/AetherGreatrootLogFeature.class
+  net/mcreator/derrobert/world/features/ores/AetherSkyrootLogFeature.class
+  net/mcreator/derrobert/world/features/ores/AetherTherawoodLogFeature.class
+  net/mcreator/derrobert/world/features/ores/AetherWisprootLogFeature.class
+  net/mcreator/derrobert/world/features/ores/AlphaGrassBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/AlphaGravelBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/BackgroundDirtFeature.class
+  net/mcreator/derrobert/world/features/ores/BetaEndStoneFeature.class
+  net/mcreator/derrobert/world/features/ores/BetaGravelBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/BetaMonsterSpawnerFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicBedrockBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicBrickBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicCryingObsidianFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicDirtBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicDirtSlabFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicDirtStairsFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicEndstoneBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicGlowstoneBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicGrassBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicGravelBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicMonsterSpawnerFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicMossyStoneBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicNetherQuartzOreFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicNetherrackBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicOakLeavesBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicObsidianBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicSandBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicSoulSandFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicSpongeBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicStoneBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWoodBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWoodDoorFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWorkbenchBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/CreeponiaBrickBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/GlassDoorFeature.class
+  net/mcreator/derrobert/world/features/ores/GlowingObsidianFeature.class
+  net/mcreator/derrobert/world/features/ores/HerobrineNetherrackFeature.class
+  net/mcreator/derrobert/world/features/ores/MissingNoBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/MojangBlockFeature.class
+  net/mcreator/derrobert/world/inventory/
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$1.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$10.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$2.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$3.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$4.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$5.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$6.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$7.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$8.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$9.class
+  net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu.class
+  pack.mcmeta

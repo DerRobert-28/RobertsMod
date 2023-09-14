@@ -1,0 +1,67 @@
+{
+  "type": "der_robert:classic_soul_sand",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_soul_sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:red_sand"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_soul_sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:suspicious_sand",
+            "Properties": {
+              "dusted": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_soul_sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_sand"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_soul_sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_soil"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_soul_sand"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Robert's Pocket",
+    "icon": {
+      "value": "CUSTOM:GlowingObsidian"
+    },
+    "showSearch": false
+  }
+}

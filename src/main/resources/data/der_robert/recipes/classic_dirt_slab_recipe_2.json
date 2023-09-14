@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_dirt_slab",
+    "count": 6
+  }
+}

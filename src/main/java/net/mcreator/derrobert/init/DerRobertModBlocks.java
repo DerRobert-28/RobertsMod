@@ -1,0 +1,111 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.derrobert.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.level.block.Block;
+
+import net.mcreator.derrobert.block.UnknownPackBlockBlock;
+import net.mcreator.derrobert.block.MojangBlockBlock;
+import net.mcreator.derrobert.block.ModernPackBlockBlock;
+import net.mcreator.derrobert.block.MissingNoBlockBlock;
+import net.mcreator.derrobert.block.HerobrineNetherrackBlock;
+import net.mcreator.derrobert.block.GlowingObsidianBlock;
+import net.mcreator.derrobert.block.GlassDoorBlock;
+import net.mcreator.derrobert.block.CreeponiaBrickBlockBlock;
+import net.mcreator.derrobert.block.ClassicWorkbenchBlockBlock;
+import net.mcreator.derrobert.block.ClassicWoodDoorBlock;
+import net.mcreator.derrobert.block.ClassicWoodBlockBlock;
+import net.mcreator.derrobert.block.ClassicTntBlockBlock;
+import net.mcreator.derrobert.block.ClassicStoneBlockBlock;
+import net.mcreator.derrobert.block.ClassicSpongeBlockBlock;
+import net.mcreator.derrobert.block.ClassicSoulSandBlock;
+import net.mcreator.derrobert.block.ClassicSandBlockBlock;
+import net.mcreator.derrobert.block.ClassicPackBlockBlock;
+import net.mcreator.derrobert.block.ClassicObsidianBlockBlock;
+import net.mcreator.derrobert.block.ClassicOakLeavesBlockBlock;
+import net.mcreator.derrobert.block.ClassicNetherrackBlockBlock;
+import net.mcreator.derrobert.block.ClassicNetherQuartzOreBlock;
+import net.mcreator.derrobert.block.ClassicMossyStoneBlockBlock;
+import net.mcreator.derrobert.block.ClassicMonsterSpawnerBlock;
+import net.mcreator.derrobert.block.ClassicGravelBlockBlock;
+import net.mcreator.derrobert.block.ClassicGrassBlockBlock;
+import net.mcreator.derrobert.block.ClassicGlowstoneBlockBlock;
+import net.mcreator.derrobert.block.ClassicEndstoneBlockBlock;
+import net.mcreator.derrobert.block.ClassicDirtStairsBlock;
+import net.mcreator.derrobert.block.ClassicDirtSlabBlock;
+import net.mcreator.derrobert.block.ClassicDirtBlockBlock;
+import net.mcreator.derrobert.block.ClassicCryingObsidianBlock;
+import net.mcreator.derrobert.block.ClassicBrickBlockBlock;
+import net.mcreator.derrobert.block.ClassicBedrockBlockBlock;
+import net.mcreator.derrobert.block.BetaMonsterSpawnerBlock;
+import net.mcreator.derrobert.block.BetaGravelBlockBlock;
+import net.mcreator.derrobert.block.BetaEndStoneBlock;
+import net.mcreator.derrobert.block.BackgroundDirtBlock;
+import net.mcreator.derrobert.block.AlphaGravelBlockBlock;
+import net.mcreator.derrobert.block.AlphaGrassBlockBlock;
+import net.mcreator.derrobert.block.AetherWisprootLogBlock;
+import net.mcreator.derrobert.block.AetherTherawoodLogBlock;
+import net.mcreator.derrobert.block.AetherSkyrootLogBlock;
+import net.mcreator.derrobert.block.AetherPortalBlockBlock;
+import net.mcreator.derrobert.block.AetherGreatrootLogBlock;
+import net.mcreator.derrobert.block.AetherGrassBlockBlock;
+import net.mcreator.derrobert.block.AetherDirtBlockBlock;
+import net.mcreator.derrobert.block.AetherAmberootLogBlock;
+import net.mcreator.derrobert.DerRobertMod;
+
+public class DerRobertModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DerRobertMod.MODID);
+	public static final RegistryObject<Block> AETHER_AMBEROOT_LOG = REGISTRY.register("aether_amberoot_log", () -> new AetherAmberootLogBlock());
+	public static final RegistryObject<Block> AETHER_DIRT_BLOCK = REGISTRY.register("aether_dirt_block", () -> new AetherDirtBlockBlock());
+	public static final RegistryObject<Block> AETHER_GRASS_BLOCK = REGISTRY.register("aether_grass_block", () -> new AetherGrassBlockBlock());
+	public static final RegistryObject<Block> AETHER_GREATROOT_LOG = REGISTRY.register("aether_greatroot_log", () -> new AetherGreatrootLogBlock());
+	public static final RegistryObject<Block> AETHER_SKYROOT_LOG = REGISTRY.register("aether_skyroot_log", () -> new AetherSkyrootLogBlock());
+	public static final RegistryObject<Block> AETHER_THERAWOOD_LOG = REGISTRY.register("aether_therawood_log", () -> new AetherTherawoodLogBlock());
+	public static final RegistryObject<Block> AETHER_WISPROOT_LOG = REGISTRY.register("aether_wisproot_log", () -> new AetherWisprootLogBlock());
+	public static final RegistryObject<Block> AETHER_PORTAL_BLOCK = REGISTRY.register("aether_portal_block", () -> new AetherPortalBlockBlock());
+	public static final RegistryObject<Block> GLOWING_OBSIDIAN = REGISTRY.register("glowing_obsidian", () -> new GlowingObsidianBlock());
+	public static final RegistryObject<Block> CREEPONIA_BRICK_BLOCK = REGISTRY.register("creeponia_brick_block", () -> new CreeponiaBrickBlockBlock());
+	public static final RegistryObject<Block> GLASS_DOOR = REGISTRY.register("glass_door", () -> new GlassDoorBlock());
+	public static final RegistryObject<Block> HEROBRINE_NETHERRACK = REGISTRY.register("herobrine_netherrack", () -> new HerobrineNetherrackBlock());
+	public static final RegistryObject<Block> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", () -> new MissingNoBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", () -> new ClassicWorkbenchBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_BEDROCK_BLOCK = REGISTRY.register("classic_bedrock_block", () -> new ClassicBedrockBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_BRICK_BLOCK = REGISTRY.register("classic_brick_block", () -> new ClassicBrickBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_CRYING_OBSIDIAN = REGISTRY.register("classic_crying_obsidian", () -> new ClassicCryingObsidianBlock());
+	public static final RegistryObject<Block> CLASSIC_DIRT_BLOCK = REGISTRY.register("classic_dirt_block", () -> new ClassicDirtBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_DIRT_SLAB = REGISTRY.register("classic_dirt_slab", () -> new ClassicDirtSlabBlock());
+	public static final RegistryObject<Block> CLASSIC_DIRT_STAIRS = REGISTRY.register("classic_dirt_stairs", () -> new ClassicDirtStairsBlock());
+	public static final RegistryObject<Block> CLASSIC_ENDSTONE_BLOCK = REGISTRY.register("classic_endstone_block", () -> new ClassicEndstoneBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_GLOWSTONE_BLOCK = REGISTRY.register("classic_glowstone_block", () -> new ClassicGlowstoneBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_GRASS_BLOCK = REGISTRY.register("classic_grass_block", () -> new ClassicGrassBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_GRAVEL_BLOCK = REGISTRY.register("classic_gravel_block", () -> new ClassicGravelBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_MONSTER_SPAWNER = REGISTRY.register("classic_monster_spawner", () -> new ClassicMonsterSpawnerBlock());
+	public static final RegistryObject<Block> CLASSIC_MOSSY_STONE_BLOCK = REGISTRY.register("classic_mossy_stone_block", () -> new ClassicMossyStoneBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_NETHERRACK_BLOCK = REGISTRY.register("classic_netherrack_block", () -> new ClassicNetherrackBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_NETHER_QUARTZ_ORE = REGISTRY.register("classic_nether_quartz_ore", () -> new ClassicNetherQuartzOreBlock());
+	public static final RegistryObject<Block> CLASSIC_OAK_LEAVES_BLOCK = REGISTRY.register("classic_oak_leaves_block", () -> new ClassicOakLeavesBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_OBSIDIAN_BLOCK = REGISTRY.register("classic_obsidian_block", () -> new ClassicObsidianBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_SAND_BLOCK = REGISTRY.register("classic_sand_block", () -> new ClassicSandBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_SOUL_SAND = REGISTRY.register("classic_soul_sand", () -> new ClassicSoulSandBlock());
+	public static final RegistryObject<Block> CLASSIC_SPONGE_BLOCK = REGISTRY.register("classic_sponge_block", () -> new ClassicSpongeBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_STONE_BLOCK = REGISTRY.register("classic_stone_block", () -> new ClassicStoneBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_TNT_BLOCK = REGISTRY.register("classic_tnt_block", () -> new ClassicTntBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_WOOD_BLOCK = REGISTRY.register("classic_wood_block", () -> new ClassicWoodBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_WOOD_DOOR = REGISTRY.register("classic_wood_door", () -> new ClassicWoodDoorBlock());
+	public static final RegistryObject<Block> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", () -> new AlphaGrassBlockBlock());
+	public static final RegistryObject<Block> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", () -> new AlphaGravelBlockBlock());
+	public static final RegistryObject<Block> BACKGROUND_DIRT = REGISTRY.register("background_dirt", () -> new BackgroundDirtBlock());
+	public static final RegistryObject<Block> CLASSIC_PACK_BLOCK = REGISTRY.register("classic_pack_block", () -> new ClassicPackBlockBlock());
+	public static final RegistryObject<Block> MODERN_PACK_BLOCK = REGISTRY.register("modern_pack_block", () -> new ModernPackBlockBlock());
+	public static final RegistryObject<Block> MOJANG_BLOCK = REGISTRY.register("mojang_block", () -> new MojangBlockBlock());
+	public static final RegistryObject<Block> UNKNOWN_PACK_BLOCK = REGISTRY.register("unknown_pack_block", () -> new UnknownPackBlockBlock());
+	public static final RegistryObject<Block> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", () -> new BetaGravelBlockBlock());
+	public static final RegistryObject<Block> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", () -> new BetaMonsterSpawnerBlock());
+	public static final RegistryObject<Block> BETA_END_STONE = REGISTRY.register("beta_end_stone", () -> new BetaEndStoneBlock());
+}

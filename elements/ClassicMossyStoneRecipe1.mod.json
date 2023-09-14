@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicMossyStoneBlock"
+    },
+    "name": "classic_mossy_stone_recipe_1",
+    "namespace": "mod"
+  }
+}

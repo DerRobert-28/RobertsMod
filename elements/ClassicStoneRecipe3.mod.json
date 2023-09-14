@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 9,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.STONE#0"
+    },
+    "name": "classic_stone_recipe_3",
+    "namespace": "mod"
+  }
+}

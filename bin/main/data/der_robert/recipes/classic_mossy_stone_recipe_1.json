@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_mossy_stone_block",
+    "count": 4
+  }
+}

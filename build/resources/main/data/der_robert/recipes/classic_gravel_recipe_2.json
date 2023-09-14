@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "block",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_gravel_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gravel",
+    "count": 1
+  }
+}

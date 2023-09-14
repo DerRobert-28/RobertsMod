@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/glowing_obsidian",
+    "particle": "der_robert:block/glowing_obsidian"
+  },
+  "render_type": "solid"
+}

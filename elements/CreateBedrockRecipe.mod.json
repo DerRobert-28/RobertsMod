@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "block",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicBedrockBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BEDROCK"
+    },
+    "name": "create_bedrock_recipe",
+    "namespace": "mod"
+  }
+}

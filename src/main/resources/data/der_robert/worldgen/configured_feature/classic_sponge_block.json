@@ -1,0 +1,20 @@
+{
+  "type": "der_robert:classic_sponge_block",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sponge"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_sponge_block"
+        }
+      }
+    ]
+  }
+}

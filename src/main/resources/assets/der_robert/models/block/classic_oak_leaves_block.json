@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/classic_oak_leaves",
+    "particle": "der_robert:block/classic_oak_leaves"
+  }
+}

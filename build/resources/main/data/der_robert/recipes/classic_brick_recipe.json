@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:bricks"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_brick_block",
+    "count": 1
+  }
+}

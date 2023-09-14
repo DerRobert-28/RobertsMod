@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_quartz_ore"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_nether_quartz_ore",
+    "count": 1
+  }
+}

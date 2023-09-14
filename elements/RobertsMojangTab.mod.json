@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Robert's Mojang",
+    "icon": {
+      "value": "CUSTOM:BackgroundDirt"
+    },
+    "showSearch": false
+  }
+}
