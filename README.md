@@ -7,7 +7,7 @@
   - Download the archive here:
     - Right-click on [Robert's Mod.jar](https://github.com/DerRobert-28/RobertsMod/blob/master/Robert's%20Mod.jar).
     - Click on "Save linked content as" in context menu
-    - Save it into your Minecrsft mod folder.
+    - Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
 ## Recent version
