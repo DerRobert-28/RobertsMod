@@ -21,6 +21,7 @@
       - Therawood Log
       - Wisproot Log
     - Classic blocks:
+      - Glass Block
       - Wood Slabs
       - Wood Stairs
       - Wood Sticks

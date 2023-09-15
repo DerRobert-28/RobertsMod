@@ -36,6 +36,7 @@ import net.mcreator.derrobert.world.features.ores.ClassicMonsterSpawnerFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGravelBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGlowstoneBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicGlassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicEndstoneBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicDirtStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicDirtSlabFeature;
@@ -108,4 +109,5 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", BetaGravelBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", BetaMonsterSpawnerFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_END_STONE = REGISTRY.register("beta_end_stone", BetaEndStoneFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_GLASS_BLOCK = REGISTRY.register("classic_glass_block", ClassicGlassBlockFeature::new);
 }

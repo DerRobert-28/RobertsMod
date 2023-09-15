@@ -2017,38 +2017,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "GlassDoorBreakProcedure",
-      "type": "procedure",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "glass_door_break_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/derrobert/procedures/GlassDoorBreakProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "AetherAmberootLog",
       "type": "block",
       "sortid": 1,
@@ -2303,6 +2271,59 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicGlassBlock",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_glass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_glass_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_glass_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_glass_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicGlassBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_glass_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicGlassBlockFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_glass_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_glass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicGlassBreakProc",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_glass_break_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ClassicGlassBreakProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -2318,6 +2339,7 @@
       "block.der_robert.unknown_pack_block": "Unknown Pack Block",
       "block.der_robert.aether_dirt_block": "Aether Dirt",
       "block.der_robert.alpha_grass_block": "Alpha Grass",
+      "block.der_robert.classic_glass_block": "Glass Block",
       "block.der_robert.beta_monster_spawner": "Beta Monster Spawner",
       "item.der_robert.alpha_creeper_spawn_egg": "Alpha Creeper Spawn Egg",
       "block.der_robert.creeponia_brick_block": "Creeponia Bricks",

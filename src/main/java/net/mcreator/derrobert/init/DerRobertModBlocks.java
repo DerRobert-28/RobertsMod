@@ -40,6 +40,7 @@ import net.mcreator.derrobert.block.ClassicMonsterSpawnerBlock;
 import net.mcreator.derrobert.block.ClassicGravelBlockBlock;
 import net.mcreator.derrobert.block.ClassicGrassBlockBlock;
 import net.mcreator.derrobert.block.ClassicGlowstoneBlockBlock;
+import net.mcreator.derrobert.block.ClassicGlassBlockBlock;
 import net.mcreator.derrobert.block.ClassicEndstoneBlockBlock;
 import net.mcreator.derrobert.block.ClassicDirtStairsBlock;
 import net.mcreator.derrobert.block.ClassicDirtSlabBlock;
@@ -118,4 +119,5 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", () -> new BetaGravelBlockBlock());
 	public static final RegistryObject<Block> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", () -> new BetaMonsterSpawnerBlock());
 	public static final RegistryObject<Block> BETA_END_STONE = REGISTRY.register("beta_end_stone", () -> new BetaEndStoneBlock());
+	public static final RegistryObject<Block> CLASSIC_GLASS_BLOCK = REGISTRY.register("classic_glass_block", () -> new ClassicGlassBlockBlock());
 }

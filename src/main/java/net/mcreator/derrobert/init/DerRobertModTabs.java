@@ -75,6 +75,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_BLOCK.get().asItem());
 			})
 
 					.build());
