@@ -4,9 +4,11 @@
 - Buildable with MCreator
 - How to use:
   - Install Minecraft Forge 1.20.1
-  - Download the archive [Robert's Mod.jar](https://github.com/DerRobert-28/RobertsMod/blob/master/Robert's%20Mod.jar).
-  - Put it in the Minecraft mods folder.
-  - Have fun!
+  - Download the archive here:
+    - Right-click on [Robert's Mod.jar](https://github.com/DerRobert-28/RobertsMod/blob/master/Robert's%20Mod.jar).
+    - Click on "Save linked content as" in context menu
+    - Save it into your Minecrsft mod folder.
+  - Start Minecraft and have fun!
 
 ## Recent version
 
@@ -18,7 +20,7 @@
     - Aether Therawood Log
     - Aether Wisproot Log
   - Implementing crafting recipes:
-    - (...)
+    - (nothing yet)
 
 ## Version history
 
