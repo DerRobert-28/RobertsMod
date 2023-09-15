@@ -3,8 +3,8 @@
   "item.der_robert.classic_herobrine_spawn_egg": "Classic Herobrine Spawn Egg",
   "block.der_robert.classic_dirt_block": "Classic Dirt",
   "block.der_robert.classic_sand_block": "Classic Sand",
-  "block.der_robert.alpha_gravel_block": "Alpha Gravel",
   "item.der_robert.template_human_spawn_egg": "Template Human Spawn Egg",
+  "block.der_robert.alpha_gravel_block": "Alpha Gravel",
   "block.der_robert.unknown_pack_block": "Unknown Pack Block",
   "block.der_robert.aether_dirt_block": "Aether Dirt",
   "block.der_robert.alpha_grass_block": "Alpha Grass",
@@ -69,6 +69,7 @@
   "block.der_robert.glowing_obsidian": "Glowing Obsidian",
   "item.der_robert.creeper_pig_spawn_egg": "Creeper Pig Spawn Egg",
   "gui.der_robert.classic_workbench_gui.label_workbench": "Workbench",
+  "block.der_robert.water_portal_block": "Water Portal Block",
   "block.der_robert.classic_tnt_block": "Classic TNT",
   "block.der_robert.aether_therawood_log": "Aether Therawood Log",
   "entity.der_robert.classic_human": "Classic Human"

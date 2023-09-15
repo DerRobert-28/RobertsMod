@@ -32,6 +32,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK = block(DerRobertModBlocks.HEROBRINE_NETHERRACK);
 	public static final RegistryObject<Item> MISSING_NO_BLOCK = block(DerRobertModBlocks.MISSING_NO_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_WORKBENCH_BLOCK = block(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK);
+	public static final RegistryObject<Item> WATER_PORTAL_BLOCK = block(DerRobertModBlocks.WATER_PORTAL_BLOCK);
 	public static final RegistryObject<Item> CREEPER_PIG_SPAWN_EGG = REGISTRY.register("creeper_pig_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CREEPER_PIG, -16744704, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> EVIL_HEROBRINE_SPAWN_EGG = REGISTRY.register("evil_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.EVIL_HEROBRINE, -65536, -256, new Item.Properties()));
 	public static final RegistryObject<Item> PIGGY_CREEPER_SPAWN_EGG = REGISTRY.register("piggy_creeper_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.PIGGY_CREEPER, -32897, -1, new Item.Properties()));

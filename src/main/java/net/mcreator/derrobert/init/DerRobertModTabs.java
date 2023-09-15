@@ -93,6 +93,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.HEROBRINE_NETHERRACK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.WATER_PORTAL_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());

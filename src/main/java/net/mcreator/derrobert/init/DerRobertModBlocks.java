@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.derrobert.block.WaterPortalBlockBlock;
 import net.mcreator.derrobert.block.UnknownPackBlockBlock;
 import net.mcreator.derrobert.block.MojangBlockBlock;
 import net.mcreator.derrobert.block.ModernPackBlockBlock;
@@ -75,6 +76,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK = REGISTRY.register("herobrine_netherrack", () -> new HerobrineNetherrackBlock());
 	public static final RegistryObject<Block> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", () -> new MissingNoBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", () -> new ClassicWorkbenchBlockBlock());
+	public static final RegistryObject<Block> WATER_PORTAL_BLOCK = REGISTRY.register("water_portal_block", () -> new WaterPortalBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_BEDROCK_BLOCK = REGISTRY.register("classic_bedrock_block", () -> new ClassicBedrockBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_BRICK_BLOCK = REGISTRY.register("classic_brick_block", () -> new ClassicBrickBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_CRYING_OBSIDIAN = REGISTRY.register("classic_crying_obsidian", () -> new ClassicCryingObsidianBlock());
