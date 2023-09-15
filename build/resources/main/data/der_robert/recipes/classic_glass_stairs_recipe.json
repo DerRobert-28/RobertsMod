@@ -11,10 +11,19 @@
     },
     {
       "item": "der_robert:classic_glass_block"
+    },
+    {
+      "item": "der_robert:classic_glass_block"
+    },
+    {
+      "item": "der_robert:classic_glass_block"
+    },
+    {
+      "item": "der_robert:classic_glass_block"
     }
   ],
   "result": {
-    "item": "der_robert:glass_stairs",
-    "count": 6
+    "item": "der_robert:glass_slabs",
+    "count": 4
   }
 }
