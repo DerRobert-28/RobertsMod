@@ -46,6 +46,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_DIRT_SLAB = block(DerRobertModBlocks.CLASSIC_DIRT_SLAB);
 	public static final RegistryObject<Item> CLASSIC_DIRT_STAIRS = block(DerRobertModBlocks.CLASSIC_DIRT_STAIRS);
 	public static final RegistryObject<Item> CLASSIC_ENDSTONE_BLOCK = block(DerRobertModBlocks.CLASSIC_ENDSTONE_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_GLASS_BLOCK = block(DerRobertModBlocks.CLASSIC_GLASS_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_GLASS_PANE = block(DerRobertModBlocks.CLASSIC_GLASS_PANE);
 	public static final RegistryObject<Item> CLASSIC_GLOWSTONE_BLOCK = block(DerRobertModBlocks.CLASSIC_GLOWSTONE_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_GRASS_BLOCK = block(DerRobertModBlocks.CLASSIC_GRASS_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_GRAVEL_BLOCK = block(DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK);
@@ -78,7 +80,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> BETA_GRAVEL_BLOCK = block(DerRobertModBlocks.BETA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> BETA_MONSTER_SPAWNER = block(DerRobertModBlocks.BETA_MONSTER_SPAWNER);
 	public static final RegistryObject<Item> BETA_END_STONE = block(DerRobertModBlocks.BETA_END_STONE);
-	public static final RegistryObject<Item> CLASSIC_GLASS_BLOCK = block(DerRobertModBlocks.CLASSIC_GLASS_BLOCK);
+	public static final RegistryObject<Item> GLASS_STAIRS = block(DerRobertModBlocks.GLASS_STAIRS);
+	public static final RegistryObject<Item> GLASS_SLABS = block(DerRobertModBlocks.GLASS_SLABS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

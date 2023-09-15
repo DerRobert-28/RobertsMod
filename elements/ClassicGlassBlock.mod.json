@@ -35,8 +35,8 @@
     ],
     "name": "Glass Block",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 0.5,
+    "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -52,7 +52,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "GLASS"
     },

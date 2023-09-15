@@ -16,6 +16,8 @@ import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoBlockFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackFeature;
 import net.mcreator.derrobert.world.features.ores.GlowingObsidianFeature;
+import net.mcreator.derrobert.world.features.ores.GlassStairsFeature;
+import net.mcreator.derrobert.world.features.ores.GlassSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.GlassDoorFeature;
 import net.mcreator.derrobert.world.features.ores.CreeponiaBrickBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWorkbenchBlockFeature;
@@ -36,6 +38,7 @@ import net.mcreator.derrobert.world.features.ores.ClassicMonsterSpawnerFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGravelBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGlowstoneBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicGlassPaneFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGlassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicEndstoneBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicDirtStairsFeature;
@@ -85,6 +88,8 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_DIRT_SLAB = REGISTRY.register("classic_dirt_slab", ClassicDirtSlabFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_DIRT_STAIRS = REGISTRY.register("classic_dirt_stairs", ClassicDirtStairsFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_ENDSTONE_BLOCK = REGISTRY.register("classic_endstone_block", ClassicEndstoneBlockFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_GLASS_BLOCK = REGISTRY.register("classic_glass_block", ClassicGlassBlockFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_GLASS_PANE = REGISTRY.register("classic_glass_pane", ClassicGlassPaneFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_GLOWSTONE_BLOCK = REGISTRY.register("classic_glowstone_block", ClassicGlowstoneBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_GRASS_BLOCK = REGISTRY.register("classic_grass_block", ClassicGrassBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_GRAVEL_BLOCK = REGISTRY.register("classic_gravel_block", ClassicGravelBlockFeature::new);
@@ -109,5 +114,6 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", BetaGravelBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", BetaMonsterSpawnerFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_END_STONE = REGISTRY.register("beta_end_stone", BetaEndStoneFeature::new);
-	public static final RegistryObject<Feature<?>> CLASSIC_GLASS_BLOCK = REGISTRY.register("classic_glass_block", ClassicGlassBlockFeature::new);
+	public static final RegistryObject<Feature<?>> GLASS_STAIRS = REGISTRY.register("glass_stairs", GlassStairsFeature::new);
+	public static final RegistryObject<Feature<?>> GLASS_SLABS = REGISTRY.register("glass_slabs", GlassSlabsFeature::new);
 }

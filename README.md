@@ -22,6 +22,9 @@
       - Wisproot Log
     - Classic blocks:
       - Glass Block
+      - Glass Pane
+      - Glass Slabs
+      - Glass Stairs
       - Wood Slabs
       - Wood Stairs
       - Wood Sticks
@@ -30,7 +33,8 @@
       - Water Portal
       - White Light Block
   - Implementing crafting recipes:
-    - (nothing yet)
+    - Glass panes, slabs and stairs
+    - Smelting sand to glass
 
 ## Version history
 

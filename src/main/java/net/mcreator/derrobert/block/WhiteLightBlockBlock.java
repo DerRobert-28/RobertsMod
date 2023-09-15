@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class WhiteLightBlockBlock extends Block {
 	public WhiteLightBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(999f, 999999f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(999f, 999999f).lightLevel(s -> 15).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
 	}
 
 	@Override

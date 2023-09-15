@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicGlassPane"
+    },
+    "name": "classic_glass_pane_recipe",
+    "namespace": "mod"
+  }
+}

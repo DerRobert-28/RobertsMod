@@ -18,9 +18,7 @@ import java.util.Collections;
 
 public class AntiLightBlockBlock extends Block {
 	public AntiLightBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(999f, 999999f)
-		.lightLevel(s -> 0)
-		.requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(999f, 999999f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
 	}
 
 	@Override

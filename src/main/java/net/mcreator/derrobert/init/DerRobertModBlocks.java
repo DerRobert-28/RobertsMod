@@ -18,6 +18,8 @@ import net.mcreator.derrobert.block.ModernPackBlockBlock;
 import net.mcreator.derrobert.block.MissingNoBlockBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackBlock;
 import net.mcreator.derrobert.block.GlowingObsidianBlock;
+import net.mcreator.derrobert.block.GlassStairsBlock;
+import net.mcreator.derrobert.block.GlassSlabsBlock;
 import net.mcreator.derrobert.block.GlassDoorBlock;
 import net.mcreator.derrobert.block.CreeponiaBrickBlockBlock;
 import net.mcreator.derrobert.block.ClassicWorkbenchBlockBlock;
@@ -40,6 +42,7 @@ import net.mcreator.derrobert.block.ClassicMonsterSpawnerBlock;
 import net.mcreator.derrobert.block.ClassicGravelBlockBlock;
 import net.mcreator.derrobert.block.ClassicGrassBlockBlock;
 import net.mcreator.derrobert.block.ClassicGlowstoneBlockBlock;
+import net.mcreator.derrobert.block.ClassicGlassPaneBlock;
 import net.mcreator.derrobert.block.ClassicGlassBlockBlock;
 import net.mcreator.derrobert.block.ClassicEndstoneBlockBlock;
 import net.mcreator.derrobert.block.ClassicDirtStairsBlock;
@@ -91,6 +94,8 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> CLASSIC_DIRT_SLAB = REGISTRY.register("classic_dirt_slab", () -> new ClassicDirtSlabBlock());
 	public static final RegistryObject<Block> CLASSIC_DIRT_STAIRS = REGISTRY.register("classic_dirt_stairs", () -> new ClassicDirtStairsBlock());
 	public static final RegistryObject<Block> CLASSIC_ENDSTONE_BLOCK = REGISTRY.register("classic_endstone_block", () -> new ClassicEndstoneBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_GLASS_BLOCK = REGISTRY.register("classic_glass_block", () -> new ClassicGlassBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_GLASS_PANE = REGISTRY.register("classic_glass_pane", () -> new ClassicGlassPaneBlock());
 	public static final RegistryObject<Block> CLASSIC_GLOWSTONE_BLOCK = REGISTRY.register("classic_glowstone_block", () -> new ClassicGlowstoneBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_GRASS_BLOCK = REGISTRY.register("classic_grass_block", () -> new ClassicGrassBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_GRAVEL_BLOCK = REGISTRY.register("classic_gravel_block", () -> new ClassicGravelBlockBlock());
@@ -119,5 +124,6 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", () -> new BetaGravelBlockBlock());
 	public static final RegistryObject<Block> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", () -> new BetaMonsterSpawnerBlock());
 	public static final RegistryObject<Block> BETA_END_STONE = REGISTRY.register("beta_end_stone", () -> new BetaEndStoneBlock());
-	public static final RegistryObject<Block> CLASSIC_GLASS_BLOCK = REGISTRY.register("classic_glass_block", () -> new ClassicGlassBlockBlock());
+	public static final RegistryObject<Block> GLASS_STAIRS = REGISTRY.register("glass_stairs", () -> new GlassStairsBlock());
+	public static final RegistryObject<Block> GLASS_SLABS = REGISTRY.register("glass_slabs", () -> new GlassSlabsBlock());
 }

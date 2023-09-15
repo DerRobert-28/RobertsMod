@@ -54,6 +54,8 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_SLAB.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_ENDSTONE_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_PANE.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLOWSTONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GRASS_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK.get().asItem());
@@ -75,7 +77,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_SPAWN_EGG.get());
-				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_BLOCK.get().asItem());
 			})
 
 					.build());
@@ -103,6 +104,8 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
+				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
 			})
 
 					.build());

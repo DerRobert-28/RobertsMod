@@ -20,12 +20,17 @@ import net.mcreator.derrobert.procedures.ClassicGlassBreakProcProcedure;
 
 public class ClassicGlassBlockBlock extends Block {
 	public ClassicGlassBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).sound(SoundType.GLASS).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).sound(SoundType.GLASS).strength(0.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
 	}
 
 	@Override
