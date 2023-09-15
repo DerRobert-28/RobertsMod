@@ -4,8 +4,11 @@
     "der_robert:glowing_obsidian",
     "der_robert:anti_light_block",
     "der_robert:creeponia_brick_block",
+    "der_robert:end_portal_button",
     "der_robert:herobrine_netherrack",
     "der_robert:missing_no_block",
+    "der_robert:missing_no_button",
+    "der_robert:nether_portal_button",
     "der_robert:white_light_block",
     "der_robert:classic_bedrock_block",
     "der_robert:classic_brick_block",
@@ -20,9 +23,6 @@
     "der_robert:classic_stone_block",
     "der_robert:mojang_block",
     "der_robert:beta_monster_spawner",
-    "der_robert:beta_end_stone",
-    "der_robert:nether_portal_button",
-    "der_robert:end_portal_button",
-    "der_robert:missing_no_button"
+    "der_robert:beta_end_stone"
   ]
 }
