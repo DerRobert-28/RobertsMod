@@ -69,6 +69,8 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_TNT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_SLABS.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_DOOR.get().asItem());
 				tabData.accept(DerRobertModItems.CLASSIC_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_HUMAN_SPAWN_EGG.get());
@@ -88,10 +90,12 @@ public class DerRobertModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> ROBERTS_MOD_TAB = REGISTRY.register("roberts_mod_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_mod_tab")).icon(() -> new ItemStack(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.ANTI_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_DOOR.get().asItem());
 				tabData.accept(DerRobertModBlocks.HEROBRINE_NETHERRACK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WATER_PORTAL_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());

@@ -27,10 +27,12 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> AETHER_WISPROOT_LOG = block(DerRobertModBlocks.AETHER_WISPROOT_LOG);
 	public static final RegistryObject<Item> AETHER_PORTAL_BLOCK = block(DerRobertModBlocks.AETHER_PORTAL_BLOCK);
 	public static final RegistryObject<Item> GLOWING_OBSIDIAN = block(DerRobertModBlocks.GLOWING_OBSIDIAN);
+	public static final RegistryObject<Item> ANTI_LIGHT_BLOCK = block(DerRobertModBlocks.ANTI_LIGHT_BLOCK);
 	public static final RegistryObject<Item> CREEPONIA_BRICK_BLOCK = block(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK);
 	public static final RegistryObject<Item> GLASS_DOOR = doubleBlock(DerRobertModBlocks.GLASS_DOOR);
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK = block(DerRobertModBlocks.HEROBRINE_NETHERRACK);
 	public static final RegistryObject<Item> MISSING_NO_BLOCK = block(DerRobertModBlocks.MISSING_NO_BLOCK);
+	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_WORKBENCH_BLOCK = block(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK);
 	public static final RegistryObject<Item> WATER_PORTAL_BLOCK = block(DerRobertModBlocks.WATER_PORTAL_BLOCK);
 	public static final RegistryObject<Item> CREEPER_PIG_SPAWN_EGG = REGISTRY.register("creeper_pig_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CREEPER_PIG, -16744704, -16711936, new Item.Properties()));
@@ -59,6 +61,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_STONE_BLOCK = block(DerRobertModBlocks.CLASSIC_STONE_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_TNT_BLOCK = block(DerRobertModBlocks.CLASSIC_TNT_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_WOOD_BLOCK = block(DerRobertModBlocks.CLASSIC_WOOD_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_WOOD_SLABS = block(DerRobertModBlocks.CLASSIC_WOOD_SLABS);
+	public static final RegistryObject<Item> CLASSIC_WOOD_STAIRS = block(DerRobertModBlocks.CLASSIC_WOOD_STAIRS);
 	public static final RegistryObject<Item> CLASSIC_WOOD_DOOR = doubleBlock(DerRobertModBlocks.CLASSIC_WOOD_DOOR);
 	public static final RegistryObject<Item> CLASSIC_HEROBRINE_SPAWN_EGG = REGISTRY.register("classic_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HEROBRINE, -16776961, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_HUMAN_SPAWN_EGG = REGISTRY.register("classic_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HUMAN, -16776961, -16711681, new Item.Properties()));

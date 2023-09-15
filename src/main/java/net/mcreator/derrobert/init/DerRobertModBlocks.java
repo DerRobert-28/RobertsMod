@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.derrobert.block.WhiteLightBlockBlock;
 import net.mcreator.derrobert.block.WaterPortalBlockBlock;
 import net.mcreator.derrobert.block.UnknownPackBlockBlock;
 import net.mcreator.derrobert.block.MojangBlockBlock;
@@ -20,6 +21,8 @@ import net.mcreator.derrobert.block.GlowingObsidianBlock;
 import net.mcreator.derrobert.block.GlassDoorBlock;
 import net.mcreator.derrobert.block.CreeponiaBrickBlockBlock;
 import net.mcreator.derrobert.block.ClassicWorkbenchBlockBlock;
+import net.mcreator.derrobert.block.ClassicWoodStairsBlock;
+import net.mcreator.derrobert.block.ClassicWoodSlabsBlock;
 import net.mcreator.derrobert.block.ClassicWoodDoorBlock;
 import net.mcreator.derrobert.block.ClassicWoodBlockBlock;
 import net.mcreator.derrobert.block.ClassicTntBlockBlock;
@@ -48,6 +51,7 @@ import net.mcreator.derrobert.block.BetaMonsterSpawnerBlock;
 import net.mcreator.derrobert.block.BetaGravelBlockBlock;
 import net.mcreator.derrobert.block.BetaEndStoneBlock;
 import net.mcreator.derrobert.block.BackgroundDirtBlock;
+import net.mcreator.derrobert.block.AntiLightBlockBlock;
 import net.mcreator.derrobert.block.AlphaGravelBlockBlock;
 import net.mcreator.derrobert.block.AlphaGrassBlockBlock;
 import net.mcreator.derrobert.block.AetherWisprootLogBlock;
@@ -71,10 +75,12 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> AETHER_WISPROOT_LOG = REGISTRY.register("aether_wisproot_log", () -> new AetherWisprootLogBlock());
 	public static final RegistryObject<Block> AETHER_PORTAL_BLOCK = REGISTRY.register("aether_portal_block", () -> new AetherPortalBlockBlock());
 	public static final RegistryObject<Block> GLOWING_OBSIDIAN = REGISTRY.register("glowing_obsidian", () -> new GlowingObsidianBlock());
+	public static final RegistryObject<Block> ANTI_LIGHT_BLOCK = REGISTRY.register("anti_light_block", () -> new AntiLightBlockBlock());
 	public static final RegistryObject<Block> CREEPONIA_BRICK_BLOCK = REGISTRY.register("creeponia_brick_block", () -> new CreeponiaBrickBlockBlock());
 	public static final RegistryObject<Block> GLASS_DOOR = REGISTRY.register("glass_door", () -> new GlassDoorBlock());
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK = REGISTRY.register("herobrine_netherrack", () -> new HerobrineNetherrackBlock());
 	public static final RegistryObject<Block> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", () -> new MissingNoBlockBlock());
+	public static final RegistryObject<Block> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", () -> new WhiteLightBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", () -> new ClassicWorkbenchBlockBlock());
 	public static final RegistryObject<Block> WATER_PORTAL_BLOCK = REGISTRY.register("water_portal_block", () -> new WaterPortalBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_BEDROCK_BLOCK = REGISTRY.register("classic_bedrock_block", () -> new ClassicBedrockBlockBlock());
@@ -99,6 +105,8 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> CLASSIC_STONE_BLOCK = REGISTRY.register("classic_stone_block", () -> new ClassicStoneBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_TNT_BLOCK = REGISTRY.register("classic_tnt_block", () -> new ClassicTntBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_WOOD_BLOCK = REGISTRY.register("classic_wood_block", () -> new ClassicWoodBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_WOOD_SLABS = REGISTRY.register("classic_wood_slabs", () -> new ClassicWoodSlabsBlock());
+	public static final RegistryObject<Block> CLASSIC_WOOD_STAIRS = REGISTRY.register("classic_wood_stairs", () -> new ClassicWoodStairsBlock());
 	public static final RegistryObject<Block> CLASSIC_WOOD_DOOR = REGISTRY.register("classic_wood_door", () -> new ClassicWoodDoorBlock());
 	public static final RegistryObject<Block> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", () -> new AlphaGrassBlockBlock());
 	public static final RegistryObject<Block> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", () -> new AlphaGravelBlockBlock());

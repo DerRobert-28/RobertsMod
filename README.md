@@ -14,11 +14,20 @@
 
 - 1.23.37:
   - Implementing blocks:
-    - Aether Amberroot Log
-    - Aether Greatroot Log
-    - Aether Skyroot Log
-    - Aether Therawood Log
-    - Aether Wisproot Log
+    - Aether blocks:
+      - Amberroot Log
+      - Greatroot Log
+      - Skyroot Log
+      - Therawood Log
+      - Wisproot Log
+    - Classic blocks:
+      - Wood Slabs
+      - Wood Stairs
+      - Wood Sticks
+    - Miscellaneous blocks:
+      - Anti Light Block
+      - Water Portal
+      - White Light Block
   - Implementing crafting recipes:
     - (nothing yet)
 
@@ -79,6 +88,7 @@
     - Crying Obsidian
     - Dirt, Drit Slabs, Dirt Stairs
     - End Stone
+    - Exchange Recipes
     - Glass Door
     - Grass
     - Gravel

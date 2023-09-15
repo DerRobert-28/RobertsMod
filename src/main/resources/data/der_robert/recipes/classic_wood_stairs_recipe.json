@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_wood_block"
+    },
+    {
+      "item": "der_robert:classic_wood_block"
+    },
+    {
+      "item": "der_robert:classic_wood_block"
+    },
+    {
+      "item": "der_robert:classic_wood_block"
+    },
+    {
+      "item": "der_robert:classic_wood_block"
+    },
+    {
+      "item": "der_robert:classic_wood_block"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_wood_stairs",
+    "count": 4
+  }
+}

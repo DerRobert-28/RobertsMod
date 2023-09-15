@@ -1,0 +1,2387 @@
+{
+  "mod_elements": [
+    {
+      "name": "BedrockRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/bedrock_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicBedrockBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_bedrock_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicBedrockBlockBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicBedrockBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_bedrock_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_bedrock_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_bedrock_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_bedrock_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_bedrock_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_bedrock_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicBrickBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_brick_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_brick_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_brick_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_brick_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_brick_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicBrickBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_brick_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicBrickBlockFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_brick_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicBrickRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_brick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGravelBlock",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_gravel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_gravel_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_gravel_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_gravel_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_gravel_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicGravelBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_gravel_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicGravelBlockBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_gravel_block_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicStoneBlock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/classic_stone_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_stone_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_stone_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicStoneBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_stone_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_stone_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_stone_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicStoneBlockFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicWoodBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicWoodBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_wood_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_wood_block.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_wood_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicWoodBlockFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_wood_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_wood_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicWorkbenchBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_workbench_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_workbench_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_workbench_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/item/classic_workbench_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_workbench_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicWorkbenchBlockFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_workbench_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/classic_workbench_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicWorkbenchGUI",
+      "type": "gui",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_workbench_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu.java",
+          "src/main/java/net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "ClassicWorkbenchOnRightClick",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_workbench_on_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ClassicWorkbenchRecipe1",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_workbench_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_workbench_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWorkbenchRecipe2",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_workbench_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_workbench_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWorkbenchRecipe3",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_workbench_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_workbench_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CreateBarrierRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_barrier_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/create_barrier_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CreateBedrockRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_bedrock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/create_bedrock_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CreeponiaBrickBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeponia_brick_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/creeponia_brick_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/CreeponiaBrickBlockBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/CreeponiaBrickBlockFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/creeponia_brick_block.json",
+          "src/main/resources/assets/der_robert/blockstates/creeponia_brick_block.json",
+          "src/main/resources/assets/der_robert/models/block/creeponia_brick_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/creeponia_brick_block.json",
+          "src/main/resources/assets/der_robert/models/item/creeponia_brick_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CreeponiaBrickRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeponia_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/creeponia_brick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicNetherrackBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_netherrack_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicNetherrackBlockFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_netherrack_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicNetherrackBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_netherrack_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_netherrack_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_netherrack_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_netherrack_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_netherrack_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicNetherrackRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicOakLeavesBlock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_oak_leaves_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/classic_oak_leaves_block.json",
+          "src/main/resources/assets/der_robert/models/block/classic_oak_leaves_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicOakLeavesBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/ClassicOakLeavesBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_oak_leaves_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_oak_leaves_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_oak_leaves_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_oak_leaves_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicGlowstoneBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_glowstone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicGlowstoneBlockFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_glowstone_block.json",
+          "src/main/resources/assets/der_robert/models/block/classic_glowstone_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_glowstone_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_glowstone_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_glowstone_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_glowstone_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicGlowstoneBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicDirtBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicDirtBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_dirt_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_dirt_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_dirt_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicDirtBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_dirt_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_dirt_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicGrassBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_grass_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_grass_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_grass_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicGrassBlockBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicGrassBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_grass_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_grass_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherDirtBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/AetherDirtBlockBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_dirt_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/aether_dirt_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_dirt_block.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_dirt_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherDirtBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/aether_dirt_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_dirt_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherDirtRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_dirt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/aether_dirt_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AetherGrassBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherGrassBlockFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/aether_grass_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_grass_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_grass_block.json",
+          "src/main/resources/assets/der_robert/models/item/aether_grass_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_grass_block.json",
+          "src/main/java/net/mcreator/derrobert/block/AetherGrassBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/aether_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherGrassRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_grass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/aether_grass_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicSandBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_sand_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/classic_sand_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_sand_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_sand_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_sand_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicSandBlockFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_sand_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_sand_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicSandBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicBiome1",
+      "type": "biome",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_biome_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_biome_1_tree.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_biome_1_tree.json",
+          "src/main/resources/data/der_robert/worldgen/biome/classic_biome_1.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "ClassicBiome2",
+      "type": "biome",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_biome_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_biome_2_tree.json",
+          "src/main/resources/data/der_robert/worldgen/biome/classic_biome_2.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_biome_2_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "AlphaGrassBlock",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/alpha_grass_block.json",
+          "src/main/resources/assets/der_robert/blockstates/alpha_grass_block.json",
+          "src/main/resources/assets/der_robert/models/item/alpha_grass_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/alpha_grass_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/AlphaGrassBlockBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AlphaGrassBlockFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/alpha_grass_block.json",
+          "src/main/resources/assets/der_robert/models/block/alpha_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlphaGravelBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_gravel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/AlphaGravelBlockBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/alpha_gravel_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/alpha_gravel_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/alpha_gravel_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/alpha_gravel_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/alpha_gravel_block.json",
+          "src/main/resources/assets/der_robert/models/item/alpha_gravel_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AlphaGravelBlockFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HerobrineNetherrack",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_netherrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/herobrine_netherrack.json",
+          "src/main/resources/assets/der_robert/models/block/herobrine_netherrack.json",
+          "src/main/java/net/mcreator/derrobert/block/HerobrineNetherrackBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/HerobrineNetherrackFeature.java",
+          "src/main/resources/assets/der_robert/models/item/herobrine_netherrack.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/herobrine_netherrack.json",
+          "src/main/resources/assets/der_robert/blockstates/herobrine_netherrack.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/herobrine_netherrack_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlphaGrassRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_grass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/alpha_grass_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HerobrineNetherrackRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_netherrack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/herobrine_netherrack_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BetaGravelBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beta_gravel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/beta_gravel_block.json",
+          "src/main/resources/assets/der_robert/blockstates/beta_gravel_block.json",
+          "src/main/resources/assets/der_robert/models/item/beta_gravel_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/BetaGravelBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/BetaGravelBlockBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/beta_gravel_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/beta_gravel_block.json",
+          "src/main/resources/assets/der_robert/models/block/beta_gravel_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BetaGravelRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beta_gravel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/beta_gravel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicMonsterSpawner",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_monster_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_monster_spawner.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_monster_spawner.json",
+          "src/main/resources/assets/der_robert/models/item/classic_monster_spawner.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicMonsterSpawnerFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_monster_spawner_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/classic_monster_spawner.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_monster_spawner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BetaMonsterSpawner",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beta_monster_spawner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/BetaMonsterSpawnerBlock.java",
+          "src/main/resources/assets/der_robert/models/block/beta_monster_spawner.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/beta_monster_spawner.json",
+          "src/main/resources/assets/der_robert/models/item/beta_monster_spawner.json",
+          "src/main/resources/assets/der_robert/blockstates/beta_monster_spawner.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/beta_monster_spawner_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/BetaMonsterSpawnerFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/beta_monster_spawner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicDirtSlab",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_slab.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_dirt_slab.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicDirtSlabBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_dirt_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_slab_top.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_dirt_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_slab_full.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicDirtSlabFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_dirt_slab_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_dirt_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicDirtSlabRecipe1",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_slab_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_dirt_slab_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicDirtSlabRecipe2",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_slab_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_dirt_slab_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GlowingObsidian",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/GlowingObsidianFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/glowing_obsidian_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/glowing_obsidian.json",
+          "src/main/resources/assets/der_robert/models/item/glowing_obsidian.json",
+          "src/main/resources/assets/der_robert/blockstates/glowing_obsidian.json",
+          "src/main/java/net/mcreator/derrobert/block/GlowingObsidianBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/glowing_obsidian.json",
+          "src/main/resources/assets/der_robert/models/block/glowing_obsidian.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GlowingObsidianRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_obsidian_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/glowing_obsidian_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicSpongeBlock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_sponge_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_sponge_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_sponge_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_sponge_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_sponge_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicSpongeBlockBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicSpongeBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_sponge_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_sponge_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicObsidianBlock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_obsidian_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_obsidian_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicObsidianBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/ClassicObsidianBlockBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_obsidian_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_obsidian_block.json",
+          "src/main/resources/assets/der_robert/models/block/classic_obsidian_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_obsidian_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_obsidian_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicCryingObsidian",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_crying_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicCryingObsidianBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_crying_obsidian.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_crying_obsidian_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/classic_crying_obsidian.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_crying_obsidian.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_crying_obsidian.json",
+          "src/main/resources/assets/der_robert/models/item/classic_crying_obsidian.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicCryingObsidianFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicCryingObsidianRecipe1",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_crying_obsidian_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_crying_obsidian_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicCryingObsidianRecipe2",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_crying_obsidian_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_crying_obsidian_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicObsidianRecipe1",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_obsidian_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_obsidian_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicObsidianRecipe2",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_obsidian_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_obsidian_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicNetherRackRecipe2",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_nether_rack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_nether_rack_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGrassRecipe1",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_grass_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_grass_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGrassRecipe2",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_grass_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_grass_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGlowstoneRecipe1",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_glowstone_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_glowstone_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGlowstoneRecipe2",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_glowstone_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_glowstone_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AlphaGravelRecipe1",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_gravel_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/alpha_gravel_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AlphaGravelRecipe2",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_gravel_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/alpha_gravel_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicDirtRecipe1",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_dirt_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicDirtRecipe2",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_dirt_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGravelRecipe1",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_gravel_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_gravel_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicGravelRecipe2",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_gravel_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_gravel_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicLeavesRecipe1",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_leaves_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_leaves_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicLeavesRecipe2",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_leaves_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_leaves_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicStoneRecipe1",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_stone_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicStoneRecipe2",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_stone_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicStoneRecipe3",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_stone_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWoodRecipe1",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_wood_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWoodRecipe2",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_wood_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicMossyStoneBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_mossy_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicMossyStoneBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/ClassicMossyStoneBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_mossy_stone_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_mossy_stone_block.json",
+          "src/main/resources/assets/der_robert/models/block/classic_mossy_stone_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_mossy_stone_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_mossy_stone_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_mossy_stone_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicMossyStoneRecipe1",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_mossy_stone_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_mossy_stone_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicMossyStoneRecipe2",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_mossy_stone_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_mossy_stone_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicMonsterSpawnerRecipe1",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_monster_spawner_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_monster_spawner_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicMonsterSpawnerRecipe2",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_monster_spawner_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_monster_spawner_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BetaMonsterSpawnerRecipe1",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beta_monster_spawner_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/beta_monster_spawner_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BetaMonsterSpawnerRecipe2",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beta_monster_spawner_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/beta_monster_spawner_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MissingNoBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_no_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/MissingNoBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/MissingNoBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/missing_no_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/missing_no_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/missing_no_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/missing_no_block.json",
+          "src/main/resources/assets/der_robert/blockstates/missing_no_block.json",
+          "src/main/resources/assets/der_robert/models/block/missing_no_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicHuman",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/ClassicHumanEntity.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_human_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ClassicHumanRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/classic_human_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "TemplateHuman",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "template_human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/TemplateHumanEntity.java",
+          "src/main/resources/assets/der_robert/models/item/template_human_spawn_egg.json",
+          "src/main/java/net/mcreator/derrobert/client/renderer/TemplateHumanRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ClassicHerobrine",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_herobrine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/client/renderer/ClassicHerobrineRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/classic_herobrine_spawn_egg.json",
+          "src/main/java/net/mcreator/derrobert/entity/ClassicHerobrineEntity.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_herobrine_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "EvilHerobrine",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_herobrine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/client/renderer/EvilHerobrineRenderer.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/evil_herobrine_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/entity/EvilHerobrineEntity.java",
+          "src/main/resources/assets/der_robert/models/item/evil_herobrine_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "AlphaCreeper",
+      "type": "livingentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_creeper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/AlphaCreeperEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/AlphaCreeperRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/alpha_creeper_spawn_egg.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/alpha_creeper_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "PiggyCreeper",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piggy_creeper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/piggy_creeper_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/piggy_creeper_spawn_egg.json",
+          "src/main/java/net/mcreator/derrobert/client/renderer/PiggyCreeperRenderer.java",
+          "src/main/java/net/mcreator/derrobert/entity/PiggyCreeperEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ClassicZombie",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_zombie_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/derrobert/entity/ClassicZombieEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ClassicZombieRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ClassicEndstoneBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_endstone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_endstone_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_endstone_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicEndstoneBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/ClassicEndstoneBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_endstone_block.json",
+          "src/main/resources/assets/der_robert/models/block/classic_endstone_block.json",
+          "src/main/resources/assets/der_robert/models/item/classic_endstone_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_endstone_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicEndstoneRecipe1",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_endstone_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_endstone_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicEndstoneRecipe2",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_endstone_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_endstone_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CreeperPig",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_pig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/CreeperPigEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/CreeperPigRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/creeper_pig_spawn_egg.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/creeper_pig_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BackgroundDirt",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "background_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/background_dirt.json",
+          "src/main/java/net/mcreator/derrobert/block/BackgroundDirtBlock.java",
+          "src/main/resources/assets/der_robert/models/block/background_dirt.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/background_dirt_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/BackgroundDirtFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/background_dirt.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/background_dirt.json",
+          "src/main/resources/assets/der_robert/models/item/background_dirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MojangBlock",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mojang_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/mojang_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/mojang_block.json",
+          "src/main/java/net/mcreator/derrobert/block/MojangBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/mojang_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/MojangBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/block/mojang_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/mojang_block.json",
+          "src/main/resources/assets/der_robert/models/item/mojang_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicDirtStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_stairs_outer.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_dirt_stairs.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_dirt_stairs.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_dirt_stairs_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_dirt_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_stairs_inner.json",
+          "src/main/resources/assets/der_robert/models/block/classic_dirt_stairs.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicDirtStairsBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicDirtStairsFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_dirt_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MojangRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mojang_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/mojang_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UnknownPackBlock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_pack_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/unknown_pack_block.json",
+          "src/main/java/net/mcreator/derrobert/block/UnknownPackBlockBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/unknown_pack_block.json",
+          "src/main/resources/assets/der_robert/models/block/unknown_pack_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicPackBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_pack_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_pack_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_pack_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicPackBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_pack_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ModernPackBlock",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_pack_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/modern_pack_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ModernPackBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/item/modern_pack_block.json",
+          "src/main/resources/assets/der_robert/blockstates/modern_pack_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherPortalBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_portal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/aether_portal_block.json",
+          "src/main/resources/assets/der_robert/models/block/aether_portal_block_side_alt.json",
+          "src/main/resources/assets/der_robert/models/block/aether_portal_block_noside.json",
+          "src/main/resources/assets/der_robert/models/block/aether_portal_block_side.json",
+          "src/main/java/net/mcreator/derrobert/block/AetherPortalBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/aether_portal_block_post.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_portal_block.json",
+          "src/main/resources/assets/der_robert/models/block/aether_portal_block_noside_alt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicDirtStairsRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_dirt_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_dirt_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWoodDoor",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_bottom_right.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_top_right.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_bottom_left.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_top_left_open.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_wood_door.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_bottom_left_open.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_bottom_right_open.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_wood_door.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_wood_door.json",
+          "src/main/resources/assets/der_robert/models/item/classic_wood_door.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_wood_door_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_top_left.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_door_top_right_open.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicWoodDoorBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicWoodDoorFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicSoulSand",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_soul_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_soul_sand.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_soul_sand.json",
+          "src/main/resources/assets/der_robert/models/block/classic_soul_sand.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_soul_sand_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicSoulSandBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicSoulSandFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_soul_sand.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_soul_sand.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicSoulSandRecipe1",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_soul_sand_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_soul_sand_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicSoulSandRecipe2",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_soul_sand_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_soul_sand_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicSoulSandRecipe3",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_soul_sand_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_soul_sand_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RobertsAetherTab",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_aether_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RobertsAlphaTab",
+      "type": "tab",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_alpha_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RobertsBetaTab",
+      "type": "tab",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_beta_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RobertsClassicTab",
+      "type": "tab",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_classic_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RobertsMojangTab",
+      "type": "tab",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_mojang_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RobertsModTab",
+      "type": "tab",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_mod_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RobertsPocketTab",
+      "type": "tab",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_pocket_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "ClassicTntBlock",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tnt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_tnt_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicTntBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_tnt_block.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_tnt_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicTntRecipe1",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tnt_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_tnt_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicTntRecipe2",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tnt_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_tnt_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicTntIgnitionProc",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tnt_ignition_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ClassicTntIgnitionProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BetaEndStone",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beta_end_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/BetaEndStoneFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/BetaEndStoneBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/beta_end_stone.json",
+          "src/main/resources/assets/der_robert/models/block/beta_end_stone.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/beta_end_stone.json",
+          "src/main/resources/assets/der_robert/models/item/beta_end_stone.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/beta_end_stone_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/beta_end_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicNetherQuartzOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_nether_quartz_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicNetherQuartzOreBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_nether_quartz_ore.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_nether_quartz_ore.json",
+          "src/main/resources/assets/der_robert/models/item/classic_nether_quartz_ore.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicNetherQuartzOreFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_nether_quartz_ore.json",
+          "src/main/resources/assets/der_robert/models/block/classic_nether_quartz_ore.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_nether_quartz_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GlassDoor",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/GlassDoorFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/glass_door.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_top_left.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/glass_door.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/glass_door_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/GlassDoorBlock.java",
+          "src/main/resources/assets/der_robert/models/block/glass_door_top_right_open.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_bottom_right.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_bottom_left.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_top_right.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/glass_door.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_bottom_left_open.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_bottom_right_open.json",
+          "src/main/resources/assets/der_robert/models/item/glass_door.json",
+          "src/main/resources/assets/der_robert/models/block/glass_door_top_left_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GlassDoorRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/glass_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicNetherQuartzOreRecipe1",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_nether_quartz_ore_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_nether_quartz_ore_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicNetherQuartzOreRecipe2",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_nether_quartz_ore_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_nether_quartz_ore_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GlassDoorBreakProcedure",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_door_break_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/GlassDoorBreakProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AetherAmberootLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_amberoot_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/AetherAmberootLogBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_amberoot_log.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_amberoot_log_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/aether_amberoot_log.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_amberoot_log.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_amberoot_log.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherAmberootLogFeature.java",
+          "src/main/resources/assets/der_robert/models/block/aether_amberoot_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherGreatrootLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_greatroot_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/aether_greatroot_log.json",
+          "src/main/java/net/mcreator/derrobert/block/AetherGreatrootLogBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherGreatrootLogFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_greatroot_log.json",
+          "src/main/resources/assets/der_robert/models/item/aether_greatroot_log.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_greatroot_log.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_greatroot_log_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_greatroot_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherSkyrootLog",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_skyroot_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/AetherSkyrootLogBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_skyroot_log.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_skyroot_log.json",
+          "src/main/resources/assets/der_robert/models/item/aether_skyroot_log.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_skyroot_log_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/aether_skyroot_log.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherSkyrootLogFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_skyroot_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherTherawoodLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_therawood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/aether_therawood_log.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_therawood_log_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_therawood_log.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherTherawoodLogFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_therawood_log.json",
+          "src/main/resources/assets/der_robert/models/block/aether_therawood_log.json",
+          "src/main/java/net/mcreator/derrobert/block/AetherTherawoodLogBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_therawood_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AetherWisprootLog",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_wisproot_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/aether_wisproot_log.json",
+          "src/main/resources/assets/der_robert/blockstates/aether_wisproot_log.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/AetherWisprootLogFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/AetherWisprootLogBlock.java",
+          "src/main/resources/assets/der_robert/models/block/aether_wisproot_log.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/aether_wisproot_log_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/aether_wisproot_log.json",
+          "src/main/resources/assets/der_robert/models/item/aether_wisproot_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WaterPortalBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_portal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/WaterPortalBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/water_portal_block_noside_alt.json",
+          "src/main/resources/assets/der_robert/models/block/water_portal_block_post.json",
+          "src/main/resources/assets/der_robert/models/block/water_portal_block_noside.json",
+          "src/main/resources/assets/der_robert/models/item/water_portal_block.json",
+          "src/main/resources/assets/der_robert/models/block/water_portal_block_side.json",
+          "src/main/resources/assets/der_robert/blockstates/water_portal_block.json",
+          "src/main/resources/assets/der_robert/models/block/water_portal_block_side_alt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicWoodStairs",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/classic_wood_stairs.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_wood_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_stairs_outer.json",
+          "src/main/resources/assets/der_robert/models/item/classic_wood_stairs.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicWoodStairsFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_wood_stairs_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_wood_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_stairs_inner.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicWoodStairsBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_wood_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_wood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWoddSlabsRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wodd_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_wodd_slabs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicWoodSlabs",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_wood_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_wood_slabs.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicWoodSlabsFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_wood_slabs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_slabs_top.json",
+          "src/main/resources/assets/der_robert/models/item/classic_wood_slabs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_slabs.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_wood_slabs_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_wood_slabs.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicWoodSlabsBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_wood_slabs_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
+      "item.der_robert.classic_herobrine_spawn_egg": "Classic Herobrine Spawn Egg",
+      "block.der_robert.classic_dirt_block": "Classic Dirt",
+      "block.der_robert.classic_sand_block": "Classic Sand",
+      "item.der_robert.template_human_spawn_egg": "Template Human Spawn Egg",
+      "block.der_robert.alpha_gravel_block": "Alpha Gravel",
+      "block.der_robert.unknown_pack_block": "Unknown Pack Block",
+      "block.der_robert.aether_dirt_block": "Aether Dirt",
+      "block.der_robert.alpha_grass_block": "Alpha Grass",
+      "block.der_robert.beta_monster_spawner": "Beta Monster Spawner",
+      "item.der_robert.alpha_creeper_spawn_egg": "Alpha Creeper Spawn Egg",
+      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
+      "block.der_robert.classic_mossy_stone_block": "Classic Mossy Stone",
+      "block.der_robert.classic_gravel_block": "Classic Gravel",
+      "item_group.der_robert.roberts_mojang_tab": "Robert\u0027s Mojang",
+      "item.der_robert.classic_human_spawn_egg": "Classic Human Spawn Egg",
+      "entity.der_robert.creeper_pig": "Creeper Pig",
+      "entity.der_robert.evil_herobrine": "Evil Herobrine",
+      "block.der_robert.background_dirt": "Background Dirt",
+      "block.der_robert.classic_glowstone_block": "Classic Glowstone",
+      "block.der_robert.missing_no_block": "Missing No.",
+      "block.der_robert.classic_wood_door": "Classic Wooden Door",
+      "block.der_robert.classic_wood_block": "Classic Wood Planks",
+      "block.der_robert.aether_wisproot_log": "Aether Wisproot Log",
+      "block.der_robert.classic_workbench_block": "Workbench",
+      "block.der_robert.classic_dirt_stairs": "Classic Dirt Stairs",
+      "block.der_robert.beta_end_stone": "Classic End Stone",
+      "item.der_robert.classic_zombie_spawn_egg": "Classic Zombie Spawn Egg",
+      "block.der_robert.classic_bedrock_block": "Classic Bedrock",
+      "block.der_robert.classic_stone_block": "Classic Stone",
+      "item_group.der_robert.roberts_mod_tab": "Robert\u0027s Mod",
+      "block.der_robert.classic_grass_block": "Classic Grass",
+      "block.der_robert.classic_wood_stairs": "Classic Wood Stairs",
+      "block.der_robert.classic_netherrack_block": "Classic Netherrack",
+      "block.der_robert.herobrine_netherrack": "Herobrine Netherrack",
+      "item_group.der_robert.roberts_aether_tab": "Robert\u0027s Aether",
+      "block.der_robert.classic_crying_obsidian": "Classic Crying Obsidian",
+      "item_group.der_robert.roberts_alpha_tab": "Robert\u0027s Alpha",
+      "block.der_robert.classic_obsidian_block": "Classic Obsidian",
+      "block.der_robert.beta_gravel_block": "Beta Gravel",
+      "block.der_robert.classic_nether_quartz_ore": "Classic Nether Quartz Ore",
+      "block.der_robert.classic_oak_leaves_block": "Classic Oak Leaves",
+      "entity.der_robert.classic_herobrine": "Classic Herobrine",
+      "entity.der_robert.piggy_creeper": "Piggy Creeper",
+      "item.der_robert.piggy_creeper_spawn_egg": "Piggy Creeper Spawn Egg",
+      "biome.der_robert.classic_biome_2": "Classic Biome 2",
+      "item_group.der_robert.roberts_pocket_tab": "Robert\u0027s Pocket",
+      "biome.der_robert.classic_biome_1": "Classic Biome 1",
+      "entity.der_robert.template_human": "Template Human",
+      "entity.der_robert.alpha_creeper": "Alpha Creeper",
+      "block.der_robert.classic_sponge_block": "Classic Sponge",
+      "block.der_robert.classic_endstone_block": "Classic End Stone",
+      "block.der_robert.classic_soul_sand": "Classic Soul Sand",
+      "block.der_robert.classic_dirt_slab": "Classic Dirt Slab",
+      "block.der_robert.mojang_block": "Mojang Block",
+      "block.der_robert.modern_pack_block": "Pack Block",
+      "block.der_robert.aether_greatroot_log": "Aether Greatroot Log",
+      "entity.der_robert.classic_zombie": "Classic Zombie",
+      "block.der_robert.aether_skyroot_log": "Aether Skyroot Log",
+      "block.der_robert.classic_wood_slabs": "Classic Wood Slabs",
+      "item_group.der_robert.roberts_beta_tab": "Robert\u0027s Beta",
+      "item_group.der_robert.roberts_classic_tab": "Robert\u0027s Classic",
+      "block.der_robert.aether_amberoot_log": "Aether Amberroot Log",
+      "block.der_robert.glass_door": "Glass Door",
+      "block.der_robert.aether_grass_block": "Aether Grass",
+      "block.der_robert.classic_monster_spawner": "Classic Monster Spawner",
+      "block.der_robert.classic_pack_block": "Classic Pack Block",
+      "block.der_robert.aether_portal_block": "Aether Portal Block",
+      "block.der_robert.classic_brick_block": "Classic Bricks",
+      "block.der_robert.glowing_obsidian": "Glowing Obsidian",
+      "item.der_robert.creeper_pig_spawn_egg": "Creeper Pig Spawn Egg",
+      "gui.der_robert.classic_workbench_gui.label_workbench": "Workbench",
+      "block.der_robert.water_portal_block": "Water Portal Block",
+      "block.der_robert.classic_tnt_block": "Classic TNT",
+      "block.der_robert.aether_therawood_log": "Aether Therawood Log",
+      "entity.der_robert.classic_human": "Classic Human"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Creative Tabs",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "der_robert",
+    "modName": "Robert\u0027s Mod",
+    "version": "1.23.37",
+    "description": "My First Mod",
+    "author": "Der Robert",
+    "websiteURL": "https://www.youtube.com/@DerRobert28",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "@DerRobert28, @epixkev04",
+    "modElementsPackage": "net.mcreator.derrobert",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

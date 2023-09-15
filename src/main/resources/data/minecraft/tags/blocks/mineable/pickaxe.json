@@ -2,9 +2,11 @@
   "replace": false,
   "values": [
     "der_robert:glowing_obsidian",
+    "der_robert:anti_light_block",
     "der_robert:creeponia_brick_block",
     "der_robert:herobrine_netherrack",
     "der_robert:missing_no_block",
+    "der_robert:white_light_block",
     "der_robert:classic_bedrock_block",
     "der_robert:classic_brick_block",
     "der_robert:classic_crying_obsidian",

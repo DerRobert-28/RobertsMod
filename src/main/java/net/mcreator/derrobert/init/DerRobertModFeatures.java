@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.derrobert.world.features.ores.WhiteLightBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoBlockFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackFeature;
@@ -18,6 +19,8 @@ import net.mcreator.derrobert.world.features.ores.GlowingObsidianFeature;
 import net.mcreator.derrobert.world.features.ores.GlassDoorFeature;
 import net.mcreator.derrobert.world.features.ores.CreeponiaBrickBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWorkbenchBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicWoodStairsFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicWoodSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWoodDoorFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWoodBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicStoneBlockFeature;
@@ -44,6 +47,7 @@ import net.mcreator.derrobert.world.features.ores.BetaMonsterSpawnerFeature;
 import net.mcreator.derrobert.world.features.ores.BetaGravelBlockFeature;
 import net.mcreator.derrobert.world.features.ores.BetaEndStoneFeature;
 import net.mcreator.derrobert.world.features.ores.BackgroundDirtFeature;
+import net.mcreator.derrobert.world.features.ores.AntiLightBlockFeature;
 import net.mcreator.derrobert.world.features.ores.AlphaGravelBlockFeature;
 import net.mcreator.derrobert.world.features.ores.AlphaGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.AetherWisprootLogFeature;
@@ -66,10 +70,12 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> AETHER_THERAWOOD_LOG = REGISTRY.register("aether_therawood_log", AetherTherawoodLogFeature::new);
 	public static final RegistryObject<Feature<?>> AETHER_WISPROOT_LOG = REGISTRY.register("aether_wisproot_log", AetherWisprootLogFeature::new);
 	public static final RegistryObject<Feature<?>> GLOWING_OBSIDIAN = REGISTRY.register("glowing_obsidian", GlowingObsidianFeature::new);
+	public static final RegistryObject<Feature<?>> ANTI_LIGHT_BLOCK = REGISTRY.register("anti_light_block", AntiLightBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CREEPONIA_BRICK_BLOCK = REGISTRY.register("creeponia_brick_block", CreeponiaBrickBlockFeature::new);
 	public static final RegistryObject<Feature<?>> GLASS_DOOR = REGISTRY.register("glass_door", GlassDoorFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK = REGISTRY.register("herobrine_netherrack", HerobrineNetherrackFeature::new);
 	public static final RegistryObject<Feature<?>> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", MissingNoBlockFeature::new);
+	public static final RegistryObject<Feature<?>> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", WhiteLightBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", ClassicWorkbenchBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_BEDROCK_BLOCK = REGISTRY.register("classic_bedrock_block", ClassicBedrockBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_BRICK_BLOCK = REGISTRY.register("classic_brick_block", ClassicBrickBlockFeature::new);
@@ -92,6 +98,8 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_SPONGE_BLOCK = REGISTRY.register("classic_sponge_block", ClassicSpongeBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_STONE_BLOCK = REGISTRY.register("classic_stone_block", ClassicStoneBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_BLOCK = REGISTRY.register("classic_wood_block", ClassicWoodBlockFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_SLABS = REGISTRY.register("classic_wood_slabs", ClassicWoodSlabsFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_STAIRS = REGISTRY.register("classic_wood_stairs", ClassicWoodStairsFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_DOOR = REGISTRY.register("classic_wood_door", ClassicWoodDoorFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", AlphaGrassBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", AlphaGravelBlockFeature::new);
