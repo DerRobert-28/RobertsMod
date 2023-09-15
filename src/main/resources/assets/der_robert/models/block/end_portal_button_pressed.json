@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "der_robert:block/end_portal"
+  },
+  "render_type": "solid"
+}

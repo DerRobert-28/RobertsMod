@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ClassicGlowstoneBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:EndPortalButton"
+    },
+    "name": "end_button_recipe",
+    "namespace": "mod"
+  }
+}

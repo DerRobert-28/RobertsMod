@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "der_robert:block/nether_portal"
+  },
+  "render_type": "solid"
+}

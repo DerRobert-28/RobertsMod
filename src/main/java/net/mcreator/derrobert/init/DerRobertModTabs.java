@@ -94,9 +94,14 @@ public class DerRobertModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_mod_tab")).icon(() -> new ItemStack(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.ANTI_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.END_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_DOOR.get().asItem());
+				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
+				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.HEROBRINE_NETHERRACK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
+				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WATER_PORTAL_BLOCK.get().asItem());
@@ -104,8 +109,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
-				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
-				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
 			})
 
 					.build());

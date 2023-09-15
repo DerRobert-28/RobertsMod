@@ -30,10 +30,14 @@
       - Wood Sticks
     - Miscellaneous blocks:
       - Anti Light Block
+      - End Portal Button
+      - MissongNo Portal Button
+      - Nether Portal Button
       - Water Portal
       - White Light Block
   - Implementing crafting recipes:
     - Glass panes, slabs and stairs
+    - Smeltinh portal buttons
     - Smelting sand to glass
 
 ## Version history
