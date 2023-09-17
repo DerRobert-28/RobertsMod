@@ -959,6 +959,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:nether_wastes": "2023-09-17 01:45:47 +0200",
+      "minecraft:soul_sand_valley": "2023-09-17 02:39:31 +0200",
       "minecraft:basalt_deltas": "2023-09-15 20:51:48 +0200"
     },
     "done": false

@@ -99,6 +99,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.HEROBRINE_NETHERRACK.get().asItem());
+				tabData.accept(DerRobertModBlocks.LUCKY_STONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());

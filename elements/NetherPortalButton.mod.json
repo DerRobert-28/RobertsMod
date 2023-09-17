@@ -121,6 +121,9 @@
     "onRightClicked": {
       "name": "NetherButtonClick"
     },
+    "onTickUpdate": {
+      "name": "OnDimensionChangeProcedure"
+    },
     "spawnWorldTypes": [
       "Surface",
       "Nether",

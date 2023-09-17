@@ -32,12 +32,14 @@
   - Miscellaneous blocks:
     - Anti Light Block
     - End Portal Button
-    - MissongNo Portal Button
+    - Lucky Stone Block
+    - MissingNo Portal Button
     - Nether Portal Button
     - Water Portal
     - White Light Block
 - **Implemented crafting recipes:**
   - Glass panes, slabs and stairs
+  - Lucky Block recipe
   - Smeltinh portal buttons
   - Smelting sand to glass
 

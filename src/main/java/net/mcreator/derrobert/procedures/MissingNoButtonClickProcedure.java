@@ -1,5 +1,6 @@
 package net.mcreator.derrobert.procedures;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -13,9 +14,11 @@ import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.BlockPos;
 
 public class MissingNoButtonClickProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		double endTime = 0;
+		double startTime = 0;
 		if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 			ResourceKey<Level> destinationType = Level.OVERWORLD;
 			if (_player.level().dimension() == destinationType)
@@ -30,5 +33,6 @@ public class MissingNoButtonClickProcedure {
 				_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 			}
 		}
+		OnDimensionChangeProcedureProcedure.execute(world, x, y, z);
 	}
 }

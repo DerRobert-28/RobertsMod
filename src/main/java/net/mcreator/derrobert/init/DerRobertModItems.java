@@ -34,6 +34,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> GLASS_STAIRS = block(DerRobertModBlocks.GLASS_STAIRS);
 	public static final RegistryObject<Item> GLASS_SLABS = block(DerRobertModBlocks.GLASS_SLABS);
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK = block(DerRobertModBlocks.HEROBRINE_NETHERRACK);
+	public static final RegistryObject<Item> LUCKY_STONE_BLOCK = block(DerRobertModBlocks.LUCKY_STONE_BLOCK);
 	public static final RegistryObject<Item> MISSING_NO_BLOCK = block(DerRobertModBlocks.MISSING_NO_BLOCK);
 	public static final RegistryObject<Item> MISSING_NO_BUTTON = block(DerRobertModBlocks.MISSING_NO_BUTTON);
 	public static final RegistryObject<Item> NETHER_PORTAL_BUTTON = block(DerRobertModBlocks.NETHER_PORTAL_BUTTON);

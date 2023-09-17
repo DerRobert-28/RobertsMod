@@ -18,6 +18,7 @@ import net.mcreator.derrobert.block.MojangBlockBlock;
 import net.mcreator.derrobert.block.ModernPackBlockBlock;
 import net.mcreator.derrobert.block.MissingNoButtonBlock;
 import net.mcreator.derrobert.block.MissingNoBlockBlock;
+import net.mcreator.derrobert.block.LuckyStoneBlockBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackBlock;
 import net.mcreator.derrobert.block.GlowingObsidianBlock;
 import net.mcreator.derrobert.block.GlassStairsBlock;
@@ -89,6 +90,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> GLASS_STAIRS = REGISTRY.register("glass_stairs", () -> new GlassStairsBlock());
 	public static final RegistryObject<Block> GLASS_SLABS = REGISTRY.register("glass_slabs", () -> new GlassSlabsBlock());
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK = REGISTRY.register("herobrine_netherrack", () -> new HerobrineNetherrackBlock());
+	public static final RegistryObject<Block> LUCKY_STONE_BLOCK = REGISTRY.register("lucky_stone_block", () -> new LuckyStoneBlockBlock());
 	public static final RegistryObject<Block> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", () -> new MissingNoBlockBlock());
 	public static final RegistryObject<Block> MISSING_NO_BUTTON = REGISTRY.register("missing_no_button", () -> new MissingNoButtonBlock());
 	public static final RegistryObject<Block> NETHER_PORTAL_BUTTON = REGISTRY.register("nether_portal_button", () -> new NetherPortalButtonBlock());
