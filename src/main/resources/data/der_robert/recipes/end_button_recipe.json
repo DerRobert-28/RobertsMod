@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "blocks",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "der_robert:classic_glowstone_block"
+  },
+  "result": "der_robert:end_portal_button"
+}

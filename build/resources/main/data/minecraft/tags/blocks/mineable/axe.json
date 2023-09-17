@@ -8,6 +8,8 @@
     "der_robert:aether_wisproot_log",
     "der_robert:classic_workbench_block",
     "der_robert:classic_wood_block",
+    "der_robert:classic_wood_slabs",
+    "der_robert:classic_wood_stairs",
     "der_robert:classic_wood_door"
   ]
 }

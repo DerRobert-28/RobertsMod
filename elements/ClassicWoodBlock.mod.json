@@ -3,9 +3,9 @@
   "_type": "block",
   "definition": {
     "texture": "classic_wood",
-    "textureTop": "wood",
+    "textureTop": "classic_wood",
     "textureLeft": "wood",
-    "textureFront": "wood",
+    "textureFront": "classic_wood",
     "textureRight": "wood",
     "textureBack": "wood",
     "renderType": 11,

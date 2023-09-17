@@ -1,0 +1,8 @@
+{
+  "type": "der_robert:white_light_block",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": []
+  }
+}

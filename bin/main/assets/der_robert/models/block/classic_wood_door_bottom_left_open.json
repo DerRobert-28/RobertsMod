@@ -1,7 +1,7 @@
 {
   "parent": "block/door_bottom_left_open",
   "textures": {
-    "bottom": "der_robert:block/classic_door-bottom",
+    "bottom": "der_robert:block/classic_door_bottom",
     "top": "der_robert:block/classic_door_top"
   },
   "render_type": "cutout"

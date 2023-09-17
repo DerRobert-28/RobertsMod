@@ -119,10 +119,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onDestroyedByPlayer": {
-      "name": "GlassDoorBreakProcedure"
+      "name": "ClassicGlassBreakProc"
     },
     "onDestroyedByExplosion": {
-      "name": "GlassDoorBreakProcedure"
+      "name": "ClassicGlassBreakProc"
     },
     "spawnWorldTypes": [
       "Surface",

@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"endTime\">endTime</variable><variable type=\"Number\" id=\"startTime\">startTime</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"1150\" y=\"349\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_switch_dimension\"><field name=\"dimension\">Surface</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"call_procedure\"><field name=\"procedure\">OnDimensionChangeProcedure</field></block></next></block></next></block></xml>"
+  }
+}

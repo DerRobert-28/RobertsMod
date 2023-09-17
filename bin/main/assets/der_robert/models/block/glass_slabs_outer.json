@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "der_robert:block/classic_glass_block",
+    "top": "der_robert:block/classic_glass_block",
+    "side": "der_robert:block/classic_glass_block"
+  },
+  "render_type": "cutout"
+}

@@ -13,7 +13,7 @@ import net.minecraft.world.level.Explosion;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.derrobert.procedures.GlassDoorBreakProcedureProcedure;
+import net.mcreator.derrobert.procedures.ClassicGlassBreakProcProcedure;
 
 public class GlassDoorBlock extends DoorBlock {
 	public GlassDoorBlock() {
@@ -23,13 +23,13 @@ public class GlassDoorBlock extends DoorBlock {
 	@Override
 	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		GlassDoorBreakProcedureProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ClassicGlassBreakProcProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
 	}
 
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		GlassDoorBreakProcedureProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ClassicGlassBreakProcProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }
