@@ -1,4 +1,4 @@
-# Robert' s Mod
+# Robert's Mod
 
 - Mainly decorative blocks of miscellaneous Minecraft mods and versions.
 - Buildable with MCreator
@@ -10,9 +10,19 @@
     - Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
+## Current version 1.23.38
+
+- Create feature branches:
+  - This one is **v1y23w38**:
+    - version **1**
+    - year 20**23**
+    - week **38**
+- Still work in progress:
+  - Attempt to safely teleport by using the teleport buttons
+
 ## Version history
 
-### Current version 1.23.37
+### Version [1.23.37](https://github.com/DerRobert-28/RobertsMod/tree/dev)
 
 - **Implemented blocks:**
   - Aether blocks:
@@ -43,9 +53,7 @@
   - Smeltinh portal buttons
   - Smelting sand to glass
 
-----
-
-### Test version 1.0.0
+### Test version 1.0.0 *(only internal)*
 
 - **Implemented blocks:**
   - Aether blocks:
