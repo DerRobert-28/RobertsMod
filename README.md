@@ -14,7 +14,7 @@
 
 - Create feature branches:
   - This one is **v1y23w38**:
-    - version **1**
+    - version **1** *(related to Minecraft 1.20.1)*
     - year 20**23**
     - week **38**
 - Still work in progress:
