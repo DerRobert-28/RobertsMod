@@ -15,9 +15,12 @@
 - Mod development:
   - Blocks/items:
     - Broken Iron Door
+    - Classic Emerald item & ore
+    - Classic Ruby item & ore
     - "Some" White Block
   - Crafting recipes:
     - Broken Iron Door
+    - Swapping Emerald & Ruby
     - "Some" White Block
   - Entities:
     - Removed Herobrine's health bar

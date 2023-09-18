@@ -14,6 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.derrobert.item.ClassicRubyItemItem;
+import net.mcreator.derrobert.item.ClassicEmeraldItemItem;
 import net.mcreator.derrobert.DerRobertMod;
 
 public class DerRobertModItems {
@@ -52,18 +54,23 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_DIRT_BLOCK = block(DerRobertModBlocks.CLASSIC_DIRT_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_DIRT_SLAB = block(DerRobertModBlocks.CLASSIC_DIRT_SLAB);
 	public static final RegistryObject<Item> CLASSIC_DIRT_STAIRS = block(DerRobertModBlocks.CLASSIC_DIRT_STAIRS);
+	public static final RegistryObject<Item> CLASSIC_EMERALD_ORE = block(DerRobertModBlocks.CLASSIC_EMERALD_ORE);
+	public static final RegistryObject<Item> CLASSIC_EMERALD_ITEM = REGISTRY.register("classic_emerald_item", () -> new ClassicEmeraldItemItem());
 	public static final RegistryObject<Item> CLASSIC_ENDSTONE_BLOCK = block(DerRobertModBlocks.CLASSIC_ENDSTONE_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_GLASS_BLOCK = block(DerRobertModBlocks.CLASSIC_GLASS_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_GLASS_PANE = block(DerRobertModBlocks.CLASSIC_GLASS_PANE);
 	public static final RegistryObject<Item> CLASSIC_GLOWSTONE_BLOCK = block(DerRobertModBlocks.CLASSIC_GLOWSTONE_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_GRASS_BLOCK = block(DerRobertModBlocks.CLASSIC_GRASS_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_GRAVEL_BLOCK = block(DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_IRON_DOOR = doubleBlock(DerRobertModBlocks.CLASSIC_IRON_DOOR);
 	public static final RegistryObject<Item> CLASSIC_MONSTER_SPAWNER = block(DerRobertModBlocks.CLASSIC_MONSTER_SPAWNER);
 	public static final RegistryObject<Item> CLASSIC_MOSSY_STONE_BLOCK = block(DerRobertModBlocks.CLASSIC_MOSSY_STONE_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_NETHERRACK_BLOCK = block(DerRobertModBlocks.CLASSIC_NETHERRACK_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_NETHER_QUARTZ_ORE = block(DerRobertModBlocks.CLASSIC_NETHER_QUARTZ_ORE);
 	public static final RegistryObject<Item> CLASSIC_OAK_LEAVES_BLOCK = block(DerRobertModBlocks.CLASSIC_OAK_LEAVES_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_OBSIDIAN_BLOCK = block(DerRobertModBlocks.CLASSIC_OBSIDIAN_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_RUBY_ORE = block(DerRobertModBlocks.CLASSIC_RUBY_ORE);
+	public static final RegistryObject<Item> CLASSIC_RUBY_ITEM = REGISTRY.register("classic_ruby_item", () -> new ClassicRubyItemItem());
 	public static final RegistryObject<Item> CLASSIC_SAND_BLOCK = block(DerRobertModBlocks.CLASSIC_SAND_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_SOUL_SAND = block(DerRobertModBlocks.CLASSIC_SOUL_SAND);
 	public static final RegistryObject<Item> CLASSIC_SPONGE_BLOCK = block(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK);
@@ -76,7 +83,6 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_HEROBRINE_SPAWN_EGG = REGISTRY.register("classic_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HEROBRINE, -16776961, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_HUMAN_SPAWN_EGG = REGISTRY.register("classic_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HUMAN, -16776961, -16711681, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("classic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE, -16776961, -16711936, new Item.Properties()));
-	public static final RegistryObject<Item> CLASSIC_IRON_DOOR = doubleBlock(DerRobertModBlocks.CLASSIC_IRON_DOOR);
 	public static final RegistryObject<Item> ALPHA_GRASS_BLOCK = block(DerRobertModBlocks.ALPHA_GRASS_BLOCK);
 	public static final RegistryObject<Item> ALPHA_GRAVEL_BLOCK = block(DerRobertModBlocks.ALPHA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> ALPHA_CREEPER_SPAWN_EGG = REGISTRY.register("alpha_creeper_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.ALPHA_CREEPER, -16711936, -1, new Item.Properties()));

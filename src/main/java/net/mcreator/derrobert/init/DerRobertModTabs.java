@@ -53,18 +53,23 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_SLAB.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_STAIRS.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_EMERALD_ORE.get().asItem());
+				tabData.accept(DerRobertModItems.CLASSIC_EMERALD_ITEM.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_ENDSTONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_PANE.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLOWSTONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GRASS_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_IRON_DOOR.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_MONSTER_SPAWNER.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_MOSSY_STONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_NETHERRACK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_NETHER_QUARTZ_ORE.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_OAK_LEAVES_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_OBSIDIAN_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_RUBY_ORE.get().asItem());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ITEM.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SAND_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SOUL_SAND.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK.get().asItem());
@@ -77,7 +82,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_SPAWN_EGG.get());
-				tabData.accept(DerRobertModBlocks.CLASSIC_IRON_DOOR.get().asItem());
 			})
 
 					.build());

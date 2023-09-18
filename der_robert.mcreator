@@ -3,7 +3,7 @@
     {
       "name": "BedrockRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_recipe",
@@ -59,7 +59,7 @@
     {
       "name": "ClassicBrickRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_brick_recipe",
@@ -73,7 +73,7 @@
     {
       "name": "ClassicGravelBlock",
       "type": "block",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gravel_block",
@@ -94,7 +94,7 @@
     {
       "name": "ClassicStoneBlock",
       "type": "block",
-      "sortid": 50,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_block",
@@ -115,7 +115,7 @@
     {
       "name": "ClassicWoodBlock",
       "type": "block",
-      "sortid": 52,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_block",
@@ -157,7 +157,7 @@
     {
       "name": "ClassicWorkbenchGUI",
       "type": "gui",
-      "sortid": 73,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_gui",
@@ -172,7 +172,7 @@
     {
       "name": "ClassicWorkbenchOnRightClick",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_on_right_click",
@@ -208,7 +208,7 @@
     {
       "name": "ClassicWorkbenchRecipe1",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_recipe_1",
@@ -222,7 +222,7 @@
     {
       "name": "ClassicWorkbenchRecipe2",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_recipe_2",
@@ -236,7 +236,7 @@
     {
       "name": "ClassicWorkbenchRecipe3",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_recipe_3",
@@ -250,7 +250,7 @@
     {
       "name": "CreateBarrierRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "create_barrier_recipe",
@@ -264,7 +264,7 @@
     {
       "name": "CreateBedrockRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "create_bedrock_recipe",
@@ -299,7 +299,7 @@
     {
       "name": "CreeponiaBrickRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_brick_recipe",
@@ -313,7 +313,7 @@
     {
       "name": "ClassicNetherrackBlock",
       "type": "block",
-      "sortid": 43,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_netherrack_block",
@@ -334,7 +334,7 @@
     {
       "name": "ClassicNetherrackRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_netherrack_recipe",
@@ -348,7 +348,7 @@
     {
       "name": "ClassicOakLeavesBlock",
       "type": "block",
-      "sortid": 45,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_oak_leaves_block",
@@ -369,7 +369,7 @@
     {
       "name": "ClassicGlowstoneBlock",
       "type": "block",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_block",
@@ -411,7 +411,7 @@
     {
       "name": "ClassicGrassBlock",
       "type": "block",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_grass_block",
@@ -453,7 +453,7 @@
     {
       "name": "AetherDirtRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_dirt_recipe",
@@ -488,7 +488,7 @@
     {
       "name": "AetherGrassRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_grass_recipe",
@@ -502,7 +502,7 @@
     {
       "name": "ClassicSandBlock",
       "type": "block",
-      "sortid": 47,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sand_block",
@@ -523,7 +523,7 @@
     {
       "name": "ClassicBiome1",
       "type": "biome",
-      "sortid": 84,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_biome_1",
@@ -539,7 +539,7 @@
     {
       "name": "ClassicBiome2",
       "type": "biome",
-      "sortid": 85,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_biome_2",
@@ -555,7 +555,7 @@
     {
       "name": "AlphaGrassBlock",
       "type": "block",
-      "sortid": 60,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_grass_block",
@@ -576,7 +576,7 @@
     {
       "name": "AlphaGravelBlock",
       "type": "block",
-      "sortid": 61,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_gravel_block",
@@ -618,7 +618,7 @@
     {
       "name": "AlphaGrassRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_grass_recipe",
@@ -632,7 +632,7 @@
     {
       "name": "HerobrineNetherrackRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herobrine_netherrack_recipe",
@@ -646,7 +646,7 @@
     {
       "name": "BetaGravelBlock",
       "type": "block",
-      "sortid": 68,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_gravel_block",
@@ -667,7 +667,7 @@
     {
       "name": "BetaGravelRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_gravel_recipe",
@@ -681,7 +681,7 @@
     {
       "name": "ClassicMonsterSpawner",
       "type": "block",
-      "sortid": 41,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_monster_spawner",
@@ -702,7 +702,7 @@
     {
       "name": "BetaMonsterSpawner",
       "type": "block",
-      "sortid": 69,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_monster_spawner",
@@ -746,7 +746,7 @@
     {
       "name": "ClassicDirtSlabRecipe1",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_slab_recipe_1",
@@ -760,7 +760,7 @@
     {
       "name": "ClassicDirtSlabRecipe2",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_slab_recipe_2",
@@ -795,7 +795,7 @@
     {
       "name": "GlowingObsidianRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_obsidian_recipe",
@@ -809,7 +809,7 @@
     {
       "name": "ClassicSpongeBlock",
       "type": "block",
-      "sortid": 49,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sponge_block",
@@ -830,7 +830,7 @@
     {
       "name": "ClassicObsidianBlock",
       "type": "block",
-      "sortid": 46,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_obsidian_block",
@@ -872,7 +872,7 @@
     {
       "name": "ClassicCryingObsidianRecipe1",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_crying_obsidian_recipe_1",
@@ -886,7 +886,7 @@
     {
       "name": "ClassicCryingObsidianRecipe2",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_crying_obsidian_recipe_2",
@@ -900,7 +900,7 @@
     {
       "name": "ClassicObsidianRecipe1",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_obsidian_recipe_1",
@@ -914,7 +914,7 @@
     {
       "name": "ClassicObsidianRecipe2",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_obsidian_recipe_2",
@@ -928,7 +928,7 @@
     {
       "name": "ClassicNetherRackRecipe2",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_rack_recipe_2",
@@ -942,7 +942,7 @@
     {
       "name": "ClassicGrassRecipe1",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_grass_recipe_1",
@@ -956,7 +956,7 @@
     {
       "name": "ClassicGrassRecipe2",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_grass_recipe_2",
@@ -970,7 +970,7 @@
     {
       "name": "ClassicGlowstoneRecipe1",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_recipe_1",
@@ -984,7 +984,7 @@
     {
       "name": "ClassicGlowstoneRecipe2",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_recipe_2",
@@ -998,7 +998,7 @@
     {
       "name": "AlphaGravelRecipe1",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_gravel_recipe_1",
@@ -1012,7 +1012,7 @@
     {
       "name": "AlphaGravelRecipe2",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_gravel_recipe_2",
@@ -1026,7 +1026,7 @@
     {
       "name": "ClassicDirtRecipe1",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_recipe_1",
@@ -1040,7 +1040,7 @@
     {
       "name": "ClassicDirtRecipe2",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_recipe_2",
@@ -1054,7 +1054,7 @@
     {
       "name": "ClassicGravelRecipe1",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gravel_recipe_1",
@@ -1068,7 +1068,7 @@
     {
       "name": "ClassicGravelRecipe2",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gravel_recipe_2",
@@ -1082,7 +1082,7 @@
     {
       "name": "ClassicLeavesRecipe1",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_leaves_recipe_1",
@@ -1096,7 +1096,7 @@
     {
       "name": "ClassicLeavesRecipe2",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_leaves_recipe_2",
@@ -1110,7 +1110,7 @@
     {
       "name": "ClassicStoneRecipe1",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_recipe_1",
@@ -1124,7 +1124,7 @@
     {
       "name": "ClassicStoneRecipe2",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_recipe_2",
@@ -1138,7 +1138,7 @@
     {
       "name": "ClassicStoneRecipe3",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_recipe_3",
@@ -1152,7 +1152,7 @@
     {
       "name": "ClassicWoodRecipe1",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_recipe_1",
@@ -1166,7 +1166,7 @@
     {
       "name": "ClassicWoodRecipe2",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_recipe_2",
@@ -1180,7 +1180,7 @@
     {
       "name": "ClassicMossyStoneBlock",
       "type": "block",
-      "sortid": 42,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_block",
@@ -1201,7 +1201,7 @@
     {
       "name": "ClassicMossyStoneRecipe1",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_recipe_1",
@@ -1215,7 +1215,7 @@
     {
       "name": "ClassicMossyStoneRecipe2",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_recipe_2",
@@ -1229,7 +1229,7 @@
     {
       "name": "ClassicMonsterSpawnerRecipe1",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_monster_spawner_recipe_1",
@@ -1243,7 +1243,7 @@
     {
       "name": "ClassicMonsterSpawnerRecipe2",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_monster_spawner_recipe_2",
@@ -1257,7 +1257,7 @@
     {
       "name": "BetaMonsterSpawnerRecipe1",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_monster_spawner_recipe_1",
@@ -1271,7 +1271,7 @@
     {
       "name": "BetaMonsterSpawnerRecipe2",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_monster_spawner_recipe_2",
@@ -1306,7 +1306,7 @@
     {
       "name": "ClassicHuman",
       "type": "livingentity",
-      "sortid": 57,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_human",
@@ -1339,7 +1339,7 @@
     {
       "name": "ClassicHerobrine",
       "type": "livingentity",
-      "sortid": 56,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_herobrine",
@@ -1373,7 +1373,7 @@
     {
       "name": "AlphaCreeper",
       "type": "livingentity",
-      "sortid": 62,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_creeper",
@@ -1407,7 +1407,7 @@
     {
       "name": "ClassicZombie",
       "type": "livingentity",
-      "sortid": 58,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_zombie",
@@ -1424,7 +1424,7 @@
     {
       "name": "ClassicEndstoneBlock",
       "type": "block",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_endstone_block",
@@ -1445,7 +1445,7 @@
     {
       "name": "ClassicEndstoneRecipe1",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_endstone_recipe_1",
@@ -1459,7 +1459,7 @@
     {
       "name": "ClassicEndstoneRecipe2",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_endstone_recipe_2",
@@ -1490,7 +1490,7 @@
     {
       "name": "BackgroundDirt",
       "type": "block",
-      "sortid": 63,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "background_dirt",
@@ -1511,7 +1511,7 @@
     {
       "name": "MojangBlock",
       "type": "block",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mojang_block",
@@ -1555,7 +1555,7 @@
     {
       "name": "MojangRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mojang_recipe",
@@ -1569,7 +1569,7 @@
     {
       "name": "UnknownPackBlock",
       "type": "block",
-      "sortid": 67,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unknown_pack_block",
@@ -1586,7 +1586,7 @@
     {
       "name": "ClassicPackBlock",
       "type": "block",
-      "sortid": 64,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_pack_block",
@@ -1603,7 +1603,7 @@
     {
       "name": "ModernPackBlock",
       "type": "block",
-      "sortid": 65,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "modern_pack_block",
@@ -1641,7 +1641,7 @@
     {
       "name": "ClassicDirtStairsRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_stairs_recipe",
@@ -1655,7 +1655,7 @@
     {
       "name": "ClassicWoodDoor",
       "type": "block",
-      "sortid": 55,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_door",
@@ -1683,7 +1683,7 @@
     {
       "name": "ClassicSoulSand",
       "type": "block",
-      "sortid": 48,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand",
@@ -1704,7 +1704,7 @@
     {
       "name": "ClassicSoulSandRecipe1",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand_recipe_1",
@@ -1718,7 +1718,7 @@
     {
       "name": "ClassicSoulSandRecipe2",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand_recipe_2",
@@ -1732,7 +1732,7 @@
     {
       "name": "ClassicSoulSandRecipe3",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand_recipe_3",
@@ -1746,7 +1746,7 @@
     {
       "name": "RobertsAetherTab",
       "type": "tab",
-      "sortid": 127,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_aether_tab",
@@ -1758,7 +1758,7 @@
     {
       "name": "RobertsAlphaTab",
       "type": "tab",
-      "sortid": 128,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_alpha_tab",
@@ -1770,7 +1770,7 @@
     {
       "name": "RobertsBetaTab",
       "type": "tab",
-      "sortid": 129,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_beta_tab",
@@ -1782,7 +1782,7 @@
     {
       "name": "RobertsClassicTab",
       "type": "tab",
-      "sortid": 130,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_classic_tab",
@@ -1794,7 +1794,7 @@
     {
       "name": "RobertsMojangTab",
       "type": "tab",
-      "sortid": 131,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_mojang_tab",
@@ -1806,7 +1806,7 @@
     {
       "name": "RobertsModTab",
       "type": "tab",
-      "sortid": 132,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_mod_tab",
@@ -1818,7 +1818,7 @@
     {
       "name": "RobertsPocketTab",
       "type": "tab",
-      "sortid": 133,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_pocket_tab",
@@ -1830,7 +1830,7 @@
     {
       "name": "ClassicTntBlock",
       "type": "block",
-      "sortid": 51,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_block",
@@ -1847,7 +1847,7 @@
     {
       "name": "ClassicTntRecipe1",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_recipe_1",
@@ -1861,7 +1861,7 @@
     {
       "name": "ClassicTntRecipe2",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_recipe_2",
@@ -1875,7 +1875,7 @@
     {
       "name": "ClassicTntIgnitionProc",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_ignition_proc",
@@ -1907,7 +1907,7 @@
     {
       "name": "BetaEndStone",
       "type": "block",
-      "sortid": 70,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_end_stone",
@@ -1928,7 +1928,7 @@
     {
       "name": "ClassicNetherQuartzOre",
       "type": "block",
-      "sortid": 44,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_quartz_ore",
@@ -1977,7 +1977,7 @@
     {
       "name": "GlassDoorRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_door_recipe",
@@ -1991,7 +1991,7 @@
     {
       "name": "ClassicNetherQuartzOreRecipe1",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_quartz_ore_recipe_1",
@@ -2005,7 +2005,7 @@
     {
       "name": "ClassicNetherQuartzOreRecipe2",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_quartz_ore_recipe_2",
@@ -2145,7 +2145,7 @@
     {
       "name": "ClassicWoodStairs",
       "type": "block",
-      "sortid": 54,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_stairs",
@@ -2168,7 +2168,7 @@
     {
       "name": "ClassicWoodStairsRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_stairs_recipe",
@@ -2182,7 +2182,7 @@
     {
       "name": "ClassicWoddSlabsRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wodd_slabs_recipe",
@@ -2196,7 +2196,7 @@
     {
       "name": "ClassicWoodSlabs",
       "type": "block",
-      "sortid": 53,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_slabs",
@@ -2219,7 +2219,7 @@
     {
       "name": "ClassicWoodSticksRecipe",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_sticks_recipe",
@@ -2275,7 +2275,7 @@
     {
       "name": "ClassicGlassBlock",
       "type": "block",
-      "sortid": 36,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_block",
@@ -2296,7 +2296,7 @@
     {
       "name": "ClassicGlassBreakProc",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_break_proc",
@@ -2328,7 +2328,7 @@
     {
       "name": "ClassicGlassPane",
       "type": "block",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_pane",
@@ -2353,7 +2353,7 @@
     {
       "name": "ClassicGlassBlockRecipe1",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_block_recipe_1",
@@ -2367,7 +2367,7 @@
     {
       "name": "ClassGlassSlabsRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "class_glass_slabs_recipe",
@@ -2427,7 +2427,7 @@
     {
       "name": "ClassicGlassStairsRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_stairs_recipe",
@@ -2441,7 +2441,7 @@
     {
       "name": "ClassocGlassPaneRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classoc_glass_pane_recipe",
@@ -2455,7 +2455,7 @@
     {
       "name": "ClassicGlassPaneRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_pane_recipe",
@@ -2515,7 +2515,7 @@
     {
       "name": "NetherButtonClick",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_button_click",
@@ -2551,7 +2551,7 @@
     {
       "name": "NetherButtonRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_button_recipe",
@@ -2565,7 +2565,7 @@
     {
       "name": "EndButtonRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "end_button_recipe",
@@ -2579,7 +2579,7 @@
     {
       "name": "EndButtonClick",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "end_button_click",
@@ -2638,7 +2638,7 @@
     {
       "name": "MissingNoButtonClick",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "missing_no_button_click",
@@ -2691,7 +2691,7 @@
     {
       "name": "LuckyBlockRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lucky_block_recipe",
@@ -2705,7 +2705,7 @@
     {
       "name": "OnDimensionChangeProcedure",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_dimension_change_procedure",
@@ -2758,7 +2758,7 @@
     {
       "name": "SomeWhiteBlockRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_recipe",
@@ -2772,7 +2772,7 @@
     {
       "name": "ClassicIronDoor",
       "type": "block",
-      "sortid": 59,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_iron_door",
@@ -2800,7 +2800,7 @@
     {
       "name": "ClassicIronDoorRecipe1",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_iron_door_recipe_1",
@@ -2814,7 +2814,7 @@
     {
       "name": "ClassicIronDoorRecipe2",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_iron_door_recipe_2",
@@ -2824,12 +2824,155 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicRubyOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_ruby_ore.json",
+          "src/main/resources/assets/der_robert/models/item/classic_ruby_ore.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_ruby_ore_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_ruby_ore.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_ruby_ore.json",
+          "src/main/resources/assets/der_robert/models/block/classic_ruby_ore.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicRubyOreBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicRubyOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicEmeraldOre",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_emerald_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicEmeraldOreBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicEmeraldOreFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_emerald_ore.json",
+          "src/main/resources/assets/der_robert/models/block/classic_emerald_ore.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_emerald_ore.json",
+          "src/main/resources/assets/der_robert/models/item/classic_emerald_ore.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_emerald_ore.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_emerald_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClassicRubyItem",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_ruby_item.json",
+          "src/main/java/net/mcreator/derrobert/item/ClassicRubyItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ClassicEmeraldItem",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_emerald_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_emerald_item.json",
+          "src/main/java/net/mcreator/derrobert/item/ClassicEmeraldItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ClassicRubyEmeraldRecipe1",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_emerald_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicRubyEmeraldRecipe2",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_emerald_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicRubyEmeraldRecipe3",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_emerald_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicRubyEmeraldRecipe4",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_emerald_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicRubyEmeraldRecipe5",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruby_emerald_recipe_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_5.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.der_robert.classic_ruby_ore": "Classic Ruby Ore",
       "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
       "item.der_robert.classic_herobrine_spawn_egg": "Classic Herobrine Spawn Egg",
       "block.der_robert.classic_dirt_block": "Classic Dirt",
@@ -2849,12 +2992,14 @@
       "item_group.der_robert.roberts_mojang_tab": "Robert\u0027s Mojang",
       "item.der_robert.classic_human_spawn_egg": "Classic Human Spawn Egg",
       "entity.der_robert.creeper_pig": "Creeper Pig",
+      "item.der_robert.classic_ruby_item": "Classic Ruby",
       "entity.der_robert.evil_herobrine": "Evil Herobrine",
       "block.der_robert.background_dirt": "Background Dirt",
       "block.der_robert.classic_glowstone_block": "Classic Glowstone",
       "block.der_robert.missing_no_block": "Missing No.",
       "block.der_robert.classic_wood_door": "Classic Wooden Door",
       "block.der_robert.classic_wood_block": "Classic Wood Planks",
+      "block.der_robert.classic_emerald_ore": "Classic Emerald Ore",
       "block.der_robert.aether_wisproot_log": "Aether Wisproot Log",
       "block.der_robert.classic_workbench_block": "Workbench",
       "block.der_robert.classic_dirt_stairs": "Classic Dirt Stairs",
@@ -2895,6 +3040,7 @@
       "block.der_robert.aether_greatroot_log": "Aether Greatroot Log",
       "entity.der_robert.classic_zombie": "Classic Zombie",
       "block.der_robert.missing_no_button": "Missing No.",
+      "item.der_robert.classic_emerald_item": "Classic Emerald",
       "block.der_robert.aether_skyroot_log": "Aether Skyroot Log",
       "block.der_robert.classic_wood_slabs": "Classic Wood Slabs",
       "block.der_robert.nether_portal_button": "Nether Portal Button",
@@ -2949,6 +3095,10 @@
       },
       {
         "name": "Creative Tabs",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]
