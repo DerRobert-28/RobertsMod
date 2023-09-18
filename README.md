@@ -21,4 +21,5 @@
       - version **1** *(related to Minecraft 1.20.1)*
       - year 20**23**
       - week **38**
-  - Removed version history from main page.
+  - Removed version history from main page,
+    in favour of releases on GitHub page.
