@@ -2470,7 +2470,7 @@
       "name": "NetherPortalButton",
       "type": "block",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nether_portal_button",
       "metadata": {
@@ -2493,7 +2493,7 @@
       "name": "EndPortalButton",
       "type": "block",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "end_portal_button",
       "metadata": {
@@ -2527,6 +2527,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2575,6 +2591,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2584,7 +2616,7 @@
       "name": "MissingNoButton",
       "type": "block",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "missing_no_button",
       "metadata": {
@@ -2618,6 +2650,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
