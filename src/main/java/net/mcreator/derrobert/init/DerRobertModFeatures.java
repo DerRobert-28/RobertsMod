@@ -118,6 +118,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_SLABS = REGISTRY.register("classic_wood_slabs", ClassicWoodSlabsFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_STAIRS = REGISTRY.register("classic_wood_stairs", ClassicWoodStairsFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_DOOR = REGISTRY.register("classic_wood_door", ClassicWoodDoorFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_IRON_DOOR = REGISTRY.register("classic_iron_door", ClassicIronDoorFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", AlphaGrassBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", AlphaGravelBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BACKGROUND_DIRT = REGISTRY.register("background_dirt", BackgroundDirtFeature::new);
@@ -125,5 +126,4 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", BetaGravelBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", BetaMonsterSpawnerFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_END_STONE = REGISTRY.register("beta_end_stone", BetaEndStoneFeature::new);
-	public static final RegistryObject<Feature<?>> CLASSIC_IRON_DOOR = REGISTRY.register("classic_iron_door", ClassicIronDoorFeature::new);
 }

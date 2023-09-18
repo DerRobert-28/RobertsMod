@@ -24,6 +24,7 @@
   - Still work in progress:
     - Attempt to safely teleport by using the teleport buttons\
 - Repository development & fixes:
+  - Added ".gitignore" file
   - Create feature branch:
     - This one is **v1y23w38**:
       - version **1** *(related to Minecraft 1.20.1)*

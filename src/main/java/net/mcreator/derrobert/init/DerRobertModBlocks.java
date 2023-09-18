@@ -127,6 +127,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> CLASSIC_WOOD_SLABS = REGISTRY.register("classic_wood_slabs", () -> new ClassicWoodSlabsBlock());
 	public static final RegistryObject<Block> CLASSIC_WOOD_STAIRS = REGISTRY.register("classic_wood_stairs", () -> new ClassicWoodStairsBlock());
 	public static final RegistryObject<Block> CLASSIC_WOOD_DOOR = REGISTRY.register("classic_wood_door", () -> new ClassicWoodDoorBlock());
+	public static final RegistryObject<Block> CLASSIC_IRON_DOOR = REGISTRY.register("classic_iron_door", () -> new ClassicIronDoorBlock());
 	public static final RegistryObject<Block> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", () -> new AlphaGrassBlockBlock());
 	public static final RegistryObject<Block> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", () -> new AlphaGravelBlockBlock());
 	public static final RegistryObject<Block> BACKGROUND_DIRT = REGISTRY.register("background_dirt", () -> new BackgroundDirtBlock());
@@ -137,5 +138,4 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", () -> new BetaGravelBlockBlock());
 	public static final RegistryObject<Block> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", () -> new BetaMonsterSpawnerBlock());
 	public static final RegistryObject<Block> BETA_END_STONE = REGISTRY.register("beta_end_stone", () -> new BetaEndStoneBlock());
-	public static final RegistryObject<Block> CLASSIC_IRON_DOOR = REGISTRY.register("classic_iron_door", () -> new ClassicIronDoorBlock());
 }

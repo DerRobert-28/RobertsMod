@@ -22,9 +22,9 @@
     "der_robert:classic_nether_quartz_ore",
     "der_robert:classic_obsidian_block",
     "der_robert:classic_stone_block",
+    "der_robert:classic_iron_door",
     "der_robert:mojang_block",
     "der_robert:beta_monster_spawner",
-    "der_robert:beta_end_stone",
-    "der_robert:classic_iron_door"
+    "der_robert:beta_end_stone"
   ]
 }
