@@ -38,6 +38,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MISSING_NO_BLOCK = block(DerRobertModBlocks.MISSING_NO_BLOCK);
 	public static final RegistryObject<Item> MISSING_NO_BUTTON = block(DerRobertModBlocks.MISSING_NO_BUTTON);
 	public static final RegistryObject<Item> NETHER_PORTAL_BUTTON = block(DerRobertModBlocks.NETHER_PORTAL_BUTTON);
+	public static final RegistryObject<Item> SOME_WHITE_BLOCK = block(DerRobertModBlocks.SOME_WHITE_BLOCK);
 	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_WORKBENCH_BLOCK = block(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK);
 	public static final RegistryObject<Item> WATER_PORTAL_BLOCK = block(DerRobertModBlocks.WATER_PORTAL_BLOCK);
@@ -86,6 +87,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> BETA_GRAVEL_BLOCK = block(DerRobertModBlocks.BETA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> BETA_MONSTER_SPAWNER = block(DerRobertModBlocks.BETA_MONSTER_SPAWNER);
 	public static final RegistryObject<Item> BETA_END_STONE = block(DerRobertModBlocks.BETA_END_STONE);
+	public static final RegistryObject<Item> CLASSIC_IRON_DOOR = doubleBlock(DerRobertModBlocks.CLASSIC_IRON_DOOR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

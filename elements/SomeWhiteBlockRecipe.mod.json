@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#15"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SomeWhiteBlock"
+    },
+    "name": "some_white_block_recipe",
+    "namespace": "mod"
+  }
+}

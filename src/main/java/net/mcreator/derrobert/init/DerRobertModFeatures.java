@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.derrobert.world.features.ores.WhiteLightBlockFeature;
+import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockFeature;
 import net.mcreator.derrobert.world.features.ores.NetherPortalButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoButtonFeature;
@@ -38,6 +39,7 @@ import net.mcreator.derrobert.world.features.ores.ClassicNetherrackBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicNetherQuartzOreFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicMossyStoneBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicMonsterSpawnerFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicIronDoorFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGravelBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicGlowstoneBlockFeature;
@@ -87,6 +89,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", MissingNoBlockFeature::new);
 	public static final RegistryObject<Feature<?>> MISSING_NO_BUTTON = REGISTRY.register("missing_no_button", MissingNoButtonFeature::new);
 	public static final RegistryObject<Feature<?>> NETHER_PORTAL_BUTTON = REGISTRY.register("nether_portal_button", NetherPortalButtonFeature::new);
+	public static final RegistryObject<Feature<?>> SOME_WHITE_BLOCK = REGISTRY.register("some_white_block", SomeWhiteBlockFeature::new);
 	public static final RegistryObject<Feature<?>> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", WhiteLightBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", ClassicWorkbenchBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_BEDROCK_BLOCK = REGISTRY.register("classic_bedrock_block", ClassicBedrockBlockFeature::new);
@@ -122,4 +125,5 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", BetaGravelBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", BetaMonsterSpawnerFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_END_STONE = REGISTRY.register("beta_end_stone", BetaEndStoneFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_IRON_DOOR = REGISTRY.register("classic_iron_door", ClassicIronDoorFeature::new);
 }

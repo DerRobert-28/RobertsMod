@@ -13,6 +13,14 @@
 ## Current version 1.23.38
 
 - Mod development:
+  - Blocks/items:
+    - Broken Iron Door
+    - "Some" White Block
+  - Crafting recipes:
+    - Broken Iron Door
+    - "Some" White Block
+  - Entities:
+    - Removed Herobrine's health bar
   - Still work in progress:
     - Attempt to safely teleport by using the teleport buttons\
 - Repository development & fixes:

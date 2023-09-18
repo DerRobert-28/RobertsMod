@@ -120,7 +120,8 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface",
-      "Nether"
+      "Nether",
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

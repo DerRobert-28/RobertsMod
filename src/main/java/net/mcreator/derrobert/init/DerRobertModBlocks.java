@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.derrobert.block.WhiteLightBlockBlock;
 import net.mcreator.derrobert.block.WaterPortalBlockBlock;
 import net.mcreator.derrobert.block.UnknownPackBlockBlock;
+import net.mcreator.derrobert.block.SomeWhiteBlockBlock;
 import net.mcreator.derrobert.block.NetherPortalButtonBlock;
 import net.mcreator.derrobert.block.MojangBlockBlock;
 import net.mcreator.derrobert.block.ModernPackBlockBlock;
@@ -43,6 +44,7 @@ import net.mcreator.derrobert.block.ClassicNetherrackBlockBlock;
 import net.mcreator.derrobert.block.ClassicNetherQuartzOreBlock;
 import net.mcreator.derrobert.block.ClassicMossyStoneBlockBlock;
 import net.mcreator.derrobert.block.ClassicMonsterSpawnerBlock;
+import net.mcreator.derrobert.block.ClassicIronDoorBlock;
 import net.mcreator.derrobert.block.ClassicGravelBlockBlock;
 import net.mcreator.derrobert.block.ClassicGrassBlockBlock;
 import net.mcreator.derrobert.block.ClassicGlowstoneBlockBlock;
@@ -94,6 +96,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", () -> new MissingNoBlockBlock());
 	public static final RegistryObject<Block> MISSING_NO_BUTTON = REGISTRY.register("missing_no_button", () -> new MissingNoButtonBlock());
 	public static final RegistryObject<Block> NETHER_PORTAL_BUTTON = REGISTRY.register("nether_portal_button", () -> new NetherPortalButtonBlock());
+	public static final RegistryObject<Block> SOME_WHITE_BLOCK = REGISTRY.register("some_white_block", () -> new SomeWhiteBlockBlock());
 	public static final RegistryObject<Block> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", () -> new WhiteLightBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", () -> new ClassicWorkbenchBlockBlock());
 	public static final RegistryObject<Block> WATER_PORTAL_BLOCK = REGISTRY.register("water_portal_block", () -> new WaterPortalBlockBlock());
@@ -134,4 +137,5 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", () -> new BetaGravelBlockBlock());
 	public static final RegistryObject<Block> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", () -> new BetaMonsterSpawnerBlock());
 	public static final RegistryObject<Block> BETA_END_STONE = REGISTRY.register("beta_end_stone", () -> new BetaEndStoneBlock());
+	public static final RegistryObject<Block> CLASSIC_IRON_DOOR = REGISTRY.register("classic_iron_door", () -> new ClassicIronDoorBlock());
 }

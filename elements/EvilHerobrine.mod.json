@@ -26,7 +26,7 @@
     "creativeTab": {
       "value": "CUSTOM:RobertsModTab"
     },
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "RED",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {

@@ -77,6 +77,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.CLASSIC_IRON_DOOR.get().asItem());
 			})
 
 					.build());
@@ -103,6 +104,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
+				tabData.accept(DerRobertModBlocks.SOME_WHITE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WATER_PORTAL_BLOCK.get().asItem());
