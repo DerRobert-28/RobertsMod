@@ -39,9 +39,9 @@ public class DerRobertModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> ROBERTS_BETA_TAB = REGISTRY.register("roberts_beta_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_beta_tab")).icon(() -> new ItemStack(DerRobertModBlocks.BETA_GRAVEL_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.BETA_END_STONE.get().asItem());
 				tabData.accept(DerRobertModBlocks.BETA_GRAVEL_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.BETA_MONSTER_SPAWNER.get().asItem());
-				tabData.accept(DerRobertModBlocks.BETA_END_STONE.get().asItem());
 			})
 
 					.build());
@@ -49,6 +49,8 @@ public class DerRobertModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_classic_tab")).icon(() -> new ItemStack(DerRobertModBlocks.CLASSIC_BEDROCK_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.CLASSIC_BEDROCK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_BRICK_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_BRICK_SLABS.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_BRICK_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_CRYING_OBSIDIAN.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_SLAB.get().asItem());
@@ -75,6 +77,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_TNT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModItems.CLASSIC_SKY_DIMENSION.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_STAIRS.get().asItem());
@@ -99,6 +102,9 @@ public class DerRobertModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_mod_tab")).icon(() -> new ItemStack(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.ANTI_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_SLABS.get().asItem());
+				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS.get().asItem());
+				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_WALL.get().asItem());
 				tabData.accept(DerRobertModBlocks.END_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_DOOR.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
@@ -110,18 +116,21 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.SOME_WHITE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_PANE.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WATER_PORTAL_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_TABLE.get().asItem());
 			})
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> ROBERTS_POCKET_TAB = REGISTRY.register("roberts_pocket_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_pocket_tab")).icon(() -> new ItemStack(DerRobertModBlocks.GLOWING_OBSIDIAN.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.GLOWING_OBSIDIAN.get().asItem());
+				tabData.accept(DerRobertModBlocks.NETHER_REACTOR_CORE_BLUE.get().asItem());
 			})
 
 					.build());

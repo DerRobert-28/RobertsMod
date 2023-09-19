@@ -44,9 +44,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:ClassicEmeraldItem"
+      "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -117,6 +117,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "ClassicEmeraldDestroyProc"
+    },
+    "onDestroyedByExplosion": {
+      "name": "ClassicEmeraldDestroyProc"
+    },
     "spawnWorldTypes": [
       "Surface",
       "Nether"

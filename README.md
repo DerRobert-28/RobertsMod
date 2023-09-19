@@ -15,17 +15,39 @@
 - Mod development:
   - Blocks/items:
     - Broken Iron Door
-    - Classic Emerald item & ore
-    - Classic Ruby item & ore
+    - Classic Brick Slabs & Stairs
+    - Classic Emerald Item & Ore
+    - Classic Ruby Item & Ore
+    - Classic Wood Panes & Table
+    - Creeponia Slabs, Stairs & Walls
+    - Nether Reactor Core
     - "Some" White Block
   - Crafting recipes:
     - Broken Iron Door
+    - Classic Brick Slabs & Stairs
+    - Classic Water Bucket
+    - Classic Wood Panes & Table
+    - Creeponia Slabs, Stairs & Walls
+    - Nether Reactor Core
     - Swapping Emerald & Ruby
     - "Some" White Block
+    - Changes/fixes:
+      - Classic Brick Stairs
+      - Classic Wood Stairs
+  - Custom drops:
+    - Classic Emerald & Ruby:
+      - Drop 1 = 100% chance
+      - Drop 2 = 50% chance
+      - Drop 3 = 25% chance
+      - Drop 4 = 12.5% chance
+  - Dimension:
+    - Classic Sky Dimension
+      - Portal built by Classic Glowstone
+      - Portal activeted by Classic Water Bucket
   - Entities:
     - Removed Herobrine's health bar
   - Still work in progress:
-    - Attempt to safely teleport by using the teleport buttons\
+    - Attempt to safely teleport by using the teleport buttons
 - Repository development & fixes:
   - Added ".gitignore" file
   - Create feature branch:
@@ -34,4 +56,5 @@
       - year 20**23**
       - week **38**
   - Removed version history from main page,
-    in favour of releases on GitHub page.
+    in favour of releases on GitHub page
+  - Temporarily deactivate hollow glass box on teleport

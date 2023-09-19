@@ -123,10 +123,16 @@
         "value": "CUSTOM:ClassicBiome2"
       },
       {
+        "value": "CUSTOM:ClassicBiome3"
+      },
+      {
         "value": "badlands"
       },
       {
         "value": "bamboo_jungle"
+      },
+      {
+        "value": "basalt_deltas"
       },
       {
         "value": "beaches"
@@ -139,6 +145,9 @@
       },
       {
         "value": "cold_ocean"
+      },
+      {
+        "value": "crimson_forest"
       },
       {
         "value": "roofed_forest"
@@ -163,6 +172,15 @@
       },
       {
         "value": "dripstone_caves"
+      },
+      {
+        "value": "end_barrens"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_midlands"
       },
       {
         "value": "mutated_mesa"
@@ -210,6 +228,9 @@
         "value": "mushroom_fields"
       },
       {
+        "value": "nether"
+      },
+      {
         "value": "ocean"
       },
       {
@@ -249,6 +270,9 @@
         "value": "taiga_cold"
       },
       {
+        "value": "soul_sand_valley"
+      },
+      {
         "value": "jungle_edge"
       },
       {
@@ -267,7 +291,16 @@
         "value": "taiga"
       },
       {
+        "value": "the_end"
+      },
+      {
+        "value": "void"
+      },
+      {
         "value": "warm_ocean"
+      },
+      {
+        "value": "warped_forest"
       },
       {
         "value": "extreme_hills_with_trees"

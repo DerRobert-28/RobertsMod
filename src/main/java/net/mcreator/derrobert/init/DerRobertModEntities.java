@@ -29,6 +29,16 @@ import net.mcreator.derrobert.DerRobertMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DerRobertModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, DerRobertMod.MODID);
+	public static final RegistryObject<EntityType<ClassicHerobrineEntity>> CLASSIC_HEROBRINE = register("classic_herobrine", EntityType.Builder.<ClassicHerobrineEntity>of(ClassicHerobrineEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicHerobrineEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ClassicHumanEntity>> CLASSIC_HUMAN = register("classic_human",
+			EntityType.Builder.<ClassicHumanEntity>of(ClassicHumanEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicHumanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ClassicZombieEntity>> CLASSIC_ZOMBIE = register("classic_zombie",
+			EntityType.Builder.<ClassicZombieEntity>of(ClassicZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicZombieEntity::new)
+
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<CreeperPigEntity>> CREEPER_PIG = register("creeper_pig",
 			EntityType.Builder.<CreeperPigEntity>of(CreeperPigEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CreeperPigEntity::new)
 
@@ -43,16 +53,6 @@ public class DerRobertModEntities {
 			EntityType.Builder.<TemplateHumanEntity>of(TemplateHumanEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TemplateHumanEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<ClassicHerobrineEntity>> CLASSIC_HEROBRINE = register("classic_herobrine", EntityType.Builder.<ClassicHerobrineEntity>of(ClassicHerobrineEntity::new, MobCategory.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicHerobrineEntity::new).fireImmune().sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<ClassicHumanEntity>> CLASSIC_HUMAN = register("classic_human",
-			EntityType.Builder.<ClassicHumanEntity>of(ClassicHumanEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicHumanEntity::new)
-
-					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<ClassicZombieEntity>> CLASSIC_ZOMBIE = register("classic_zombie",
-			EntityType.Builder.<ClassicZombieEntity>of(ClassicZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicZombieEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<AlphaCreeperEntity>> ALPHA_CREEPER = register("alpha_creeper",
 			EntityType.Builder.<AlphaCreeperEntity>of(AlphaCreeperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AlphaCreeperEntity::new)
 
@@ -65,26 +65,26 @@ public class DerRobertModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			ClassicHerobrineEntity.init();
+			ClassicHumanEntity.init();
+			ClassicZombieEntity.init();
 			CreeperPigEntity.init();
 			EvilHerobrineEntity.init();
 			PiggyCreeperEntity.init();
 			TemplateHumanEntity.init();
-			ClassicHerobrineEntity.init();
-			ClassicHumanEntity.init();
-			ClassicZombieEntity.init();
 			AlphaCreeperEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(CLASSIC_HEROBRINE.get(), ClassicHerobrineEntity.createAttributes().build());
+		event.put(CLASSIC_HUMAN.get(), ClassicHumanEntity.createAttributes().build());
+		event.put(CLASSIC_ZOMBIE.get(), ClassicZombieEntity.createAttributes().build());
 		event.put(CREEPER_PIG.get(), CreeperPigEntity.createAttributes().build());
 		event.put(EVIL_HEROBRINE.get(), EvilHerobrineEntity.createAttributes().build());
 		event.put(PIGGY_CREEPER.get(), PiggyCreeperEntity.createAttributes().build());
 		event.put(TEMPLATE_HUMAN.get(), TemplateHumanEntity.createAttributes().build());
-		event.put(CLASSIC_HEROBRINE.get(), ClassicHerobrineEntity.createAttributes().build());
-		event.put(CLASSIC_HUMAN.get(), ClassicHumanEntity.createAttributes().build());
-		event.put(CLASSIC_ZOMBIE.get(), ClassicZombieEntity.createAttributes().build());
 		event.put(ALPHA_CREEPER.get(), AlphaCreeperEntity.createAttributes().build());
 	}
 }

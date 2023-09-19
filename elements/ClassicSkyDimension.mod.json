@@ -1,0 +1,50 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:ClassicBiome1"
+      },
+      {
+        "value": "CUSTOM:ClassicBiome2"
+      },
+      {
+        "value": "CUSTOM:ClassicBiome3"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:ClassicStoneBlock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:ClassicGlowstoneBlock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Classic Water Bucket",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:RobertsClassicTab"
+    },
+    "texture": "classic_water_bucket",
+    "portalTexture": "aether_portal",
+    "enablePortal": true
+  }
+}
