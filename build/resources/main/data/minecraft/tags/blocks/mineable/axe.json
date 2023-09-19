@@ -10,8 +10,9 @@
     "der_robert:classic_wood_slabs",
     "der_robert:classic_wood_stairs",
     "der_robert:classic_wood_door",
+    "der_robert:classic_wood_side_slab",
     "der_robert:classic_wood_pane",
-    "der_robert:classic_workbench_block",
-    "der_robert:classic_wood_table"
+    "der_robert:classic_wood_table",
+    "der_robert:classic_workbench_block"
   ]
 }

@@ -13,24 +13,33 @@
 ## Current version 1.23.38
 
 - Mod development:
+  - Biomes/Dimension:
+    - Classic Sky Dimension
+      - Adjust Entity spawning
+      - Portal built by Classic Glowstone
+      - Portal activeted by Classic Water Bucket
   - Blocks/items:
     - Broken Iron Door
     - Classic Brick Slabs & Stairs
+    - Classic Dirt "Triangle"
     - Classic Emerald Item & Ore
-    - Classic Ruby Item & Ore
-    - Classic Wood Panes & Table
+    - Classic Ghost Dirt
+    - Classic Ruby Armor, Item, Ore & Tools
+    - Classic Wood Panes, Side Slabs & Table
     - Creeponia Slabs, Stairs & Walls
     - Nether Reactor Core
-    - "Some" White Block
+    - "Some" White Block & Side Slabs
   - Crafting recipes:
     - Broken Iron Door
     - Classic Brick Slabs & Stairs
+    - Classic Ghost Dirt
+    - Classic Ruby Armor, Tools
     - Classic Water Bucket
-    - Classic Wood Panes & Table
+    - Classic Wood Panes, Side Slabs & Table
     - Creeponia Slabs, Stairs & Walls
     - Nether Reactor Core
     - Swapping Emerald & Ruby
-    - "Some" White Block
+    - "Some" White Block & Side Slabs
     - Changes/fixes:
       - Classic Brick Stairs
       - Classic Wood Stairs
@@ -40,14 +49,11 @@
       - Drop 2 = 50% chance
       - Drop 3 = 25% chance
       - Drop 4 = 12.5% chance
-  - Dimension:
-    - Classic Sky Dimension
-      - Portal built by Classic Glowstone
-      - Portal activeted by Classic Water Bucket
   - Entities:
     - Removed Herobrine's health bar
-  - Still work in progress:
+  - Work in progress:
     - Attempt to safely teleport by using the teleport buttons
+    - Implementing "Some" White Block cylinder
 - Repository development & fixes:
   - Added ".gitignore" file
   - Create feature branch:

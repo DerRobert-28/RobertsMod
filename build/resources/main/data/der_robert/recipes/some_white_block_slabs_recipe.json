@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:some_white_block"
+    },
+    "1": {
+      "item": "der_robert:some_white_block"
+    },
+    "2": {
+      "item": "der_robert:some_white_block"
+    }
+  },
+  "result": {
+    "item": "der_robert:some_white_block_slabs",
+    "count": 6
+  }
+}

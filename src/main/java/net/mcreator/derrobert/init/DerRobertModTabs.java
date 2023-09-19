@@ -105,7 +105,10 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_WALL.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_TRAP_DOOR.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_TRIANGLE.get().asItem());
 				tabData.accept(DerRobertModBlocks.END_PORTAL_BUTTON.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_GHOST_DIRT.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_DOOR.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
@@ -115,15 +118,28 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.SOME_WHITE_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.SOME_WHITE_SIDE_SLAB.get().asItem());
+				tabData.accept(DerRobertModBlocks.SOME_WHITE_BLOCK_SLABS.get().asItem());
+				tabData.accept(DerRobertModBlocks.SOME_WHITE_BLOCK_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_SIDE_SLAB.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_PANE.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_TABLE.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WORKBENCH_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.WATER_PORTAL_BLOCK.get().asItem());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_AXE.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_HOE.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_PICKAXE.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_SHOVEL.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_SWORD.get());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
-				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_TABLE.get().asItem());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_HELMET.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_CHESTPLATE.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_LEGGINGS.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_BOOTS.get());
 			})
 
 					.build());
