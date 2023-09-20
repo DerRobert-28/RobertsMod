@@ -18,6 +18,7 @@ import net.mcreator.derrobert.block.SomeWhiteCylinderBlock;
 import net.mcreator.derrobert.block.SomeWhiteBlockStairsBlock;
 import net.mcreator.derrobert.block.SomeWhiteBlockSlabsBlock;
 import net.mcreator.derrobert.block.SomeWhiteBlockBlock;
+import net.mcreator.derrobert.block.NotNetherDimensionPortalBlock;
 import net.mcreator.derrobert.block.NetherReactorCoreRedBlock;
 import net.mcreator.derrobert.block.NetherReactorCoreBlueBlock;
 import net.mcreator.derrobert.block.NetherPortalButtonBlock;
@@ -190,4 +191,5 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> NETHER_REACTOR_CORE_RED = REGISTRY.register("nether_reactor_core_red", () -> new NetherReactorCoreRedBlock());
 	public static final RegistryObject<Block> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", () -> new SomeWhiteCylinderBlock());
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", () -> new HerobrineNetherrackGlowBlock());
+	public static final RegistryObject<Block> NOT_NETHER_DIMENSION_PORTAL = REGISTRY.register("not_nether_dimension_portal", () -> new NotNetherDimensionPortalBlock());
 }

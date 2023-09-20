@@ -146,6 +146,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
 			})
 
 					.build());

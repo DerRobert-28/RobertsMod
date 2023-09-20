@@ -4305,6 +4305,58 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "NotNetherDimension",
+      "type": "dimension",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_nether_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/teleporter/NotNetherDimensionTeleporter.java",
+          "src/main/resources/assets/der_robert/models/block/not_nether_dimension_portal_ew.json",
+          "src/main/resources/data/der_robert/dimension/not_nether_dimension.json",
+          "src/main/java/net/mcreator/derrobert/block/NotNetherDimensionPortalBlock.java",
+          "src/main/resources/data/der_robert/dimension_type/not_nether_dimension.json",
+          "src/main/java/net/mcreator/derrobert/world/dimension/NotNetherDimensionDimension.java",
+          "src/main/resources/assets/der_robert/models/block/not_nether_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/derrobert/item/NotNetherDimensionItem.java",
+          "src/main/java/net/mcreator/derrobert/world/teleporter/NotNetherDimensionPortalShape.java",
+          "src/main/resources/assets/der_robert/blockstates/not_nether_dimension_portal.json",
+          "src/main/resources/assets/der_robert/models/item/not_nether_dimension.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "NotNetherWaterRecipe1",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_nether_water_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/not_nether_water_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NotNetherWaterRecipe2",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_nether_water_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/not_nether_water_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -4316,8 +4368,8 @@
       "block.der_robert.classic_wood_trapdoor": "Classic Wood Planks",
       "block.der_robert.classic_dirt_block": "Classic Dirt",
       "block.der_robert.classic_sand_block": "Classic Sand",
-      "block.der_robert.alpha_gravel_block": "Alpha Gravel",
       "item.der_robert.template_human_spawn_egg": "Template Human Spawn Egg",
+      "block.der_robert.alpha_gravel_block": "Alpha Gravel",
       "block.der_robert.unknown_pack_block": "Unknown Pack Block",
       "block.der_robert.classic_glass_wall": "Classic Glass Wall",
       "block.der_robert.beta_monster_spawner": "Beta Monster Spawner",
@@ -4379,6 +4431,7 @@
       "item.der_robert.creeper_pig_spawn_egg": "Creeper Pig Spawn Egg",
       "gui.der_robert.classic_workbench_gui.label_workbench": "Workbench",
       "block.der_robert.creeponia_brick_slabs": "Creeponia Brick Slabs",
+      "item.der_robert.not_nether_dimension": "Not Nether Water",
       "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
       "block.der_robert.aether_dirt_block": "Aether Dirt",
       "item.der_robert.classic_ruby_hoe": "Classic Ruby Hoe",

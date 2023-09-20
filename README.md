@@ -18,6 +18,9 @@
       - Adjust Entity spawning
       - Portal built by Classic Glowstone
       - Portal activeted by Classic Water Bucket
+    - Not Nether Dimension
+      - Portal built by Classic Crying Obsidian
+      - Portal activeted by Not Nether Water
   - Blocks/items:
     - Broken Iron Door
     - Classic Brick Slabs & Stairs
@@ -45,6 +48,7 @@
     - Creeponia Slabs, Stairs & Walls
     - Nether Reactor Core
     - Swapping Emerald & Ruby
+    - Swapping Flint'n'Steel & Not Nether Water
     - "Some" White Block & Side Slabs
     - Changes/fixes:
       - Classic Brick Stairs
