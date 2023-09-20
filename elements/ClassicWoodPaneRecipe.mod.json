@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 2,
     "group": "blocks",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -21,22 +21,22 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ClassicWoodBlock"
+        "value": "CUSTOM:ClassicWoodSlabs"
       },
       {
-        "value": "CUSTOM:ClassicWoodBlock"
+        "value": "CUSTOM:ClassicWoodSlabs"
       },
       {
-        "value": "CUSTOM:ClassicWoodBlock"
+        "value": "CUSTOM:ClassicWoodSlabs"
       },
       {
-        "value": "CUSTOM:ClassicWoodBlock"
+        "value": "CUSTOM:ClassicWoodSlabs"
       },
       {
-        "value": "CUSTOM:ClassicWoodBlock"
+        "value": "CUSTOM:ClassicWoodSlabs"
       },
       {
-        "value": "CUSTOM:ClassicWoodBlock"
+        "value": "CUSTOM:ClassicWoodSlabs"
       }
     ],
     "recipeReturnStack": {

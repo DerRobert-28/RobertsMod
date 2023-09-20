@@ -10,10 +10,11 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.derrobert.init.DerRobertModItems;
 
 import java.util.List;
 import java.util.Collections;
@@ -45,6 +46,6 @@ public class ClassicGlowstoneBlockBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(Items.GLOWSTONE_DUST, 9));
+		return Collections.singletonList(new ItemStack(DerRobertModItems.CLASSIC_GLOW_STONE_DUST.get(), 9));
 	}
 }

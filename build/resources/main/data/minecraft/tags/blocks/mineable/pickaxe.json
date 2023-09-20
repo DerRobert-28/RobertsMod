@@ -9,9 +9,13 @@
     "der_robert:classic_emerald_ore",
     "der_robert:classic_endstone_block",
     "der_robert:classic_glowstone_block",
+    "der_robert:herobrine_netherrack",
     "der_robert:classic_iron_door",
     "der_robert:classic_monster_spawner",
     "der_robert:classic_mossy_stone_block",
+    "der_robert:classic_mossy_slabs",
+    "der_robert:classic_mossy_stone_stairs",
+    "der_robert:classic_mossy_stone_wall",
     "der_robert:classic_netherrack_block",
     "der_robert:classic_nether_quartz_ore",
     "der_robert:classic_obsidian_block",
@@ -23,7 +27,6 @@
     "der_robert:creeponia_brick_stairs",
     "der_robert:creeponia_brick_wall",
     "der_robert:end_portal_button",
-    "der_robert:herobrine_netherrack",
     "der_robert:lucky_stone_block",
     "der_robert:missing_no_block",
     "der_robert:missing_no_button",
@@ -34,6 +37,7 @@
     "der_robert:mojang_block",
     "der_robert:beta_end_stone",
     "der_robert:beta_monster_spawner",
-    "der_robert:nether_reactor_core_red"
+    "der_robert:nether_reactor_core_red",
+    "der_robert:herobrine_netherrack_glow"
   ]
 }

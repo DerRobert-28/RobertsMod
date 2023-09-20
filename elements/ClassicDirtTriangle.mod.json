@@ -175,7 +175,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsClassicTab"
     },
     "destroyTool": "shovel",
     "customDrop": {

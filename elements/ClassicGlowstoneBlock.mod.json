@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.GLOWSTONE_DUST"
+      "value": "CUSTOM:ClassicGlowStoneDust"
     },
     "dropAmount": 9,
     "useLootTableForDrops": false,

@@ -8,26 +8,26 @@
   ],
   "key": {
     "0": {
-      "item": "der_robert:classic_wood_block"
+      "item": "der_robert:classic_wood_slabs"
     },
     "1": {
-      "item": "der_robert:classic_wood_block"
+      "item": "der_robert:classic_wood_slabs"
     },
     "2": {
-      "item": "der_robert:classic_wood_block"
+      "item": "der_robert:classic_wood_slabs"
     },
     "3": {
-      "item": "der_robert:classic_wood_block"
+      "item": "der_robert:classic_wood_slabs"
     },
     "4": {
-      "item": "der_robert:classic_wood_block"
+      "item": "der_robert:classic_wood_slabs"
     },
     "5": {
-      "item": "der_robert:classic_wood_block"
+      "item": "der_robert:classic_wood_slabs"
     }
   },
   "result": {
     "item": "der_robert:classic_wood_pane",
-    "count": 16
+    "count": 2
   }
 }

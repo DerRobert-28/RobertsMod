@@ -13,13 +13,13 @@
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": true,
-    "displayFluidOverlay": true,
+    "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "blockBase": "Wall",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": true,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -124,20 +124,7 @@
       "End"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.BRICK_BLOCK"
-      },
-      {
-        "value": "Blocks.NETHER_BRICK"
-      },
-      {
-        "value": "Blocks.STONEBRICK"
-      },
-      {
-        "value": "Blocks.END_BRICKS"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

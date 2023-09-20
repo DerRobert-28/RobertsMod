@@ -21,21 +21,27 @@
   - Blocks/items:
     - Broken Iron Door
     - Classic Brick Slabs & Stairs
-    - Classic Dirt "Triangle"
+    - Classic Dirt Trapdoor & "Triangle"
     - Classic Emerald Item & Ore
-    - Classic Ghost Dirt
+    - Classic Glass Wall
+    - Classic Glowstone Dust
+    - Classic Mossy Stone Slabs, Stairs & Walls
     - Classic Ruby Armor, Item, Ore & Tools
-    - Classic Wood Panes, Side Slabs & Table
+    - Classic Wood Panes, Side Slabs, Table & Trapdoor
     - Creeponia Slabs, Stairs & Walls
     - Nether Reactor Core
     - "Some" White Block & Side Slabs
   - Crafting recipes:
     - Broken Iron Door
     - Classic Brick Slabs & Stairs
+    - Classic Dirt Trapdoor
     - Classic Ghost Dirt
+    - Classic Glass Wall
+    - Classic Glowstone Dust
+    - Classic Mossy Stone Slabs, Stairs & Walls
     - Classic Ruby Armor, Tools
     - Classic Water Bucket
-    - Classic Wood Panes, Side Slabs & Table
+    - Classic Wood Panes, Side Slabs, Table & Trapdoor
     - Creeponia Slabs, Stairs & Walls
     - Nether Reactor Core
     - Swapping Emerald & Ruby

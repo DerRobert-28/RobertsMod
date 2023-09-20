@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "der_robert:block/aether_greatroot_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "der_robert:block/aether_greatroot_log"
+    },
+    "axis=z": {
+      "model": "der_robert:block/aether_greatroot_log",
+      "x": 90
     }
   }
 }

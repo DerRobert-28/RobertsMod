@@ -17,7 +17,7 @@
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
-    "isItemTinted": false,
+    "isItemTinted": true,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",

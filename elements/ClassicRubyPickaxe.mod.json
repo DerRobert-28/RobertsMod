@@ -9,7 +9,7 @@
     "name": "Classic Ruby Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsClassicTab"
     },
     "harvestLevel": 5,
     "efficiency": 10.0,
