@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/classic_glowstone",
+    "particle": "der_robert:block/classic_glowstone"
+  },
+  "render_type": "solid"
+}

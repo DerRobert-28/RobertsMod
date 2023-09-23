@@ -1,0 +1,8 @@
+{
+  "type": "der_robert:classic_dirt_stairs",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": []
+  }
+}

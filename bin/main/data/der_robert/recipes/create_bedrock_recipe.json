@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "block",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    },
+    {
+      "item": "der_robert:classic_bedrock_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bedrock",
+    "count": 4
+  }
+}

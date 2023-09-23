@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "1": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "2": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "der_robert:classic_wood_table",
+    "count": 4
+  }
+}

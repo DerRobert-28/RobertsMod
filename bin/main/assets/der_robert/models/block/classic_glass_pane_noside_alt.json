@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "der_robert:block/classic_glass_block"
+  },
+  "render_type": "cutout"
+}

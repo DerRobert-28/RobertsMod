@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:creeponia_brick_block"
+    },
+    {
+      "item": "der_robert:creeponia_brick_block"
+    },
+    {
+      "item": "der_robert:creeponia_brick_block"
+    }
+  ],
+  "result": {
+    "item": "der_robert:creeponia_brick_slabs",
+    "count": 6
+  }
+}

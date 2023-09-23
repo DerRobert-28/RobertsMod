@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/classic_netherrack",
+    "up": "der_robert:block/classic_netherrack",
+    "north": "der_robert:block/herobrine_netherack",
+    "east": "der_robert:block/herobrine_netherack",
+    "south": "der_robert:block/herobrine_netherack",
+    "west": "der_robert:block/herobrine_netherack",
+    "particle": "der_robert:block/classic_netherrack"
+  },
+  "render_type": "solid"
+}

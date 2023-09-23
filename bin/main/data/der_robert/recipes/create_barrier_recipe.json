@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "block",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:bedrock"
+    }
+  ],
+  "result": {
+    "item": "minecraft:barrier",
+    "count": 1
+  }
+}

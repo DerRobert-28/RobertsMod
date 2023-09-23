@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "der_robert:block/aether_portal"
+  },
+  "render_type": "solid"
+}

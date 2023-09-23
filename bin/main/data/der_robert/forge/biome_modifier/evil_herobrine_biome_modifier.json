@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "der_robert:evil_herobrine",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

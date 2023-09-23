@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "der_robert:block/white_block",
+    "top": "der_robert:block/white_block",
+    "side": "der_robert:block/white_block"
+  },
+  "render_type": "solid"
+}

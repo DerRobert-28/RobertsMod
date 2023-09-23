@@ -1,0 +1,8 @@
+{
+  "type": "der_robert:classic_mossy_stone_stairs",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": []
+  }
+}

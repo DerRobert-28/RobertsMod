@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/classic_wood",
+    "particle": "der_robert:block/classic_wood"
+  },
+  "render_type": "solid"
+}

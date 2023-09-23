@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "1": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "2": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "3": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "4": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "5": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "6": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "7": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "8": {
+      "item": "minecraft:mojang_banner_pattern"
+    }
+  },
+  "result": {
+    "item": "der_robert:mojang_block",
+    "count": 2
+  }
+}
