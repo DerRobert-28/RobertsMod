@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "block",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:flint_and_steel"
+    }
+  ],
+  "result": {
+    "item": "der_robert:not_nether_dimension",
+    "count": 1
+  }
+}

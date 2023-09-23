@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "classic_wood"
+      },
+      "name": "default"
+    }
+  }
+}

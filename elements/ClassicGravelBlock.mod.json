@@ -125,6 +125,15 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
+        "value": "CUSTOM:ClassicGravelBlock"
+      },
+      {
+        "value": "CUSTOM:AlphaGravelBlock"
+      },
+      {
+        "value": "CUSTOM:BetaGravelBlock"
+      },
+      {
         "value": "Blocks.GRAVEL"
       },
       {

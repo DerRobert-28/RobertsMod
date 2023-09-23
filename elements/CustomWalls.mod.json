@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CreeponiaBrickWall"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassWall"
+      },
+      {
+        "value": "CUSTOM:ClassicMossyStoneWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

@@ -172,46 +172,75 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/blockstates/beta_monster_spawner.json
   assets/der_robert/blockstates/classic_bedrock_block.json
   assets/der_robert/blockstates/classic_brick_block.json
+  assets/der_robert/blockstates/classic_brick_slabs.json
+  assets/der_robert/blockstates/classic_brick_stairs.json
   assets/der_robert/blockstates/classic_crying_obsidian.json
   assets/der_robert/blockstates/classic_dirt_block.json
   assets/der_robert/blockstates/classic_dirt_slab.json
   assets/der_robert/blockstates/classic_dirt_stairs.json
+  assets/der_robert/blockstates/classic_dirt_trap_door.json
+  assets/der_robert/blockstates/classic_dirt_triangle.json
+  assets/der_robert/blockstates/classic_emerald_ore.json
   assets/der_robert/blockstates/classic_endstone_block.json
+  assets/der_robert/blockstates/classic_ghost_dirt.json
   assets/der_robert/blockstates/classic_glass_block.json
   assets/der_robert/blockstates/classic_glass_pane.json
+  assets/der_robert/blockstates/classic_glass_wall.json
   assets/der_robert/blockstates/classic_glowstone_block.json
   assets/der_robert/blockstates/classic_grass_block.json
   assets/der_robert/blockstates/classic_gravel_block.json
+  assets/der_robert/blockstates/classic_iron_door.json
   assets/der_robert/blockstates/classic_monster_spawner.json
+  assets/der_robert/blockstates/classic_mossy_slabs.json
   assets/der_robert/blockstates/classic_mossy_stone_block.json
+  assets/der_robert/blockstates/classic_mossy_stone_stairs.json
+  assets/der_robert/blockstates/classic_mossy_stone_wall.json
   assets/der_robert/blockstates/classic_nether_quartz_ore.json
   assets/der_robert/blockstates/classic_netherrack_block.json
   assets/der_robert/blockstates/classic_oak_leaves_block.json
   assets/der_robert/blockstates/classic_obsidian_block.json
   assets/der_robert/blockstates/classic_pack_block.json
+  assets/der_robert/blockstates/classic_ruby_ore.json
   assets/der_robert/blockstates/classic_sand_block.json
+  assets/der_robert/blockstates/classic_sky_dimension_portal.json
   assets/der_robert/blockstates/classic_soul_sand.json
   assets/der_robert/blockstates/classic_sponge_block.json
   assets/der_robert/blockstates/classic_stone_block.json
   assets/der_robert/blockstates/classic_tnt_block.json
   assets/der_robert/blockstates/classic_wood_block.json
   assets/der_robert/blockstates/classic_wood_door.json
+  assets/der_robert/blockstates/classic_wood_pane.json
+  assets/der_robert/blockstates/classic_wood_side_slab.json
   assets/der_robert/blockstates/classic_wood_slabs.json
   assets/der_robert/blockstates/classic_wood_stairs.json
+  assets/der_robert/blockstates/classic_wood_table.json
+  assets/der_robert/blockstates/classic_wood_trapdoor.json
   assets/der_robert/blockstates/classic_workbench_block.json
   assets/der_robert/blockstates/creeponia_brick_block.json
+  assets/der_robert/blockstates/creeponia_brick_slabs.json
+  assets/der_robert/blockstates/creeponia_brick_stairs.json
+  assets/der_robert/blockstates/creeponia_brick_wall.json
   assets/der_robert/blockstates/end_portal_button.json
   assets/der_robert/blockstates/glass_door.json
   assets/der_robert/blockstates/glass_slabs.json
   assets/der_robert/blockstates/glass_stairs.json
   assets/der_robert/blockstates/glowing_obsidian.json
   assets/der_robert/blockstates/herobrine_netherrack.json
+  assets/der_robert/blockstates/herobrine_netherrack_glow.json
   assets/der_robert/blockstates/lucky_stone_block.json
   assets/der_robert/blockstates/missing_no_block.json
   assets/der_robert/blockstates/missing_no_button.json
   assets/der_robert/blockstates/modern_pack_block.json
   assets/der_robert/blockstates/mojang_block.json
   assets/der_robert/blockstates/nether_portal_button.json
+  assets/der_robert/blockstates/nether_reactor_core_blue.json
+  assets/der_robert/blockstates/nether_reactor_core_red.json
+  assets/der_robert/blockstates/not_nether_dimension_portal.json
+  assets/der_robert/blockstates/some_white_block.json
+  assets/der_robert/blockstates/some_white_block_slabs.json
+  assets/der_robert/blockstates/some_white_block_stairs.json
+  assets/der_robert/blockstates/some_white_cylinder.json
+  assets/der_robert/blockstates/some_white_side_slab.json
   assets/der_robert/blockstates/unknown_pack_block.json
   assets/der_robert/blockstates/water_portal_block.json
   assets/der_robert/blockstates/white_light_block.json
@@ -240,6 +269,12 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/beta_monster_spawner.json
   assets/der_robert/models/block/classic_bedrock_block.json
   assets/der_robert/models/block/classic_brick_block.json
+  assets/der_robert/models/block/classic_brick_slabs.json
+  assets/der_robert/models/block/classic_brick_slabs_full.json
+  assets/der_robert/models/block/classic_brick_slabs_top.json
+  assets/der_robert/models/block/classic_brick_stairs.json
+  assets/der_robert/models/block/classic_brick_stairs_inner.json
+  assets/der_robert/models/block/classic_brick_stairs_outer.json
   assets/der_robert/models/block/classic_crying_obsidian.json
   assets/der_robert/models/block/classic_dirt_block.json
   assets/der_robert/models/block/classic_dirt_slab.json
@@ -248,24 +283,55 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/classic_dirt_stairs.json
   assets/der_robert/models/block/classic_dirt_stairs_inner.json
   assets/der_robert/models/block/classic_dirt_stairs_outer.json
+  assets/der_robert/models/block/classic_dirt_trap_door.json
+  assets/der_robert/models/block/classic_dirt_trap_door_open.json
+  assets/der_robert/models/block/classic_dirt_trap_door_top.json
+  assets/der_robert/models/block/classic_dirt_triangle.json
+  assets/der_robert/models/block/classic_emerald_ore.json
   assets/der_robert/models/block/classic_endstone_block.json
+  assets/der_robert/models/block/classic_ghost_dirt.json
   assets/der_robert/models/block/classic_glass_block.json
   assets/der_robert/models/block/classic_glass_pane_noside.json
   assets/der_robert/models/block/classic_glass_pane_noside_alt.json
   assets/der_robert/models/block/classic_glass_pane_post.json
   assets/der_robert/models/block/classic_glass_pane_side.json
   assets/der_robert/models/block/classic_glass_pane_side_alt.json
+  assets/der_robert/models/block/classic_glass_wall.json
+  assets/der_robert/models/block/classic_glass_wall_inventory.json
+  assets/der_robert/models/block/classic_glass_wall_post.json
+  assets/der_robert/models/block/classic_glass_wall_side_tall.json
   assets/der_robert/models/block/classic_glowstone_block.json
   assets/der_robert/models/block/classic_grass_block.json
   assets/der_robert/models/block/classic_gravel_block.json
+  assets/der_robert/models/block/classic_iron_door_bottom_left.json
+  assets/der_robert/models/block/classic_iron_door_bottom_left_open.json
+  assets/der_robert/models/block/classic_iron_door_bottom_right.json
+  assets/der_robert/models/block/classic_iron_door_bottom_right_open.json
+  assets/der_robert/models/block/classic_iron_door_top_left.json
+  assets/der_robert/models/block/classic_iron_door_top_left_open.json
+  assets/der_robert/models/block/classic_iron_door_top_right.json
+  assets/der_robert/models/block/classic_iron_door_top_right_open.json
   assets/der_robert/models/block/classic_monster_spawner.json
+  assets/der_robert/models/block/classic_mossy_slabs.json
+  assets/der_robert/models/block/classic_mossy_slabs_full.json
+  assets/der_robert/models/block/classic_mossy_slabs_top.json
   assets/der_robert/models/block/classic_mossy_stone_block.json
+  assets/der_robert/models/block/classic_mossy_stone_stairs.json
+  assets/der_robert/models/block/classic_mossy_stone_stairs_inner.json
+  assets/der_robert/models/block/classic_mossy_stone_stairs_outer.json
+  assets/der_robert/models/block/classic_mossy_stone_wall.json
+  assets/der_robert/models/block/classic_mossy_stone_wall_inventory.json
+  assets/der_robert/models/block/classic_mossy_stone_wall_post.json
+  assets/der_robert/models/block/classic_mossy_stone_wall_side_tall.json
   assets/der_robert/models/block/classic_nether_quartz_ore.json
   assets/der_robert/models/block/classic_netherrack_block.json
   assets/der_robert/models/block/classic_oak_leaves_block.json
   assets/der_robert/models/block/classic_obsidian_block.json
   assets/der_robert/models/block/classic_pack_block.json
+  assets/der_robert/models/block/classic_ruby_ore.json
   assets/der_robert/models/block/classic_sand_block.json
+  assets/der_robert/models/block/classic_sky_dimension_portal_ew.json
+  assets/der_robert/models/block/classic_sky_dimension_portal_ns.json
   assets/der_robert/models/block/classic_soul_sand.json
   assets/der_robert/models/block/classic_sponge_block.json
   assets/der_robert/models/block/classic_stone_block.json
@@ -279,14 +345,34 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/classic_wood_door_top_left_open.json
   assets/der_robert/models/block/classic_wood_door_top_right.json
   assets/der_robert/models/block/classic_wood_door_top_right_open.json
+  assets/der_robert/models/block/classic_wood_pane_noside.json
+  assets/der_robert/models/block/classic_wood_pane_noside_alt.json
+  assets/der_robert/models/block/classic_wood_pane_post.json
+  assets/der_robert/models/block/classic_wood_pane_side.json
+  assets/der_robert/models/block/classic_wood_pane_side_alt.json
+  assets/der_robert/models/block/classic_wood_side_slab.json
   assets/der_robert/models/block/classic_wood_slabs.json
   assets/der_robert/models/block/classic_wood_slabs_full.json
   assets/der_robert/models/block/classic_wood_slabs_top.json
   assets/der_robert/models/block/classic_wood_stairs.json
   assets/der_robert/models/block/classic_wood_stairs_inner.json
   assets/der_robert/models/block/classic_wood_stairs_outer.json
+  assets/der_robert/models/block/classic_wood_table.json
+  assets/der_robert/models/block/classic_wood_trapdoor.json
+  assets/der_robert/models/block/classic_wood_trapdoor_open.json
+  assets/der_robert/models/block/classic_wood_trapdoor_top.json
   assets/der_robert/models/block/classic_workbench_block.json
   assets/der_robert/models/block/creeponia_brick_block.json
+  assets/der_robert/models/block/creeponia_brick_slabs.json
+  assets/der_robert/models/block/creeponia_brick_slabs_full.json
+  assets/der_robert/models/block/creeponia_brick_slabs_top.json
+  assets/der_robert/models/block/creeponia_brick_stairs.json
+  assets/der_robert/models/block/creeponia_brick_stairs_inner.json
+  assets/der_robert/models/block/creeponia_brick_stairs_outer.json
+  assets/der_robert/models/block/creeponia_brick_wall.json
+  assets/der_robert/models/block/creeponia_brick_wall_inventory.json
+  assets/der_robert/models/block/creeponia_brick_wall_post.json
+  assets/der_robert/models/block/creeponia_brick_wall_side_tall.json
   assets/der_robert/models/block/end_portal_button.json
   assets/der_robert/models/block/end_portal_button_inventory.json
   assets/der_robert/models/block/end_portal_button_pressed.json
@@ -306,6 +392,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/glass_stairs_top.json
   assets/der_robert/models/block/glowing_obsidian.json
   assets/der_robert/models/block/herobrine_netherrack.json
+  assets/der_robert/models/block/herobrine_netherrack_glow.json
   assets/der_robert/models/block/lucky_stone_block.json
   assets/der_robert/models/block/missing_no_block.json
   assets/der_robert/models/block/missing_no_button.json
@@ -316,6 +403,19 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/nether_portal_button.json
   assets/der_robert/models/block/nether_portal_button_inventory.json
   assets/der_robert/models/block/nether_portal_button_pressed.json
+  assets/der_robert/models/block/nether_reactor_core_blue.json
+  assets/der_robert/models/block/nether_reactor_core_red.json
+  assets/der_robert/models/block/not_nether_dimension_portal_ew.json
+  assets/der_robert/models/block/not_nether_dimension_portal_ns.json
+  assets/der_robert/models/block/some_white_block.json
+  assets/der_robert/models/block/some_white_block_slabs.json
+  assets/der_robert/models/block/some_white_block_slabs_full.json
+  assets/der_robert/models/block/some_white_block_slabs_top.json
+  assets/der_robert/models/block/some_white_block_stairs.json
+  assets/der_robert/models/block/some_white_block_stairs_inner.json
+  assets/der_robert/models/block/some_white_block_stairs_outer.json
+  assets/der_robert/models/block/some_white_cylinder.json
+  assets/der_robert/models/block/some_white_side_slab.json
   assets/der_robert/models/block/unknown_pack_block.json
   assets/der_robert/models/block/water_portal_block_noside.json
   assets/der_robert/models/block/water_portal_block_noside_alt.json
@@ -323,6 +423,15 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/water_portal_block_side.json
   assets/der_robert/models/block/water_portal_block_side_alt.json
   assets/der_robert/models/block/white_light_block.json
+  assets/der_robert/models/custom/
+  assets/der_robert/models/custom/RobertsTable.json
+  assets/der_robert/models/custom/first_table.json
+  assets/der_robert/models/custom/roberts_cylinder.json
+  assets/der_robert/models/custom/roberts_dirt_triangle.json
+  assets/der_robert/models/custom/roberts_side_slab.json
+  assets/der_robert/models/custom/roberts_side_slab_classic_wood.json
+  assets/der_robert/models/custom/roberts_side_slab_white-stone.json
+  assets/der_robert/models/custom/roberts_table.json
   assets/der_robert/models/item/
   assets/der_robert/models/item/aether_amberoot_log.json
   assets/der_robert/models/item/aether_dirt_block.json
@@ -342,38 +451,70 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/item/beta_monster_spawner.json
   assets/der_robert/models/item/classic_bedrock_block.json
   assets/der_robert/models/item/classic_brick_block.json
+  assets/der_robert/models/item/classic_brick_slabs.json
+  assets/der_robert/models/item/classic_brick_stairs.json
   assets/der_robert/models/item/classic_crying_obsidian.json
   assets/der_robert/models/item/classic_dirt_block.json
   assets/der_robert/models/item/classic_dirt_slab.json
   assets/der_robert/models/item/classic_dirt_stairs.json
+  assets/der_robert/models/item/classic_dirt_trap_door.json
+  assets/der_robert/models/item/classic_dirt_triangle.json
+  assets/der_robert/models/item/classic_emerald_item.json
+  assets/der_robert/models/item/classic_emerald_ore.json
   assets/der_robert/models/item/classic_endstone_block.json
+  assets/der_robert/models/item/classic_ghost_dirt.json
   assets/der_robert/models/item/classic_glass_block.json
   assets/der_robert/models/item/classic_glass_pane.json
+  assets/der_robert/models/item/classic_glass_wall.json
+  assets/der_robert/models/item/classic_glow_stone_dust.json
   assets/der_robert/models/item/classic_glowstone_block.json
   assets/der_robert/models/item/classic_grass_block.json
   assets/der_robert/models/item/classic_gravel_block.json
   assets/der_robert/models/item/classic_herobrine_spawn_egg.json
   assets/der_robert/models/item/classic_human_spawn_egg.json
+  assets/der_robert/models/item/classic_iron_door.json
   assets/der_robert/models/item/classic_monster_spawner.json
+  assets/der_robert/models/item/classic_mossy_slabs.json
   assets/der_robert/models/item/classic_mossy_stone_block.json
+  assets/der_robert/models/item/classic_mossy_stone_stairs.json
+  assets/der_robert/models/item/classic_mossy_stone_wall.json
   assets/der_robert/models/item/classic_nether_quartz_ore.json
   assets/der_robert/models/item/classic_netherrack_block.json
   assets/der_robert/models/item/classic_oak_leaves_block.json
   assets/der_robert/models/item/classic_obsidian_block.json
   assets/der_robert/models/item/classic_pack_block.json
+  assets/der_robert/models/item/classic_ruby_armor_boots.json
+  assets/der_robert/models/item/classic_ruby_armor_chestplate.json
+  assets/der_robert/models/item/classic_ruby_armor_helmet.json
+  assets/der_robert/models/item/classic_ruby_armor_leggings.json
+  assets/der_robert/models/item/classic_ruby_axe.json
+  assets/der_robert/models/item/classic_ruby_hoe.json
+  assets/der_robert/models/item/classic_ruby_item.json
+  assets/der_robert/models/item/classic_ruby_ore.json
+  assets/der_robert/models/item/classic_ruby_pickaxe.json
+  assets/der_robert/models/item/classic_ruby_shovel.json
+  assets/der_robert/models/item/classic_ruby_sword.json
   assets/der_robert/models/item/classic_sand_block.json
+  assets/der_robert/models/item/classic_sky_dimension.json
   assets/der_robert/models/item/classic_soul_sand.json
   assets/der_robert/models/item/classic_sponge_block.json
   assets/der_robert/models/item/classic_stone_block.json
   assets/der_robert/models/item/classic_tnt_block.json
   assets/der_robert/models/item/classic_wood_block.json
   assets/der_robert/models/item/classic_wood_door.json
+  assets/der_robert/models/item/classic_wood_pane.json
+  assets/der_robert/models/item/classic_wood_side_slab.json
   assets/der_robert/models/item/classic_wood_slabs.json
   assets/der_robert/models/item/classic_wood_stairs.json
+  assets/der_robert/models/item/classic_wood_table.json
+  assets/der_robert/models/item/classic_wood_trapdoor.json
   assets/der_robert/models/item/classic_workbench_block.json
   assets/der_robert/models/item/classic_zombie_spawn_egg.json
   assets/der_robert/models/item/creeper_pig_spawn_egg.json
   assets/der_robert/models/item/creeponia_brick_block.json
+  assets/der_robert/models/item/creeponia_brick_slabs.json
+  assets/der_robert/models/item/creeponia_brick_stairs.json
+  assets/der_robert/models/item/creeponia_brick_wall.json
   assets/der_robert/models/item/end_portal_button.json
   assets/der_robert/models/item/evil_herobrine_spawn_egg.json
   assets/der_robert/models/item/glass_door.json
@@ -381,13 +522,22 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/item/glass_stairs.json
   assets/der_robert/models/item/glowing_obsidian.json
   assets/der_robert/models/item/herobrine_netherrack.json
+  assets/der_robert/models/item/herobrine_netherrack_glow.json
   assets/der_robert/models/item/lucky_stone_block.json
   assets/der_robert/models/item/missing_no_block.json
   assets/der_robert/models/item/missing_no_button.json
   assets/der_robert/models/item/modern_pack_block.json
   assets/der_robert/models/item/mojang_block.json
   assets/der_robert/models/item/nether_portal_button.json
+  assets/der_robert/models/item/nether_reactor_core_blue.json
+  assets/der_robert/models/item/nether_reactor_core_red.json
+  assets/der_robert/models/item/not_nether_dimension.json
   assets/der_robert/models/item/piggy_creeper_spawn_egg.json
+  assets/der_robert/models/item/some_white_block.json
+  assets/der_robert/models/item/some_white_block_slabs.json
+  assets/der_robert/models/item/some_white_block_stairs.json
+  assets/der_robert/models/item/some_white_cylinder.json
+  assets/der_robert/models/item/some_white_side_slab.json
   assets/der_robert/models/item/template_human_spawn_egg.json
   assets/der_robert/models/item/unknown_pack_block.json
   assets/der_robert/models/item/water_portal_block.json
@@ -423,11 +573,14 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/block/classic_dirt.png
   assets/der_robert/textures/block/classic_door_bottom.png
   assets/der_robert/textures/block/classic_door_top.png
+  assets/der_robert/textures/block/classic_emerald_ore.png
   assets/der_robert/textures/block/classic_endstone.png
   assets/der_robert/textures/block/classic_glass_block.png
   assets/der_robert/textures/block/classic_glowstone.png
   assets/der_robert/textures/block/classic_grass_block.png
   assets/der_robert/textures/block/classic_gravel.png
+  assets/der_robert/textures/block/classic_iron_door_bottom.png
+  assets/der_robert/textures/block/classic_iron_door_top.png
   assets/der_robert/textures/block/classic_monster_spawner.png
   assets/der_robert/textures/block/classic_mossy_stone.png
   assets/der_robert/textures/block/classic_nether_quartz_ore.png
@@ -435,6 +588,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/block/classic_oak_leaves.png
   assets/der_robert/textures/block/classic_obsidian.png
   assets/der_robert/textures/block/classic_pack_block.png
+  assets/der_robert/textures/block/classic_ruby_ore.png
   assets/der_robert/textures/block/classic_sand.png
   assets/der_robert/textures/block/classic_soul_sand.png
   assets/der_robert/textures/block/classic_sponge.png
@@ -443,12 +597,14 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/block/classic_tnt_side.png
   assets/der_robert/textures/block/classic_tnt_top.png
   assets/der_robert/textures/block/classic_wood.png
+  assets/der_robert/textures/block/classic_wood_trapdoor.png
   assets/der_robert/textures/block/creeponia_bricks.png
   assets/der_robert/textures/block/end_portal.png
   assets/der_robert/textures/block/glass_door_bottom.png
   assets/der_robert/textures/block/glass_door_top.png
   assets/der_robert/textures/block/glowing_obsidian.png
   assets/der_robert/textures/block/herobrine_netherack.png
+  assets/der_robert/textures/block/herobrine_netherack_glow.png
   assets/der_robert/textures/block/locky_block_tob_bottom.png
   assets/der_robert/textures/block/lucky_block_side.png
   assets/der_robert/textures/block/missingno_block.png
@@ -456,16 +612,22 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/block/mojang_block.png
   assets/der_robert/textures/block/nether_portal.png
   assets/der_robert/textures/block/nether_portal.png.mcmeta
+  assets/der_robert/textures/block/nether_reactor_core_blue.png
+  assets/der_robert/textures/block/nether_reactor_core_red.png
   assets/der_robert/textures/block/unknown_pack_block.png
   assets/der_robert/textures/block/water_flow.png
   assets/der_robert/textures/block/water_flow.png.mcmeta
+  assets/der_robert/textures/block/white_block.png
   assets/der_robert/textures/block/white_light_blocky.png
   assets/der_robert/textures/block/workbench_front.png
   assets/der_robert/textures/block/workbench_side.png
   assets/der_robert/textures/block/workbench_top.png
+  assets/der_robert/textures/classic_ruby_helmet.png
   assets/der_robert/textures/entities/
   assets/der_robert/textures/entities/alpha_creeper.png
   assets/der_robert/textures/entities/classic_char.png
+  assets/der_robert/textures/entities/classic_enderman.png
+  assets/der_robert/textures/entities/classic_enderman_eyes.png
   assets/der_robert/textures/entities/classic_herobrine.png
   assets/der_robert/textures/entities/classic_zombie.png
   assets/der_robert/textures/entities/creeper_pig.png
@@ -474,11 +636,36 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/entities/template.png
   assets/der_robert/textures/item/
   assets/der_robert/textures/item/classic_door.png
+  assets/der_robert/textures/item/classic_emerald_item.png
+  assets/der_robert/textures/item/classic_glowstone_dust.png
+  assets/der_robert/textures/item/classic_iron_door.png
+  assets/der_robert/textures/item/classic_ruby_axe.png
+  assets/der_robert/textures/item/classic_ruby_boots.png
+  assets/der_robert/textures/item/classic_ruby_chestplate.png
+  assets/der_robert/textures/item/classic_ruby_helmet.png
+  assets/der_robert/textures/item/classic_ruby_hoe.png
+  assets/der_robert/textures/item/classic_ruby_item.png
+  assets/der_robert/textures/item/classic_ruby_leggings.png
+  assets/der_robert/textures/item/classic_ruby_pickaxe.png
+  assets/der_robert/textures/item/classic_ruby_shovel.png
+  assets/der_robert/textures/item/classic_ruby_sword.png
+  assets/der_robert/textures/item/classic_water_bucket.png
   assets/der_robert/textures/item/glass_door.png
+  assets/der_robert/textures/models/
+  assets/der_robert/textures/models/armor/
+  assets/der_robert/textures/models/armor/ruby_layer.zip
+  assets/der_robert/textures/models/armor/ruby_layer_1.png
+  assets/der_robert/textures/models/armor/ruby_layer_2.png
   assets/der_robert/textures/screens/
   assets/der_robert/textures/screens/classic_workbench_gui.png
   data/
   data/der_robert/
+  data/der_robert/dimension/
+  data/der_robert/dimension/classic_sky_dimension.json
+  data/der_robert/dimension/not_nether_dimension.json
+  data/der_robert/dimension_type/
+  data/der_robert/dimension_type/classic_sky_dimension.json
+  data/der_robert/dimension_type/not_nether_dimension.json
   data/der_robert/forge/
   data/der_robert/forge/biome_modifier/
   data/der_robert/forge/biome_modifier/aether_amberoot_log_biome_modifier.json
@@ -498,11 +685,17 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/forge/biome_modifier/beta_monster_spawner_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_bedrock_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_brick_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_brick_slabs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_brick_stairs_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_crying_obsidian_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_dirt_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_dirt_slab_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_dirt_stairs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_dirt_trap_door_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_dirt_triangle_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_emerald_ore_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_endstone_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_ghost_dirt_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_glass_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_glass_pane_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_glowstone_block_biome_modifier.json
@@ -510,24 +703,35 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/forge/biome_modifier/classic_gravel_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_herobrine_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_human_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_iron_door_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_monster_spawner_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_mossy_slabs_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_mossy_stone_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_mossy_stone_stairs_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_nether_quartz_ore_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_netherrack_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_oak_leaves_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_obsidian_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_ruby_ore_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_sand_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_soul_sand_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_sponge_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_stone_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_wood_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_wood_door_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_wood_pane_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_wood_side_slab_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_wood_slabs_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_wood_stairs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_wood_table_biome_modifier.json
+  data/der_robert/forge/biome_modifier/classic_wood_trapdoor_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_workbench_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/classic_zombie_biome_modifier.json
   data/der_robert/forge/biome_modifier/creeper_pig_biome_modifier.json
   data/der_robert/forge/biome_modifier/creeponia_brick_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/creeponia_brick_slabs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/creeponia_brick_stairs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/creeponia_brick_wall_biome_modifier.json
   data/der_robert/forge/biome_modifier/end_portal_button_biome_modifier.json
   data/der_robert/forge/biome_modifier/evil_herobrine_biome_modifier.json
   data/der_robert/forge/biome_modifier/glass_door_biome_modifier.json
@@ -535,11 +739,18 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/forge/biome_modifier/glass_stairs_biome_modifier.json
   data/der_robert/forge/biome_modifier/glowing_obsidian_biome_modifier.json
   data/der_robert/forge/biome_modifier/herobrine_netherrack_biome_modifier.json
+  data/der_robert/forge/biome_modifier/herobrine_netherrack_glow_biome_modifier.json
   data/der_robert/forge/biome_modifier/missing_no_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/missing_no_button_biome_modifier.json
   data/der_robert/forge/biome_modifier/mojang_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/nether_portal_button_biome_modifier.json
   data/der_robert/forge/biome_modifier/piggy_creeper_biome_modifier.json
+  data/der_robert/forge/biome_modifier/some_white_block_biome_modifier.json
+  data/der_robert/forge/biome_modifier/some_white_block_slabs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/some_white_block_stairs_biome_modifier.json
+  data/der_robert/forge/biome_modifier/some_white_cylinder_biome_modifier.json
+  data/der_robert/forge/biome_modifier/some_white_side_slab_biome_modifier.json
+  data/der_robert/forge/biome_modifier/template_human_biome_modifier.json
   data/der_robert/forge/biome_modifier/white_light_block_biome_modifier.json
   data/der_robert/recipes/
   data/der_robert/recipes/aether_dirt_recipe.json
@@ -553,6 +764,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/beta_monster_spawner_recipe_2.json
   data/der_robert/recipes/class_glass_slabs_recipe.json
   data/der_robert/recipes/classic_brick_recipe.json
+  data/der_robert/recipes/classic_brick_slabs_recipe.json
+  data/der_robert/recipes/classic_brick_staris_recipe.json
   data/der_robert/recipes/classic_crying_obsidian_recipe_1.json
   data/der_robert/recipes/classic_crying_obsidian_recipe_2.json
   data/der_robert/recipes/classic_dirt_recipe_1.json
@@ -560,29 +773,52 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/classic_dirt_slab_recipe_1.json
   data/der_robert/recipes/classic_dirt_slab_recipe_2.json
   data/der_robert/recipes/classic_dirt_stairs_recipe.json
+  data/der_robert/recipes/classic_dirt_trap_door_recipe.json
   data/der_robert/recipes/classic_endstone_recipe_1.json
   data/der_robert/recipes/classic_endstone_recipe_2.json
+  data/der_robert/recipes/classic_ghost_dirt_recipe.json
   data/der_robert/recipes/classic_glass_block_recipe_1.json
   data/der_robert/recipes/classic_glass_pane_recipe.json
   data/der_robert/recipes/classic_glass_stairs_recipe.json
+  data/der_robert/recipes/classic_glass_wall_recipe.json
   data/der_robert/recipes/classic_glowstone_recipe_1.json
   data/der_robert/recipes/classic_glowstone_recipe_2.json
+  data/der_robert/recipes/classic_glowstone_recipe_3.json
   data/der_robert/recipes/classic_grass_recipe_1.json
   data/der_robert/recipes/classic_grass_recipe_2.json
   data/der_robert/recipes/classic_gravel_recipe_1.json
   data/der_robert/recipes/classic_gravel_recipe_2.json
+  data/der_robert/recipes/classic_iron_door_recipe_1.json
+  data/der_robert/recipes/classic_iron_door_recipe_2.json
   data/der_robert/recipes/classic_leaves_recipe_1.json
   data/der_robert/recipes/classic_leaves_recipe_2.json
   data/der_robert/recipes/classic_monster_spawner_recipe_1.json
   data/der_robert/recipes/classic_monster_spawner_recipe_2.json
+  data/der_robert/recipes/classic_mossy_slabs_recipe.json
+  data/der_robert/recipes/classic_mossy_stairs_recipe.json
   data/der_robert/recipes/classic_mossy_stone_recipe_1.json
   data/der_robert/recipes/classic_mossy_stone_recipe_2.json
+  data/der_robert/recipes/classic_mossy_wall_recipe.json
   data/der_robert/recipes/classic_nether_quartz_ore_recipe_1.json
   data/der_robert/recipes/classic_nether_quartz_ore_recipe_2.json
   data/der_robert/recipes/classic_nether_rack_recipe_2.json
   data/der_robert/recipes/classic_netherrack_recipe.json
   data/der_robert/recipes/classic_obsidian_recipe_1.json
   data/der_robert/recipes/classic_obsidian_recipe_2.json
+  data/der_robert/recipes/classic_ruby_axe_recipe.json
+  data/der_robert/recipes/classic_ruby_boots_recipe.json
+  data/der_robert/recipes/classic_ruby_chestplate_recipe.json
+  data/der_robert/recipes/classic_ruby_emerald_recipe_1.json
+  data/der_robert/recipes/classic_ruby_emerald_recipe_2.json
+  data/der_robert/recipes/classic_ruby_emerald_recipe_3.json
+  data/der_robert/recipes/classic_ruby_emerald_recipe_4.json
+  data/der_robert/recipes/classic_ruby_emerald_recipe_5.json
+  data/der_robert/recipes/classic_ruby_helmet_recipe.json
+  data/der_robert/recipes/classic_ruby_hoe_recipe.json
+  data/der_robert/recipes/classic_ruby_leggings_recipe.json
+  data/der_robert/recipes/classic_ruby_pickaxe_recipe.json
+  data/der_robert/recipes/classic_ruby_shovel_recipe.json
+  data/der_robert/recipes/classic_ruby_sword_recipe.json
   data/der_robert/recipes/classic_soul_sand_recipe_1.json
   data/der_robert/recipes/classic_soul_sand_recipe_2.json
   data/der_robert/recipes/classic_soul_sand_recipe_3.json
@@ -591,11 +827,18 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/classic_stone_recipe_3.json
   data/der_robert/recipes/classic_tnt_recipe_1.json
   data/der_robert/recipes/classic_tnt_recipe_2.json
+  data/der_robert/recipes/classic_water_bucket_recipe_1.json
+  data/der_robert/recipes/classic_water_bucket_recipe_2.json
   data/der_robert/recipes/classic_wodd_slabs_recipe.json
+  data/der_robert/recipes/classic_wood_dorr_recipe.json
+  data/der_robert/recipes/classic_wood_pane_recipe.json
   data/der_robert/recipes/classic_wood_recipe_1.json
   data/der_robert/recipes/classic_wood_recipe_2.json
+  data/der_robert/recipes/classic_wood_side_slab_recipe.json
   data/der_robert/recipes/classic_wood_stairs_recipe.json
   data/der_robert/recipes/classic_wood_sticks_recipe.json
+  data/der_robert/recipes/classic_wood_table_recipe.json
+  data/der_robert/recipes/classic_wood_trabdoor_recipe.json
   data/der_robert/recipes/classic_workbench_recipe_1.json
   data/der_robert/recipes/classic_workbench_recipe_2.json
   data/der_robert/recipes/classic_workbench_recipe_3.json
@@ -603,6 +846,9 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/create_barrier_recipe.json
   data/der_robert/recipes/create_bedrock_recipe.json
   data/der_robert/recipes/creeponia_brick_recipe.json
+  data/der_robert/recipes/creeponia_slabs_recipe.json
+  data/der_robert/recipes/creeponia_stairs_recipe.json
+  data/der_robert/recipes/creeponia_walls_recipe.json
   data/der_robert/recipes/end_button_recipe.json
   data/der_robert/recipes/glass_door_recipe.json
   data/der_robert/recipes/glowing_obsidian_recipe.json
@@ -610,10 +856,18 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/lucky_block_recipe.json
   data/der_robert/recipes/mojang_recipe.json
   data/der_robert/recipes/nether_button_recipe.json
+  data/der_robert/recipes/nether_reactor_core_recipe.json
+  data/der_robert/recipes/not_nether_water_recipe_1.json
+  data/der_robert/recipes/not_nether_water_recipe_2.json
+  data/der_robert/recipes/some_white_block_recipe.json
+  data/der_robert/recipes/some_white_block_side_slabs_recipe.json
+  data/der_robert/recipes/some_white_block_slabs_recipe.json
+  data/der_robert/recipes/some_white_block_stairs_recipe.json
   data/der_robert/worldgen/
   data/der_robert/worldgen/biome/
   data/der_robert/worldgen/biome/classic_biome_1.json
   data/der_robert/worldgen/biome/classic_biome_2.json
+  data/der_robert/worldgen/biome/classic_biome_3.json
   data/der_robert/worldgen/configured_feature/
   data/der_robert/worldgen/configured_feature/aether_amberoot_log.json
   data/der_robert/worldgen/configured_feature/aether_dirt_block.json
@@ -632,43 +886,67 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/worldgen/configured_feature/classic_bedrock_block.json
   data/der_robert/worldgen/configured_feature/classic_biome_1_tree.json
   data/der_robert/worldgen/configured_feature/classic_biome_2_tree.json
+  data/der_robert/worldgen/configured_feature/classic_biome_3_tree.json
   data/der_robert/worldgen/configured_feature/classic_brick_block.json
+  data/der_robert/worldgen/configured_feature/classic_brick_slabs.json
+  data/der_robert/worldgen/configured_feature/classic_brick_stairs.json
   data/der_robert/worldgen/configured_feature/classic_crying_obsidian.json
   data/der_robert/worldgen/configured_feature/classic_dirt_block.json
   data/der_robert/worldgen/configured_feature/classic_dirt_slab.json
   data/der_robert/worldgen/configured_feature/classic_dirt_stairs.json
+  data/der_robert/worldgen/configured_feature/classic_dirt_trap_door.json
+  data/der_robert/worldgen/configured_feature/classic_dirt_triangle.json
+  data/der_robert/worldgen/configured_feature/classic_emerald_ore.json
   data/der_robert/worldgen/configured_feature/classic_endstone_block.json
+  data/der_robert/worldgen/configured_feature/classic_ghost_dirt.json
   data/der_robert/worldgen/configured_feature/classic_glass_block.json
   data/der_robert/worldgen/configured_feature/classic_glass_pane.json
   data/der_robert/worldgen/configured_feature/classic_glowstone_block.json
   data/der_robert/worldgen/configured_feature/classic_grass_block.json
   data/der_robert/worldgen/configured_feature/classic_gravel_block.json
+  data/der_robert/worldgen/configured_feature/classic_iron_door.json
   data/der_robert/worldgen/configured_feature/classic_monster_spawner.json
+  data/der_robert/worldgen/configured_feature/classic_mossy_slabs.json
   data/der_robert/worldgen/configured_feature/classic_mossy_stone_block.json
+  data/der_robert/worldgen/configured_feature/classic_mossy_stone_stairs.json
   data/der_robert/worldgen/configured_feature/classic_nether_quartz_ore.json
   data/der_robert/worldgen/configured_feature/classic_netherrack_block.json
   data/der_robert/worldgen/configured_feature/classic_oak_leaves_block.json
   data/der_robert/worldgen/configured_feature/classic_obsidian_block.json
+  data/der_robert/worldgen/configured_feature/classic_ruby_ore.json
   data/der_robert/worldgen/configured_feature/classic_sand_block.json
   data/der_robert/worldgen/configured_feature/classic_soul_sand.json
   data/der_robert/worldgen/configured_feature/classic_sponge_block.json
   data/der_robert/worldgen/configured_feature/classic_stone_block.json
   data/der_robert/worldgen/configured_feature/classic_wood_block.json
   data/der_robert/worldgen/configured_feature/classic_wood_door.json
+  data/der_robert/worldgen/configured_feature/classic_wood_pane.json
+  data/der_robert/worldgen/configured_feature/classic_wood_side_slab.json
   data/der_robert/worldgen/configured_feature/classic_wood_slabs.json
   data/der_robert/worldgen/configured_feature/classic_wood_stairs.json
+  data/der_robert/worldgen/configured_feature/classic_wood_table.json
+  data/der_robert/worldgen/configured_feature/classic_wood_trapdoor.json
   data/der_robert/worldgen/configured_feature/classic_workbench_block.json
   data/der_robert/worldgen/configured_feature/creeponia_brick_block.json
+  data/der_robert/worldgen/configured_feature/creeponia_brick_slabs.json
+  data/der_robert/worldgen/configured_feature/creeponia_brick_stairs.json
+  data/der_robert/worldgen/configured_feature/creeponia_brick_wall.json
   data/der_robert/worldgen/configured_feature/end_portal_button.json
   data/der_robert/worldgen/configured_feature/glass_door.json
   data/der_robert/worldgen/configured_feature/glass_slabs.json
   data/der_robert/worldgen/configured_feature/glass_stairs.json
   data/der_robert/worldgen/configured_feature/glowing_obsidian.json
   data/der_robert/worldgen/configured_feature/herobrine_netherrack.json
+  data/der_robert/worldgen/configured_feature/herobrine_netherrack_glow.json
   data/der_robert/worldgen/configured_feature/missing_no_block.json
   data/der_robert/worldgen/configured_feature/missing_no_button.json
   data/der_robert/worldgen/configured_feature/mojang_block.json
   data/der_robert/worldgen/configured_feature/nether_portal_button.json
+  data/der_robert/worldgen/configured_feature/some_white_block.json
+  data/der_robert/worldgen/configured_feature/some_white_block_slabs.json
+  data/der_robert/worldgen/configured_feature/some_white_block_stairs.json
+  data/der_robert/worldgen/configured_feature/some_white_cylinder.json
+  data/der_robert/worldgen/configured_feature/some_white_side_slab.json
   data/der_robert/worldgen/configured_feature/white_light_block.json
   data/der_robert/worldgen/placed_feature/
   data/der_robert/worldgen/placed_feature/aether_amberoot_log.json
@@ -688,43 +966,67 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/worldgen/placed_feature/classic_bedrock_block.json
   data/der_robert/worldgen/placed_feature/classic_biome_1_tree.json
   data/der_robert/worldgen/placed_feature/classic_biome_2_tree.json
+  data/der_robert/worldgen/placed_feature/classic_biome_3_tree.json
   data/der_robert/worldgen/placed_feature/classic_brick_block.json
+  data/der_robert/worldgen/placed_feature/classic_brick_slabs.json
+  data/der_robert/worldgen/placed_feature/classic_brick_stairs.json
   data/der_robert/worldgen/placed_feature/classic_crying_obsidian.json
   data/der_robert/worldgen/placed_feature/classic_dirt_block.json
   data/der_robert/worldgen/placed_feature/classic_dirt_slab.json
   data/der_robert/worldgen/placed_feature/classic_dirt_stairs.json
+  data/der_robert/worldgen/placed_feature/classic_dirt_trap_door.json
+  data/der_robert/worldgen/placed_feature/classic_dirt_triangle.json
+  data/der_robert/worldgen/placed_feature/classic_emerald_ore.json
   data/der_robert/worldgen/placed_feature/classic_endstone_block.json
+  data/der_robert/worldgen/placed_feature/classic_ghost_dirt.json
   data/der_robert/worldgen/placed_feature/classic_glass_block.json
   data/der_robert/worldgen/placed_feature/classic_glass_pane.json
   data/der_robert/worldgen/placed_feature/classic_glowstone_block.json
   data/der_robert/worldgen/placed_feature/classic_grass_block.json
   data/der_robert/worldgen/placed_feature/classic_gravel_block.json
+  data/der_robert/worldgen/placed_feature/classic_iron_door.json
   data/der_robert/worldgen/placed_feature/classic_monster_spawner.json
+  data/der_robert/worldgen/placed_feature/classic_mossy_slabs.json
   data/der_robert/worldgen/placed_feature/classic_mossy_stone_block.json
+  data/der_robert/worldgen/placed_feature/classic_mossy_stone_stairs.json
   data/der_robert/worldgen/placed_feature/classic_nether_quartz_ore.json
   data/der_robert/worldgen/placed_feature/classic_netherrack_block.json
   data/der_robert/worldgen/placed_feature/classic_oak_leaves_block.json
   data/der_robert/worldgen/placed_feature/classic_obsidian_block.json
+  data/der_robert/worldgen/placed_feature/classic_ruby_ore.json
   data/der_robert/worldgen/placed_feature/classic_sand_block.json
   data/der_robert/worldgen/placed_feature/classic_soul_sand.json
   data/der_robert/worldgen/placed_feature/classic_sponge_block.json
   data/der_robert/worldgen/placed_feature/classic_stone_block.json
   data/der_robert/worldgen/placed_feature/classic_wood_block.json
   data/der_robert/worldgen/placed_feature/classic_wood_door.json
+  data/der_robert/worldgen/placed_feature/classic_wood_pane.json
+  data/der_robert/worldgen/placed_feature/classic_wood_side_slab.json
   data/der_robert/worldgen/placed_feature/classic_wood_slabs.json
   data/der_robert/worldgen/placed_feature/classic_wood_stairs.json
+  data/der_robert/worldgen/placed_feature/classic_wood_table.json
+  data/der_robert/worldgen/placed_feature/classic_wood_trapdoor.json
   data/der_robert/worldgen/placed_feature/classic_workbench_block.json
   data/der_robert/worldgen/placed_feature/creeponia_brick_block.json
+  data/der_robert/worldgen/placed_feature/creeponia_brick_slabs.json
+  data/der_robert/worldgen/placed_feature/creeponia_brick_stairs.json
+  data/der_robert/worldgen/placed_feature/creeponia_brick_wall.json
   data/der_robert/worldgen/placed_feature/end_portal_button.json
   data/der_robert/worldgen/placed_feature/glass_door.json
   data/der_robert/worldgen/placed_feature/glass_slabs.json
   data/der_robert/worldgen/placed_feature/glass_stairs.json
   data/der_robert/worldgen/placed_feature/glowing_obsidian.json
   data/der_robert/worldgen/placed_feature/herobrine_netherrack.json
+  data/der_robert/worldgen/placed_feature/herobrine_netherrack_glow.json
   data/der_robert/worldgen/placed_feature/missing_no_block.json
   data/der_robert/worldgen/placed_feature/missing_no_button.json
   data/der_robert/worldgen/placed_feature/mojang_block.json
   data/der_robert/worldgen/placed_feature/nether_portal_button.json
+  data/der_robert/worldgen/placed_feature/some_white_block.json
+  data/der_robert/worldgen/placed_feature/some_white_block_slabs.json
+  data/der_robert/worldgen/placed_feature/some_white_block_stairs.json
+  data/der_robert/worldgen/placed_feature/some_white_cylinder.json
+  data/der_robert/worldgen/placed_feature/some_white_side_slab.json
   data/der_robert/worldgen/placed_feature/white_light_block.json
   data/minecraft/
   data/minecraft/tags/
@@ -734,10 +1036,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/minecraft/tags/blocks/mineable/hoe.json
   data/minecraft/tags/blocks/mineable/pickaxe.json
   data/minecraft/tags/blocks/mineable/shovel.json
-  data/minecraft/tags/worldgen/
-  data/minecraft/tags/worldgen/biome/
-  data/minecraft/tags/worldgen/biome/has_structure/
-  data/minecraft/tags/worldgen/biome/has_structure/village_plains.json
+  data/minecraft/tags/blocks/overworld_carver_replaceables.json
+  data/minecraft/tags/blocks/walls.json
   net/
   net/mcreator/
   net/mcreator/derrobert/
@@ -760,53 +1060,87 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/block/BetaMonsterSpawnerBlock.class
   net/mcreator/derrobert/block/ClassicBedrockBlockBlock.class
   net/mcreator/derrobert/block/ClassicBrickBlockBlock.class
+  net/mcreator/derrobert/block/ClassicBrickSlabsBlock.class
+  net/mcreator/derrobert/block/ClassicBrickStairsBlock.class
   net/mcreator/derrobert/block/ClassicCryingObsidianBlock.class
   net/mcreator/derrobert/block/ClassicDirtBlockBlock.class
   net/mcreator/derrobert/block/ClassicDirtSlabBlock.class
   net/mcreator/derrobert/block/ClassicDirtStairsBlock.class
+  net/mcreator/derrobert/block/ClassicDirtTrapDoorBlock.class
+  net/mcreator/derrobert/block/ClassicDirtTriangleBlock$1.class
+  net/mcreator/derrobert/block/ClassicDirtTriangleBlock.class
+  net/mcreator/derrobert/block/ClassicEmeraldOreBlock.class
   net/mcreator/derrobert/block/ClassicEndstoneBlockBlock.class
+  net/mcreator/derrobert/block/ClassicGhostDirtBlock.class
   net/mcreator/derrobert/block/ClassicGlassBlockBlock.class
   net/mcreator/derrobert/block/ClassicGlassPaneBlock.class
+  net/mcreator/derrobert/block/ClassicGlassWallBlock.class
   net/mcreator/derrobert/block/ClassicGlowstoneBlockBlock.class
   net/mcreator/derrobert/block/ClassicGrassBlockBlock.class
   net/mcreator/derrobert/block/ClassicGravelBlockBlock.class
+  net/mcreator/derrobert/block/ClassicIronDoorBlock.class
   net/mcreator/derrobert/block/ClassicMonsterSpawnerBlock.class
+  net/mcreator/derrobert/block/ClassicMossySlabsBlock.class
   net/mcreator/derrobert/block/ClassicMossyStoneBlockBlock.class
+  net/mcreator/derrobert/block/ClassicMossyStoneStairsBlock.class
+  net/mcreator/derrobert/block/ClassicMossyStoneWallBlock.class
   net/mcreator/derrobert/block/ClassicNetherQuartzOreBlock.class
   net/mcreator/derrobert/block/ClassicNetherrackBlockBlock.class
   net/mcreator/derrobert/block/ClassicOakLeavesBlockBlock.class
   net/mcreator/derrobert/block/ClassicObsidianBlockBlock.class
   net/mcreator/derrobert/block/ClassicPackBlockBlock.class
+  net/mcreator/derrobert/block/ClassicRubyOreBlock.class
   net/mcreator/derrobert/block/ClassicSandBlockBlock.class
+  net/mcreator/derrobert/block/ClassicSkyDimensionPortalBlock.class
   net/mcreator/derrobert/block/ClassicSoulSandBlock.class
   net/mcreator/derrobert/block/ClassicSpongeBlockBlock.class
   net/mcreator/derrobert/block/ClassicStoneBlockBlock.class
   net/mcreator/derrobert/block/ClassicTntBlockBlock.class
   net/mcreator/derrobert/block/ClassicWoodBlockBlock.class
   net/mcreator/derrobert/block/ClassicWoodDoorBlock.class
+  net/mcreator/derrobert/block/ClassicWoodPaneBlock.class
+  net/mcreator/derrobert/block/ClassicWoodSideSlabBlock$1.class
+  net/mcreator/derrobert/block/ClassicWoodSideSlabBlock.class
   net/mcreator/derrobert/block/ClassicWoodSlabsBlock.class
   net/mcreator/derrobert/block/ClassicWoodStairsBlock.class
+  net/mcreator/derrobert/block/ClassicWoodTableBlock.class
+  net/mcreator/derrobert/block/ClassicWoodTrapdoorBlock.class
   net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock$1.class
   net/mcreator/derrobert/block/ClassicWorkbenchBlockBlock.class
   net/mcreator/derrobert/block/CreeponiaBrickBlockBlock.class
+  net/mcreator/derrobert/block/CreeponiaBrickSlabsBlock.class
+  net/mcreator/derrobert/block/CreeponiaBrickStairsBlock.class
+  net/mcreator/derrobert/block/CreeponiaBrickWallBlock.class
   net/mcreator/derrobert/block/EndPortalButtonBlock.class
   net/mcreator/derrobert/block/GlassDoorBlock.class
   net/mcreator/derrobert/block/GlassSlabsBlock.class
   net/mcreator/derrobert/block/GlassStairsBlock.class
   net/mcreator/derrobert/block/GlowingObsidianBlock.class
   net/mcreator/derrobert/block/HerobrineNetherrackBlock.class
+  net/mcreator/derrobert/block/HerobrineNetherrackGlowBlock.class
   net/mcreator/derrobert/block/LuckyStoneBlockBlock.class
   net/mcreator/derrobert/block/MissingNoBlockBlock.class
   net/mcreator/derrobert/block/MissingNoButtonBlock.class
   net/mcreator/derrobert/block/ModernPackBlockBlock.class
   net/mcreator/derrobert/block/MojangBlockBlock.class
   net/mcreator/derrobert/block/NetherPortalButtonBlock.class
+  net/mcreator/derrobert/block/NetherReactorCoreBlueBlock.class
+  net/mcreator/derrobert/block/NetherReactorCoreRedBlock.class
+  net/mcreator/derrobert/block/NotNetherDimensionPortalBlock.class
+  net/mcreator/derrobert/block/SomeWhiteBlockBlock.class
+  net/mcreator/derrobert/block/SomeWhiteBlockSlabsBlock.class
+  net/mcreator/derrobert/block/SomeWhiteBlockStairsBlock.class
+  net/mcreator/derrobert/block/SomeWhiteCylinderBlock.class
+  net/mcreator/derrobert/block/SomeWhiteSideSlabBlock$1.class
+  net/mcreator/derrobert/block/SomeWhiteSideSlabBlock.class
   net/mcreator/derrobert/block/UnknownPackBlockBlock.class
   net/mcreator/derrobert/block/WaterPortalBlockBlock.class
   net/mcreator/derrobert/block/WhiteLightBlockBlock.class
   net/mcreator/derrobert/client/
   net/mcreator/derrobert/client/gui/
   net/mcreator/derrobert/client/gui/ClassicWorkbenchGUIScreen.class
+  net/mcreator/derrobert/client/model/
+  net/mcreator/derrobert/client/model/ModelEndermanModel.class
   net/mcreator/derrobert/client/renderer/
   net/mcreator/derrobert/client/renderer/AlphaCreeperRenderer.class
   net/mcreator/derrobert/client/renderer/ClassicHerobrineRenderer.class
@@ -843,16 +1177,52 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/init/DerRobertModMenus.class
   net/mcreator/derrobert/init/DerRobertModScreens.class
   net/mcreator/derrobert/init/DerRobertModTabs.class
+  net/mcreator/derrobert/item/
+  net/mcreator/derrobert/item/ClassicEmeraldItemItem.class
+  net/mcreator/derrobert/item/ClassicGlowStoneDustItem.class
+  net/mcreator/derrobert/item/ClassicRubyArmorItem$1.class
+  net/mcreator/derrobert/item/ClassicRubyArmorItem$Boots.class
+  net/mcreator/derrobert/item/ClassicRubyArmorItem$Chestplate.class
+  net/mcreator/derrobert/item/ClassicRubyArmorItem$Helmet.class
+  net/mcreator/derrobert/item/ClassicRubyArmorItem$Leggings.class
+  net/mcreator/derrobert/item/ClassicRubyArmorItem.class
+  net/mcreator/derrobert/item/ClassicRubyAxeItem$1.class
+  net/mcreator/derrobert/item/ClassicRubyAxeItem.class
+  net/mcreator/derrobert/item/ClassicRubyHoeItem$1.class
+  net/mcreator/derrobert/item/ClassicRubyHoeItem.class
+  net/mcreator/derrobert/item/ClassicRubyItemItem.class
+  net/mcreator/derrobert/item/ClassicRubyPickaxeItem$1.class
+  net/mcreator/derrobert/item/ClassicRubyPickaxeItem.class
+  net/mcreator/derrobert/item/ClassicRubyShovelItem$1.class
+  net/mcreator/derrobert/item/ClassicRubyShovelItem.class
+  net/mcreator/derrobert/item/ClassicRubySwordItem$1.class
+  net/mcreator/derrobert/item/ClassicRubySwordItem.class
+  net/mcreator/derrobert/item/ClassicSkyDimensionItem.class
+  net/mcreator/derrobert/item/NotNetherDimensionItem.class
   net/mcreator/derrobert/procedures/
+  net/mcreator/derrobert/procedures/ClassicEmeraldDestroyProcProcedure.class
   net/mcreator/derrobert/procedures/ClassicGlassBreakProcProcedure.class
+  net/mcreator/derrobert/procedures/ClassicRubyDestroyProcProcedure.class
   net/mcreator/derrobert/procedures/ClassicTntIgnitionProcProcedure.class
   net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure$1.class
   net/mcreator/derrobert/procedures/ClassicWorkbenchOnRightClickProcedure.class
   net/mcreator/derrobert/procedures/EndButtonClickProcedure.class
+  net/mcreator/derrobert/procedures/HerbrineBlockActivateProcedure.class
+  net/mcreator/derrobert/procedures/HerobrineBlockDeactivateProcedure.class
+  net/mcreator/derrobert/procedures/KillAllHerobrineEntitiesProcedure.class
   net/mcreator/derrobert/procedures/MissingNoButtonClickProcedure.class
   net/mcreator/derrobert/procedures/NetherButtonClickProcedure.class
+  net/mcreator/derrobert/procedures/NetherReactorCoreBlueToRedProcedure.class
+  net/mcreator/derrobert/procedures/NetherReactorCoreRed2BlueProcedure.class
   net/mcreator/derrobert/procedures/OnDimensionChangeProcedureProcedure.class
   net/mcreator/derrobert/world/
+  net/mcreator/derrobert/world/dimension/
+  net/mcreator/derrobert/world/dimension/ClassicSkyDimensionDimension$DimensionSpecialEffectsHandler$1.class
+  net/mcreator/derrobert/world/dimension/ClassicSkyDimensionDimension$DimensionSpecialEffectsHandler.class
+  net/mcreator/derrobert/world/dimension/ClassicSkyDimensionDimension.class
+  net/mcreator/derrobert/world/dimension/NotNetherDimensionDimension$DimensionSpecialEffectsHandler$1.class
+  net/mcreator/derrobert/world/dimension/NotNetherDimensionDimension$DimensionSpecialEffectsHandler.class
+  net/mcreator/derrobert/world/dimension/NotNetherDimensionDimension.class
   net/mcreator/derrobert/world/features/
   net/mcreator/derrobert/world/features/ores/
   net/mcreator/derrobert/world/features/ores/AetherAmberootLogFeature.class
@@ -871,42 +1241,65 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/world/features/ores/BetaMonsterSpawnerFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicBedrockBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicBrickBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicBrickSlabsFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicBrickStairsFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicCryingObsidianFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicDirtBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicDirtSlabFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicDirtStairsFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicDirtTrapDoorFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicDirtTriangleFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicEmeraldOreFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicEndstoneBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicGhostDirtFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicGlassBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicGlassPaneFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicGlowstoneBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicGrassBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicGravelBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicIronDoorFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicMonsterSpawnerFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicMossySlabsFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicMossyStoneBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicMossyStoneStairsFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicNetherQuartzOreFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicNetherrackBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicOakLeavesBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicObsidianBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicRubyOreFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicSandBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicSoulSandFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicSpongeBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicStoneBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicWoodBlockFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicWoodDoorFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWoodPaneFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWoodSideSlabFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicWoodSlabsFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicWoodStairsFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWoodTableFeature.class
+  net/mcreator/derrobert/world/features/ores/ClassicWoodTrapdoorFeature.class
   net/mcreator/derrobert/world/features/ores/ClassicWorkbenchBlockFeature.class
   net/mcreator/derrobert/world/features/ores/CreeponiaBrickBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/CreeponiaBrickSlabsFeature.class
+  net/mcreator/derrobert/world/features/ores/CreeponiaBrickStairsFeature.class
+  net/mcreator/derrobert/world/features/ores/CreeponiaBrickWallFeature.class
   net/mcreator/derrobert/world/features/ores/EndPortalButtonFeature.class
   net/mcreator/derrobert/world/features/ores/GlassDoorFeature.class
   net/mcreator/derrobert/world/features/ores/GlassSlabsFeature.class
   net/mcreator/derrobert/world/features/ores/GlassStairsFeature.class
   net/mcreator/derrobert/world/features/ores/GlowingObsidianFeature.class
   net/mcreator/derrobert/world/features/ores/HerobrineNetherrackFeature.class
+  net/mcreator/derrobert/world/features/ores/HerobrineNetherrackGlowFeature.class
   net/mcreator/derrobert/world/features/ores/MissingNoBlockFeature.class
   net/mcreator/derrobert/world/features/ores/MissingNoButtonFeature.class
   net/mcreator/derrobert/world/features/ores/MojangBlockFeature.class
   net/mcreator/derrobert/world/features/ores/NetherPortalButtonFeature.class
+  net/mcreator/derrobert/world/features/ores/SomeWhiteBlockFeature.class
+  net/mcreator/derrobert/world/features/ores/SomeWhiteBlockSlabsFeature.class
+  net/mcreator/derrobert/world/features/ores/SomeWhiteBlockStairsFeature.class
+  net/mcreator/derrobert/world/features/ores/SomeWhiteCylinderFeature.class
+  net/mcreator/derrobert/world/features/ores/SomeWhiteSideSlabFeature.class
   net/mcreator/derrobert/world/features/ores/WhiteLightBlockFeature.class
   net/mcreator/derrobert/world/inventory/
   net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$1.class
@@ -920,4 +1313,9 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$8.class
   net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu$9.class
   net/mcreator/derrobert/world/inventory/ClassicWorkbenchGUIMenu.class
+  net/mcreator/derrobert/world/teleporter/
+  net/mcreator/derrobert/world/teleporter/ClassicSkyDimensionPortalShape.class
+  net/mcreator/derrobert/world/teleporter/ClassicSkyDimensionTeleporter.class
+  net/mcreator/derrobert/world/teleporter/NotNetherDimensionPortalShape.class
+  net/mcreator/derrobert/world/teleporter/NotNetherDimensionTeleporter.class
   pack.mcmeta

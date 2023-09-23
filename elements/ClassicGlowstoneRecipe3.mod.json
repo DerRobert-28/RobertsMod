@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      },
+      {
+        "value": "CUSTOM:ClassicGlowStoneDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicGlowstoneBlock"
+    },
+    "name": "classic_glowstone_recipe_3",
+    "namespace": "mod"
+  }
+}

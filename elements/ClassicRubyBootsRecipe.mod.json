@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicRubyArmor.boots"
+    },
+    "name": "classic_ruby_boots_recipe",
+    "namespace": "mod"
+  }
+}

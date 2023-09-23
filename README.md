@@ -1,4 +1,4 @@
-# Robert' s Mod
+# Robert's Mod
 
 - Mainly decorative blocks of miscellaneous Minecraft mods and versions.
 - Buildable with MCreator
@@ -10,129 +10,67 @@
     - Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
-## Version history
+## Current version 1.23.38
 
-### Current version 1.23.37
-
-- **Implemented blocks:**
-  - Aether blocks:
-    - Amberroot Log
-    - Greatroot Log
-    - Skyroot Log
-    - Therawood Log
-    - Wisproot Log
-  - Classic blocks:
-    - Glass Block
-    - Glass Pane
-    - Glass Slabs
-    - Glass Stairs
-    - Wood Slabs
-    - Wood Stairs
-    - Wood Sticks
-  - Miscellaneous blocks:
-    - Anti Light Block
-    - End Portal Button
-    - Lucky Stone Block
-    - MissingNo Portal Button
-    - Nether Portal Button
-    - Water Portal
-    - White Light Block
-- **Implemented crafting recipes:**
-  - Glass panes, slabs and stairs
-  - Lucky Block recipe
-  - Smeltinh portal buttons
-  - Smelting sand to glass
-
-----
-
-### Test version 1.0.0
-
-- **Implemented blocks:**
-  - Aether blocks:
-    - Dirt
-    - Grass
-    - Portal
-  - Alpha blocks:
-    - Grass
-    - Gravel
-  - Beta blocks:
-    - End Stone
-    - Gravel
-    - Monster Spawner
-  - Classic blocks:
-    - Bedrock
-    - Bricks
-    - Cobblestone / Stone
-    - Crying Obsidian
-    - Dirt, Dirt Slab, Dirt Stairs
-    - End Stone
-    - Glowstone
-    - Grass Block
-    - Gravel
-    - Monster Spawner
-    - Mossy Cobblestone / Mossy Stone
-    - Nether Quartz Ore
-    - Netherrack
-    - Oak Leaves
-    - Obsidian
-    - Sand
-    - Soulsand
-    - Sponge
-    - TNT
-    - Wood, Wooden Door
-  - Miscellaneous blocks
-    - "Pack.png" (classic)
-    - "Pack.png" (modern)
-    - "UnknownPack.png"
-    - Background Dirt
-    - Creeponia Bricks
-    - Glass Door
-    - Herobrine Netherrack
-    - MissingNo
-    - Mojang Block
-    - Workbench
-  - Pocket Edition blocks:
-    - Glowing Obsidian
-- **Implemented crafting recipes:**
-  - Barrier
-  - Bedrock
-  - Bricks, Creeponia Bricks
-  - Cobblestone / Stone
-  - Crying Obsidian
-  - Dirt, Drit Slabs, Dirt Stairs
-  - End Stone
-  - Exchange Recipes
-  - Glass Door
-  - Grass
-  - Gravel
-  - Herobrine Netherrack / Netherrack
-  - Leaves
-  - Mojang Block
-  - Monster Spawner
-  - Mossy Cobblestone / Mossy Stone
-  - Nether Quartz Ore
-  - Obsidian
-  - Soul Sand
-  - TNT
-  - Wood, Wooden Door
-  - Workbench
-- **Implemented creatures/mobs:**
-  - Alpha Creeper
-  - Classic Herobrine
-  - Classic Human
-  - Classic Zombie
-  - Creeper Pig
-  - Evil Herobrine
-  - Piggy Creeper
-  - Template Human
-- **Implemented tabs for Creative Mode:**
-  - Robert's Aether
-  - Robert's Alpha
-  - Robert's Beta
-  - Robert's Classic
-  - Robert's Mod
-  - Robert's Mojang
-  - Robert's Pocket
-- **Implemented biomes:**
-  - ClassicBiome1 (test)
-  - ClassicBiome2 (test)
+- Mod development:
+  - Biomes/Dimension:
+    - Classic Sky Dimension
+      - Adjust Entity spawning
+      - Portal built by Classic Glowstone
+      - Portal activeted by Classic Water Bucket
+    - Not Nether Dimension
+      - Portal built by Classic Crying Obsidian
+      - Portal activeted by Not Nether Water
+  - Blocks/items:
+    - Broken Iron Door
+    - Classic Brick Slabs & Stairs
+    - Classic Dirt Trapdoor & "Triangle"
+    - Classic Emerald Item & Ore
+    - Classic Glass Wall
+    - Classic Glowstone Dust
+    - Classic Mossy Stone Slabs, Stairs & Walls
+    - Classic Ruby Armor, Item, Ore & Tools
+    - Classic Wood Panes, Side Slabs, Table & Trapdoor
+    - Creeponia Slabs, Stairs & Walls
+    - Nether Reactor Core
+    - "Some" White Block & Side Slabs
+  - Crafting recipes:
+    - Broken Iron Door
+    - Classic Brick Slabs & Stairs
+    - Classic Dirt Trapdoor
+    - Classic Ghost Dirt
+    - Classic Glass Wall
+    - Classic Glowstone Dust
+    - Classic Mossy Stone Slabs, Stairs & Walls
+    - Classic Ruby Armor, Tools
+    - Classic Water Bucket
+    - Classic Wood Panes, Side Slabs, Table & Trapdoor
+    - Creeponia Slabs, Stairs & Walls
+    - Nether Reactor Core
+    - Swapping Emerald & Ruby
+    - Swapping Flint'n'Steel & Not Nether Water
+    - "Some" White Block & Side Slabs
+    - Changes/fixes:
+      - Classic Brick Stairs
+      - Classic Wood Stairs
+  - Custom drops:
+    - Classic Emerald & Ruby:
+      - Drop 1 = 100% chance
+      - Drop 2 = 50% chance
+      - Drop 3 = 25% chance
+      - Drop 4 = 12.5% chance
+  - Entities:
+    - Removed Herobrine's health bar
+  - Work in progress:
+    - Attempt to safely teleport by using the teleport buttons
+    - Implementing "Some" White Block cylinder
+- Repository development & fixes:
+  - Added ".gitignore" file
+  - Create feature branch:
+    - This one is **v1y23w38**:
+      - version **1** *(related to Minecraft 1.20.1)*
+      - year 20**23**
+      - week **38**
+  - Removed version history from main page,
+    in favour of releases on GitHub page
+  - Temporarily deactivate hollow glass box on teleport

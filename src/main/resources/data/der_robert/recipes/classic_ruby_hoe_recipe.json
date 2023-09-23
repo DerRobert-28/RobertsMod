@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_ruby_item"
+    },
+    {
+      "item": "der_robert:classic_ruby_item"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_ruby_hoe",
+    "count": 1
+  }
+}

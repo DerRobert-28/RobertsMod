@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_ruby_item"
+    },
+    {
+      "item": "der_robert:classic_ruby_item"
+    },
+    {
+      "item": "der_robert:classic_ruby_item"
+    },
+    {
+      "item": "der_robert:classic_ruby_item"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_emerald_item",
+    "count": 4
+  }
+}

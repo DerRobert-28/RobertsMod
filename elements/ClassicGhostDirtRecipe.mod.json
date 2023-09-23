@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicDirtBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassPane"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicGhostDirt"
+    },
+    "name": "classic_ghost_dirt_recipe",
+    "namespace": "mod"
+  }
+}
