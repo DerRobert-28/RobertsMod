@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_top_right",
-  "textures": {
-    "bottom": "der_robert:block/glass_door_bottom",
-    "top": "der_robert:block/glass_door_top"
-  },
-  "render_type": "cutout"
-}

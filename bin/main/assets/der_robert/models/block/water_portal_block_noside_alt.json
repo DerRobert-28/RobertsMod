@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_glass_pane_noside_alt",
-  "textures": {
-    "pane": "der_robert:block/water_flow"
-  },
-  "render_type": "solid"
-}

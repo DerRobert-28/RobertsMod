@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "der_robert:aether_skyroot_log",
-  "step": "underground_ores"
-}

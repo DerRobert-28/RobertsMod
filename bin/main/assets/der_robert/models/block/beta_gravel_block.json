@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "der_robert:block/beta_gravel",
-    "particle": "der_robert:block/beta_gravel"
-  },
-  "render_type": "solid"
-}
