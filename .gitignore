@@ -1,7 +1,0 @@
-/.gradle
-/.gradle/
-/.gradle/**
-/build
-/build/
-/build/**
-*.class
