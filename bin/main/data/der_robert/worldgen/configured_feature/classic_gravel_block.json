@@ -8,6 +8,39 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
+            "Name": "der_robert:classic_gravel_block"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_gravel_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "der_robert:alpha_gravel_block"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_gravel_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "der_robert:beta_gravel_block"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_gravel_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
             "Name": "minecraft:gravel"
           }
         },

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/nether_reactor_core_red",
+    "particle": "der_robert:block/nether_reactor_core_red"
+  },
+  "render_type": "solid"
+}

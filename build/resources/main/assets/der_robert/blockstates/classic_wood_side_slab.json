@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "der_robert:block/classic_wood_side_slab"
+    },
+    "facing=east": {
+      "model": "der_robert:block/classic_wood_side_slab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "der_robert:block/classic_wood_side_slab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "der_robert:block/classic_wood_side_slab",
+      "y": 270
+    }
+  }
+}

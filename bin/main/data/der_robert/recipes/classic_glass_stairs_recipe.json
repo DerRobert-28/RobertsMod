@@ -1,27 +1,32 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "blocks",
   "category": "building",
-  "ingredients": [
-    {
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
       "item": "der_robert:classic_glass_block"
     },
-    {
+    "3": {
       "item": "der_robert:classic_glass_block"
     },
-    {
+    "4": {
       "item": "der_robert:classic_glass_block"
     },
-    {
+    "6": {
       "item": "der_robert:classic_glass_block"
     },
-    {
+    "7": {
       "item": "der_robert:classic_glass_block"
     },
-    {
+    "8": {
       "item": "der_robert:classic_glass_block"
     }
-  ],
+  },
   "result": {
     "item": "der_robert:glass_slabs",
     "count": 4

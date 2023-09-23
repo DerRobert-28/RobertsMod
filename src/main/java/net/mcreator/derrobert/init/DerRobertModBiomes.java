@@ -58,10 +58,16 @@ public class DerRobertModBiomes {
 							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_2")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
 							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_2")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_3")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_3")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_1")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_2")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
+							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_3")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
@@ -76,10 +82,14 @@ public class DerRobertModBiomes {
 								DerRobertModBlocks.CLASSIC_DIRT_BLOCK.get().defaultBlockState(), DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK.get().defaultBlockState()));
 						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_2")), DerRobertModBlocks.CLASSIC_GRASS_BLOCK.get().defaultBlockState(),
 								DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().defaultBlockState(), DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK.get().defaultBlockState()));
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_3")), DerRobertModBlocks.ALPHA_GRASS_BLOCK.get().defaultBlockState(),
+								DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().defaultBlockState(), DerRobertModBlocks.ALPHA_GRAVEL_BLOCK.get().defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_1")), DerRobertModBlocks.CLASSIC_GRASS_BLOCK.get().defaultBlockState(),
 								DerRobertModBlocks.CLASSIC_DIRT_BLOCK.get().defaultBlockState(), DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK.get().defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_2")), DerRobertModBlocks.CLASSIC_GRASS_BLOCK.get().defaultBlockState(),
 								DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().defaultBlockState(), DerRobertModBlocks.CLASSIC_GRAVEL_BLOCK.get().defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("der_robert", "classic_biome_3")), DerRobertModBlocks.ALPHA_GRASS_BLOCK.get().defaultBlockState(),
+								DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().defaultBlockState(), DerRobertModBlocks.ALPHA_GRAVEL_BLOCK.get().defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());

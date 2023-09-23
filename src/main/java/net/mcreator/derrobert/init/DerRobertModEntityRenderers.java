@@ -22,13 +22,13 @@ import net.mcreator.derrobert.client.renderer.AlphaCreeperRenderer;
 public class DerRobertModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_HEROBRINE.get(), ClassicHerobrineRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_HUMAN.get(), ClassicHumanRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_ZOMBIE.get(), ClassicZombieRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.CREEPER_PIG.get(), CreeperPigRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.EVIL_HEROBRINE.get(), EvilHerobrineRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.PIGGY_CREEPER.get(), PiggyCreeperRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.TEMPLATE_HUMAN.get(), TemplateHumanRenderer::new);
-		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_HEROBRINE.get(), ClassicHerobrineRenderer::new);
-		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_HUMAN.get(), ClassicHumanRenderer::new);
-		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_ZOMBIE.get(), ClassicZombieRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.ALPHA_CREEPER.get(), AlphaCreeperRenderer::new);
 	}
 }

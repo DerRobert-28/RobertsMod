@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "der_robert:block/classic_bricks",
+    "top": "der_robert:block/classic_bricks",
+    "side": "der_robert:block/classic_bricks"
+  },
+  "render_type": "solid"
+}

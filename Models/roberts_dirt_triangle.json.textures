@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "classic_dirt"
+      },
+      "name": "default"
+    }
+  }
+}

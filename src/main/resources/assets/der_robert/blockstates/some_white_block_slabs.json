@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "der_robert:block/some_white_block_slabs"
+    },
+    "type=top": {
+      "model": "der_robert:block/some_white_block_slabs_top"
+    },
+    "type=double": {
+      "model": "der_robert:block/some_white_block_slabs_full"
+    }
+  }
+}

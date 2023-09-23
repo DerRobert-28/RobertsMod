@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "der_robert:block/classic_dirt_triangle"
+    },
+    "facing=east": {
+      "model": "der_robert:block/classic_dirt_triangle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "der_robert:block/classic_dirt_triangle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "der_robert:block/classic_dirt_triangle",
+      "y": 270
+    }
+  }
+}

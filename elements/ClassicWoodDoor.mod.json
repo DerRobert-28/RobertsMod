@@ -34,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Classic Wooden Door",
+    "name": "Classic Wood Door",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -120,7 +120,8 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface",
-      "Nether"
+      "Nether",
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

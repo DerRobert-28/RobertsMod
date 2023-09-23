@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsClassicTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {

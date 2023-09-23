@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": "CUSTOM:ClassicRubyItem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicEmeraldItem"
+    },
+    "name": "classic_ruby_emerald_recipe_4",
+    "namespace": "mod"
+  }
+}

@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsClassicTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -117,6 +117,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRedstoneOn": {
+      "name": "HerbrineBlockActivate"
+    },
+    "onRedstoneOff": {
+      "name": "HerobrineBlockDeactivate"
+    },
     "spawnWorldTypes": [
       "Surface",
       "Nether",
