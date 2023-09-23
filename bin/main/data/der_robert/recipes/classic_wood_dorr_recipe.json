@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "1": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "2": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "3": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "4": {
+      "item": "der_robert:classic_wood_block"
+    },
+    "5": {
+      "item": "der_robert:classic_wood_block"
+    }
+  },
+  "result": {
+    "item": "der_robert:classic_wood_door",
+    "count": 1
+  }
+}
