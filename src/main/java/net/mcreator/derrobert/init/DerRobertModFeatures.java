@@ -50,7 +50,6 @@ import net.mcreator.derrobert.world.features.ores.ClassicObsidianBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicOakLeavesBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicNetherrackBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicNetherQuartzOreFeature;
-import net.mcreator.derrobert.world.features.ores.ClassicMossyStoneWallFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicMossyStoneStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicMossyStoneBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicMossySlabsFeature;
@@ -126,7 +125,6 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_MOSSY_STONE_BLOCK = REGISTRY.register("classic_mossy_stone_block", ClassicMossyStoneBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_MOSSY_SLABS = REGISTRY.register("classic_mossy_slabs", ClassicMossySlabsFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_MOSSY_STONE_STAIRS = REGISTRY.register("classic_mossy_stone_stairs", ClassicMossyStoneStairsFeature::new);
-	public static final RegistryObject<Feature<?>> CLASSIC_MOSSY_STONE_WALL = REGISTRY.register("classic_mossy_stone_wall", ClassicMossyStoneWallFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_NETHERRACK_BLOCK = REGISTRY.register("classic_netherrack_block", ClassicNetherrackBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_NETHER_QUARTZ_ORE = REGISTRY.register("classic_nether_quartz_ore", ClassicNetherQuartzOreFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_OAK_LEAVES_BLOCK = REGISTRY.register("classic_oak_leaves_block", ClassicOakLeavesBlockFeature::new);

@@ -93,6 +93,10 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_RUBY_PICKAXE.get());
 				tabData.accept(DerRobertModItems.CLASSIC_RUBY_SHOVEL.get());
 				tabData.accept(DerRobertModItems.CLASSIC_RUBY_SWORD.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_HELMET.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_CHESTPLATE.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_LEGGINGS.get());
+				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_BOOTS.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SAND_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SOUL_SAND.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK.get().asItem());
@@ -138,15 +142,11 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
-				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_HELMET.get());
-				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_CHESTPLATE.get());
-				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_LEGGINGS.get());
-				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_BOOTS.get());
+				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
-				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
 			})
 
 					.build());

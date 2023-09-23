@@ -79,6 +79,10 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_RUBY_PICKAXE = REGISTRY.register("classic_ruby_pickaxe", () -> new ClassicRubyPickaxeItem());
 	public static final RegistryObject<Item> CLASSIC_RUBY_SHOVEL = REGISTRY.register("classic_ruby_shovel", () -> new ClassicRubyShovelItem());
 	public static final RegistryObject<Item> CLASSIC_RUBY_SWORD = REGISTRY.register("classic_ruby_sword", () -> new ClassicRubySwordItem());
+	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_HELMET = REGISTRY.register("classic_ruby_armor_helmet", () -> new ClassicRubyArmorItem.Helmet());
+	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_CHESTPLATE = REGISTRY.register("classic_ruby_armor_chestplate", () -> new ClassicRubyArmorItem.Chestplate());
+	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_LEGGINGS = REGISTRY.register("classic_ruby_armor_leggings", () -> new ClassicRubyArmorItem.Leggings());
+	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_BOOTS = REGISTRY.register("classic_ruby_armor_boots", () -> new ClassicRubyArmorItem.Boots());
 	public static final RegistryObject<Item> CLASSIC_SAND_BLOCK = block(DerRobertModBlocks.CLASSIC_SAND_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_SOUL_SAND = block(DerRobertModBlocks.CLASSIC_SOUL_SAND);
 	public static final RegistryObject<Item> CLASSIC_SPONGE_BLOCK = block(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK);
@@ -109,10 +113,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MISSING_NO_BUTTON = block(DerRobertModBlocks.MISSING_NO_BUTTON);
 	public static final RegistryObject<Item> NETHER_PORTAL_BUTTON = block(DerRobertModBlocks.NETHER_PORTAL_BUTTON);
 	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
-	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_HELMET = REGISTRY.register("classic_ruby_armor_helmet", () -> new ClassicRubyArmorItem.Helmet());
-	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_CHESTPLATE = REGISTRY.register("classic_ruby_armor_chestplate", () -> new ClassicRubyArmorItem.Chestplate());
-	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_LEGGINGS = REGISTRY.register("classic_ruby_armor_leggings", () -> new ClassicRubyArmorItem.Leggings());
-	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_BOOTS = REGISTRY.register("classic_ruby_armor_boots", () -> new ClassicRubyArmorItem.Boots());
+	public static final RegistryObject<Item> NOT_NETHER_DIMENSION = REGISTRY.register("not_nether_dimension", () -> new NotNetherDimensionItem());
 	public static final RegistryObject<Item> CREEPER_PIG_SPAWN_EGG = REGISTRY.register("creeper_pig_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CREEPER_PIG, -16744704, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> EVIL_HEROBRINE_SPAWN_EGG = REGISTRY.register("evil_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.EVIL_HEROBRINE, -65536, -256, new Item.Properties()));
 	public static final RegistryObject<Item> PIGGY_CREEPER_SPAWN_EGG = REGISTRY.register("piggy_creeper_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.PIGGY_CREEPER, -32897, -1, new Item.Properties()));
@@ -137,7 +138,6 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> NETHER_REACTOR_CORE_RED = block(DerRobertModBlocks.NETHER_REACTOR_CORE_RED);
 	public static final RegistryObject<Item> SOME_WHITE_CYLINDER = block(DerRobertModBlocks.SOME_WHITE_CYLINDER);
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK_GLOW = block(DerRobertModBlocks.HEROBRINE_NETHERRACK_GLOW);
-	public static final RegistryObject<Item> NOT_NETHER_DIMENSION = REGISTRY.register("not_nether_dimension", () -> new NotNetherDimensionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

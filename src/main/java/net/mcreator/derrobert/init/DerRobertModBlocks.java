@@ -172,6 +172,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> MISSING_NO_BUTTON = REGISTRY.register("missing_no_button", () -> new MissingNoButtonBlock());
 	public static final RegistryObject<Block> NETHER_PORTAL_BUTTON = REGISTRY.register("nether_portal_button", () -> new NetherPortalButtonBlock());
 	public static final RegistryObject<Block> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", () -> new WhiteLightBlockBlock());
+	public static final RegistryObject<Block> NOT_NETHER_DIMENSION_PORTAL = REGISTRY.register("not_nether_dimension_portal", () -> new NotNetherDimensionPortalBlock());
 	public static final RegistryObject<Block> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", () -> new AlphaGrassBlockBlock());
 	public static final RegistryObject<Block> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", () -> new AlphaGravelBlockBlock());
 	public static final RegistryObject<Block> SOME_WHITE_BLOCK = REGISTRY.register("some_white_block", () -> new SomeWhiteBlockBlock());
@@ -191,5 +192,4 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> NETHER_REACTOR_CORE_RED = REGISTRY.register("nether_reactor_core_red", () -> new NetherReactorCoreRedBlock());
 	public static final RegistryObject<Block> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", () -> new SomeWhiteCylinderBlock());
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", () -> new HerobrineNetherrackGlowBlock());
-	public static final RegistryObject<Block> NOT_NETHER_DIMENSION_PORTAL = REGISTRY.register("not_nether_dimension_portal", () -> new NotNetherDimensionPortalBlock());
 }

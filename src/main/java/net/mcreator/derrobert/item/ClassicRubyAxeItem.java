@@ -32,6 +32,6 @@ public class ClassicRubyAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -2f, new Item.Properties());
 	}
 }
