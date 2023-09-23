@@ -1,9 +1,0 @@
-{
-  "parent": "der_robert:custom/roberts_cylinder",
-  "textures": {
-    "all": "der_robert:block/white_block",
-    "particle": "der_robert:block/white_block",
-    "0": "der_robert:block/white_block"
-  },
-  "render_type": "cutout"
-}

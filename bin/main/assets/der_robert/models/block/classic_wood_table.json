@@ -1,9 +1,0 @@
-{
-  "parent": "der_robert:custom/roberts_table",
-  "textures": {
-    "all": "der_robert:block/classic_wood",
-    "particle": "der_robert:block/classic_wood",
-    "1": "der_robert:block/classic_wood"
-  },
-  "render_type": "cutout"
-}
