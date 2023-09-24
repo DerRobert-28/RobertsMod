@@ -26,6 +26,11 @@ import net.mcreator.derrobert.block.MojangBlockBlock;
 import net.mcreator.derrobert.block.ModernPackBlockBlock;
 import net.mcreator.derrobert.block.MissingNoButtonBlock;
 import net.mcreator.derrobert.block.MissingNoBlockBlock;
+import net.mcreator.derrobert.block.ManicStoneBlockBlock;
+import net.mcreator.derrobert.block.ManicGrassOnlyBlock;
+import net.mcreator.derrobert.block.ManicGrassBlockBlock;
+import net.mcreator.derrobert.block.ManicDirtBlockBlock;
+import net.mcreator.derrobert.block.ManicCobblestoneBlock;
 import net.mcreator.derrobert.block.LuckyStoneBlockBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackGlowBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackBlock;
@@ -189,7 +194,12 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> BETA_END_STONE = REGISTRY.register("beta_end_stone", () -> new BetaEndStoneBlock());
 	public static final RegistryObject<Block> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", () -> new BetaGravelBlockBlock());
 	public static final RegistryObject<Block> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", () -> new BetaMonsterSpawnerBlock());
+	public static final RegistryObject<Block> MANIC_COBBLESTONE = REGISTRY.register("manic_cobblestone", () -> new ManicCobblestoneBlock());
+	public static final RegistryObject<Block> MANIC_DIRT_BLOCK = REGISTRY.register("manic_dirt_block", () -> new ManicDirtBlockBlock());
+	public static final RegistryObject<Block> MANIC_GRASS_BLOCK = REGISTRY.register("manic_grass_block", () -> new ManicGrassBlockBlock());
+	public static final RegistryObject<Block> MANIC_STONE_BLOCK = REGISTRY.register("manic_stone_block", () -> new ManicStoneBlockBlock());
 	public static final RegistryObject<Block> NETHER_REACTOR_CORE_RED = REGISTRY.register("nether_reactor_core_red", () -> new NetherReactorCoreRedBlock());
 	public static final RegistryObject<Block> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", () -> new SomeWhiteCylinderBlock());
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", () -> new HerobrineNetherrackGlowBlock());
+	public static final RegistryObject<Block> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", () -> new ManicGrassOnlyBlock());
 }

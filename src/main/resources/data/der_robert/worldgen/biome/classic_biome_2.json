@@ -11,58 +11,8 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "der_robert:alpha_creeper",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "der_robert:classic_herobrine",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "der_robert:classic_zombie",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "der_robert:evil_herobrine",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "der_robert:piggy_creeper",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "creature": [
-      {
-        "type": "der_robert:classic_human",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "der_robert:creeper_pig",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "der_robert:template_human",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

@@ -21,6 +21,10 @@ import net.mcreator.derrobert.world.features.ores.NetherPortalButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ManicStoneBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ManicGrassBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ManicDirtBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ManicCobblestoneFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackGlowFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackFeature;
 import net.mcreator.derrobert.world.features.ores.GlowingObsidianFeature;
@@ -166,6 +170,10 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> BETA_END_STONE = REGISTRY.register("beta_end_stone", BetaEndStoneFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_GRAVEL_BLOCK = REGISTRY.register("beta_gravel_block", BetaGravelBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BETA_MONSTER_SPAWNER = REGISTRY.register("beta_monster_spawner", BetaMonsterSpawnerFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_COBBLESTONE = REGISTRY.register("manic_cobblestone", ManicCobblestoneFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_DIRT_BLOCK = REGISTRY.register("manic_dirt_block", ManicDirtBlockFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_GRASS_BLOCK = REGISTRY.register("manic_grass_block", ManicGrassBlockFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_STONE_BLOCK = REGISTRY.register("manic_stone_block", ManicStoneBlockFeature::new);
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
 }

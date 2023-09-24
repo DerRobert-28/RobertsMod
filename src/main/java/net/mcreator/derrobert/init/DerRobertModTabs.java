@@ -157,4 +157,13 @@ public class DerRobertModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_MANIC_DIGGER = REGISTRY.register("roberts_manic_digger",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_manic_digger")).icon(() -> new ItemStack(DerRobertModBlocks.MANIC_GRASS_ONLY.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.MANIC_COBBLESTONE.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_DIRT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_GRASS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_STONE_BLOCK.get().asItem());
+			})
+
+					.build());
 }

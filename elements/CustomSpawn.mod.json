@@ -1,0 +1,63 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:ClassicGrassBlock"
+      },
+      {
+        "value": "CUSTOM:AetherGrassBlock"
+      },
+      {
+        "value": "CUSTOM:AlphaGrassBlock"
+      },
+      {
+        "value": "CUSTOM:ManicGrassBlock"
+      },
+      {
+        "value": "CUSTOM:ManicGrassOnly"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.GRASS_PATH"
+      },
+      {
+        "value": "CUSTOM:ClassicDirtBlock"
+      },
+      {
+        "value": "CUSTOM:AetherDirtBlock"
+      },
+      {
+        "value": "CUSTOM:BackgroundDirt"
+      },
+      {
+        "value": "CUSTOM:ClassicGhostDirt"
+      },
+      {
+        "value": "CUSTOM:ManicDirtBlock"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.DIRT#2"
+      },
+      {
+        "value": "Blocks.ROOTED_DIRT"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

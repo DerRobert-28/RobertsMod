@@ -4,10 +4,11 @@ license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="der_robert"
-version="1.23.38"
+version="1.23.39"
 displayName="Robert's Mod"
 credits="@DerRobert28, @epixkev04"
 displayURL="https://www.youtube.com/@DerRobert28"
+logoFile="logo.png"
 authors="Der Robert"
 description="My First Mod"
 

@@ -135,9 +135,14 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> BETA_END_STONE = block(DerRobertModBlocks.BETA_END_STONE);
 	public static final RegistryObject<Item> BETA_GRAVEL_BLOCK = block(DerRobertModBlocks.BETA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> BETA_MONSTER_SPAWNER = block(DerRobertModBlocks.BETA_MONSTER_SPAWNER);
+	public static final RegistryObject<Item> MANIC_COBBLESTONE = block(DerRobertModBlocks.MANIC_COBBLESTONE);
+	public static final RegistryObject<Item> MANIC_DIRT_BLOCK = block(DerRobertModBlocks.MANIC_DIRT_BLOCK);
+	public static final RegistryObject<Item> MANIC_GRASS_BLOCK = block(DerRobertModBlocks.MANIC_GRASS_BLOCK);
+	public static final RegistryObject<Item> MANIC_STONE_BLOCK = block(DerRobertModBlocks.MANIC_STONE_BLOCK);
 	public static final RegistryObject<Item> NETHER_REACTOR_CORE_RED = block(DerRobertModBlocks.NETHER_REACTOR_CORE_RED);
 	public static final RegistryObject<Item> SOME_WHITE_CYLINDER = block(DerRobertModBlocks.SOME_WHITE_CYLINDER);
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK_GLOW = block(DerRobertModBlocks.HEROBRINE_NETHERRACK_GLOW);
+	public static final RegistryObject<Item> MANIC_GRASS_ONLY = block(DerRobertModBlocks.MANIC_GRASS_ONLY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

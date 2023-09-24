@@ -13,6 +13,9 @@
 ## Current version 1.23.39
 
 - Mod development:
-  - In progress ...
+  - Blocks/items:
+    - Manic Cobblestone/Stone
+    - Manic Dirt/Grass
+  - Added mod logo
 - Repository development & fixes:
   - Temporarily removed ".gitignore" file
