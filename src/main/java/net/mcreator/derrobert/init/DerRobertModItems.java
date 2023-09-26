@@ -115,9 +115,13 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
 	public static final RegistryObject<Item> NOT_NETHER_DIMENSION = REGISTRY.register("not_nether_dimension", () -> new NotNetherDimensionItem());
 	public static final RegistryObject<Item> CREEPER_PIG_SPAWN_EGG = REGISTRY.register("creeper_pig_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CREEPER_PIG, -16744704, -16711936, new Item.Properties()));
+	public static final RegistryObject<Item> EPIX_KEV_SPAWN_EGG = REGISTRY.register("epix_kev_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.EPIX_KEV, -16777216, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> EVIL_HEROBRINE_SPAWN_EGG = REGISTRY.register("evil_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.EVIL_HEROBRINE, -65536, -256, new Item.Properties()));
+	public static final RegistryObject<Item> GRONKH_SPAWN_EGG = REGISTRY.register("gronkh_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.GRONKH, -1, -16776961, new Item.Properties()));
 	public static final RegistryObject<Item> PIGGY_CREEPER_SPAWN_EGG = REGISTRY.register("piggy_creeper_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.PIGGY_CREEPER, -32897, -1, new Item.Properties()));
+	public static final RegistryObject<Item> SON_KI_SPAWN_EGG = REGISTRY.register("son_ki_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.SON_KI, -65281, -8454017, new Item.Properties()));
 	public static final RegistryObject<Item> TEMPLATE_HUMAN_SPAWN_EGG = REGISTRY.register("template_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TEMPLATE_HUMAN, -1, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> TRACY_MOODALIE_SPAWN_EGG = REGISTRY.register("tracy_moodalie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TRACY_MOODALIE, -16777216, -8454017, new Item.Properties()));
 	public static final RegistryObject<Item> ALPHA_GRASS_BLOCK = block(DerRobertModBlocks.ALPHA_GRASS_BLOCK);
 	public static final RegistryObject<Item> ALPHA_GRAVEL_BLOCK = block(DerRobertModBlocks.ALPHA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> SOME_WHITE_BLOCK = block(DerRobertModBlocks.SOME_WHITE_BLOCK);
@@ -132,6 +136,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MODERN_PACK_BLOCK = block(DerRobertModBlocks.MODERN_PACK_BLOCK);
 	public static final RegistryObject<Item> MOJANG_BLOCK = block(DerRobertModBlocks.MOJANG_BLOCK);
 	public static final RegistryObject<Item> UNKNOWN_PACK_BLOCK = block(DerRobertModBlocks.UNKNOWN_PACK_BLOCK);
+	public static final RegistryObject<Item> NOTCH_SPAWN_EGG = REGISTRY.register("notch_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.NOTCH, -25600, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> BETA_END_STONE = block(DerRobertModBlocks.BETA_END_STONE);
 	public static final RegistryObject<Item> BETA_GRAVEL_BLOCK = block(DerRobertModBlocks.BETA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> BETA_MONSTER_SPAWNER = block(DerRobertModBlocks.BETA_MONSTER_SPAWNER);

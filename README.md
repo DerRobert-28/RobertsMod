@@ -16,6 +16,8 @@
   - Blocks/items:
     - Manic Cobblestone/Stone
     - Manic Dirt/Grass
+  - Entities:
+    - Added some entities as easter eggs
   - Added mod logo
 - Repository development & fixes:
   - Temporarily removed ".gitignore" file

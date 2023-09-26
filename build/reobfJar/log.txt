@@ -526,11 +526,13 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/item/creeponia_brick_stairs.json
   assets/der_robert/models/item/creeponia_brick_wall.json
   assets/der_robert/models/item/end_portal_button.json
+  assets/der_robert/models/item/epix_kev_spawn_egg.json
   assets/der_robert/models/item/evil_herobrine_spawn_egg.json
   assets/der_robert/models/item/glass_door.json
   assets/der_robert/models/item/glass_slabs.json
   assets/der_robert/models/item/glass_stairs.json
   assets/der_robert/models/item/glowing_obsidian.json
+  assets/der_robert/models/item/gronkh_spawn_egg.json
   assets/der_robert/models/item/herobrine_netherrack.json
   assets/der_robert/models/item/herobrine_netherrack_glow.json
   assets/der_robert/models/item/lucky_stone_block.json
@@ -547,13 +549,16 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/item/nether_reactor_core_blue.json
   assets/der_robert/models/item/nether_reactor_core_red.json
   assets/der_robert/models/item/not_nether_dimension.json
+  assets/der_robert/models/item/notch_spawn_egg.json
   assets/der_robert/models/item/piggy_creeper_spawn_egg.json
   assets/der_robert/models/item/some_white_block.json
   assets/der_robert/models/item/some_white_block_slabs.json
   assets/der_robert/models/item/some_white_block_stairs.json
   assets/der_robert/models/item/some_white_cylinder.json
   assets/der_robert/models/item/some_white_side_slab.json
+  assets/der_robert/models/item/son_ki_spawn_egg.json
   assets/der_robert/models/item/template_human_spawn_egg.json
+  assets/der_robert/models/item/tracy_moodalie_spawn_egg.json
   assets/der_robert/models/item/unknown_pack_block.json
   assets/der_robert/models/item/water_portal_block.json
   assets/der_robert/models/item/white_light_block.json
@@ -650,9 +655,14 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/entities/classic_herobrine.png
   assets/der_robert/textures/entities/classic_zombie.png
   assets/der_robert/textures/entities/creeper_pig.png
+  assets/der_robert/textures/entities/epix_kev.png
   assets/der_robert/textures/entities/evil_herobrine.png
+  assets/der_robert/textures/entities/gronkh.png
+  assets/der_robert/textures/entities/notch.png
   assets/der_robert/textures/entities/piggy_creeper.png
+  assets/der_robert/textures/entities/son_ki.png
   assets/der_robert/textures/entities/template.png
+  assets/der_robert/textures/entities/tracy_moodalie.png
   assets/der_robert/textures/item/
   assets/der_robert/textures/item/classic_door.png
   assets/der_robert/textures/item/classic_emerald_item.png
@@ -1187,9 +1197,14 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/client/renderer/ClassicHumanRenderer.class
   net/mcreator/derrobert/client/renderer/ClassicZombieRenderer.class
   net/mcreator/derrobert/client/renderer/CreeperPigRenderer.class
+  net/mcreator/derrobert/client/renderer/EpixKevRenderer.class
   net/mcreator/derrobert/client/renderer/EvilHerobrineRenderer.class
+  net/mcreator/derrobert/client/renderer/GronkhRenderer.class
+  net/mcreator/derrobert/client/renderer/NotchRenderer.class
   net/mcreator/derrobert/client/renderer/PiggyCreeperRenderer.class
+  net/mcreator/derrobert/client/renderer/SonKiRenderer.class
   net/mcreator/derrobert/client/renderer/TemplateHumanRenderer.class
+  net/mcreator/derrobert/client/renderer/TracyMoodalieRenderer.class
   net/mcreator/derrobert/entity/
   net/mcreator/derrobert/entity/AlphaCreeperEntity$1.class
   net/mcreator/derrobert/entity/AlphaCreeperEntity.class
@@ -1201,12 +1216,22 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/entity/ClassicZombieEntity.class
   net/mcreator/derrobert/entity/CreeperPigEntity$1.class
   net/mcreator/derrobert/entity/CreeperPigEntity.class
+  net/mcreator/derrobert/entity/EpixKevEntity$1.class
+  net/mcreator/derrobert/entity/EpixKevEntity.class
   net/mcreator/derrobert/entity/EvilHerobrineEntity$1.class
   net/mcreator/derrobert/entity/EvilHerobrineEntity.class
+  net/mcreator/derrobert/entity/GronkhEntity$1.class
+  net/mcreator/derrobert/entity/GronkhEntity.class
+  net/mcreator/derrobert/entity/NotchEntity$1.class
+  net/mcreator/derrobert/entity/NotchEntity.class
   net/mcreator/derrobert/entity/PiggyCreeperEntity$1.class
   net/mcreator/derrobert/entity/PiggyCreeperEntity.class
+  net/mcreator/derrobert/entity/SonKiEntity$1.class
+  net/mcreator/derrobert/entity/SonKiEntity.class
   net/mcreator/derrobert/entity/TemplateHumanEntity$1.class
   net/mcreator/derrobert/entity/TemplateHumanEntity.class
+  net/mcreator/derrobert/entity/TracyMoodalieEntity$1.class
+  net/mcreator/derrobert/entity/TracyMoodalieEntity.class
   net/mcreator/derrobert/init/
   net/mcreator/derrobert/init/DerRobertModBiomes.class
   net/mcreator/derrobert/init/DerRobertModBlocks.class

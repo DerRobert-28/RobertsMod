@@ -125,6 +125,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MODERN_PACK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MOJANG_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.UNKNOWN_PACK_BLOCK.get().asItem());
+				tabData.accept(DerRobertModItems.NOTCH_SPAWN_EGG.get());
 			})
 
 					.build());
@@ -144,9 +145,13 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.EPIX_KEV_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.GRONKH_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.SON_KI_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.TRACY_MOODALIE_SPAWN_EGG.get());
 			})
 
 					.build());
