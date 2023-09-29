@@ -14,10 +14,19 @@
 
 - Mod development:
   - Blocks/items:
+    - Boulder Dash Bonus Block (Color & BW)
     - Manic Cobblestone/Stone
     - Manic Dirt/Grass
+    - No Chestt Block
+    - Pocket Stonecutter
+  - Crafting recipies:
+    - Boulder Dash Bonus Block (Color & BW)
+    - No Chest Block
+    - Pocket Stonecutter
   - Entities:
     - Added some entities as easter eggs
   - Added mod logo
 - Repository development & fixes:
   - Temporarily removed ".gitignore" file
+  - Early release due to absence
+

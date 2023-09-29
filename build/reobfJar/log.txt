@@ -170,6 +170,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/blockstates/beta_end_stone.json
   assets/der_robert/blockstates/beta_gravel_block.json
   assets/der_robert/blockstates/beta_monster_spawner.json
+  assets/der_robert/blockstates/boulder_dash_bonus_block.json
+  assets/der_robert/blockstates/boulder_dash_bonus_block_bw.json
   assets/der_robert/blockstates/classic_bedrock_block.json
   assets/der_robert/blockstates/classic_brick_block.json
   assets/der_robert/blockstates/classic_brick_slabs.json
@@ -240,7 +242,9 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/blockstates/nether_portal_button.json
   assets/der_robert/blockstates/nether_reactor_core_blue.json
   assets/der_robert/blockstates/nether_reactor_core_red.json
+  assets/der_robert/blockstates/no_chest.json
   assets/der_robert/blockstates/not_nether_dimension_portal.json
+  assets/der_robert/blockstates/pocket_stone_cutter.json
   assets/der_robert/blockstates/some_white_block.json
   assets/der_robert/blockstates/some_white_block_slabs.json
   assets/der_robert/blockstates/some_white_block_stairs.json
@@ -272,6 +276,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/beta_end_stone.json
   assets/der_robert/models/block/beta_gravel_block.json
   assets/der_robert/models/block/beta_monster_spawner.json
+  assets/der_robert/models/block/boulder_dash_bonus_block.json
+  assets/der_robert/models/block/boulder_dash_bonus_block_bw.json
   assets/der_robert/models/block/classic_bedrock_block.json
   assets/der_robert/models/block/classic_brick_block.json
   assets/der_robert/models/block/classic_brick_slabs.json
@@ -415,8 +421,10 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/block/nether_portal_button_pressed.json
   assets/der_robert/models/block/nether_reactor_core_blue.json
   assets/der_robert/models/block/nether_reactor_core_red.json
+  assets/der_robert/models/block/no_chest.json
   assets/der_robert/models/block/not_nether_dimension_portal_ew.json
   assets/der_robert/models/block/not_nether_dimension_portal_ns.json
+  assets/der_robert/models/block/pocket_stone_cutter.json
   assets/der_robert/models/block/some_white_block.json
   assets/der_robert/models/block/some_white_block_slabs.json
   assets/der_robert/models/block/some_white_block_slabs_full.json
@@ -459,6 +467,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/item/beta_end_stone.json
   assets/der_robert/models/item/beta_gravel_block.json
   assets/der_robert/models/item/beta_monster_spawner.json
+  assets/der_robert/models/item/boulder_dash_bonus_block.json
+  assets/der_robert/models/item/boulder_dash_bonus_block_bw.json
   assets/der_robert/models/item/classic_bedrock_block.json
   assets/der_robert/models/item/classic_brick_block.json
   assets/der_robert/models/item/classic_brick_slabs.json
@@ -548,9 +558,11 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/models/item/nether_portal_button.json
   assets/der_robert/models/item/nether_reactor_core_blue.json
   assets/der_robert/models/item/nether_reactor_core_red.json
+  assets/der_robert/models/item/no_chest.json
   assets/der_robert/models/item/not_nether_dimension.json
   assets/der_robert/models/item/notch_spawn_egg.json
   assets/der_robert/models/item/piggy_creeper_spawn_egg.json
+  assets/der_robert/models/item/pocket_stone_cutter.json
   assets/der_robert/models/item/some_white_block.json
   assets/der_robert/models/item/some_white_block_slabs.json
   assets/der_robert/models/item/some_white_block_stairs.json
@@ -587,14 +599,22 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/block/beta_endstone.png
   assets/der_robert/textures/block/beta_gravel.png
   assets/der_robert/textures/block/beta_monster_spawner.png
+  assets/der_robert/textures/block/boulder_dash_bonus_block.png
+  assets/der_robert/textures/block/boulder_dash_bonus_block.png.mcmeta
+  assets/der_robert/textures/block/boulder_dash_bonus_block_bw.png
+  assets/der_robert/textures/block/boulder_dash_bonus_block_bw.png.mcmeta
   assets/der_robert/textures/block/classic_bedrock.png
   assets/der_robert/textures/block/classic_bricks.png
+  assets/der_robert/textures/block/classic_chest_side.png
+  assets/der_robert/textures/block/classic_chest_top_bottom.png
   assets/der_robert/textures/block/classic_crying_obsidian.png
   assets/der_robert/textures/block/classic_dirt.png
   assets/der_robert/textures/block/classic_door_bottom.png
   assets/der_robert/textures/block/classic_door_top.png
   assets/der_robert/textures/block/classic_emerald_ore.png
   assets/der_robert/textures/block/classic_endstone.png
+  assets/der_robert/textures/block/classic_furnace_side.png
+  assets/der_robert/textures/block/classic_furnace_top_bottom.png
   assets/der_robert/textures/block/classic_glass_block.png
   assets/der_robert/textures/block/classic_glowstone.png
   assets/der_robert/textures/block/classic_grass_block.png
@@ -639,7 +659,10 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   assets/der_robert/textures/block/nether_portal.png.mcmeta
   assets/der_robert/textures/block/nether_reactor_core_blue.png
   assets/der_robert/textures/block/nether_reactor_core_red.png
+  assets/der_robert/textures/block/pocket_stone_cutter_side.png
+  assets/der_robert/textures/block/pocket_stone_cutter_top.png
   assets/der_robert/textures/block/unknown_pack_block.png
+  assets/der_robert/textures/block/update_block.png
   assets/der_robert/textures/block/water_flow.png
   assets/der_robert/textures/block/water_flow.png.mcmeta
   assets/der_robert/textures/block/white_block.png
@@ -778,6 +801,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/forge/biome_modifier/missing_no_button_biome_modifier.json
   data/der_robert/forge/biome_modifier/mojang_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/nether_portal_button_biome_modifier.json
+  data/der_robert/forge/biome_modifier/no_chest_biome_modifier.json
   data/der_robert/forge/biome_modifier/piggy_creeper_biome_modifier.json
   data/der_robert/forge/biome_modifier/some_white_block_biome_modifier.json
   data/der_robert/forge/biome_modifier/some_white_block_slabs_biome_modifier.json
@@ -796,6 +820,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/beta_gravel_recipe.json
   data/der_robert/recipes/beta_monster_spawner_recipe_1.json
   data/der_robert/recipes/beta_monster_spawner_recipe_2.json
+  data/der_robert/recipes/boulder_dash_bonus_recipe.json
+  data/der_robert/recipes/boulder_dash_bonus_recipe_bw.json
   data/der_robert/recipes/class_glass_slabs_recipe.json
   data/der_robert/recipes/classic_brick_recipe.json
   data/der_robert/recipes/classic_brick_slabs_recipe.json
@@ -891,8 +917,10 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/recipes/mojang_recipe.json
   data/der_robert/recipes/nether_button_recipe.json
   data/der_robert/recipes/nether_reactor_core_recipe.json
+  data/der_robert/recipes/no_chest_recipe.json
   data/der_robert/recipes/not_nether_water_recipe_1.json
   data/der_robert/recipes/not_nether_water_recipe_2.json
+  data/der_robert/recipes/pocket_stone_cutter_recipe.json
   data/der_robert/recipes/some_white_block_recipe.json
   data/der_robert/recipes/some_white_block_side_slabs_recipe.json
   data/der_robert/recipes/some_white_block_slabs_recipe.json
@@ -980,6 +1008,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/worldgen/configured_feature/missing_no_button.json
   data/der_robert/worldgen/configured_feature/mojang_block.json
   data/der_robert/worldgen/configured_feature/nether_portal_button.json
+  data/der_robert/worldgen/configured_feature/no_chest.json
   data/der_robert/worldgen/configured_feature/some_white_block.json
   data/der_robert/worldgen/configured_feature/some_white_block_slabs.json
   data/der_robert/worldgen/configured_feature/some_white_block_stairs.json
@@ -1064,6 +1093,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   data/der_robert/worldgen/placed_feature/missing_no_button.json
   data/der_robert/worldgen/placed_feature/mojang_block.json
   data/der_robert/worldgen/placed_feature/nether_portal_button.json
+  data/der_robert/worldgen/placed_feature/no_chest.json
   data/der_robert/worldgen/placed_feature/some_white_block.json
   data/der_robert/worldgen/placed_feature/some_white_block_slabs.json
   data/der_robert/worldgen/placed_feature/some_white_block_stairs.json
@@ -1105,6 +1135,8 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/block/BetaEndStoneBlock.class
   net/mcreator/derrobert/block/BetaGravelBlockBlock.class
   net/mcreator/derrobert/block/BetaMonsterSpawnerBlock.class
+  net/mcreator/derrobert/block/BoulderDashBonusBlockBWBlock.class
+  net/mcreator/derrobert/block/BoulderDashBonusBlockBlock.class
   net/mcreator/derrobert/block/ClassicBedrockBlockBlock.class
   net/mcreator/derrobert/block/ClassicBrickBlockBlock.class
   net/mcreator/derrobert/block/ClassicBrickSlabsBlock.class
@@ -1178,7 +1210,9 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/block/NetherPortalButtonBlock.class
   net/mcreator/derrobert/block/NetherReactorCoreBlueBlock.class
   net/mcreator/derrobert/block/NetherReactorCoreRedBlock.class
+  net/mcreator/derrobert/block/NoChestBlock.class
   net/mcreator/derrobert/block/NotNetherDimensionPortalBlock.class
+  net/mcreator/derrobert/block/PocketStoneCutterBlock.class
   net/mcreator/derrobert/block/SomeWhiteBlockBlock.class
   net/mcreator/derrobert/block/SomeWhiteBlockSlabsBlock.class
   net/mcreator/derrobert/block/SomeWhiteBlockStairsBlock.class
@@ -1280,6 +1314,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/procedures/NetherReactorCoreBlueToRedProcedure.class
   net/mcreator/derrobert/procedures/NetherReactorCoreRed2BlueProcedure.class
   net/mcreator/derrobert/procedures/OnDimensionChangeProcedureProcedure.class
+  net/mcreator/derrobert/procedures/OnStoneCutterPocketRightClickProcedure.class
   net/mcreator/derrobert/world/
   net/mcreator/derrobert/world/dimension/
   net/mcreator/derrobert/world/dimension/ClassicSkyDimensionDimension$DimensionSpecialEffectsHandler$1.class
@@ -1364,6 +1399,7 @@ Writing Output: C:\Users\Robert\MCreatorWorkspaces\der_robert\build\reobfJar\out
   net/mcreator/derrobert/world/features/ores/MissingNoButtonFeature.class
   net/mcreator/derrobert/world/features/ores/MojangBlockFeature.class
   net/mcreator/derrobert/world/features/ores/NetherPortalButtonFeature.class
+  net/mcreator/derrobert/world/features/ores/NoChestFeature.class
   net/mcreator/derrobert/world/features/ores/SomeWhiteBlockFeature.class
   net/mcreator/derrobert/world/features/ores/SomeWhiteBlockSlabsFeature.class
   net/mcreator/derrobert/world/features/ores/SomeWhiteBlockStairsFeature.class

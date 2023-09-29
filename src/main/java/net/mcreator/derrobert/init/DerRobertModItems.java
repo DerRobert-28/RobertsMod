@@ -102,6 +102,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_HUMAN_SPAWN_EGG = REGISTRY.register("classic_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HUMAN, -16776961, -16711681, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("classic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE, -16776961, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> ANTI_LIGHT_BLOCK = block(DerRobertModBlocks.ANTI_LIGHT_BLOCK);
+	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK);
+	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK_BW = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW);
 	public static final RegistryObject<Item> CREEPONIA_BRICK_BLOCK = block(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK);
 	public static final RegistryObject<Item> CREEPONIA_BRICK_SLABS = block(DerRobertModBlocks.CREEPONIA_BRICK_SLABS);
 	public static final RegistryObject<Item> CREEPONIA_BRICK_STAIRS = block(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS);
@@ -112,6 +114,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MISSING_NO_BLOCK = block(DerRobertModBlocks.MISSING_NO_BLOCK);
 	public static final RegistryObject<Item> MISSING_NO_BUTTON = block(DerRobertModBlocks.MISSING_NO_BUTTON);
 	public static final RegistryObject<Item> NETHER_PORTAL_BUTTON = block(DerRobertModBlocks.NETHER_PORTAL_BUTTON);
+	public static final RegistryObject<Item> NO_CHEST = block(DerRobertModBlocks.NO_CHEST);
 	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
 	public static final RegistryObject<Item> NOT_NETHER_DIMENSION = REGISTRY.register("not_nether_dimension", () -> new NotNetherDimensionItem());
 	public static final RegistryObject<Item> CREEPER_PIG_SPAWN_EGG = REGISTRY.register("creeper_pig_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CREEPER_PIG, -16744704, -16711936, new Item.Properties()));
@@ -131,6 +134,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> ALPHA_CREEPER_SPAWN_EGG = REGISTRY.register("alpha_creeper_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.ALPHA_CREEPER, -16711936, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GLOWING_OBSIDIAN = block(DerRobertModBlocks.GLOWING_OBSIDIAN);
 	public static final RegistryObject<Item> NETHER_REACTOR_CORE_BLUE = block(DerRobertModBlocks.NETHER_REACTOR_CORE_BLUE);
+	public static final RegistryObject<Item> POCKET_STONE_CUTTER = block(DerRobertModBlocks.POCKET_STONE_CUTTER);
 	public static final RegistryObject<Item> BACKGROUND_DIRT = block(DerRobertModBlocks.BACKGROUND_DIRT);
 	public static final RegistryObject<Item> CLASSIC_PACK_BLOCK = block(DerRobertModBlocks.CLASSIC_PACK_BLOCK);
 	public static final RegistryObject<Item> MODERN_PACK_BLOCK = block(DerRobertModBlocks.MODERN_PACK_BLOCK);

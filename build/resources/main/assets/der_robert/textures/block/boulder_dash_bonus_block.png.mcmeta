@@ -1,0 +1,9 @@
+{
+	"animation": {
+		"interpolate": false,
+		"frametime": 2
+	},
+	"aether": {
+		"glow": 15
+	}	
+}

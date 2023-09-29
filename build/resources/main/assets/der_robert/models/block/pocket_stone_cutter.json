@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/classic_furnace_top_bottom",
+    "up": "der_robert:block/pocket_stone_cutter_top",
+    "north": "der_robert:block/pocket_stone_cutter_side",
+    "east": "der_robert:block/classic_furnace_side",
+    "south": "der_robert:block/pocket_stone_cutter_side",
+    "west": "der_robert:block/classic_furnace_side",
+    "particle": "der_robert:block/classic_furnace_top_bottom"
+  },
+  "render_type": "solid"
+}

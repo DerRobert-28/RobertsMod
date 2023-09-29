@@ -17,6 +17,7 @@ import net.mcreator.derrobert.world.features.ores.SomeWhiteCylinderFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockStairsFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockFeature;
+import net.mcreator.derrobert.world.features.ores.NoChestFeature;
 import net.mcreator.derrobert.world.features.ores.NetherPortalButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoButtonFeature;
@@ -157,6 +158,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", MissingNoBlockFeature::new);
 	public static final RegistryObject<Feature<?>> MISSING_NO_BUTTON = REGISTRY.register("missing_no_button", MissingNoButtonFeature::new);
 	public static final RegistryObject<Feature<?>> NETHER_PORTAL_BUTTON = REGISTRY.register("nether_portal_button", NetherPortalButtonFeature::new);
+	public static final RegistryObject<Feature<?>> NO_CHEST = REGISTRY.register("no_chest", NoChestFeature::new);
 	public static final RegistryObject<Feature<?>> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", WhiteLightBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", AlphaGrassBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", AlphaGravelBlockFeature::new);
