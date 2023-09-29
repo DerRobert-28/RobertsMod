@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "der_robert:classic_grass_block",
+    "der_robert:aether_dirt_block",
+    "der_robert:alpha_grass_block",
+    "minecraft:rooted_dirt",
+    "der_robert:manic_dirt_block",
+    "der_robert:background_dirt",
+    "minecraft:grass_block",
+    "der_robert:manic_grass_only",
+    "minecraft:coarse_dirt",
+    "der_robert:aether_grass_block",
+    "der_robert:manic_grass_block",
+    "der_robert:classic_dirt_block",
+    "minecraft:dirt",
+    "minecraft:podzol",
+    "der_robert:classic_ghost_dirt",
+    "minecraft:dirt_path"
+  ]
+}

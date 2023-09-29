@@ -125,12 +125,15 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MODERN_PACK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MOJANG_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.UNKNOWN_PACK_BLOCK.get().asItem());
+				tabData.accept(DerRobertModItems.NOTCH_SPAWN_EGG.get());
 			})
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> ROBERTS_MOD_TAB = REGISTRY.register("roberts_mod_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_mod_tab")).icon(() -> new ItemStack(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.ANTI_LIGHT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS.get().asItem());
@@ -141,12 +144,17 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
+				tabData.accept(DerRobertModBlocks.NO_CHEST.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.EPIX_KEV_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.GRONKH_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.PIGGY_CREEPER_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.SON_KI_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.TRACY_MOODALIE_SPAWN_EGG.get());
 			})
 
 					.build());
@@ -154,6 +162,16 @@ public class DerRobertModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_pocket_tab")).icon(() -> new ItemStack(DerRobertModBlocks.GLOWING_OBSIDIAN.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.GLOWING_OBSIDIAN.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_REACTOR_CORE_BLUE.get().asItem());
+				tabData.accept(DerRobertModBlocks.POCKET_STONE_CUTTER.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_MANIC_DIGGER = REGISTRY.register("roberts_manic_digger",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_manic_digger")).icon(() -> new ItemStack(DerRobertModBlocks.MANIC_GRASS_ONLY.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.MANIC_COBBLESTONE.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_DIRT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_GRASS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_STONE_BLOCK.get().asItem());
 			})
 
 					.build());

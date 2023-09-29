@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_stone_block"
+    },
+    "1": {
+      "item": "der_robert:classic_stone_block"
+    },
+    "2": {
+      "item": "der_robert:classic_stone_block"
+    },
+    "3": {
+      "item": "der_robert:classic_stone_block"
+    }
+  },
+  "result": {
+    "item": "der_robert:pocket_stone_cutter",
+    "count": 1
+  }
+}

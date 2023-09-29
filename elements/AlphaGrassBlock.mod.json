@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "GRASS"
     },
     "tickRate": 0,
     "tickRandomly": false,

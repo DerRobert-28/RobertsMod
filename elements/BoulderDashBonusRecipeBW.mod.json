@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:BoulderDashBonusBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicGlassBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BoulderDashBonusBlockBW"
+    },
+    "name": "boulder_dash_bonus_recipe_bw",
+    "namespace": "mod"
+  }
+}

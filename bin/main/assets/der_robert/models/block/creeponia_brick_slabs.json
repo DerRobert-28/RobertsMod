@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "der_robert:block/creeponia_bricks",
+    "top": "der_robert:block/creeponia_bricks",
+    "side": "der_robert:block/creeponia_bricks"
+  },
+  "render_type": "solid"
+}

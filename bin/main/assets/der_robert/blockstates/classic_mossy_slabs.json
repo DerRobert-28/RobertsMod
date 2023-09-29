@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "der_robert:block/classic_mossy_slabs"
+    },
+    "type=top": {
+      "model": "der_robert:block/classic_mossy_slabs_top"
+    },
+    "type=double": {
+      "model": "der_robert:block/classic_mossy_slabs_full"
+    }
+  }
+}

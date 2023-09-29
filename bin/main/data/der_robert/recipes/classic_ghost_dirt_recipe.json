@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "1": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "2": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "3": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "4": {
+      "item": "der_robert:classic_dirt_block"
+    },
+    "5": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "6": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "7": {
+      "item": "der_robert:classic_glass_pane"
+    },
+    "8": {
+      "item": "der_robert:classic_glass_pane"
+    }
+  },
+  "result": {
+    "item": "der_robert:classic_ghost_dirt",
+    "count": 1
+  }
+}

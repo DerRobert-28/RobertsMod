@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_ruby_item"
+    },
+    "1": {
+      "item": "der_robert:classic_ruby_item"
+    },
+    "2": {
+      "item": "der_robert:classic_ruby_item"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "der_robert:classic_ruby_pickaxe",
+    "count": 1
+  }
+}

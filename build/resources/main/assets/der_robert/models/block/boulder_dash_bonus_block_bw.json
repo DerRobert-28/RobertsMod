@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/boulder_dash_bonus_block_bw",
+    "particle": "der_robert:block/boulder_dash_bonus_block_bw"
+  },
+  "render_type": "solid"
+}
