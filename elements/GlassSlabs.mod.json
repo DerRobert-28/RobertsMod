@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -34,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Glass Stairs",
+    "name": "Glass Slabs",
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 0.5,

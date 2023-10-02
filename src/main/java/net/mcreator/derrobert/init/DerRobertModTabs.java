@@ -67,8 +67,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_ENDSTONE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.GLASS_DOOR.get().asItem());
-				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
-				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_PANE.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLASS_WALL.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GLOWSTONE_BLOCK.get().asItem());
@@ -115,6 +113,8 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_HEROBRINE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.GLASS_STAIRS.get().asItem());
+				tabData.accept(DerRobertModBlocks.GLASS_SLABS.get().asItem());
 			})
 
 					.build());
@@ -145,6 +145,8 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NO_CHEST.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_BRICK_WHITE.get().asItem());
+				tabData.accept(DerRobertModItems.PLASTIC_PAINT_BRUSH_0.get());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
@@ -155,6 +157,15 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.SON_KI_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TRACY_MOODALIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_WHITE.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_0.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_1.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_2.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_3.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_4.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_5.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_6.get().asItem());
+				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_7.get().asItem());
 			})
 
 					.build());

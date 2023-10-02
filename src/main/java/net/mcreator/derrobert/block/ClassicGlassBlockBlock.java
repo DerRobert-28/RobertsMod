@@ -16,6 +16,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.derrobert.procedures.HowToCreatePlasticBlockProcedure;
 import net.mcreator.derrobert.procedures.ClassicGlassBreakProcProcedure;
 
 public class ClassicGlassBlockBlock extends Block {
@@ -49,5 +50,11 @@ public class ClassicGlassBlockBlock extends Block {
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
 		ClassicGlassBreakProcProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
+		super.attack(blockstate, world, pos, entity);
+		HowToCreatePlasticBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }

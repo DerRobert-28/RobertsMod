@@ -123,6 +123,9 @@
     "onDestroyedByExplosion": {
       "name": "ClassicGlassBreakProc"
     },
+    "onStartToDestroy": {
+      "name": "HowToCreatePlasticBlock"
+    },
     "spawnWorldTypes": [
       "Surface",
       "Nether"

@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Slab",
+    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -34,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Glass Slabs",
+    "name": "Glass Stairs",
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 0.5,
@@ -123,6 +123,9 @@
     },
     "onDestroyedByExplosion": {
       "name": "ClassicGlassBreakProc"
+    },
+    "onStartToDestroy": {
+      "name": "HowToCreatePlasticStairs"
     },
     "spawnWorldTypes": [
       "Surface",

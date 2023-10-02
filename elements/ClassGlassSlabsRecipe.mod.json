@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GlassStairs"
+      "value": "CUSTOM:GlassSlabs"
     },
     "name": "class_glass_slabs_recipe",
     "namespace": "mod"

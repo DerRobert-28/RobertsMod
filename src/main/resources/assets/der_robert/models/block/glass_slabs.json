@@ -1,5 +1,5 @@
 {
-  "parent": "block/stairs",
+  "parent": "block/slab",
   "textures": {
     "bottom": "der_robert:block/classic_glass_block",
     "top": "der_robert:block/classic_glass_block",

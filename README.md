@@ -10,23 +10,16 @@
     - Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
-## Current version 1.23.39
+## Current version 1.23.40
 
 - Mod development:
   - Blocks/items:
-    - Boulder Dash Bonus Block (Color & BW)
-    - Manic Cobblestone/Stone
-    - Manic Dirt/Grass
-    - No Chestt Block
-    - Pocket Stonecutter
+    - Plastic Brick (9 Colors)
+    - Plastic Stairs (9 Colors)
+    - Plastic Paint Brush
   - Crafting recipies:
-    - Boulder Dash Bonus Block (Color & BW)
-    - No Chest Block
-    - Pocket Stonecutter
-  - Entities:
-    - Added some entities as easter eggs
-  - Added mod logo
+  	- Plastic Brick (made from Classic Glass Block)
+  	- Plastic Stairs (made from Classic Glass Stairs)
+  	- Plastic Paint Brush
 - Repository development & fixes:
-  - Temporarily removed ".gitignore" file
-  - Early release due to absence
-
+  - nothing
