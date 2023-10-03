@@ -22,4 +22,4 @@
   	- Plastic Stairs (made from Classic Glass Stairs)
   	- Plastic Paint Brush
 - Repository development & fixes:
-  - nothing
+  - Fixed bug in crafting recipe for glass stairs and slabs

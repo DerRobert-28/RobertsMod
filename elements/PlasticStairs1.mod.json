@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -119,7 +119,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onStartToDestroy": {
-      "name": "HowToCreatePlasticStairs"
+      "name": "OnPlasticPaintStairs"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

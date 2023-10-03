@@ -146,6 +146,8 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_TABLE = REGISTRY.register("classic_wood_table", ClassicWoodTableFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WOOD_TRAPDOOR = REGISTRY.register("classic_wood_trapdoor", ClassicWoodTrapdoorFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_WORKBENCH_BLOCK = REGISTRY.register("classic_workbench_block", ClassicWorkbenchBlockFeature::new);
+	public static final RegistryObject<Feature<?>> GLASS_STAIRS = REGISTRY.register("glass_stairs", GlassStairsFeature::new);
+	public static final RegistryObject<Feature<?>> GLASS_SLABS = REGISTRY.register("glass_slabs", GlassSlabsFeature::new);
 	public static final RegistryObject<Feature<?>> ANTI_LIGHT_BLOCK = REGISTRY.register("anti_light_block", AntiLightBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CREEPONIA_BRICK_BLOCK = REGISTRY.register("creeponia_brick_block", CreeponiaBrickBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CREEPONIA_BRICK_SLABS = REGISTRY.register("creeponia_brick_slabs", CreeponiaBrickSlabsFeature::new);
@@ -176,6 +178,4 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MANIC_STONE_BLOCK = REGISTRY.register("manic_stone_block", ManicStoneBlockFeature::new);
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
-	public static final RegistryObject<Feature<?>> GLASS_STAIRS = REGISTRY.register("glass_stairs", GlassStairsFeature::new);
-	public static final RegistryObject<Feature<?>> GLASS_SLABS = REGISTRY.register("glass_slabs", GlassSlabsFeature::new);
 }

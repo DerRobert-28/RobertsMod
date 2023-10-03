@@ -15,7 +15,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.derrobert.procedures.HowToCreatePlasticStairsProcedure;
+import net.mcreator.derrobert.procedures.OnPlasticPaintStairsProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -51,6 +51,6 @@ public class PlasticStairs1Block extends StairBlock {
 	@Override
 	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
 		super.attack(blockstate, world, pos, entity);
-		HowToCreatePlasticStairsProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		OnPlasticPaintStairsProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }

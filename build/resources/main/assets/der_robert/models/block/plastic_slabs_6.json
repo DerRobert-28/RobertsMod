@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "der_robert:block/plastic_brick_6",
+    "top": "der_robert:block/plastic_brick_6",
+    "side": "der_robert:block/plastic_brick_6"
+  },
+  "render_type": "solid"
+}

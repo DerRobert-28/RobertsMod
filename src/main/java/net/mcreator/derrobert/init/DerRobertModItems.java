@@ -107,6 +107,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_HEROBRINE_SPAWN_EGG = REGISTRY.register("classic_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HEROBRINE, -16776961, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_HUMAN_SPAWN_EGG = REGISTRY.register("classic_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HUMAN, -16776961, -16711681, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("classic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE, -16776961, -16711936, new Item.Properties()));
+	public static final RegistryObject<Item> GLASS_STAIRS = block(DerRobertModBlocks.GLASS_STAIRS);
+	public static final RegistryObject<Item> GLASS_SLABS = block(DerRobertModBlocks.GLASS_SLABS);
 	public static final RegistryObject<Item> ANTI_LIGHT_BLOCK = block(DerRobertModBlocks.ANTI_LIGHT_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK_BW = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW);
@@ -122,6 +124,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> NETHER_PORTAL_BUTTON = block(DerRobertModBlocks.NETHER_PORTAL_BUTTON);
 	public static final RegistryObject<Item> NO_CHEST = block(DerRobertModBlocks.NO_CHEST);
 	public static final RegistryObject<Item> PLASTIC_BRICK_WHITE = block(DerRobertModBlocks.PLASTIC_BRICK_WHITE);
+	public static final RegistryObject<Item> PLASTIC_SLABS_WHITE = block(DerRobertModBlocks.PLASTIC_SLABS_WHITE);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_WHITE = block(DerRobertModBlocks.PLASTIC_STAIRS_WHITE);
 	public static final RegistryObject<Item> PLASTIC_PAINT_BRUSH_0 = REGISTRY.register("plastic_paint_brush_0", () -> new PlasticPaintBrush0Item());
 	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
 	public static final RegistryObject<Item> NOT_NETHER_DIMENSION = REGISTRY.register("not_nether_dimension", () -> new NotNetherDimensionItem());
@@ -133,6 +137,22 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> SON_KI_SPAWN_EGG = REGISTRY.register("son_ki_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.SON_KI, -65281, -8454017, new Item.Properties()));
 	public static final RegistryObject<Item> TEMPLATE_HUMAN_SPAWN_EGG = REGISTRY.register("template_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TEMPLATE_HUMAN, -1, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> TRACY_MOODALIE_SPAWN_EGG = REGISTRY.register("tracy_moodalie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TRACY_MOODALIE, -16777216, -8454017, new Item.Properties()));
+	public static final RegistryObject<Item> PLASTIC_STAIRS_0 = block(DerRobertModBlocks.PLASTIC_STAIRS_0);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_1 = block(DerRobertModBlocks.PLASTIC_STAIRS_1);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_2 = block(DerRobertModBlocks.PLASTIC_STAIRS_2);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_3 = block(DerRobertModBlocks.PLASTIC_STAIRS_3);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_4 = block(DerRobertModBlocks.PLASTIC_STAIRS_4);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_5 = block(DerRobertModBlocks.PLASTIC_STAIRS_5);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_6 = block(DerRobertModBlocks.PLASTIC_STAIRS_6);
+	public static final RegistryObject<Item> PLASTIC_STAIRS_7 = block(DerRobertModBlocks.PLASTIC_STAIRS_7);
+	public static final RegistryObject<Item> PLASTIC_SLABS_0 = block(DerRobertModBlocks.PLASTIC_SLABS_0);
+	public static final RegistryObject<Item> PLASTIC_SLABS_1 = block(DerRobertModBlocks.PLASTIC_SLABS_1);
+	public static final RegistryObject<Item> PLASTIC_SLABS_2 = block(DerRobertModBlocks.PLASTIC_SLABS_2);
+	public static final RegistryObject<Item> PLASTIC_SLABS_3 = block(DerRobertModBlocks.PLASTIC_SLABS_3);
+	public static final RegistryObject<Item> PLASTIC_SLABS_4 = block(DerRobertModBlocks.PLASTIC_SLABS_4);
+	public static final RegistryObject<Item> PLASTIC_SLABS_5 = block(DerRobertModBlocks.PLASTIC_SLABS_5);
+	public static final RegistryObject<Item> PLASTIC_SLABS_6 = block(DerRobertModBlocks.PLASTIC_SLABS_6);
+	public static final RegistryObject<Item> PLASTIC_SLABS_7 = block(DerRobertModBlocks.PLASTIC_SLABS_7);
 	public static final RegistryObject<Item> ALPHA_GRASS_BLOCK = block(DerRobertModBlocks.ALPHA_GRASS_BLOCK);
 	public static final RegistryObject<Item> ALPHA_GRAVEL_BLOCK = block(DerRobertModBlocks.ALPHA_GRAVEL_BLOCK);
 	public static final RegistryObject<Item> SOME_WHITE_BLOCK = block(DerRobertModBlocks.SOME_WHITE_BLOCK);
@@ -175,17 +195,6 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PLASTIC_BRICK_5 = block(DerRobertModBlocks.PLASTIC_BRICK_5);
 	public static final RegistryObject<Item> PLASTIC_BRICK_6 = block(DerRobertModBlocks.PLASTIC_BRICK_6);
 	public static final RegistryObject<Item> PLASTIC_BRICK_7 = block(DerRobertModBlocks.PLASTIC_BRICK_7);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_WHITE = block(DerRobertModBlocks.PLASTIC_STAIRS_WHITE);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_0 = block(DerRobertModBlocks.PLASTIC_STAIRS_0);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_1 = block(DerRobertModBlocks.PLASTIC_STAIRS_1);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_2 = block(DerRobertModBlocks.PLASTIC_STAIRS_2);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_3 = block(DerRobertModBlocks.PLASTIC_STAIRS_3);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_4 = block(DerRobertModBlocks.PLASTIC_STAIRS_4);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_5 = block(DerRobertModBlocks.PLASTIC_STAIRS_5);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_6 = block(DerRobertModBlocks.PLASTIC_STAIRS_6);
-	public static final RegistryObject<Item> PLASTIC_STAIRS_7 = block(DerRobertModBlocks.PLASTIC_STAIRS_7);
-	public static final RegistryObject<Item> GLASS_STAIRS = block(DerRobertModBlocks.GLASS_STAIRS);
-	public static final RegistryObject<Item> GLASS_SLABS = block(DerRobertModBlocks.GLASS_SLABS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
