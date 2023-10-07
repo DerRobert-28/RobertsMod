@@ -73,7 +73,7 @@ public class ClassicSkyDimensionPortalBlock extends NetherPortalBlock {
 				pz = pos.getZ() + 0.5 + 0.25 * j;
 				vz = random.nextFloat() * 2 * j;
 			}
-			world.addParticle(ParticleTypes.SPLASH, px, py, pz, vx, vy, vz);
+			world.addParticle(ParticleTypes.PORTAL, px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
 			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(("block.portal.ambient"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "der_robert:block/plastic_block_02",
+    "particle": "der_robert:block/plastic_block_02"
+  },
+  "render_type": "solid"
+}

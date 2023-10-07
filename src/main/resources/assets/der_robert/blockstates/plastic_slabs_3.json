@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "der_robert:block/plastic_slabs_3"
+    },
+    "type=top": {
+      "model": "der_robert:block/plastic_slabs_3_top"
+    },
+    "type=double": {
+      "model": "der_robert:block/plastic_slabs_3_full"
+    }
+  }
+}

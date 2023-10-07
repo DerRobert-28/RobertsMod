@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "der_robert:block/plastic_block_04",
+    "particle": "der_robert:block/plastic_block_04"
+  },
+  "render_type": "solid"
+}

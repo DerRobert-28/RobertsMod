@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "der_robert:block/aether_portal",
-    "portal": "der_robert:block/aether_portal"
+    "particle": "der_robert:block/water_flow",
+    "portal": "der_robert:block/water_flow"
   },
   "elements": [
     {

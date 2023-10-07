@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "der_robert:block/plastic_block_06",
+    "pane": "der_robert:block/plastic_block_06"
+  },
+  "render_type": "solid"
+}
