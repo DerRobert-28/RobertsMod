@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "der_robert:plastic_brick_0"
+    },
+    {
+      "item": "der_robert:plastic_brick_2"
+    },
+    {
+      "item": "der_robert:plastic_brick_4"
+    },
+    {
+      "item": "der_robert:classic_glowstone_block"
+    },
+    {
+      "item": "der_robert:plastic_brick_6"
+    },
+    {
+      "item": "der_robert:plastic_brick_8"
+    },
+    {
+      "item": "der_robert:plastic_brick_10"
+    }
+  ],
+  "result": {
+    "item": "der_robert:boulder_dash_bonus_block",
+    "count": 1
+  }
+}

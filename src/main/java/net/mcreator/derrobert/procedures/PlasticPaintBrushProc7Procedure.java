@@ -12,6 +12,6 @@ public class PlasticPaintBrushProc7Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"item replace entity @p weapon.mainhand with der_robert:plastic_paint_brush_0");
+					"item replace entity @p weapon.mainhand with der_robert:plastic_paint_brush_8");
 	}
 }

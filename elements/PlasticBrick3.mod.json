@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "plastic_brick_3",
+    "texture": "plastic_block_03",
     "textureTop": "bricks",
     "textureLeft": "bricks",
     "textureFront": "bricks",
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onStartToDestroy": {
-      "name": "OnPlasticPaintBrushProc"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

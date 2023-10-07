@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "der_robert:block/plastic_brick_5",
-    "particle": "der_robert:block/plastic_brick_5"
+    "all": "der_robert:block/plastic_block_05",
+    "particle": "der_robert:block/plastic_block_05"
   },
   "render_type": "solid"
 }

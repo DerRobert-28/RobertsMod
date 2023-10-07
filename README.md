@@ -14,12 +14,27 @@
 
 - Mod development:
   - Blocks/items:
-    - Plastic Brick (9 Colors)
-    - Plastic Stairs (9 Colors)
-    - Plastic Paint Brush
+    - Plastic Brick (White & 12 Colours)
+    - Plastic Doors (White & 12 Colours)
+    - Plastic Panes (White & 12 Colours)
+    - Plastic Slabs (White & 12 Colours)
+    - Plastic Stairs (White & 12 Colours)
+    - Plastic Walls (White & 12 Colours)
+    - Plastic Paint Brush (12 Colours)
   - Crafting recipies:
   	- Plastic Brick (made from Classic Glass Block)
   	- Plastic Stairs (made from Classic Glass Stairs)
   	- Plastic Paint Brush
-- Repository development & fixes:
-  - Fixed bug in crafting recipe for glass stairs and slabs
+- Repository development:
+  - Changes:
+    - Lucky Block:
+      - gives random block on destroy
+      - gets deactivated afterwards ("Lucky Block (empty)")
+      - possible blocks (testwise):
+        - Bedrock
+        - Cobblestone
+        - Dirt
+  - Known bugs and issues:
+    - Colouring Plastic Doors doesn't work properly
+  - Bugfixes:
+    - Fixed bug in crafting recipe for glass stairs and slabs

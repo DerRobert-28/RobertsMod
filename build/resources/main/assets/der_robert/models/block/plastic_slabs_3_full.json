@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "der_robert:block/plastic_brick_3",
-    "top": "der_robert:block/plastic_brick_3",
-    "side": "der_robert:block/plastic_brick_3"
+    "bottom": "der_robert:block/plastic_block_03",
+    "top": "der_robert:block/plastic_block_03",
+    "side": "der_robert:block/plastic_block_03"
   },
   "render_type": "solid"
 }

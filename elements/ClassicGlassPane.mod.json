@@ -126,45 +126,16 @@
     },
     "spawnWorldTypes": [
       "Surface",
-      "Nether"
+      "Nether",
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.OAK_DOOR"
+        "value": "Blocks.GLASS_PANE"
       },
       {
-        "value": "Blocks.SPRUCE_DOOR"
-      },
-      {
-        "value": "Blocks.BIRCH_DOOR"
-      },
-      {
-        "value": "Blocks.JUNGLE_DOOR"
-      },
-      {
-        "value": "Blocks.ACACIA_DOOR"
-      },
-      {
-        "value": "Blocks.DARK_OAK_DOOR"
-      },
-      {
-        "value": "Blocks.CRIMSON_DOOR"
-      },
-      {
-        "value": "Blocks.WARPED_DOOR"
-      },
-      {
-        "value": "Blocks.MANGROVE_DOOR"
-      },
-      {
-        "value": "Blocks.CHERRY_DOOR"
-      },
-      {
-        "value": "Blocks.BAMBOO_DOOR"
-      },
-      {
-        "value": "Blocks.IRON_DOOR"
+        "value": "Blocks.STAINED_GLASS_PANE"
       }
     ],
     "generationShape": "UNIFORM",

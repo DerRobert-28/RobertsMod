@@ -2,10 +2,10 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "plastic_brick_white",
-    "textureTop": "plastic_brick_white",
+    "texture": "plastic_block_white",
+    "textureTop": "plastic_block_white",
     "textureLeft": "bricks",
-    "textureFront": "plastic_brick_white",
+    "textureFront": "plastic_block_white",
     "textureRight": "bricks",
     "textureBack": "bricks",
     "renderType": 11,
@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsPlasticTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -118,9 +118,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onStartToDestroy": {
-      "name": "OnPlasticPaintStairs"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

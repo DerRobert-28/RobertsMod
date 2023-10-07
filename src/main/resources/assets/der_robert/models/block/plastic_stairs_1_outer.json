@@ -1,9 +1,9 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "der_robert:block/plastic_brick_1",
-    "top": "der_robert:block/plastic_brick_1",
-    "side": "der_robert:block/plastic_brick_1"
+    "bottom": "der_robert:block/plastic_block_01",
+    "top": "der_robert:block/plastic_block_01",
+    "side": "der_robert:block/plastic_block_01"
   },
   "render_type": "solid"
 }

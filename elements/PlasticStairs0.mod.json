@@ -2,10 +2,10 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "plastic_brick_0",
-    "textureTop": "plastic_brick_0",
+    "texture": "plastic_block_00",
+    "textureTop": "plastic_block_00",
     "textureLeft": "bricks",
-    "textureFront": "plastic_brick_0",
+    "textureFront": "plastic_block_00",
     "textureRight": "bricks",
     "textureBack": "bricks",
     "renderType": 11,
@@ -118,9 +118,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onStartToDestroy": {
-      "name": "OnPlasticPaintStairs"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

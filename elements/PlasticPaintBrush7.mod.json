@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plastic_paint_brush_7",
+    "texture": "plastic_paint_brush_07",
     "customModelName": "Tool",
     "customProperties": {},
     "states": [],
@@ -35,7 +35,7 @@
       "name": "PlasticPaintBrushProc7"
     },
     "onRightClickedOnBlock": {
-      "name": "PlasticPaintBrushProc7"
+      "name": "OnPlasticPaintBrushProc"
     },
     "isFood": false,
     "nutritionalValue": 4,

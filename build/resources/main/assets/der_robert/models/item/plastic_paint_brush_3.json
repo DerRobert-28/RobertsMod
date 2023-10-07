@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "der_robert:item/plastic_paint_brush_3"
+    "layer0": "der_robert:item/plastic_paint_brush_03"
   }
 }

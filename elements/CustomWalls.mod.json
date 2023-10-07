@@ -13,6 +13,45 @@
       },
       {
         "value": "CUSTOM:ClassicMossyStoneWall"
+      },
+      {
+        "value": "CUSTOM:PlasticWallsWhite"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls0"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls1"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls2"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls3"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls4"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls5"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls6"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls7"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls8"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls9"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls10"
+      },
+      {
+        "value": "CUSTOM:PlasticWalls11"
       }
     ],
     "functions": [],

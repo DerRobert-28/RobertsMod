@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LuckyStoneBlock"
+      "value": "CUSTOM:LuckyBlockOn"
     },
     "name": "lucky_block_recipe",
     "namespace": "mod"

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Robert's Plastic",
+    "icon": {
+      "value": "CUSTOM:PlasticBrickWhite"
+    },
+    "showSearch": false
+  }
+}

@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plastic_paint_brush_0",
+    "texture": "plastic_paint_brush_00",
     "customModelName": "Tool",
     "customProperties": {},
     "states": [],
     "name": "Plastic Paint Brush",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsPlasticTab"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -35,7 +35,7 @@
       "name": "PlasticPaintBrushProc0"
     },
     "onRightClickedOnBlock": {
-      "name": "PlasticPaintBrushProc0"
+      "name": "OnPlasticPaintBrushProc"
     },
     "isFood": false,
     "nutritionalValue": 4,

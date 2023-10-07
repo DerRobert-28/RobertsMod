@@ -13,6 +13,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.derrobert.procedures.PlasticPaintBrushProc5Procedure;
+import net.mcreator.derrobert.procedures.OnPlasticPaintBrushProcProcedure;
 
 public class PlasticPaintBrush5Item extends Item {
 	public PlasticPaintBrush5Item() {
@@ -38,7 +39,7 @@ public class PlasticPaintBrush5Item extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		PlasticPaintBrushProc5Procedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
+		OnPlasticPaintBrushProcProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }
