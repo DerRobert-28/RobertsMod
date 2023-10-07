@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "der_robert:block/plastic_block_09"
+  },
+  "render_type": "solid"
+}

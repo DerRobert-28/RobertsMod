@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "der_robert:block/plastic_block_07"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "der_robert:block/plastic_block_08",
+    "top": "der_robert:block/plastic_block_08",
+    "side": "der_robert:block/plastic_block_08"
+  },
+  "render_type": "solid"
+}

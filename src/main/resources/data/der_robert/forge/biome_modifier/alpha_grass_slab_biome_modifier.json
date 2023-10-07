@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "der_robert:alpha_grass_slab",
+  "step": "underground_ores"
+}

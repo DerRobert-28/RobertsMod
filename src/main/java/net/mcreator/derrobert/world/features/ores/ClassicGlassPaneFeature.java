@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import java.util.Set;
 
 public class ClassicGlassPaneFeature extends OreFeature {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, Level.NETHER);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, Level.NETHER, Level.END);
 
 	public ClassicGlassPaneFeature() {
 		super(OreConfiguration.CODEC);

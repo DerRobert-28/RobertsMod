@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "der_robert:block/plastic_block_white",
+    "pane": "der_robert:block/plastic_block_white"
+  },
+  "render_type": "solid"
+}
