@@ -99,9 +99,14 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_LEGGINGS.get());
 				tabData.accept(DerRobertModItems.CLASSIC_RUBY_ARMOR_BOOTS.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SAND_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_SMOOTH_STONE.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_SMOOTH_STONE_SLAB.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_SMOOTH_STONE_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SOUL_SAND.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_SLAB.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_TNT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.CLASSIC_SKY_DIMENSION.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_BLOCK.get().asItem());

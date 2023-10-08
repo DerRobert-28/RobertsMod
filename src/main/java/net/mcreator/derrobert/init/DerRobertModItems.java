@@ -96,9 +96,14 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_LEGGINGS = REGISTRY.register("classic_ruby_armor_leggings", () -> new ClassicRubyArmorItem.Leggings());
 	public static final RegistryObject<Item> CLASSIC_RUBY_ARMOR_BOOTS = REGISTRY.register("classic_ruby_armor_boots", () -> new ClassicRubyArmorItem.Boots());
 	public static final RegistryObject<Item> CLASSIC_SAND_BLOCK = block(DerRobertModBlocks.CLASSIC_SAND_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_SMOOTH_STONE = block(DerRobertModBlocks.CLASSIC_SMOOTH_STONE);
+	public static final RegistryObject<Item> CLASSIC_SMOOTH_STONE_SLAB = block(DerRobertModBlocks.CLASSIC_SMOOTH_STONE_SLAB);
+	public static final RegistryObject<Item> CLASSIC_SMOOTH_STONE_STAIRS = block(DerRobertModBlocks.CLASSIC_SMOOTH_STONE_STAIRS);
 	public static final RegistryObject<Item> CLASSIC_SOUL_SAND = block(DerRobertModBlocks.CLASSIC_SOUL_SAND);
 	public static final RegistryObject<Item> CLASSIC_SPONGE_BLOCK = block(DerRobertModBlocks.CLASSIC_SPONGE_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_STONE_BLOCK = block(DerRobertModBlocks.CLASSIC_STONE_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_STONE_SLAB = block(DerRobertModBlocks.CLASSIC_STONE_SLAB);
+	public static final RegistryObject<Item> CLASSIC_STONE_STAIRS = block(DerRobertModBlocks.CLASSIC_STONE_STAIRS);
 	public static final RegistryObject<Item> CLASSIC_TNT_BLOCK = block(DerRobertModBlocks.CLASSIC_TNT_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_SKY_DIMENSION = REGISTRY.register("classic_sky_dimension", () -> new ClassicSkyDimensionItem());
 	public static final RegistryObject<Item> CLASSIC_WOOD_BLOCK = block(DerRobertModBlocks.CLASSIC_WOOD_BLOCK);

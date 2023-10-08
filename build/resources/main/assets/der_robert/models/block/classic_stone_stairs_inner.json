@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "der_robert:block/classic_stone",
+    "top": "der_robert:block/classic_stone",
+    "side": "der_robert:block/classic_stone"
+  },
+  "render_type": "solid"
+}

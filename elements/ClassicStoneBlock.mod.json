@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:ClassicSmoothStone"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
