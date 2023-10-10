@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "der_robert:manic_roof_block",
+  "step": "underground_ores"
+}

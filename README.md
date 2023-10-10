@@ -16,7 +16,11 @@
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
-    - Manic Digger Lava & Water ("Blocks")
+    - Manic Camouflage Block
+    - Manic Lava (Block)
+    - Manic Leaves (Block)
+    - Manic Roof Block
+    - Manic Water (Block)
     - Six Sided Piston
     - Six Sided Sticky Piston
   - Commands:

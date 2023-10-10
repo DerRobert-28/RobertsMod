@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClassicHayStack"
+      },
+      {
+        "value": "CUSTOM:ClassicHayStack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClassicHayStack"
+      },
+      {
+        "value": "CUSTOM:ClassicHayStack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SixSidedHayBlock"
+    },
+    "name": "six_sided_hay_recipe",
+    "namespace": "mod"
+  }
+}

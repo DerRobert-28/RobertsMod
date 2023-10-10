@@ -180,6 +180,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MANIC_DIRT_BLOCK = block(DerRobertModBlocks.MANIC_DIRT_BLOCK);
 	public static final RegistryObject<Item> MANIC_GRASS_BLOCK = block(DerRobertModBlocks.MANIC_GRASS_BLOCK);
 	public static final RegistryObject<Item> MANIC_LAVA = block(DerRobertModBlocks.MANIC_LAVA);
+	public static final RegistryObject<Item> MANIC_ROOF_BLOCK = block(DerRobertModBlocks.MANIC_ROOF_BLOCK);
 	public static final RegistryObject<Item> MANIC_STONE_BLOCK = block(DerRobertModBlocks.MANIC_STONE_BLOCK);
 	public static final RegistryObject<Item> MANIC_WATER = block(DerRobertModBlocks.MANIC_WATER);
 	public static final RegistryObject<Item> MANIC_WOOD_PLANKS = block(DerRobertModBlocks.MANIC_WOOD_PLANKS);
@@ -272,6 +273,10 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PLASTIC_DOOR_9 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_9);
 	public static final RegistryObject<Item> PLASTIC_DOOR_10 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_10);
 	public static final RegistryObject<Item> PLASTIC_DOOR_11 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_11);
+	public static final RegistryObject<Item> CLASSIC_HAY_STACK = block(DerRobertModBlocks.CLASSIC_HAY_STACK);
+	public static final RegistryObject<Item> SIX_SIDED_HAY_BLOCK = block(DerRobertModBlocks.SIX_SIDED_HAY_BLOCK);
+	public static final RegistryObject<Item> MANIC_LEAVES = block(DerRobertModBlocks.MANIC_LEAVES);
+	public static final RegistryObject<Item> MANIC_CAMOUFLAGE = block(DerRobertModBlocks.MANIC_CAMOUFLAGE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
