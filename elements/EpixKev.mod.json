@@ -109,13 +109,23 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": false,
-    "doesDespawnWhenIdle": false,
-    "spawningProbability": 20,
-    "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 1,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ClassicBiome1"
+      },
+      {
+        "value": "CUSTOM:ClassicBiome2"
+      },
+      {
+        "value": "CUSTOM:ClassicBiome3"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

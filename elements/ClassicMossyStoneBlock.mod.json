@@ -119,21 +119,24 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface",
-      "Nether"
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
+        "value": "Blocks.STONE"
+      },
+      {
         "value": "Blocks.STONE#0"
       },
       {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.BASALT"
-      },
-      {
         "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSS_BLOCK"
       }
     ],
     "generationShape": "UNIFORM",

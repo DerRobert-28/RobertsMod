@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "der_robert:classic_glass_wall",
+  "step": "underground_ores"
+}

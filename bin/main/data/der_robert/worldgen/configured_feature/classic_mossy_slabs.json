@@ -3,6 +3,94 @@
   "config": {
     "size": 16,
     "discard_chance_on_air_exposure": 0,
-    "targets": []
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:stone"
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cobblestone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:mossy_cobblestone_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cobblestone_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_mossy_slabs"
+        }
+      }
+    ]
   }
 }

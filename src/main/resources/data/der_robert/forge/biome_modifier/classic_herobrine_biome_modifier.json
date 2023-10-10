@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "der_robert:classic_herobrine",
-    "weight": 2,
+    "weight": 1,
     "minCount": 1,
     "maxCount": 1
   }

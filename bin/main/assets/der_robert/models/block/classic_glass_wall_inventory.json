@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "der_robert:block/classic_glass_block",
-    "particle": "der_robert:block/classic_glass_block"
-  },
-  "render_type": "cutout"
-}

@@ -17,6 +17,73 @@
         "state": {
           "Name": "der_robert:alpha_grass_slab"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dirt_path"
+          }
+        },
+        "state": {
+          "Name": "der_robert:alpha_grass_slab"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "der_robert:alpha_grass_slab"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        "state": {
+          "Name": "der_robert:alpha_grass_slab"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:coarse_dirt"
+          }
+        },
+        "state": {
+          "Name": "der_robert:alpha_grass_slab"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:podzol",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:alpha_grass_slab"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:rooted_dirt"
+          }
+        },
+        "state": {
+          "Name": "der_robert:alpha_grass_slab"
+        }
       }
     ]
   }

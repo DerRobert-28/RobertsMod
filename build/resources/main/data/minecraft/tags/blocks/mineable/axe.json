@@ -15,6 +15,8 @@
     "der_robert:classic_wood_table",
     "der_robert:classic_wood_trapdoor",
     "der_robert:classic_workbench_block",
-    "der_robert:no_chest"
+    "der_robert:no_chest",
+    "der_robert:six_sided_piston",
+    "der_robert:six_sided_sticky_piston"
   ]
 }

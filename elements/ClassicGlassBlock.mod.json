@@ -126,7 +126,9 @@
     "spawnWorldTypes": [
       "Surface",
       "Nether",
-      "End"
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
@@ -134,7 +136,43 @@
         "value": "Blocks.GLASS"
       },
       {
+        "value": "Blocks.TINTED_GLASS"
+      },
+      {
         "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#0"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#1"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#2"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#3"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#4"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#5"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#6"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#7"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#8"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#9"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#10"
       }
     ],
     "generationShape": "UNIFORM",

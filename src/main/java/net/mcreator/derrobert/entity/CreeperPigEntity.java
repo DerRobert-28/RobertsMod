@@ -22,17 +22,19 @@ import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.derrobert.procedures.TransformToClassicZombiePigmanProcedure;
 import net.mcreator.derrobert.init.DerRobertModEntities;
 
 public class CreeperPigEntity extends Pig {
@@ -45,6 +47,7 @@ public class CreeperPigEntity extends Pig {
 		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -73,6 +76,11 @@ public class CreeperPigEntity extends Pig {
 	}
 
 	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
+	}
+
+	@Override
 	public SoundEvent getAmbientSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.pig.ambient"));
 	}
@@ -93,6 +101,12 @@ public class CreeperPigEntity extends Pig {
 	}
 
 	@Override
+	public void thunderHit(ServerLevel serverWorld, LightningBolt lightningBolt) {
+		super.thunderHit(serverWorld, lightningBolt);
+		TransformToClassicZombiePigmanProcedure.execute(this.level(), this);
+	}
+
+	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
@@ -102,8 +116,7 @@ public class CreeperPigEntity extends Pig {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(DerRobertModEntities.CREEPER_PIG.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
+		SpawnPlacements.register(DerRobertModEntities.CREEPER_PIG.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

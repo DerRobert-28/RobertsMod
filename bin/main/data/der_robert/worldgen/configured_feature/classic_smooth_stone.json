@@ -1,0 +1,42 @@
+{
+  "type": "der_robert:classic_smooth_stone",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:smooth_stone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_smooth_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:smooth_quartz"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_smooth_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:smooth_basalt"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_smooth_stone"
+        }
+      }
+    ]
+  }
+}

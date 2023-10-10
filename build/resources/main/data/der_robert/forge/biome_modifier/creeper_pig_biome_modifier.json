@@ -6,7 +6,7 @@
   "spawners": {
     "type": "der_robert:creeper_pig",
     "weight": 20,
-    "minCount": 4,
-    "maxCount": 4
+    "minCount": 1,
+    "maxCount": 5
   }
 }

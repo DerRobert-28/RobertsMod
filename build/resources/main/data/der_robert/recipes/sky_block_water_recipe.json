@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_tnt_block"
+    },
+    {
+      "item": "der_robert:classic_sky_dimension"
+    }
+  ],
+  "result": {
+    "item": "der_robert:sky_block_dimension",
+    "count": 1
+  }
+}

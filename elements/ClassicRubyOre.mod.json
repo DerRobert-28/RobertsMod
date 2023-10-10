@@ -125,15 +125,24 @@
     },
     "spawnWorldTypes": [
       "Surface",
-      "Nether"
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
+      {
+        "value": "CUSTOM:ClassicEmeraldOre"
+      },
       {
         "value": "Blocks.EMERALD_ORE"
       },
       {
         "value": "Blocks.DEEPSLATE_EMERALD_ORE"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
       }
     ],
     "generationShape": "UNIFORM",

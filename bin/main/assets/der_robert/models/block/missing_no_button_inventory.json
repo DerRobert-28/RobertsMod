@@ -1,7 +1,0 @@
-{
-  "parent": "block/button_inventory",
-  "textures": {
-    "texture": "der_robert:block/missingno_block"
-  },
-  "render_type": "solid"
-}

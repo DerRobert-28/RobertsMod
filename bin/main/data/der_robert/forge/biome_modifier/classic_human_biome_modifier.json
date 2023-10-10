@@ -5,8 +5,8 @@
   },
   "spawners": {
     "type": "der_robert:classic_human",
-    "weight": 20,
-    "minCount": 4,
-    "maxCount": 4
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 5
   }
 }

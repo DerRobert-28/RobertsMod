@@ -21,7 +21,6 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
@@ -39,6 +38,7 @@ public class TemplateHumanEntity extends PathfinderMob {
 		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -67,6 +67,11 @@ public class TemplateHumanEntity extends PathfinderMob {
 	}
 
 	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
+	}
+
+	@Override
 	public double getMyRidingOffset() {
 		return -0.35D;
 	}
@@ -82,8 +87,7 @@ public class TemplateHumanEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(DerRobertModEntities.TEMPLATE_HUMAN.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
+		SpawnPlacements.register(DerRobertModEntities.TEMPLATE_HUMAN.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

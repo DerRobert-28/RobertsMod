@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "result": {
+    "item": "der_robert:six_sided_piston",
+    "count": 4
+  }
+}

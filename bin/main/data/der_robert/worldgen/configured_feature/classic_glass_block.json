@@ -8,14 +8,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:oak_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:glass"
           }
         },
         "state": {
@@ -26,14 +19,27 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:spruce_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:tinted_glass"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_glass_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "forge:stained_glass"
+        },
+        "state": {
+          "Name": "der_robert:classic_glass_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:white_stained_glass"
           }
         },
         "state": {
@@ -44,14 +50,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:birch_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:orange_stained_glass"
           }
         },
         "state": {
@@ -62,14 +61,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:jungle_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:magenta_stained_glass"
           }
         },
         "state": {
@@ -80,14 +72,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:acacia_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:light_blue_stained_glass"
           }
         },
         "state": {
@@ -98,14 +83,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:dark_oak_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:yellow_stained_glass"
           }
         },
         "state": {
@@ -116,14 +94,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:crimson_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:lime_stained_glass"
           }
         },
         "state": {
@@ -134,14 +105,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:warped_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:pink_stained_glass"
           }
         },
         "state": {
@@ -152,14 +116,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:mangrove_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:gray_stained_glass"
           }
         },
         "state": {
@@ -170,14 +127,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:cherry_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:light_gray_stained_glass"
           }
         },
         "state": {
@@ -188,14 +138,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:bamboo_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:cyan_stained_glass"
           }
         },
         "state": {
@@ -206,14 +149,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:iron_door",
-            "Properties": {
-              "facing": "north",
-              "half": "lower",
-              "hinge": "left",
-              "open": "false",
-              "powered": "false"
-            }
+            "Name": "minecraft:purple_stained_glass"
           }
         },
         "state": {

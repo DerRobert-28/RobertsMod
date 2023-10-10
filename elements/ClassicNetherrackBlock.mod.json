@@ -118,12 +118,22 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Nether"
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
         "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.NETHER_WART_BLOCK"
       }
     ],
     "generationShape": "UNIFORM",

@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_glass_pane_side",
-  "textures": {
-    "edge": "der_robert:block/classic_glass_block",
-    "pane": "der_robert:block/classic_glass_block"
-  },
-  "render_type": "cutout"
-}

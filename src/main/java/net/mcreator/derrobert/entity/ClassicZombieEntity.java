@@ -23,14 +23,17 @@ import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.derrobert.procedures.TransformToClassicZombiePigmanProcedure;
 import net.mcreator.derrobert.init.DerRobertModEntities;
 
 public class ClassicZombieEntity extends Zombie {
@@ -93,6 +96,12 @@ public class ClassicZombieEntity extends Zombie {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.zombie.death"));
+	}
+
+	@Override
+	public void thunderHit(ServerLevel serverWorld, LightningBolt lightningBolt) {
+		super.thunderHit(serverWorld, lightningBolt);
+		TransformToClassicZombiePigmanProcedure.execute(this.level(), this);
 	}
 
 	public static void init() {

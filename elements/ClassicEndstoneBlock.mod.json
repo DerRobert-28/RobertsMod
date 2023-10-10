@@ -118,12 +118,19 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "End"
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Blocks.END_BRICKS"
       }
     ],
     "generationShape": "UNIFORM",

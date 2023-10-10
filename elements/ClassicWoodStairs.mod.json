@@ -119,12 +119,49 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.OAK_STAIRS"
+      },
+      {
+        "value": "Blocks.SPRUCE_STAIRS"
+      },
+      {
+        "value": "Blocks.BIRCH_STAIRS"
+      },
+      {
+        "value": "Blocks.JUNGLE_STAIRS"
+      },
+      {
+        "value": "Blocks.ACACIA_STAIRS"
+      },
+      {
+        "value": "Blocks.DARK_OAK_STAIRS"
+      },
+      {
+        "value": "Blocks.CRIMSON_STAIRS"
+      },
+      {
+        "value": "Blocks.WARPED_STAIRS"
+      },
+      {
+        "value": "Blocks.MANGROVE_STAIRS"
+      },
+      {
+        "value": "Blocks.CHERRY_STAIRS"
+      },
+      {
+        "value": "Blocks.BAMBOO_STAIRS"
+      },
+      {
+        "value": "Blocks.BAMBOO_MOSAIC_STAIRS"
       }
     ],
     "generationShape": "UNIFORM",

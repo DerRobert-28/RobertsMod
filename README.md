@@ -10,15 +10,28 @@
     - Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
-## Current version 1.23.40
+## Current version 1.23.41
 
 - Mod development:
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
+    - Six Sided Piston
+    - Six Sided Sticky Piston
+  - Commands:
+    - "/version": Show current mod version
+  - Dimensions:
+    - new Sky Block Dimension (but maybe buggy)
   - Crafting recipies:
     - Classic Smooth Stone Block, Slabs & Stairs
+    - Six Sided Piston
+    - Six Sided Sticky Piston
+  - Entities:
+    - Classic Pigman (& Spawn Egg)
+    - Classic Zombie Pigman (& Spawn Egg)
 - Repository development:
+  - Bugixes:
+    - Fixed spawn disability
   - Changes:
     - Classic Stone Block drops Classic Smooth Stone
   - Known bugs and issues:

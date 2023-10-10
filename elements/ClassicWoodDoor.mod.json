@@ -121,7 +121,9 @@
     "spawnWorldTypes": [
       "Surface",
       "Nether",
-      "End"
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -1,0 +1,39 @@
+{
+  "type": "der_robert:classic_smooth_stone_slab",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:smooth_quartz_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_smooth_stone_slab"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:smooth_stone_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_smooth_stone_slab"
+        }
+      }
+    ]
+  }
+}
