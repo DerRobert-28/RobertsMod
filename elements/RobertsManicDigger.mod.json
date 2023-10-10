@@ -4,7 +4,7 @@
   "definition": {
     "name": "Robert's Manic",
     "icon": {
-      "value": "CUSTOM:ManicGrassOnly"
+      "value": "CUSTOM:ManicDiggerCrafter"
     },
     "showSearch": false
   }
