@@ -120,12 +120,20 @@
     "spawnWorldTypes": [
       "Surface",
       "Nether",
-      "End"
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
       }
     ],
     "generationShape": "UNIFORM",

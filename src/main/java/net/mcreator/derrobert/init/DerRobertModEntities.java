@@ -21,6 +21,8 @@ import net.mcreator.derrobert.entity.TemplateHumanEntity;
 import net.mcreator.derrobert.entity.SonKiEntity;
 import net.mcreator.derrobert.entity.PiggyCreeperEntity;
 import net.mcreator.derrobert.entity.NotchEntity;
+import net.mcreator.derrobert.entity.ManicZombieEntity;
+import net.mcreator.derrobert.entity.ManicHumanEntity;
 import net.mcreator.derrobert.entity.GronkhEntity;
 import net.mcreator.derrobert.entity.EvilHerobrineEntity;
 import net.mcreator.derrobert.entity.EpixKevEntity;
@@ -90,6 +92,14 @@ public class DerRobertModEntities {
 			EntityType.Builder.<NotchEntity>of(NotchEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NotchEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ManicHumanEntity>> MANIC_HUMAN = register("manic_human",
+			EntityType.Builder.<ManicHumanEntity>of(ManicHumanEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ManicHumanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ManicZombieEntity>> MANIC_ZOMBIE = register("manic_zombie",
+			EntityType.Builder.<ManicZombieEntity>of(ManicZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ManicZombieEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -113,6 +123,8 @@ public class DerRobertModEntities {
 			TracyMoodalieEntity.init();
 			AlphaCreeperEntity.init();
 			NotchEntity.init();
+			ManicHumanEntity.init();
+			ManicZombieEntity.init();
 		});
 	}
 
@@ -133,5 +145,7 @@ public class DerRobertModEntities {
 		event.put(TRACY_MOODALIE.get(), TracyMoodalieEntity.createAttributes().build());
 		event.put(ALPHA_CREEPER.get(), AlphaCreeperEntity.createAttributes().build());
 		event.put(NOTCH.get(), NotchEntity.createAttributes().build());
+		event.put(MANIC_HUMAN.get(), ManicHumanEntity.createAttributes().build());
+		event.put(MANIC_ZOMBIE.get(), ManicZombieEntity.createAttributes().build());
 	}
 }

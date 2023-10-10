@@ -120,10 +120,15 @@
     "spawnWorldTypes": [
       "Surface",
       "Nether",
-      "End"
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
+      {
+        "value": "Blocks.COBBLED_DEEPSLATE"
+      },
       {
         "value": "Blocks.COBBLESTONE"
       }

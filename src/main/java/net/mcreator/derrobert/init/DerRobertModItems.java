@@ -179,7 +179,12 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MANIC_COBBLESTONE = block(DerRobertModBlocks.MANIC_COBBLESTONE);
 	public static final RegistryObject<Item> MANIC_DIRT_BLOCK = block(DerRobertModBlocks.MANIC_DIRT_BLOCK);
 	public static final RegistryObject<Item> MANIC_GRASS_BLOCK = block(DerRobertModBlocks.MANIC_GRASS_BLOCK);
+	public static final RegistryObject<Item> MANIC_LAVA = block(DerRobertModBlocks.MANIC_LAVA);
 	public static final RegistryObject<Item> MANIC_STONE_BLOCK = block(DerRobertModBlocks.MANIC_STONE_BLOCK);
+	public static final RegistryObject<Item> MANIC_WATER = block(DerRobertModBlocks.MANIC_WATER);
+	public static final RegistryObject<Item> MANIC_WOOD_PLANKS = block(DerRobertModBlocks.MANIC_WOOD_PLANKS);
+	public static final RegistryObject<Item> MANIC_HUMAN_SPAWN_EGG = REGISTRY.register("manic_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.MANIC_HUMAN, -1, -8421505, new Item.Properties()));
+	public static final RegistryObject<Item> MANIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("manic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.MANIC_ZOMBIE, -8421505, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> NETHER_REACTOR_CORE_RED = block(DerRobertModBlocks.NETHER_REACTOR_CORE_RED);
 	public static final RegistryObject<Item> SOME_WHITE_CYLINDER = block(DerRobertModBlocks.SOME_WHITE_CYLINDER);
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK_GLOW = block(DerRobertModBlocks.HEROBRINE_NETHERRACK_GLOW);

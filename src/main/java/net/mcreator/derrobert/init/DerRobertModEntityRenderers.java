@@ -14,6 +14,8 @@ import net.mcreator.derrobert.client.renderer.TemplateHumanRenderer;
 import net.mcreator.derrobert.client.renderer.SonKiRenderer;
 import net.mcreator.derrobert.client.renderer.PiggyCreeperRenderer;
 import net.mcreator.derrobert.client.renderer.NotchRenderer;
+import net.mcreator.derrobert.client.renderer.ManicZombieRenderer;
+import net.mcreator.derrobert.client.renderer.ManicHumanRenderer;
 import net.mcreator.derrobert.client.renderer.GronkhRenderer;
 import net.mcreator.derrobert.client.renderer.EvilHerobrineRenderer;
 import net.mcreator.derrobert.client.renderer.EpixKevRenderer;
@@ -44,5 +46,7 @@ public class DerRobertModEntityRenderers {
 		event.registerEntityRenderer(DerRobertModEntities.TRACY_MOODALIE.get(), TracyMoodalieRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.ALPHA_CREEPER.get(), AlphaCreeperRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.NOTCH.get(), NotchRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.MANIC_HUMAN.get(), ManicHumanRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.MANIC_ZOMBIE.get(), ManicZombieRenderer::new);
 	}
 }

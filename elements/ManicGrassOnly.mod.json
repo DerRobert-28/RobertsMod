@@ -117,9 +117,22 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
+    ],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.GRASS_PATH"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

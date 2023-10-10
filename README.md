@@ -16,6 +16,7 @@
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
+    - Manic Digger Lava & Water ("Blocks")
     - Six Sided Piston
     - Six Sided Sticky Piston
   - Commands:
@@ -29,6 +30,7 @@
   - Entities:
     - Classic Pigman (& Spawn Egg)
     - Classic Zombie Pigman (& Spawn Egg)
+    - Manic Digger Human & Zombie (& Spawn Eggs)
 - Repository development:
   - Bugixes:
     - Fixed spawn disability for Custom Entities

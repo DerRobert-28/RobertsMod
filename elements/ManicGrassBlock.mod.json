@@ -120,12 +120,17 @@
     "spawnWorldTypes": [
       "Surface",
       "Nether",
-      "End"
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.GRASS_PATH"
       }
     ],
     "generationShape": "UNIFORM",

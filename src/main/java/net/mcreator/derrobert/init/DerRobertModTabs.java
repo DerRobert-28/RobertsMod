@@ -183,7 +183,12 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MANIC_COBBLESTONE.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_DIRT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_GRASS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_LAVA.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_STONE_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_WATER.get().asItem());
+				tabData.accept(DerRobertModBlocks.MANIC_WOOD_PLANKS.get().asItem());
+				tabData.accept(DerRobertModItems.MANIC_HUMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.MANIC_ZOMBIE_SPAWN_EGG.get());
 			})
 
 					.build());

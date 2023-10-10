@@ -22,7 +22,11 @@ import net.mcreator.derrobert.world.features.ores.NetherPortalButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MissingNoBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ManicWoodPlanksFeature;
+import net.mcreator.derrobert.world.features.ores.ManicWaterFeature;
 import net.mcreator.derrobert.world.features.ores.ManicStoneBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ManicLavaFeature;
+import net.mcreator.derrobert.world.features.ores.ManicGrassOnlyFeature;
 import net.mcreator.derrobert.world.features.ores.ManicGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ManicDirtBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ManicCobblestoneFeature;
@@ -185,7 +189,11 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MANIC_COBBLESTONE = REGISTRY.register("manic_cobblestone", ManicCobblestoneFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_DIRT_BLOCK = REGISTRY.register("manic_dirt_block", ManicDirtBlockFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_BLOCK = REGISTRY.register("manic_grass_block", ManicGrassBlockFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_LAVA = REGISTRY.register("manic_lava", ManicLavaFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_STONE_BLOCK = REGISTRY.register("manic_stone_block", ManicStoneBlockFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_WATER = REGISTRY.register("manic_water", ManicWaterFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_WOOD_PLANKS = REGISTRY.register("manic_wood_planks", ManicWoodPlanksFeature::new);
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
 }
