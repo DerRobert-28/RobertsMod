@@ -34,6 +34,7 @@
     - Fixed spawn disability for Custom Entities
   - Changes:
     - Classic Stone Block drops Classic Smooth Stone
+    - Re-included ".gitignore"
   - Known bugs and issues:
     - Colouring Plastic Doors doesn't work properly
     - Teleport Buttons cannot create safety glass cage
