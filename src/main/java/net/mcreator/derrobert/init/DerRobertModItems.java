@@ -119,6 +119,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_HEROBRINE_SPAWN_EGG = REGISTRY.register("classic_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HEROBRINE, -16776961, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_HUMAN_SPAWN_EGG = REGISTRY.register("classic_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_HUMAN, -16776961, -16711681, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("classic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE, -16776961, -16711936, new Item.Properties()));
+	public static final RegistryObject<Item> CLASSIC_PIGMAN_SPAWN_EGG = REGISTRY.register("classic_pigman_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_PIGMAN, -16129, -65281, new Item.Properties()));
+	public static final RegistryObject<Item> CLASSIC_ZOMBIE_PIGMAN_SPAWN_EGG = REGISTRY.register("classic_zombie_pigman_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE_PIGMAN, -65281, -16744704, new Item.Properties()));
 	public static final RegistryObject<Item> ANTI_LIGHT_BLOCK = block(DerRobertModBlocks.ANTI_LIGHT_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK_BW = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW);
@@ -138,6 +140,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> SIX_SIDED_STICKY_PISTON = block(DerRobertModBlocks.SIX_SIDED_STICKY_PISTON);
 	public static final RegistryObject<Item> WHITE_LIGHT_BLOCK = block(DerRobertModBlocks.WHITE_LIGHT_BLOCK);
 	public static final RegistryObject<Item> NOT_NETHER_DIMENSION = REGISTRY.register("not_nether_dimension", () -> new NotNetherDimensionItem());
+	public static final RegistryObject<Item> SKY_BLOCK_DIMENSION = REGISTRY.register("sky_block_dimension", () -> new SkyBlockDimensionItem());
 	public static final RegistryObject<Item> CREEPER_PIG_SPAWN_EGG = REGISTRY.register("creeper_pig_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CREEPER_PIG, -16744704, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> EPIX_KEV_SPAWN_EGG = REGISTRY.register("epix_kev_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.EPIX_KEV, -16777216, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> EVIL_HEROBRINE_SPAWN_EGG = REGISTRY.register("evil_herobrine_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.EVIL_HEROBRINE, -65536, -256, new Item.Properties()));
@@ -264,9 +267,6 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PLASTIC_DOOR_9 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_9);
 	public static final RegistryObject<Item> PLASTIC_DOOR_10 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_10);
 	public static final RegistryObject<Item> PLASTIC_DOOR_11 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_11);
-	public static final RegistryObject<Item> CLASSIC_PIGMAN_SPAWN_EGG = REGISTRY.register("classic_pigman_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_PIGMAN, -16129, -65281, new Item.Properties()));
-	public static final RegistryObject<Item> CLASSIC_ZOMBIE_PIGMAN_SPAWN_EGG = REGISTRY.register("classic_zombie_pigman_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE_PIGMAN, -65281, -16744704, new Item.Properties()));
-	public static final RegistryObject<Item> SKY_BLOCK_DIMENSION = REGISTRY.register("sky_block_dimension", () -> new SkyBlockDimensionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

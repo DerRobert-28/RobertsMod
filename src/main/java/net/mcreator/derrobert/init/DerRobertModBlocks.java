@@ -281,6 +281,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> SIX_SIDED_STICKY_PISTON = REGISTRY.register("six_sided_sticky_piston", () -> new SixSidedStickyPistonBlock());
 	public static final RegistryObject<Block> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", () -> new WhiteLightBlockBlock());
 	public static final RegistryObject<Block> NOT_NETHER_DIMENSION_PORTAL = REGISTRY.register("not_nether_dimension_portal", () -> new NotNetherDimensionPortalBlock());
+	public static final RegistryObject<Block> SKY_BLOCK_DIMENSION_PORTAL = REGISTRY.register("sky_block_dimension_portal", () -> new SkyBlockDimensionPortalBlock());
 	public static final RegistryObject<Block> PLASTIC_BRICK_WHITE = REGISTRY.register("plastic_brick_white", () -> new PlasticBrickWhiteBlock());
 	public static final RegistryObject<Block> PLASTIC_DOOR_WHITE = REGISTRY.register("plastic_door_white", () -> new PlasticDoorWhiteBlock());
 	public static final RegistryObject<Block> PLASTIC_PANE_WHITE = REGISTRY.register("plastic_pane_white", () -> new PlasticPaneWhiteBlock());
@@ -385,5 +386,4 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> PLASTIC_DOOR_9 = REGISTRY.register("plastic_door_9", () -> new PlasticDoor9Block());
 	public static final RegistryObject<Block> PLASTIC_DOOR_10 = REGISTRY.register("plastic_door_10", () -> new PlasticDoor10Block());
 	public static final RegistryObject<Block> PLASTIC_DOOR_11 = REGISTRY.register("plastic_door_11", () -> new PlasticDoor11Block());
-	public static final RegistryObject<Block> SKY_BLOCK_DIMENSION_PORTAL = REGISTRY.register("sky_block_dimension_portal", () -> new SkyBlockDimensionPortalBlock());
 }

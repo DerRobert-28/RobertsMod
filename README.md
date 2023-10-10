@@ -21,7 +21,7 @@
   - Commands:
     - "/version": Show current mod version
   - Dimensions:
-    - new Sky Block Dimension (but maybe buggy)
+    - new Sky Block Dimension (with secret exit)
   - Crafting recipies:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Six Sided Piston
@@ -31,8 +31,9 @@
     - Classic Zombie Pigman (& Spawn Egg)
 - Repository development:
   - Bugixes:
-    - Fixed spawn disability
+    - Fixed spawn disability for Custom Entities
   - Changes:
     - Classic Stone Block drops Classic Smooth Stone
   - Known bugs and issues:
     - Colouring Plastic Doors doesn't work properly
+    - Teleport Buttons cannot create safety glass cage

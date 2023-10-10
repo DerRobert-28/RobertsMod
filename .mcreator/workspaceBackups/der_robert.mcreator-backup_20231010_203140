@@ -2625,18 +2625,6 @@
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -7524,17 +7512,17 @@
       "block.der_robert.plastic_pane_4": "Plastic Pane",
       "block.der_robert.plastic_pane_5": "Plastic Pane",
       "block.der_robert.plastic_pane_6": "Plastic Pane",
-      "block.der_robert.plastic_pane_0": "Plastic Pane",
-      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
       "block.der_robert.classic_mossy_stone_block": "Classic Mossy Stone",
-      "entity.der_robert.classic_pigman": "Classic Pigman",
+      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
+      "block.der_robert.plastic_pane_0": "Plastic Pane",
       "block.der_robert.plastic_pane_1": "Plastic Pane",
-      "block.der_robert.plastic_pane_2": "Plastic Pane",
+      "entity.der_robert.classic_pigman": "Classic Pigman",
       "item_group.der_robert.roberts_mojang_tab": "Robert\u0027s Mojang",
+      "block.der_robert.plastic_pane_2": "Plastic Pane",
       "item.der_robert.classic_human_spawn_egg": "Classic Human Spawn Egg",
       "block.der_robert.classic_wood_table": "Classic Wood Table",
-      "block.der_robert.classic_smooth_stone_slab": "Classic Smooth Stone Slab",
       "block.der_robert.missing_no_block": "Missing No.",
+      "block.der_robert.classic_smooth_stone_slab": "Classic Smooth Stone Slab",
       "block.der_robert.plastic_door_11": "Plastic Door",
       "block.der_robert.plastic_slabs_white": "Plastic Slabs",
       "block.der_robert.plastic_door_10": "Plastic Door",
@@ -7555,8 +7543,8 @@
       "biome.der_robert.classic_biome_2": "Classic Biome 2",
       "item_group.der_robert.roberts_pocket_tab": "Robert\u0027s Pocket",
       "biome.der_robert.classic_biome_3": "Classic Biome 3",
-      "block.der_robert.plastic_stairs_9": "Plastic Stairs",
       "block.der_robert.classic_ghost_dirt": "Ghost Dirt",
+      "block.der_robert.plastic_stairs_9": "Plastic Stairs",
       "biome.der_robert.classic_biome_1": "Classic Biome 1",
       "entity.der_robert.template_human": "Template Human",
       "block.der_robert.plastic_walls_9": "Plastic Wall",
@@ -7565,8 +7553,8 @@
       "block.der_robert.plastic_walls_6": "Plastic Wall",
       "block.der_robert.plastic_walls_5": "Plastic Wall",
       "block.der_robert.plastic_walls_4": "Plastic Wall",
-      "block.der_robert.plastic_walls_3": "Plastic Wall",
       "block.der_robert.mojang_block": "Mojang Block",
+      "block.der_robert.plastic_walls_3": "Plastic Wall",
       "block.der_robert.plastic_walls_2": "Plastic Wall",
       "block.der_robert.lucky_block_on": "Lucky Block",
       "block.der_robert.end_portal_button": "End Portal Button",
@@ -7753,7 +7741,7 @@
       "block.der_robert.glass_stairs": "Glass Stairs",
       "item_group.der_robert.roberts_manic_digger": "Robert\u0027s Manic",
       "item.der_robert.epix_kev_spawn_egg": "EpixKev04 Spawn Egg",
-      "block.der_robert.missing_no_button": "Missing No.",
+      "block.der_robert.missing_no_button": "Missing No. Button",
       "block.der_robert.classic_wood_slabs": "Classic Wood Slabs",
       "block.der_robert.plastic_stairs_white": "Plastic Stairs",
       "block.der_robert.classic_mossy_stone_wall": "Classic Mossy Stone Wall",

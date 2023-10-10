@@ -54,7 +54,7 @@ public class EndPortalButtonBlock extends ButtonBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		OnDimensionChangeProcedureProcedure.execute(world, x, y, z);
+		OnDimensionChangeProcedureProcedure.execute(world);
 	}
 
 	@Override

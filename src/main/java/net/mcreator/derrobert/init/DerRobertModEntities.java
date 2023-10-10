@@ -46,6 +46,12 @@ public class DerRobertModEntities {
 			EntityType.Builder.<ClassicZombieEntity>of(ClassicZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicZombieEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ClassicPigmanEntity>> CLASSIC_PIGMAN = register("classic_pigman",
+			EntityType.Builder.<ClassicPigmanEntity>of(ClassicPigmanEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicPigmanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ClassicZombiePigmanEntity>> CLASSIC_ZOMBIE_PIGMAN = register("classic_zombie_pigman", EntityType.Builder.<ClassicZombiePigmanEntity>of(ClassicZombiePigmanEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicZombiePigmanEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<CreeperPigEntity>> CREEPER_PIG = register("creeper_pig",
 			EntityType.Builder.<CreeperPigEntity>of(CreeperPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CreeperPigEntity::new)
 
@@ -84,12 +90,6 @@ public class DerRobertModEntities {
 			EntityType.Builder.<NotchEntity>of(NotchEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NotchEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<ClassicPigmanEntity>> CLASSIC_PIGMAN = register("classic_pigman",
-			EntityType.Builder.<ClassicPigmanEntity>of(ClassicPigmanEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicPigmanEntity::new)
-
-					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<ClassicZombiePigmanEntity>> CLASSIC_ZOMBIE_PIGMAN = register("classic_zombie_pigman", EntityType.Builder.<ClassicZombiePigmanEntity>of(ClassicZombiePigmanEntity::new, MobCategory.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicZombiePigmanEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -101,6 +101,8 @@ public class DerRobertModEntities {
 			ClassicHerobrineEntity.init();
 			ClassicHumanEntity.init();
 			ClassicZombieEntity.init();
+			ClassicPigmanEntity.init();
+			ClassicZombiePigmanEntity.init();
 			CreeperPigEntity.init();
 			EpixKevEntity.init();
 			EvilHerobrineEntity.init();
@@ -111,8 +113,6 @@ public class DerRobertModEntities {
 			TracyMoodalieEntity.init();
 			AlphaCreeperEntity.init();
 			NotchEntity.init();
-			ClassicPigmanEntity.init();
-			ClassicZombiePigmanEntity.init();
 		});
 	}
 
@@ -121,6 +121,8 @@ public class DerRobertModEntities {
 		event.put(CLASSIC_HEROBRINE.get(), ClassicHerobrineEntity.createAttributes().build());
 		event.put(CLASSIC_HUMAN.get(), ClassicHumanEntity.createAttributes().build());
 		event.put(CLASSIC_ZOMBIE.get(), ClassicZombieEntity.createAttributes().build());
+		event.put(CLASSIC_PIGMAN.get(), ClassicPigmanEntity.createAttributes().build());
+		event.put(CLASSIC_ZOMBIE_PIGMAN.get(), ClassicZombiePigmanEntity.createAttributes().build());
 		event.put(CREEPER_PIG.get(), CreeperPigEntity.createAttributes().build());
 		event.put(EPIX_KEV.get(), EpixKevEntity.createAttributes().build());
 		event.put(EVIL_HEROBRINE.get(), EvilHerobrineEntity.createAttributes().build());
@@ -131,7 +133,5 @@ public class DerRobertModEntities {
 		event.put(TRACY_MOODALIE.get(), TracyMoodalieEntity.createAttributes().build());
 		event.put(ALPHA_CREEPER.get(), AlphaCreeperEntity.createAttributes().build());
 		event.put(NOTCH.get(), NotchEntity.createAttributes().build());
-		event.put(CLASSIC_PIGMAN.get(), ClassicPigmanEntity.createAttributes().build());
-		event.put(CLASSIC_ZOMBIE_PIGMAN.get(), ClassicZombiePigmanEntity.createAttributes().build());
 	}
 }

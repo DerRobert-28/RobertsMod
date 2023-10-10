@@ -158,6 +158,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.SIX_SIDED_STICKY_PISTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.WHITE_LIGHT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.NOT_NETHER_DIMENSION.get());
+				tabData.accept(DerRobertModItems.SKY_BLOCK_DIMENSION.get());
 				tabData.accept(DerRobertModItems.CREEPER_PIG_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EPIX_KEV_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.EVIL_HEROBRINE_SPAWN_EGG.get());
@@ -166,7 +167,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.SON_KI_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TRACY_MOODALIE_SPAWN_EGG.get());
-				tabData.accept(DerRobertModItems.SKY_BLOCK_DIMENSION.get());
 			})
 
 					.build());
