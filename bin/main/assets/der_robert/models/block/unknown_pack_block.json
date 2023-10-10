@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "der_robert:block/unknown_pack_block",
-    "particle": "der_robert:block/unknown_pack_block"
-  },
-  "render_type": "solid"
-}

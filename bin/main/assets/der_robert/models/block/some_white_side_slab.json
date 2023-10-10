@@ -1,9 +1,0 @@
-{
-  "parent": "der_robert:custom/roberts_side_slab_white-stone",
-  "textures": {
-    "all": "der_robert:block/white_block",
-    "particle": "der_robert:block/white_block",
-    "1": "der_robert:block/white_block"
-  },
-  "render_type": "cutout"
-}

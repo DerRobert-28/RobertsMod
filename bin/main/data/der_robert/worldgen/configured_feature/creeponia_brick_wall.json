@@ -1,8 +1,0 @@
-{
-  "type": "der_robert:creeponia_brick_wall",
-  "config": {
-    "size": 16,
-    "discard_chance_on_air_exposure": 0,
-    "targets": []
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "der_robert:block/white_light_blocky",
-    "particle": "der_robert:block/white_light_blocky"
-  },
-  "render_type": "solid"
-}

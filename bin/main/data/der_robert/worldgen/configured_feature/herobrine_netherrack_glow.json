@@ -1,8 +1,0 @@
-{
-  "type": "der_robert:herobrine_netherrack_glow",
-  "config": {
-    "size": 16,
-    "discard_chance_on_air_exposure": 0,
-    "targets": []
-  }
-}

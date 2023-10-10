@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "der_robert:item/plastic_door_06"
-  },
-  "render_type": "translucent"
-}
