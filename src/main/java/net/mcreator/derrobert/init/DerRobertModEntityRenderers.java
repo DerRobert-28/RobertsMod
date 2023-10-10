@@ -25,6 +25,7 @@ import net.mcreator.derrobert.client.renderer.ClassicZombiePigmanRenderer;
 import net.mcreator.derrobert.client.renderer.ClassicPigmanRenderer;
 import net.mcreator.derrobert.client.renderer.ClassicHumanRenderer;
 import net.mcreator.derrobert.client.renderer.ClassicHerobrineRenderer;
+import net.mcreator.derrobert.client.renderer.ClassicGiantRenderer;
 import net.mcreator.derrobert.client.renderer.AlphaCreeperRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -48,5 +49,6 @@ public class DerRobertModEntityRenderers {
 		event.registerEntityRenderer(DerRobertModEntities.NOTCH.get(), NotchRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.MANIC_HUMAN.get(), ManicHumanRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.MANIC_ZOMBIE.get(), ManicZombieRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_GIANT.get(), ClassicGiantRenderer::new);
 	}
 }

@@ -282,6 +282,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PLASTIC_DOOR_9 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_9);
 	public static final RegistryObject<Item> PLASTIC_DOOR_10 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_10);
 	public static final RegistryObject<Item> PLASTIC_DOOR_11 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_11);
+	public static final RegistryObject<Item> CLASSIC_GIANT_SPAWN_EGG = REGISTRY.register("classic_giant_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_GIANT, -16776961, -16711936, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

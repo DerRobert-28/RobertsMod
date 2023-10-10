@@ -32,6 +32,7 @@ import net.mcreator.derrobert.entity.ClassicZombieEntity;
 import net.mcreator.derrobert.entity.ClassicPigmanEntity;
 import net.mcreator.derrobert.entity.ClassicHumanEntity;
 import net.mcreator.derrobert.entity.ClassicHerobrineEntity;
+import net.mcreator.derrobert.entity.ClassicGiantEntity;
 import net.mcreator.derrobert.entity.AlphaCreeperEntity;
 import net.mcreator.derrobert.DerRobertMod;
 
@@ -100,6 +101,10 @@ public class DerRobertModEntities {
 			EntityType.Builder.<ManicZombieEntity>of(ManicZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ManicZombieEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ClassicGiantEntity>> CLASSIC_GIANT = register("classic_giant",
+			EntityType.Builder.<ClassicGiantEntity>of(ClassicGiantEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ClassicGiantEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -125,6 +130,7 @@ public class DerRobertModEntities {
 			NotchEntity.init();
 			ManicHumanEntity.init();
 			ManicZombieEntity.init();
+			ClassicGiantEntity.init();
 		});
 	}
 
@@ -147,5 +153,6 @@ public class DerRobertModEntities {
 		event.put(NOTCH.get(), NotchEntity.createAttributes().build());
 		event.put(MANIC_HUMAN.get(), ManicHumanEntity.createAttributes().build());
 		event.put(MANIC_ZOMBIE.get(), ManicZombieEntity.createAttributes().build());
+		event.put(CLASSIC_GIANT.get(), ClassicGiantEntity.createAttributes().build());
 	}
 }

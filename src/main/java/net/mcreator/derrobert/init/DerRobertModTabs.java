@@ -125,6 +125,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_PIGMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_PIGMAN_SPAWN_EGG.get());
+				tabData.accept(DerRobertModItems.CLASSIC_GIANT_SPAWN_EGG.get());
 			})
 
 					.build());
