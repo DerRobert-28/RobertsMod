@@ -21,6 +21,9 @@
         "value": "CUSTOM:ManicGrassOnly"
       },
       {
+        "value": "CUSTOM:AlphaGrassSlab"
+      },
+      {
         "value": "Blocks.GRASS"
       },
       {
@@ -33,7 +36,13 @@
         "value": "CUSTOM:AetherDirtBlock"
       },
       {
+        "value": "CUSTOM:ClassicDirtSlab"
+      },
+      {
         "value": "CUSTOM:BackgroundDirt"
+      },
+      {
+        "value": "CUSTOM:ClassicDirtStairs"
       },
       {
         "value": "CUSTOM:ClassicGhostDirt"

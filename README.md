@@ -16,11 +16,13 @@
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
+    - Manic Digger Blocks (empty, M, D and MD)
     - Manic Camouflage Block
     - Manic Lava (Block)
     - Manic Leaves (Block)
     - Manic Roof Block
     - Manic Water (Block)
+    - Manic Wood Planks
     - Six Sided Piston
     - Six Sided Sticky Piston
   - Commands:
@@ -29,6 +31,7 @@
     - new Sky Block Dimension (with secret exit)
   - Crafting recipies:
     - Classic Smooth Stone Block, Slabs & Stairs
+    - Manic Crafter Recipe
     - Six Sided Piston
     - Six Sided Sticky Piston
   - Entities:

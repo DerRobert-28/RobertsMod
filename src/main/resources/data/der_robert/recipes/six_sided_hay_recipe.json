@@ -1,21 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "blocks",
   "category": "building",
-  "ingredients": [
-    {
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
       "item": "der_robert:classic_hay_stack"
     },
-    {
+    "1": {
       "item": "der_robert:classic_hay_stack"
     },
-    {
+    "2": {
       "item": "der_robert:classic_hay_stack"
     },
-    {
+    "3": {
       "item": "der_robert:classic_hay_stack"
     }
-  ],
+  },
   "result": {
     "item": "der_robert:six_sided_hay_block",
     "count": 4

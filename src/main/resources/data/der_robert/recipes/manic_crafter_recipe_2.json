@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "der_robert:manic_digger_m"
+    },
+    {
+      "item": "der_robert:manic_digger_d"
+    }
+  ],
+  "result": {
+    "item": "der_robert:manic_digger_crafter",
+    "count": 2
+  }
+}

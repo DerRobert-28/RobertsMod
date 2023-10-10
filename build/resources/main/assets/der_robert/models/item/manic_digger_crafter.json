@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "der_robert:item/manic_digger_crafter"
+  },
+  "render_type": "translucent"
+}
