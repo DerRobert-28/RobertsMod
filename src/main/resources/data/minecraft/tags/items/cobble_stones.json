@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mossy_cobblestone",
+    "der_robert:classic_stone_block",
+    "der_robert:classic_mossy_stone_block",
+    "der_robert:manic_cobblestone",
+    "minecraft:infested_cobblestone",
+    "minecraft:cobblestone"
+  ]
+}

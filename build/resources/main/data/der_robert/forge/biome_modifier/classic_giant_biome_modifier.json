@@ -5,8 +5,8 @@
   },
   "spawners": {
     "type": "der_robert:classic_giant",
-    "weight": 20,
+    "weight": 10,
     "minCount": 1,
-    "maxCount": 5
+    "maxCount": 1
   }
 }

@@ -7,6 +7,6 @@
     "type": "der_robert:classic_zombie",
     "weight": 20,
     "minCount": 1,
-    "maxCount": 5
+    "maxCount": 3
   }
 }

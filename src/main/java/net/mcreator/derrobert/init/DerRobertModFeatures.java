@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.derrobert.world.features.ores.WhiteLightBlockFeature;
+import net.mcreator.derrobert.world.features.ores.UpdateBlockFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteSideSlabFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteCylinderFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockStairsFeature;
@@ -175,13 +176,14 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CREEPONIA_BRICK_STAIRS = REGISTRY.register("creeponia_brick_stairs", CreeponiaBrickStairsFeature::new);
 	public static final RegistryObject<Feature<?>> CREEPONIA_BRICK_WALL = REGISTRY.register("creeponia_brick_wall", CreeponiaBrickWallFeature::new);
 	public static final RegistryObject<Feature<?>> END_PORTAL_BUTTON = REGISTRY.register("end_portal_button", EndPortalButtonFeature::new);
-	public static final RegistryObject<Feature<?>> CLASSIC_GHOST_DIRT = REGISTRY.register("classic_ghost_dirt", ClassicGhostDirtFeature::new);
 	public static final RegistryObject<Feature<?>> MISSING_NO_BLOCK = REGISTRY.register("missing_no_block", MissingNoBlockFeature::new);
 	public static final RegistryObject<Feature<?>> MISSING_NO_BUTTON = REGISTRY.register("missing_no_button", MissingNoButtonFeature::new);
 	public static final RegistryObject<Feature<?>> NETHER_PORTAL_BUTTON = REGISTRY.register("nether_portal_button", NetherPortalButtonFeature::new);
 	public static final RegistryObject<Feature<?>> NO_CHEST = REGISTRY.register("no_chest", NoChestFeature::new);
 	public static final RegistryObject<Feature<?>> SIX_SIDED_HAY_BLOCK = REGISTRY.register("six_sided_hay_block", SixSidedHayBlockFeature::new);
 	public static final RegistryObject<Feature<?>> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", WhiteLightBlockFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_GHOST_DIRT = REGISTRY.register("classic_ghost_dirt", ClassicGhostDirtFeature::new);
+	public static final RegistryObject<Feature<?>> UPDATE_BLOCK = REGISTRY.register("update_block", UpdateBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", AlphaGrassBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRASS_SLAB = REGISTRY.register("alpha_grass_slab", AlphaGrassSlabFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRAVEL_BLOCK = REGISTRY.register("alpha_gravel_block", AlphaGravelBlockFeature::new);

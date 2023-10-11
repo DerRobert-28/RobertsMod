@@ -123,6 +123,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("classic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE, -16776961, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_PIGMAN_SPAWN_EGG = REGISTRY.register("classic_pigman_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_PIGMAN, -16129, -65281, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_ZOMBIE_PIGMAN_SPAWN_EGG = REGISTRY.register("classic_zombie_pigman_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_ZOMBIE_PIGMAN, -65281, -16744704, new Item.Properties()));
+	public static final RegistryObject<Item> CLASSIC_GIANT_SPAWN_EGG = REGISTRY.register("classic_giant_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_GIANT, -16776961, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> ANTI_LIGHT_BLOCK = block(DerRobertModBlocks.ANTI_LIGHT_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_BONUS_BLOCK_BW = block(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW);
@@ -131,7 +132,6 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CREEPONIA_BRICK_STAIRS = block(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS);
 	public static final RegistryObject<Item> CREEPONIA_BRICK_WALL = block(DerRobertModBlocks.CREEPONIA_BRICK_WALL);
 	public static final RegistryObject<Item> END_PORTAL_BUTTON = block(DerRobertModBlocks.END_PORTAL_BUTTON);
-	public static final RegistryObject<Item> CLASSIC_GHOST_DIRT = block(DerRobertModBlocks.CLASSIC_GHOST_DIRT);
 	public static final RegistryObject<Item> LUCKY_BLOCK_OFF = block(DerRobertModBlocks.LUCKY_BLOCK_OFF);
 	public static final RegistryObject<Item> LUCKY_BLOCK_ON = block(DerRobertModBlocks.LUCKY_BLOCK_ON);
 	public static final RegistryObject<Item> MISSING_NO_BLOCK = block(DerRobertModBlocks.MISSING_NO_BLOCK);
@@ -152,6 +152,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> SON_KI_SPAWN_EGG = REGISTRY.register("son_ki_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.SON_KI, -65281, -8454017, new Item.Properties()));
 	public static final RegistryObject<Item> TEMPLATE_HUMAN_SPAWN_EGG = REGISTRY.register("template_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TEMPLATE_HUMAN, -1, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> TRACY_MOODALIE_SPAWN_EGG = REGISTRY.register("tracy_moodalie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TRACY_MOODALIE, -16777216, -8454017, new Item.Properties()));
+	public static final RegistryObject<Item> CLASSIC_GHOST_DIRT = block(DerRobertModBlocks.CLASSIC_GHOST_DIRT);
+	public static final RegistryObject<Item> UPDATE_BLOCK = block(DerRobertModBlocks.UPDATE_BLOCK);
 	public static final RegistryObject<Item> PLASTIC_BRICK_WHITE = block(DerRobertModBlocks.PLASTIC_BRICK_WHITE);
 	public static final RegistryObject<Item> PLASTIC_DOOR_WHITE = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_WHITE);
 	public static final RegistryObject<Item> PLASTIC_PANE_WHITE = block(DerRobertModBlocks.PLASTIC_PANE_WHITE);
@@ -282,7 +284,8 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PLASTIC_DOOR_9 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_9);
 	public static final RegistryObject<Item> PLASTIC_DOOR_10 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_10);
 	public static final RegistryObject<Item> PLASTIC_DOOR_11 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_11);
-	public static final RegistryObject<Item> CLASSIC_GIANT_SPAWN_EGG = REGISTRY.register("classic_giant_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.CLASSIC_GIANT, -16776961, -16711936, new Item.Properties()));
+	public static final RegistryObject<Item> PICKAXE_BLOCK_ON = block(DerRobertModBlocks.PICKAXE_BLOCK_ON);
+	public static final RegistryObject<Item> PICKAXE_BLOCK_OFF = block(DerRobertModBlocks.PICKAXE_BLOCK_OFF);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

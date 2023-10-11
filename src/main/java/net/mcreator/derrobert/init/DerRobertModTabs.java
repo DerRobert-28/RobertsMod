@@ -150,7 +150,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_WALL.get().asItem());
 				tabData.accept(DerRobertModBlocks.END_PORTAL_BUTTON.get().asItem());
-				tabData.accept(DerRobertModBlocks.CLASSIC_GHOST_DIRT.get().asItem());
 				tabData.accept(DerRobertModBlocks.LUCKY_BLOCK_OFF.get().asItem());
 				tabData.accept(DerRobertModBlocks.LUCKY_BLOCK_ON.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
@@ -212,6 +211,14 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.PLASTIC_SLABS_WHITE.get().asItem());
 				tabData.accept(DerRobertModBlocks.PLASTIC_STAIRS_WHITE.get().asItem());
 				tabData.accept(DerRobertModBlocks.PLASTIC_WALLS_WHITE.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_APRILS_TAB = REGISTRY.register("roberts_aprils_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_aprils_tab")).icon(() -> new ItemStack(DerRobertModBlocks.UPDATE_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.CLASSIC_GHOST_DIRT.get().asItem());
+				tabData.accept(DerRobertModBlocks.UPDATE_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.PICKAXE_BLOCK_OFF.get().asItem());
 			})
 
 					.build());

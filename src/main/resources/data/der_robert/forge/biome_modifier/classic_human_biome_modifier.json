@@ -7,6 +7,6 @@
     "type": "der_robert:classic_human",
     "weight": 5,
     "minCount": 1,
-    "maxCount": 5
+    "maxCount": 3
   }
 }

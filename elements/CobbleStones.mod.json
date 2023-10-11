@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ClassicStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ClassicMossyStoneBlock"
+      },
+      {
+        "value": "CUSTOM:ManicCobblestone"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MONSTER_EGG#1"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "cobble_stones",
+    "namespace": "minecraft"
+  }
+}

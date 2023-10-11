@@ -13,6 +13,8 @@
 ## Current version 1.23.41
 
 - Mod development:
+  - General:
+    - New tab: "April's Fools"
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
@@ -23,8 +25,10 @@
     - Manic Roof Block
     - Manic Water (Block)
     - Manic Wood Planks
+    - Pickaxe Block
     - Six Sided Piston
     - Six Sided Sticky Piston
+    - Update Block
   - Commands:
     - "/version": Show current mod version
   - Dimensions:
@@ -32,11 +36,13 @@
   - Crafting recipies:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Manic Crafter Recipe
+    - Pickaxe Block
     - Six Sided Piston
     - Six Sided Sticky Piston
   - Entities:
     - Classic Pigman (& Spawn Egg)
     - Classic Zombie Pigman (& Spawn Egg)
+    - Giant (as a test, with Zombie AI)
     - Manic Digger Human & Zombie (& Spawn Eggs)
 - Repository development:
   - Bugixes:

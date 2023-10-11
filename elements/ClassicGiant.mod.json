@@ -26,8 +26,8 @@
     "creativeTab": {
       "value": "CUSTOM:RobertsClassicTab"
     },
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "GREEN",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -114,10 +114,10 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 10,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 5,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [],
     "spawnInDungeons": true
   }
