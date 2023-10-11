@@ -19,6 +19,7 @@ import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockStairsFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockFeature;
 import net.mcreator.derrobert.world.features.ores.SixSidedHayBlockFeature;
+import net.mcreator.derrobert.world.features.ores.OxygeneFeature;
 import net.mcreator.derrobert.world.features.ores.NoChestFeature;
 import net.mcreator.derrobert.world.features.ores.NetherPortalButtonFeature;
 import net.mcreator.derrobert.world.features.ores.MojangBlockFeature;
@@ -207,6 +208,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MANIC_STONE_BLOCK = REGISTRY.register("manic_stone_block", ManicStoneBlockFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_WATER = REGISTRY.register("manic_water", ManicWaterFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_WOOD_PLANKS = REGISTRY.register("manic_wood_planks", ManicWoodPlanksFeature::new);
+	public static final RegistryObject<Feature<?>> OXYGENE = REGISTRY.register("oxygene", OxygeneFeature::new);
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);

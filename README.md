@@ -18,6 +18,7 @@
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
+    - Lucky-TNT, TNT-10 & TNT-100 blocks
     - Manic Digger Blocks (empty, M, D and MD)
     - Manic Camouflage Block
     - Manic Lava (Block)
@@ -35,6 +36,7 @@
     - new Sky Block Dimension (with secret exit)
   - Crafting recipies:
     - Classic Smooth Stone Block, Slabs & Stairs
+    - Lucky-TNT, TNT-10 & TNT-100 blocks
     - Manic Crafter Recipe
     - Pickaxe Block
     - Six Sided Piston
@@ -49,6 +51,7 @@
     - Fixed spawn disability for Custom Entities
   - Changes:
     - Classic Stone Block drops Classic Smooth Stone
+    - Classic Tnt gets primed for 5 secs. until explosion
     - Re-included ".gitignore"
   - Known bugs and issues:
     - Colouring Plastic Doors doesn't work properly

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/tnt_100_bottom",
+    "up": "der_robert:block/tnt_100_top",
+    "north": "der_robert:block/tnt_100_side",
+    "east": "der_robert:block/tnt_100_side",
+    "south": "der_robert:block/tnt_100_side",
+    "west": "der_robert:block/tnt_100_side",
+    "particle": "der_robert:block/tnt_100_bottom"
+  },
+  "render_type": "solid"
+}

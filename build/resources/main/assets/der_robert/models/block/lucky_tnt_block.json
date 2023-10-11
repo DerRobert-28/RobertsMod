@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/lucky_tnt_bottom",
+    "up": "der_robert:block/lucky_tnt_top",
+    "north": "der_robert:block/lucky_tnt_side",
+    "east": "der_robert:block/lucky_tnt_side",
+    "south": "der_robert:block/lucky_tnt_side",
+    "west": "der_robert:block/lucky_tnt_side",
+    "particle": "der_robert:block/lucky_tnt_bottom"
+  },
+  "render_type": "solid"
+}

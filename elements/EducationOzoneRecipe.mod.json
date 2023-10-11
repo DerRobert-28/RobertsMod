@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hydrogene"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Oxygene"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hydrogene"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hydrogene"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicSkyDimension"
+    },
+    "name": "education_ozone_recipe",
+    "namespace": "mod"
+  }
+}

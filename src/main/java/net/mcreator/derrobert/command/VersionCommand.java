@@ -17,7 +17,7 @@ import net.mcreator.derrobert.procedures.ShowVersionProcedure;
 public class VersionCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("version")
+		event.getDispatcher().register(Commands.literal("/version")
 
 				.executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();

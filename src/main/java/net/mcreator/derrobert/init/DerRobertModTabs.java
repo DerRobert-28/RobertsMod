@@ -170,6 +170,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.SON_KI_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TRACY_MOODALIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.LUCKY_TNT_BLOCK.get().asItem());
 			})
 
 					.build());
@@ -219,6 +220,15 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_GHOST_DIRT.get().asItem());
 				tabData.accept(DerRobertModBlocks.UPDATE_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.PICKAXE_BLOCK_OFF.get().asItem());
+				tabData.accept(DerRobertModBlocks.TNT_10_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.TNT_100_BLOCK.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> EDUCATION_TAB = REGISTRY.register("education_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.education_tab")).icon(() -> new ItemStack(DerRobertModBlocks.HYDROGENE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.OXYGENE.get().asItem());
+				tabData.accept(DerRobertModBlocks.HYDROGENE.get().asItem());
 			})
 
 					.build());

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "der_robert:hydrogene"
+    },
+    {
+      "item": "der_robert:oxygene"
+    },
+    {
+      "item": "der_robert:hydrogene"
+    },
+    {
+      "item": "der_robert:hydrogene"
+    }
+  ],
+  "result": {
+    "item": "der_robert:classic_sky_dimension",
+    "count": 1
+  }
+}
