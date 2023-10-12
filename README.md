@@ -15,6 +15,7 @@
 - Mod development:
   - General:
     - New tab: "April's Fools"
+    - Shorten tab names
   - Blocks/items:
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs

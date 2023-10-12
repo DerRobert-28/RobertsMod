@@ -226,8 +226,8 @@ public class DerRobertModTabs {
 			})
 
 					.build());
-	public static final RegistryObject<CreativeModeTab> EDUCATION_TAB = REGISTRY.register("education_tab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.education_tab")).icon(() -> new ItemStack(DerRobertModBlocks.HYDROGENE.get())).displayItems((parameters, tabData) -> {
+	public static final RegistryObject<CreativeModeTab> ROBERTS_EDUCATION_TAB = REGISTRY.register("roberts_education_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_education_tab")).icon(() -> new ItemStack(DerRobertModBlocks.HYDROGENE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.OXYGENE.get().asItem());
 				tabData.accept(DerRobertModBlocks.HYDROGENE.get().asItem());
 			})

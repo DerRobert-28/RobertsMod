@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:EducationTab"
+      "value": "CUSTOM:RobertsEducationTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {
