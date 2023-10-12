@@ -26,7 +26,7 @@
     - Manic Roof Block
     - Manic Water (Block)
     - Manic Wood Planks
-    - Pickaxe Block
+    - Pickaxe & Place Block
     - Six Sided Piston
     - Six Sided Sticky Piston
     - Update Block
@@ -38,7 +38,7 @@
     - Classic Smooth Stone Block, Slabs & Stairs
     - Lucky-TNT, TNT-10 & TNT-100 blocks
     - Manic Crafter Recipe
-    - Pickaxe Block
+    - Pickaxe & Place Block
     - Six Sided Piston
     - Six Sided Sticky Piston
   - Entities:

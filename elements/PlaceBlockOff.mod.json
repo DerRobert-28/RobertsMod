@@ -2,15 +2,15 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "lucky_tnt_bottom",
-    "textureTop": "lucky_tnt_top",
-    "textureLeft": "lucky_tnt_side",
-    "textureFront": "lucky_tnt_side",
-    "textureRight": "lucky_tnt_side",
-    "textureBack": "lucky_tnt_side",
+    "texture": "april_place_block",
+    "textureTop": "april_place_block",
+    "textureLeft": "april_place_block",
+    "textureFront": "april_pickaxe_block_front_off",
+    "textureRight": "april_place_block",
+    "textureBack": "april_pickaxe_block_back",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 2,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,28 +33,28 @@
         "subtract": false
       }
     ],
-    "name": "Lucky TNT",
+    "name": "Place Block",
     "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 0.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:RobertsAprilsTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "TNT"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -69,7 +69,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 20,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -117,23 +117,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "LuckyTntIgnitionProc"
-    },
-    "onDestroyedByPlayer": {
-      "name": "LuckyTntIgnitionProc"
-    },
-    "onDestroyedByExplosion": {
-      "name": "LuckyTntIgnitionProc"
-    },
-    "onStartToDestroy": {
-      "name": "LuckyTntIgnitionProc"
-    },
     "onRedstoneOn": {
-      "name": "LuckyTntIgnitionProc"
+      "name": "OnPlaceBlockActivate"
     },
-    "onHitByProjectile": {
-      "name": "LuckyTntIgnitionProc"
+    "onRedstoneOff": {
+      "name": "OnPlaceBlockDeactivate"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

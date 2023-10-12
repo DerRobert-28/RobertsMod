@@ -153,10 +153,12 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> TEMPLATE_HUMAN_SPAWN_EGG = REGISTRY.register("template_human_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TEMPLATE_HUMAN, -1, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> TRACY_MOODALIE_SPAWN_EGG = REGISTRY.register("tracy_moodalie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.TRACY_MOODALIE, -16777216, -8454017, new Item.Properties()));
 	public static final RegistryObject<Item> CLASSIC_GHOST_DIRT = block(DerRobertModBlocks.CLASSIC_GHOST_DIRT);
-	public static final RegistryObject<Item> UPDATE_BLOCK = block(DerRobertModBlocks.UPDATE_BLOCK);
+	public static final RegistryObject<Item> LUCKY_TNT_BLOCK = block(DerRobertModBlocks.LUCKY_TNT_BLOCK);
 	public static final RegistryObject<Item> PICKAXE_BLOCK_OFF = block(DerRobertModBlocks.PICKAXE_BLOCK_OFF);
+	public static final RegistryObject<Item> PLACE_BLOCK_OFF = block(DerRobertModBlocks.PLACE_BLOCK_OFF);
 	public static final RegistryObject<Item> TNT_10_BLOCK = block(DerRobertModBlocks.TNT_10_BLOCK);
 	public static final RegistryObject<Item> TNT_100_BLOCK = block(DerRobertModBlocks.TNT_100_BLOCK);
+	public static final RegistryObject<Item> UPDATE_BLOCK = block(DerRobertModBlocks.UPDATE_BLOCK);
 	public static final RegistryObject<Item> PLASTIC_BRICK_WHITE = block(DerRobertModBlocks.PLASTIC_BRICK_WHITE);
 	public static final RegistryObject<Item> PLASTIC_DOOR_WHITE = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_WHITE);
 	public static final RegistryObject<Item> PLASTIC_PANE_WHITE = block(DerRobertModBlocks.PLASTIC_PANE_WHITE);
@@ -291,7 +293,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PLASTIC_DOOR_11 = doubleBlock(DerRobertModBlocks.PLASTIC_DOOR_11);
 	public static final RegistryObject<Item> PICKAXE_BLOCK_ON = block(DerRobertModBlocks.PICKAXE_BLOCK_ON);
 	public static final RegistryObject<Item> CLASSIC_TNT_IGNITED = block(DerRobertModBlocks.CLASSIC_TNT_IGNITED);
-	public static final RegistryObject<Item> LUCKY_TNT_BLOCK = block(DerRobertModBlocks.LUCKY_TNT_BLOCK);
+	public static final RegistryObject<Item> PLACE_BLOCK_ON = block(DerRobertModBlocks.PLACE_BLOCK_ON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -38,6 +38,7 @@
     "der_robert:nether_portal_button",
     "der_robert:white_light_block",
     "der_robert:pickaxe_block_off",
+    "der_robert:place_block_off",
     "der_robert:glowing_obsidian",
     "der_robert:nether_reactor_core_blue",
     "der_robert:pocket_stone_cutter",
@@ -49,6 +50,7 @@
     "der_robert:manic_stone_block",
     "der_robert:nether_reactor_core_red",
     "der_robert:herobrine_netherrack_glow",
-    "der_robert:pickaxe_block_on"
+    "der_robert:pickaxe_block_on",
+    "der_robert:place_block_on"
   ]
 }

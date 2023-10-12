@@ -104,6 +104,8 @@ import net.mcreator.derrobert.block.PlasticBrick1Block;
 import net.mcreator.derrobert.block.PlasticBrick11Block;
 import net.mcreator.derrobert.block.PlasticBrick10Block;
 import net.mcreator.derrobert.block.PlasticBrick0Block;
+import net.mcreator.derrobert.block.PlaceBlockOnBlock;
+import net.mcreator.derrobert.block.PlaceBlockOffBlock;
 import net.mcreator.derrobert.block.PickaxeBlockOnBlock;
 import net.mcreator.derrobert.block.PickaxeBlockOffBlock;
 import net.mcreator.derrobert.block.OxygeneBlock;
@@ -307,10 +309,12 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> NOT_NETHER_DIMENSION_PORTAL = REGISTRY.register("not_nether_dimension_portal", () -> new NotNetherDimensionPortalBlock());
 	public static final RegistryObject<Block> SKY_BLOCK_DIMENSION_PORTAL = REGISTRY.register("sky_block_dimension_portal", () -> new SkyBlockDimensionPortalBlock());
 	public static final RegistryObject<Block> CLASSIC_GHOST_DIRT = REGISTRY.register("classic_ghost_dirt", () -> new ClassicGhostDirtBlock());
-	public static final RegistryObject<Block> UPDATE_BLOCK = REGISTRY.register("update_block", () -> new UpdateBlockBlock());
+	public static final RegistryObject<Block> LUCKY_TNT_BLOCK = REGISTRY.register("lucky_tnt_block", () -> new LuckyTntBlockBlock());
 	public static final RegistryObject<Block> PICKAXE_BLOCK_OFF = REGISTRY.register("pickaxe_block_off", () -> new PickaxeBlockOffBlock());
+	public static final RegistryObject<Block> PLACE_BLOCK_OFF = REGISTRY.register("place_block_off", () -> new PlaceBlockOffBlock());
 	public static final RegistryObject<Block> TNT_10_BLOCK = REGISTRY.register("tnt_10_block", () -> new Tnt10BlockBlock());
 	public static final RegistryObject<Block> TNT_100_BLOCK = REGISTRY.register("tnt_100_block", () -> new Tnt100BlockBlock());
+	public static final RegistryObject<Block> UPDATE_BLOCK = REGISTRY.register("update_block", () -> new UpdateBlockBlock());
 	public static final RegistryObject<Block> PLASTIC_BRICK_WHITE = REGISTRY.register("plastic_brick_white", () -> new PlasticBrickWhiteBlock());
 	public static final RegistryObject<Block> PLASTIC_DOOR_WHITE = REGISTRY.register("plastic_door_white", () -> new PlasticDoorWhiteBlock());
 	public static final RegistryObject<Block> PLASTIC_PANE_WHITE = REGISTRY.register("plastic_pane_white", () -> new PlasticPaneWhiteBlock());
@@ -429,5 +433,5 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> PLASTIC_DOOR_11 = REGISTRY.register("plastic_door_11", () -> new PlasticDoor11Block());
 	public static final RegistryObject<Block> PICKAXE_BLOCK_ON = REGISTRY.register("pickaxe_block_on", () -> new PickaxeBlockOnBlock());
 	public static final RegistryObject<Block> CLASSIC_TNT_IGNITED = REGISTRY.register("classic_tnt_ignited", () -> new ClassicTntIgnitedBlock());
-	public static final RegistryObject<Block> LUCKY_TNT_BLOCK = REGISTRY.register("lucky_tnt_block", () -> new LuckyTntBlockBlock());
+	public static final RegistryObject<Block> PLACE_BLOCK_ON = REGISTRY.register("place_block_on", () -> new PlaceBlockOnBlock());
 }

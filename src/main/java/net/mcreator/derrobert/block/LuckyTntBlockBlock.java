@@ -27,7 +27,7 @@ import java.util.Collections;
 
 public class LuckyTntBlockBlock extends Block {
 	public LuckyTntBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(0.5f, 0f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRAVEL).strength(0.5f, 0f).requiresCorrectToolForDrops());
 	}
 
 	@Override
