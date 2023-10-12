@@ -294,6 +294,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PICKAXE_BLOCK_ON = block(DerRobertModBlocks.PICKAXE_BLOCK_ON);
 	public static final RegistryObject<Item> CLASSIC_TNT_IGNITED = block(DerRobertModBlocks.CLASSIC_TNT_IGNITED);
 	public static final RegistryObject<Item> PLACE_BLOCK_ON = block(DerRobertModBlocks.PLACE_BLOCK_ON);
+	public static final RegistryObject<Item> CLASSIC_CHEST = block(DerRobertModBlocks.CLASSIC_CHEST);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

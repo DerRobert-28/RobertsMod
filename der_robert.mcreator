@@ -8681,6 +8681,27 @@
         "files": []
       },
       "path": "~/Creative Tabs"
+    },
+    {
+      "name": "ClassicChest",
+      "type": "block",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/classic_chest.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicChestBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_chest.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicChestFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_chest.json",
+          "src/main/resources/assets/der_robert/models/block/classic_chest.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_chest_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_chest.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
     }
   ],
   "variable_elements": [
@@ -8814,6 +8835,7 @@
       "block.der_robert.classic_dirt_stairs": "Classic Dirt Stairs",
       "block.der_robert.beta_end_stone": "Beta  End Stone",
       "item.der_robert.classic_zombie_spawn_egg": "Classic Zombie Spawn Egg",
+      "block.der_robert.classic_chest": "Chest",
       "block.der_robert.lucky_tnt_block": "Lucky TNT",
       "block.der_robert.classic_wood_stairs": "Classic Wood Stairs",
       "item.der_robert.classic_pigman_spawn_egg": "Classic Pigman Spawn Egg",

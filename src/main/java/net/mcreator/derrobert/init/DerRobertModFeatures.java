@@ -90,6 +90,7 @@ import net.mcreator.derrobert.world.features.ores.ClassicDirtStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicDirtSlabFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicDirtBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicCryingObsidianFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicChestFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickBlockFeature;
@@ -212,4 +213,5 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_CHEST = REGISTRY.register("classic_chest", ClassicChestFeature::new);
 }

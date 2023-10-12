@@ -17,6 +17,7 @@
     - New tab: "April's Fools"
     - Shorten tab names
   - Blocks/items:
+    - Classic Chest
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
     - Lucky-TNT, TNT-10 & TNT-100 blocks

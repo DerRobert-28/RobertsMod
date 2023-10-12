@@ -198,6 +198,7 @@ import net.mcreator.derrobert.block.ClassicDirtStairsBlock;
 import net.mcreator.derrobert.block.ClassicDirtSlabBlock;
 import net.mcreator.derrobert.block.ClassicDirtBlockBlock;
 import net.mcreator.derrobert.block.ClassicCryingObsidianBlock;
+import net.mcreator.derrobert.block.ClassicChestBlock;
 import net.mcreator.derrobert.block.ClassicBrickStairsBlock;
 import net.mcreator.derrobert.block.ClassicBrickSlabsBlock;
 import net.mcreator.derrobert.block.ClassicBrickBlockBlock;
@@ -434,4 +435,5 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> PICKAXE_BLOCK_ON = REGISTRY.register("pickaxe_block_on", () -> new PickaxeBlockOnBlock());
 	public static final RegistryObject<Block> CLASSIC_TNT_IGNITED = REGISTRY.register("classic_tnt_ignited", () -> new ClassicTntIgnitedBlock());
 	public static final RegistryObject<Block> PLACE_BLOCK_ON = REGISTRY.register("place_block_on", () -> new PlaceBlockOnBlock());
+	public static final RegistryObject<Block> CLASSIC_CHEST = REGISTRY.register("classic_chest", () -> new ClassicChestBlock());
 }
