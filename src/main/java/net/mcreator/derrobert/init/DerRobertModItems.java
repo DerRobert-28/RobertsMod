@@ -298,6 +298,9 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_TNT_IGNITED = block(DerRobertModBlocks.CLASSIC_TNT_IGNITED);
 	public static final RegistryObject<Item> PLACE_BLOCK_ON = block(DerRobertModBlocks.PLACE_BLOCK_ON);
 	public static final RegistryObject<Item> INTERNAL_UPDATE_BLOCK = block(DerRobertModBlocks.INTERNAL_UPDATE_BLOCK);
+	public static final RegistryObject<Item> INFINIMINER_ROCK = block(DerRobertModBlocks.INFINIMINER_ROCK);
+	public static final RegistryObject<Item> INFINIMINER_ROAD = block(DerRobertModBlocks.INFINIMINER_ROAD);
+	public static final RegistryObject<Item> INFINIMINER_DIRT_SIGN = block(DerRobertModBlocks.INFINIMINER_DIRT_SIGN);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

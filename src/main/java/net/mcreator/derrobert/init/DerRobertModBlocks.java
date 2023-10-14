@@ -137,6 +137,9 @@ import net.mcreator.derrobert.block.LuckyTntBlockBlock;
 import net.mcreator.derrobert.block.LuckyBlockOnBlock;
 import net.mcreator.derrobert.block.LuckyBlockOffBlock;
 import net.mcreator.derrobert.block.InternalUpdateBlockBlock;
+import net.mcreator.derrobert.block.InfiniminerRockBlock;
+import net.mcreator.derrobert.block.InfiniminerRoadBlock;
+import net.mcreator.derrobert.block.InfiniminerDirtSignBlock;
 import net.mcreator.derrobert.block.InfiniminerDirtBlock;
 import net.mcreator.derrobert.block.HydrogeneBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackGlowBlock;
@@ -442,4 +445,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> CLASSIC_TNT_IGNITED = REGISTRY.register("classic_tnt_ignited", () -> new ClassicTntIgnitedBlock());
 	public static final RegistryObject<Block> PLACE_BLOCK_ON = REGISTRY.register("place_block_on", () -> new PlaceBlockOnBlock());
 	public static final RegistryObject<Block> INTERNAL_UPDATE_BLOCK = REGISTRY.register("internal_update_block", () -> new InternalUpdateBlockBlock());
+	public static final RegistryObject<Block> INFINIMINER_ROCK = REGISTRY.register("infiniminer_rock", () -> new InfiniminerRockBlock());
+	public static final RegistryObject<Block> INFINIMINER_ROAD = REGISTRY.register("infiniminer_road", () -> new InfiniminerRoadBlock());
+	public static final RegistryObject<Block> INFINIMINER_DIRT_SIGN = REGISTRY.register("infiniminer_dirt_sign", () -> new InfiniminerDirtSignBlock());
 }

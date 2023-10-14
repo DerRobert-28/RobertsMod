@@ -238,6 +238,9 @@ public class DerRobertModTabs {
 	public static final RegistryObject<CreativeModeTab> ROBERTS_INFINIMINER = REGISTRY.register("roberts_infiniminer",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_infiniminer")).icon(() -> new ItemStack(DerRobertModBlocks.INFINIMINER_DIRT.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.INFINIMINER_DIRT.get().asItem());
+				tabData.accept(DerRobertModBlocks.INFINIMINER_ROCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.INFINIMINER_ROAD.get().asItem());
+				tabData.accept(DerRobertModBlocks.INFINIMINER_DIRT_SIGN.get().asItem());
 			})
 
 					.build());

@@ -71,7 +71,7 @@
   "item_group.der_robert.roberts_classic_tab": "R-Classic",
   "block.der_robert.classic_monster_spawner": "Classic Monster Spawner",
   "block.der_robert.classic_pack_block": "Classic Pack Block",
-  "block.der_robert.aether_portal_block": "Aether Portal Block",
+  "block.der_robert.aether_portal_block": "Aether Portal",
   "block.der_robert.plastic_stairs_7": "Plastic Stairs",
   "block.der_robert.glowing_obsidian": "Glowing Obsidian",
   "block.der_robert.plastic_stairs_8": "Plastic Stairs",
@@ -87,6 +87,7 @@
   "block.der_robert.creeponia_brick_slabs": "Creeponia Brick Slabs",
   "block.der_robert.plastic_stairs_2": "Plastic Stairs",
   "block.der_robert.plastic_stairs_0": "Plastic Stairs",
+  "block.der_robert.infiniminer_dirt_sign": "Dirt with Sign",
   "entity.der_robert.classic_giant": "Classic Giant",
   "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
   "item.der_robert.sky_block_dimension": "Sky Block Water",
@@ -194,6 +195,7 @@
   "block.der_robert.creeponia_brick_stairs": "Creeponia Brick Stairs",
   "block.der_robert.classic_mossy_stone_stairs": "Classic Mossy Stone Stairs",
   "block.der_robert.manic_digger_d": "Manic Digger D-Block",
+  "block.der_robert.infiniminer_road": "Road",
   "block.der_robert.manic_roof_block": "Manic Roof Block",
   "block.der_robert.classic_netherrack_block": "Classic Netherrack",
   "item_group.der_robert.roberts_aether_tab": "R-Aether",
@@ -289,5 +291,6 @@
   "block.der_robert.boulder_dash_bonus_block": "Boulder Dash Bonus Block",
   "block.der_robert.oxygene": "Oxygene",
   "block.der_robert.classic_tnt_block": "Classic TNT",
+  "block.der_robert.infiniminer_rock": "Rock",
   "block.der_robert.aether_therawood_log": "Therawood Log"
 }

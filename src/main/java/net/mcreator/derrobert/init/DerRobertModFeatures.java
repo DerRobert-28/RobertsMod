@@ -36,6 +36,9 @@ import net.mcreator.derrobert.world.features.ores.ManicGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ManicDirtBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ManicCobblestoneFeature;
 import net.mcreator.derrobert.world.features.ores.ManicCamouflageFeature;
+import net.mcreator.derrobert.world.features.ores.InfiniminerRockFeature;
+import net.mcreator.derrobert.world.features.ores.InfiniminerRoadFeature;
+import net.mcreator.derrobert.world.features.ores.InfiniminerDirtSignFeature;
 import net.mcreator.derrobert.world.features.ores.InfiniminerDirtFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackGlowFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackFeature;
@@ -216,4 +219,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
+	public static final RegistryObject<Feature<?>> INFINIMINER_ROCK = REGISTRY.register("infiniminer_rock", InfiniminerRockFeature::new);
+	public static final RegistryObject<Feature<?>> INFINIMINER_ROAD = REGISTRY.register("infiniminer_road", InfiniminerRoadFeature::new);
+	public static final RegistryObject<Feature<?>> INFINIMINER_DIRT_SIGN = REGISTRY.register("infiniminer_dirt_sign", InfiniminerDirtSignFeature::new);
 }

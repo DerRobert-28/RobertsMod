@@ -1,4 +1,4 @@
-package net.mcreator.derrobert.Custom;
+package der.robert.Custom;
 
 
 import java.lang.Character;

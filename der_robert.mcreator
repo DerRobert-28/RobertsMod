@@ -8610,7 +8610,7 @@
       "name": "OnPlaceBlockActivate",
       "type": "procedure",
       "sortid": 459,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "on_place_block_activate",
       "metadata": {
@@ -8814,6 +8814,83 @@
         "files": []
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "InfiniminerRock",
+      "type": "block",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/infiniminer_rock.json",
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_rock.json",
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerRockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_rock.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_rock_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_rock.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_rock.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerRockFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
+    },
+    {
+      "name": "InfiniminerRoad",
+      "type": "block",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_road.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerRoadFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_road.json",
+          "src/main/resources/assets/der_robert/models/item/infiniminer_road.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_road.json",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_road.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_road_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerRoadBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
+    },
+    {
+      "name": "LernProzedur",
+      "type": "procedure",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lern_prozedur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/LernProzedurProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "InfiniminerDirtSign",
+      "type": "block",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_dirt_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_dirt_sign.json",
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_dirt_sign.json",
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerDirtSignBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerDirtSignFeature.java",
+          "src/main/resources/assets/der_robert/models/item/infiniminer_dirt_sign.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_dirt_sign.json",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_dirt_sign.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_dirt_sign_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
     }
   ],
   "variable_elements": [
@@ -8827,9 +8904,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.der_robert.classic_ruby_ore": "Classic Ruby Ore",
-      "block.der_robert.manic_cobblestone": "Manic Stone",
       "block.der_robert.classic_smooth_stone_stairs": "Classic Smooth Stone Stiars",
+      "block.der_robert.manic_cobblestone": "Manic Stone",
+      "block.der_robert.classic_ruby_ore": "Classic Ruby Ore",
       "entity.der_robert.tracy_moodalie": "Tracy88",
       "block.der_robert.classic_dirt_block": "Classic Dirt",
       "block.der_robert.manic_leaves": "Manic Leaves",
@@ -8840,20 +8917,20 @@
       "block.der_robert.classic_glass_wall": "Classic Glass Wall",
       "block.der_robert.plastic_pane_3": "Plastic Pane",
       "block.der_robert.plastic_pane_4": "Plastic Pane",
-      "block.der_robert.plastic_pane_5": "Plastic Pane",
       "block.der_robert.hydrogene": "Hydrogene",
+      "block.der_robert.plastic_pane_5": "Plastic Pane",
       "block.der_robert.plastic_pane_6": "Plastic Pane",
-      "block.der_robert.classic_mossy_stone_block": "Classic Mossy Stone",
-      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
       "block.der_robert.plastic_pane_0": "Plastic Pane",
-      "block.der_robert.plastic_pane_1": "Plastic Pane",
+      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
+      "block.der_robert.classic_mossy_stone_block": "Classic Mossy Stone",
       "entity.der_robert.classic_pigman": "Classic Pigman",
+      "block.der_robert.plastic_pane_1": "Plastic Pane",
       "item_group.der_robert.roberts_mojang_tab": "R-Mojang",
       "block.der_robert.plastic_pane_2": "Plastic Pane",
       "item.der_robert.classic_human_spawn_egg": "Classic Human Spawn Egg",
       "block.der_robert.classic_wood_table": "Classic Wood Table",
-      "block.der_robert.missing_no_block": "Missing No.",
       "block.der_robert.classic_smooth_stone_slab": "Classic Smooth Stone Slab",
+      "block.der_robert.missing_no_block": "Missing No.",
       "block.der_robert.plastic_door_11": "Plastic Door",
       "block.der_robert.plastic_slabs_white": "Plastic Slabs",
       "block.der_robert.plastic_door_10": "Plastic Door",
@@ -8915,6 +8992,7 @@
       "block.der_robert.creeponia_brick_slabs": "Creeponia Brick Slabs",
       "block.der_robert.plastic_stairs_2": "Plastic Stairs",
       "block.der_robert.plastic_stairs_0": "Plastic Stairs",
+      "block.der_robert.infiniminer_dirt_sign": "Dirt with Sign",
       "entity.der_robert.classic_giant": "Classic Giant",
       "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
       "item.der_robert.sky_block_dimension": "Sky Block Water",
@@ -9022,6 +9100,7 @@
       "block.der_robert.creeponia_brick_stairs": "Creeponia Brick Stairs",
       "block.der_robert.classic_mossy_stone_stairs": "Classic Mossy Stone Stairs",
       "block.der_robert.manic_digger_d": "Manic Digger D-Block",
+      "block.der_robert.infiniminer_road": "Road",
       "block.der_robert.manic_roof_block": "Manic Roof Block",
       "block.der_robert.classic_netherrack_block": "Classic Netherrack",
       "item_group.der_robert.roberts_aether_tab": "R-Aether",
@@ -9117,6 +9196,7 @@
       "block.der_robert.boulder_dash_bonus_block": "Boulder Dash Bonus Block",
       "block.der_robert.oxygene": "Oxygene",
       "block.der_robert.classic_tnt_block": "Classic TNT",
+      "block.der_robert.infiniminer_rock": "Rock",
       "block.der_robert.aether_therawood_log": "Therawood Log"
     }
   },

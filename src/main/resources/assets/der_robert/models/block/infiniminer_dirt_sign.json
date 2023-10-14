@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/infiniminer_dirt",
+    "up": "der_robert:block/infiniminer_dirt",
+    "north": "der_robert:block/infiniminer_dirt_sign",
+    "east": "der_robert:block/infiniminer_dirt_sign",
+    "south": "der_robert:block/infiniminer_dirt_sign",
+    "west": "der_robert:block/infiniminer_dirt_sign",
+    "particle": "der_robert:block/infiniminer_dirt"
+  },
+  "render_type": "solid"
+}

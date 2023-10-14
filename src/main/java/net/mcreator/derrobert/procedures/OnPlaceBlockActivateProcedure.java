@@ -1,7 +1,7 @@
 package net.mcreator.derrobert.procedures;
 
 
-import net.mcreator.derrobert.Custom.BlockWorldUtils;
+import der.robert.Custom.BlockWorldUtils;
 import net.mcreator.derrobert.init.DerRobertModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -26,6 +26,9 @@ public class OnPlaceBlockActivateProcedure
 		{
 			return false;
 		}
+
+		BlockState _testBlock1 = DerRobertModBlocks.INTERNAL_UPDATE_BLOCK.get().defaultBlockState();
+		world.setBlock(_testBlock1, _front);
 
 		return true;
 	}
