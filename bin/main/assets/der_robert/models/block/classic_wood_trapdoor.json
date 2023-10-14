@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_bottom",
-  "textures": {
-    "texture": "der_robert:block/classic_wood_trapdoor",
-    "particle": "der_robert:block/classic_wood_trapdoor"
-  },
-  "render_type": "solid"
-}

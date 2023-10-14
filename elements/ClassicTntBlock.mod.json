@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "classic_tnt-bottom",
+    "texture": "classic_tnt_bottom",
     "textureTop": "classic_tnt_top",
     "textureLeft": "classic_tnt_side",
     "textureFront": "classic_tnt_side",
@@ -54,7 +54,7 @@
     "canRedstoneConnect": true,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "TNT"
     },
     "tickRate": 0,
     "tickRandomly": false,

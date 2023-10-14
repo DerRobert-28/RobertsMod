@@ -17,6 +17,17 @@
         "state": {
           "Name": "der_robert:aether_grass_block"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dirt_path"
+          }
+        },
+        "state": {
+          "Name": "der_robert:aether_grass_block"
+        }
       }
     ]
   }

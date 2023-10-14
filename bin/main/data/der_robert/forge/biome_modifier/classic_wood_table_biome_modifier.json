@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "der_robert:classic_wood_table",
-  "step": "underground_ores"
-}

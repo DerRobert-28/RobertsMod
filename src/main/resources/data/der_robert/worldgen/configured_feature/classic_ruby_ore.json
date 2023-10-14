@@ -8,6 +8,17 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
+            "Name": "der_robert:classic_emerald_ore"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_ruby_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
             "Name": "minecraft:emerald_ore"
           }
         },
@@ -20,6 +31,17 @@
           "predicate_type": "blockstate_match",
           "block_state": {
             "Name": "minecraft:deepslate_emerald_ore"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_ruby_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:emerald_block"
           }
         },
         "state": {

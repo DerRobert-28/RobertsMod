@@ -1,9 +1,0 @@
-{
-  "parent": "der_robert:custom/roberts_dirt_triangle",
-  "textures": {
-    "all": "der_robert:block/classic_dirt",
-    "particle": "der_robert:block/classic_dirt",
-    "0": "der_robert:block/classic_dirt"
-  },
-  "render_type": "cutout"
-}

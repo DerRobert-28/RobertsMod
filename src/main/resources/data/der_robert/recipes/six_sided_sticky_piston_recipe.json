@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blocks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:sticky_piston"
+    },
+    {
+      "item": "minecraft:sticky_piston"
+    },
+    {
+      "item": "minecraft:sticky_piston"
+    },
+    {
+      "item": "minecraft:sticky_piston"
+    }
+  ],
+  "result": {
+    "item": "der_robert:six_sided_sticky_piston",
+    "count": 4
+  }
+}

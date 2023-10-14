@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:ClassicSmoothStone"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -119,18 +119,21 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface",
-      "Nether"
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      },
       {
         "value": "Blocks.STONE#0"
       },
       {
         "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.BASALT"
       }
     ],
     "generationShape": "UNIFORM",

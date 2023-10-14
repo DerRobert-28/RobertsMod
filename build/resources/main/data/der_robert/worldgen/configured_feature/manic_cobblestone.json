@@ -8,6 +8,17 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
             "Name": "minecraft:cobblestone"
           }
         },

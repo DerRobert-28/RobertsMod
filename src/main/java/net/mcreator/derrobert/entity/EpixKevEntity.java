@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.animal.IronGolem;
@@ -15,6 +16,7 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -41,7 +43,6 @@ public class EpixKevEntity extends IronGolem {
 		setNoAi(false);
 		setCustomName(Component.literal("EpixKev04"));
 		setCustomNameVisible(true);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -70,11 +71,6 @@ public class EpixKevEntity extends IronGolem {
 	}
 
 	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
-	}
-
-	@Override
 	public double getMyRidingOffset() {
 		return -0.35D;
 	}
@@ -95,6 +91,7 @@ public class EpixKevEntity extends IronGolem {
 	}
 
 	public static void init() {
+		SpawnPlacements.register(DerRobertModEntities.EPIX_KEV.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

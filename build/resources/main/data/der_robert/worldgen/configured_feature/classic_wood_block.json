@@ -12,6 +12,127 @@
         "state": {
           "Name": "der_robert:classic_wood_block"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:oak_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:spruce_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:birch_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:jungle_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:acacia_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dark_oak_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crimson_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:warped_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:mangrove_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cherry_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:bamboo_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_wood_block"
+        }
       }
     ]
   }

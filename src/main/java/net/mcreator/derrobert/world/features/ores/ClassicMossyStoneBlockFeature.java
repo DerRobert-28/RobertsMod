@@ -6,12 +6,15 @@ import net.minecraft.world.level.levelgen.feature.OreFeature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 
 import java.util.Set;
 
 public class ClassicMossyStoneBlockFeature extends OreFeature {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, Level.NETHER);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, Level.NETHER, Level.END, ResourceKey.create(Registries.DIMENSION, new ResourceLocation("der_robert:classic_sky_dimension")),
+			ResourceKey.create(Registries.DIMENSION, new ResourceLocation("der_robert:not_nether_dimension")));
 
 	public ClassicMossyStoneBlockFeature() {
 		super(OreConfiguration.CODEC);

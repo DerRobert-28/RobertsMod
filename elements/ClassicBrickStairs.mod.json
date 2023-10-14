@@ -119,12 +119,19 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.BRICK_STAIRS"
+      },
+      {
+        "value": "Blocks.STONE_BRICK_STAIRS"
       }
     ],
     "generationShape": "UNIFORM",

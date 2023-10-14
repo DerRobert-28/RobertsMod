@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "cobble_stones"
+    },
+    "1": {
+      "tag": "pickaxes"
+    },
+    "2": {
+      "tag": "cobble_stones"
+    },
+    "3": {
+      "tag": "cobble_stones"
+    },
+    "5": {
+      "tag": "cobble_stones"
+    },
+    "6": {
+      "tag": "cobble_stones"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "tag": "cobble_stones"
+    }
+  },
+  "result": {
+    "item": "der_robert:pickaxe_block_off",
+    "count": 1
+  }
+}

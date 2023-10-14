@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/internal_update_block",
+    "particle": "der_robert:block/internal_update_block"
+  },
+  "render_type": "cutout"
+}

@@ -3,7 +3,7 @@
     {
       "name": "BedrockRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_recipe",
@@ -12,7 +12,7 @@
           "src/main/resources/data/der_robert/recipes/bedrock_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicBedrockBlock",
@@ -59,7 +59,7 @@
     {
       "name": "ClassicBrickRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_brick_recipe",
@@ -68,12 +68,12 @@
           "src/main/resources/data/der_robert/recipes/classic_brick_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGravelBlock",
       "type": "block",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gravel_block",
@@ -94,7 +94,7 @@
     {
       "name": "ClassicStoneBlock",
       "type": "block",
-      "sortid": 55,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_block",
@@ -115,7 +115,7 @@
     {
       "name": "ClassicWoodBlock",
       "type": "block",
-      "sortid": 58,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_block",
@@ -136,7 +136,7 @@
     {
       "name": "ClassicWorkbenchBlock",
       "type": "block",
-      "sortid": 66,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_block",
@@ -157,7 +157,7 @@
     {
       "name": "ClassicWorkbenchGUI",
       "type": "gui",
-      "sortid": 128,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_gui",
@@ -172,7 +172,7 @@
     {
       "name": "ClassicWorkbenchOnRightClick",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_on_right_click",
@@ -203,12 +203,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Classic"
     },
     {
       "name": "ClassicWorkbenchRecipe1",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_recipe_1",
@@ -217,12 +217,12 @@
           "src/main/resources/data/der_robert/recipes/classic_workbench_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWorkbenchRecipe2",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_recipe_2",
@@ -231,12 +231,12 @@
           "src/main/resources/data/der_robert/recipes/classic_workbench_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWorkbenchRecipe3",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_workbench_recipe_3",
@@ -245,12 +245,12 @@
           "src/main/resources/data/der_robert/recipes/classic_workbench_recipe_3.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "CreateBarrierRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "create_barrier_recipe",
@@ -264,7 +264,7 @@
     {
       "name": "CreateBedrockRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "create_bedrock_recipe",
@@ -278,7 +278,7 @@
     {
       "name": "CreeponiaBrickBlock",
       "type": "block",
-      "sortid": 73,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_brick_block",
@@ -299,7 +299,7 @@
     {
       "name": "CreeponiaBrickRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_brick_recipe",
@@ -313,7 +313,7 @@
     {
       "name": "ClassicNetherrackBlock",
       "type": "block",
-      "sortid": 40,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_netherrack_block",
@@ -334,7 +334,7 @@
     {
       "name": "ClassicNetherrackRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_netherrack_recipe",
@@ -343,12 +343,12 @@
           "src/main/resources/data/der_robert/recipes/classic_netherrack_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicOakLeavesBlock",
       "type": "block",
-      "sortid": 42,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_oak_leaves_block",
@@ -369,7 +369,7 @@
     {
       "name": "ClassicGlowstoneBlock",
       "type": "block",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_block",
@@ -390,7 +390,7 @@
     {
       "name": "ClassicDirtBlock",
       "type": "block",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_block",
@@ -411,7 +411,7 @@
     {
       "name": "ClassicGrassBlock",
       "type": "block",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_grass_block",
@@ -432,7 +432,7 @@
     {
       "name": "AetherDirtBlock",
       "type": "block",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_dirt_block",
@@ -453,7 +453,7 @@
     {
       "name": "AetherDirtRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_dirt_recipe",
@@ -462,12 +462,12 @@
           "src/main/resources/data/der_robert/recipes/aether_dirt_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Aether"
     },
     {
       "name": "AetherGrassBlock",
       "type": "block",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_grass_block",
@@ -488,7 +488,7 @@
     {
       "name": "AetherGrassRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_grass_recipe",
@@ -497,12 +497,12 @@
           "src/main/resources/data/der_robert/recipes/aether_grass_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Aether"
     },
     {
       "name": "ClassicSandBlock",
       "type": "block",
-      "sortid": 52,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sand_block",
@@ -523,7 +523,7 @@
     {
       "name": "ClassicBiome1",
       "type": "biome",
-      "sortid": 139,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_biome_1",
@@ -539,7 +539,7 @@
     {
       "name": "ClassicBiome2",
       "type": "biome",
-      "sortid": 140,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_biome_2",
@@ -555,7 +555,7 @@
     {
       "name": "AlphaGrassBlock",
       "type": "block",
-      "sortid": 102,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_grass_block",
@@ -576,7 +576,7 @@
     {
       "name": "AlphaGravelBlock",
       "type": "block",
-      "sortid": 104,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_gravel_block",
@@ -597,7 +597,7 @@
     {
       "name": "HerobrineNetherrack",
       "type": "block",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herobrine_netherrack",
@@ -618,7 +618,7 @@
     {
       "name": "AlphaGrassRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_grass_recipe",
@@ -627,12 +627,12 @@
           "src/main/resources/data/der_robert/recipes/alpha_grass_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "HerobrineNetherrackRecipe",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herobrine_netherrack_recipe",
@@ -646,7 +646,7 @@
     {
       "name": "BetaGravelBlock",
       "type": "block",
-      "sortid": 120,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_gravel_block",
@@ -667,7 +667,7 @@
     {
       "name": "BetaGravelRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_gravel_recipe",
@@ -676,12 +676,12 @@
           "src/main/resources/data/der_robert/recipes/beta_gravel_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Beta"
     },
     {
       "name": "ClassicMonsterSpawner",
       "type": "block",
-      "sortid": 35,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_monster_spawner",
@@ -702,7 +702,7 @@
     {
       "name": "BetaMonsterSpawner",
       "type": "block",
-      "sortid": 121,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_monster_spawner",
@@ -723,7 +723,7 @@
     {
       "name": "ClassicDirtSlab",
       "type": "block",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_slab",
@@ -746,7 +746,7 @@
     {
       "name": "ClassicDirtSlabRecipe1",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_slab_recipe_1",
@@ -755,12 +755,12 @@
           "src/main/resources/data/der_robert/recipes/classic_dirt_slab_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicDirtSlabRecipe2",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_slab_recipe_2",
@@ -769,12 +769,12 @@
           "src/main/resources/data/der_robert/recipes/classic_dirt_slab_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "GlowingObsidian",
       "type": "block",
-      "sortid": 110,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_obsidian",
@@ -795,7 +795,7 @@
     {
       "name": "GlowingObsidianRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_obsidian_recipe",
@@ -804,12 +804,12 @@
           "src/main/resources/data/der_robert/recipes/glowing_obsidian_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pocket"
     },
     {
       "name": "ClassicSpongeBlock",
       "type": "block",
-      "sortid": 54,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sponge_block",
@@ -830,7 +830,7 @@
     {
       "name": "ClassicObsidianBlock",
       "type": "block",
-      "sortid": 43,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_obsidian_block",
@@ -851,7 +851,7 @@
     {
       "name": "ClassicCryingObsidian",
       "type": "block",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_crying_obsidian",
@@ -872,7 +872,7 @@
     {
       "name": "ClassicCryingObsidianRecipe1",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_crying_obsidian_recipe_1",
@@ -881,12 +881,12 @@
           "src/main/resources/data/der_robert/recipes/classic_crying_obsidian_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicCryingObsidianRecipe2",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_crying_obsidian_recipe_2",
@@ -895,12 +895,12 @@
           "src/main/resources/data/der_robert/recipes/classic_crying_obsidian_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicObsidianRecipe1",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_obsidian_recipe_1",
@@ -909,12 +909,12 @@
           "src/main/resources/data/der_robert/recipes/classic_obsidian_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicObsidianRecipe2",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_obsidian_recipe_2",
@@ -923,12 +923,12 @@
           "src/main/resources/data/der_robert/recipes/classic_obsidian_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicNetherRackRecipe2",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_rack_recipe_2",
@@ -937,12 +937,12 @@
           "src/main/resources/data/der_robert/recipes/classic_nether_rack_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGrassRecipe1",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_grass_recipe_1",
@@ -951,12 +951,12 @@
           "src/main/resources/data/der_robert/recipes/classic_grass_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGrassRecipe2",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_grass_recipe_2",
@@ -965,12 +965,12 @@
           "src/main/resources/data/der_robert/recipes/classic_grass_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGlowstoneRecipe1",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_recipe_1",
@@ -979,12 +979,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glowstone_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGlowstoneRecipe2",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_recipe_2",
@@ -993,12 +993,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glowstone_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "AlphaGravelRecipe1",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_gravel_recipe_1",
@@ -1007,12 +1007,12 @@
           "src/main/resources/data/der_robert/recipes/alpha_gravel_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "AlphaGravelRecipe2",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_gravel_recipe_2",
@@ -1021,12 +1021,12 @@
           "src/main/resources/data/der_robert/recipes/alpha_gravel_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "ClassicDirtRecipe1",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_recipe_1",
@@ -1035,12 +1035,12 @@
           "src/main/resources/data/der_robert/recipes/classic_dirt_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicDirtRecipe2",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_recipe_2",
@@ -1049,12 +1049,12 @@
           "src/main/resources/data/der_robert/recipes/classic_dirt_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGravelRecipe1",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gravel_recipe_1",
@@ -1063,12 +1063,12 @@
           "src/main/resources/data/der_robert/recipes/classic_gravel_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGravelRecipe2",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gravel_recipe_2",
@@ -1077,12 +1077,12 @@
           "src/main/resources/data/der_robert/recipes/classic_gravel_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicLeavesRecipe1",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_leaves_recipe_1",
@@ -1091,12 +1091,12 @@
           "src/main/resources/data/der_robert/recipes/classic_leaves_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicLeavesRecipe2",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_leaves_recipe_2",
@@ -1105,12 +1105,12 @@
           "src/main/resources/data/der_robert/recipes/classic_leaves_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicStoneRecipe1",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_recipe_1",
@@ -1119,12 +1119,12 @@
           "src/main/resources/data/der_robert/recipes/classic_stone_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicStoneRecipe2",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_recipe_2",
@@ -1133,12 +1133,12 @@
           "src/main/resources/data/der_robert/recipes/classic_stone_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicStoneRecipe3",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone_recipe_3",
@@ -1147,12 +1147,12 @@
           "src/main/resources/data/der_robert/recipes/classic_stone_recipe_3.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoodRecipe1",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_recipe_1",
@@ -1161,12 +1161,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoodRecipe2",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_recipe_2",
@@ -1175,12 +1175,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicMossyStoneBlock",
       "type": "block",
-      "sortid": 36,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_block",
@@ -1201,7 +1201,7 @@
     {
       "name": "ClassicMossyStoneRecipe1",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_recipe_1",
@@ -1210,12 +1210,12 @@
           "src/main/resources/data/der_robert/recipes/classic_mossy_stone_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicMossyStoneRecipe2",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_recipe_2",
@@ -1224,12 +1224,12 @@
           "src/main/resources/data/der_robert/recipes/classic_mossy_stone_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicMonsterSpawnerRecipe1",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_monster_spawner_recipe_1",
@@ -1238,12 +1238,12 @@
           "src/main/resources/data/der_robert/recipes/classic_monster_spawner_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicMonsterSpawnerRecipe2",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_monster_spawner_recipe_2",
@@ -1252,12 +1252,12 @@
           "src/main/resources/data/der_robert/recipes/classic_monster_spawner_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "BetaMonsterSpawnerRecipe1",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_monster_spawner_recipe_1",
@@ -1266,12 +1266,12 @@
           "src/main/resources/data/der_robert/recipes/beta_monster_spawner_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Beta"
     },
     {
       "name": "BetaMonsterSpawnerRecipe2",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_monster_spawner_recipe_2",
@@ -1280,12 +1280,12 @@
           "src/main/resources/data/der_robert/recipes/beta_monster_spawner_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Beta"
     },
     {
       "name": "MissingNoBlock",
       "type": "block",
-      "sortid": 81,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "missing_no_block",
@@ -1306,7 +1306,7 @@
     {
       "name": "ClassicHuman",
       "type": "livingentity",
-      "sortid": 68,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_human",
@@ -1323,7 +1323,7 @@
     {
       "name": "TemplateHuman",
       "type": "livingentity",
-      "sortid": 93,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "template_human",
@@ -1340,7 +1340,7 @@
     {
       "name": "ClassicHerobrine",
       "type": "livingentity",
-      "sortid": 67,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_herobrine",
@@ -1357,7 +1357,7 @@
     {
       "name": "EvilHerobrine",
       "type": "livingentity",
-      "sortid": 89,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "evil_herobrine",
@@ -1374,7 +1374,7 @@
     {
       "name": "AlphaCreeper",
       "type": "livingentity",
-      "sortid": 109,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_creeper",
@@ -1391,7 +1391,7 @@
     {
       "name": "PiggyCreeper",
       "type": "livingentity",
-      "sortid": 91,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piggy_creeper",
@@ -1408,7 +1408,7 @@
     {
       "name": "ClassicZombie",
       "type": "livingentity",
-      "sortid": 69,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_zombie",
@@ -1425,7 +1425,7 @@
     {
       "name": "ClassicEndstoneBlock",
       "type": "block",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_endstone_block",
@@ -1446,7 +1446,7 @@
     {
       "name": "ClassicEndstoneRecipe1",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_endstone_recipe_1",
@@ -1455,12 +1455,12 @@
           "src/main/resources/data/der_robert/recipes/classic_endstone_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicEndstoneRecipe2",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_endstone_recipe_2",
@@ -1469,12 +1469,12 @@
           "src/main/resources/data/der_robert/recipes/classic_endstone_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "CreeperPig",
       "type": "livingentity",
-      "sortid": 87,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeper_pig",
@@ -1491,7 +1491,7 @@
     {
       "name": "BackgroundDirt",
       "type": "block",
-      "sortid": 113,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "background_dirt",
@@ -1512,7 +1512,7 @@
     {
       "name": "MojangBlock",
       "type": "block",
-      "sortid": 116,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mojang_block",
@@ -1533,7 +1533,7 @@
     {
       "name": "ClassicDirtStairs",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_stairs",
@@ -1556,7 +1556,7 @@
     {
       "name": "MojangRecipe",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mojang_recipe",
@@ -1565,12 +1565,12 @@
           "src/main/resources/data/der_robert/recipes/mojang_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Mojang"
     },
     {
       "name": "UnknownPackBlock",
       "type": "block",
-      "sortid": 117,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unknown_pack_block",
@@ -1587,7 +1587,7 @@
     {
       "name": "ClassicPackBlock",
       "type": "block",
-      "sortid": 114,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_pack_block",
@@ -1604,7 +1604,7 @@
     {
       "name": "ModernPackBlock",
       "type": "block",
-      "sortid": 115,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "modern_pack_block",
@@ -1642,7 +1642,7 @@
     {
       "name": "ClassicDirtStairsRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_stairs_recipe",
@@ -1651,12 +1651,12 @@
           "src/main/resources/data/der_robert/recipes/classic_dirt_stairs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoodDoor",
       "type": "block",
-      "sortid": 59,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_door",
@@ -1684,7 +1684,7 @@
     {
       "name": "ClassicSoulSand",
       "type": "block",
-      "sortid": 53,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand",
@@ -1705,7 +1705,7 @@
     {
       "name": "ClassicSoulSandRecipe1",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand_recipe_1",
@@ -1714,12 +1714,12 @@
           "src/main/resources/data/der_robert/recipes/classic_soul_sand_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicSoulSandRecipe2",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand_recipe_2",
@@ -1728,12 +1728,12 @@
           "src/main/resources/data/der_robert/recipes/classic_soul_sand_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicSoulSandRecipe3",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_soul_sand_recipe_3",
@@ -1742,12 +1742,12 @@
           "src/main/resources/data/der_robert/recipes/classic_soul_sand_recipe_3.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "RobertsAetherTab",
       "type": "tab",
-      "sortid": 182,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_aether_tab",
@@ -1759,7 +1759,7 @@
     {
       "name": "RobertsAlphaTab",
       "type": "tab",
-      "sortid": 183,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_alpha_tab",
@@ -1771,7 +1771,7 @@
     {
       "name": "RobertsBetaTab",
       "type": "tab",
-      "sortid": 184,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_beta_tab",
@@ -1783,7 +1783,7 @@
     {
       "name": "RobertsClassicTab",
       "type": "tab",
-      "sortid": 185,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_classic_tab",
@@ -1795,7 +1795,7 @@
     {
       "name": "RobertsMojangTab",
       "type": "tab",
-      "sortid": 186,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_mojang_tab",
@@ -1807,7 +1807,7 @@
     {
       "name": "RobertsModTab",
       "type": "tab",
-      "sortid": 187,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_mod_tab",
@@ -1819,7 +1819,7 @@
     {
       "name": "RobertsPocketTab",
       "type": "tab",
-      "sortid": 188,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_pocket_tab",
@@ -1831,7 +1831,7 @@
     {
       "name": "ClassicTntBlock",
       "type": "block",
-      "sortid": 56,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_block",
@@ -1848,7 +1848,7 @@
     {
       "name": "ClassicTntRecipe1",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_recipe_1",
@@ -1857,12 +1857,12 @@
           "src/main/resources/data/der_robert/recipes/classic_tnt_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicTntRecipe2",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_recipe_2",
@@ -1871,12 +1871,12 @@
           "src/main/resources/data/der_robert/recipes/classic_tnt_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicTntIgnitionProc",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_tnt_ignition_proc",
@@ -1903,12 +1903,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Classic"
     },
     {
       "name": "BetaEndStone",
       "type": "block",
-      "sortid": 119,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beta_end_stone",
@@ -1929,7 +1929,7 @@
     {
       "name": "ClassicNetherQuartzOre",
       "type": "block",
-      "sortid": 41,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_quartz_ore",
@@ -1950,7 +1950,7 @@
     {
       "name": "GlassDoor",
       "type": "block",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_door",
@@ -1978,7 +1978,7 @@
     {
       "name": "GlassDoorRecipe",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_door_recipe",
@@ -1992,7 +1992,7 @@
     {
       "name": "ClassicNetherQuartzOreRecipe1",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_quartz_ore_recipe_1",
@@ -2001,12 +2001,12 @@
           "src/main/resources/data/der_robert/recipes/classic_nether_quartz_ore_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicNetherQuartzOreRecipe2",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_quartz_ore_recipe_2",
@@ -2015,12 +2015,12 @@
           "src/main/resources/data/der_robert/recipes/classic_nether_quartz_ore_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "AetherAmberootLog",
       "type": "block",
-      "sortid": 1,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aether_amberoot_log",
@@ -2146,7 +2146,7 @@
     {
       "name": "ClassicWoodStairs",
       "type": "block",
-      "sortid": 63,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_stairs",
@@ -2169,7 +2169,7 @@
     {
       "name": "ClassicWoodStairsRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_stairs_recipe",
@@ -2178,12 +2178,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_stairs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoddSlabsRecipe",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wodd_slabs_recipe",
@@ -2192,12 +2192,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wodd_slabs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoodSlabs",
       "type": "block",
-      "sortid": 62,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_slabs",
@@ -2220,7 +2220,7 @@
     {
       "name": "ClassicWoodSticksRecipe",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_sticks_recipe",
@@ -2229,12 +2229,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_sticks_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "AntiLightBlock",
       "type": "block",
-      "sortid": 70,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anti_light_block",
@@ -2255,7 +2255,7 @@
     {
       "name": "WhiteLightBlock",
       "type": "block",
-      "sortid": 85,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_light_block",
@@ -2276,7 +2276,7 @@
     {
       "name": "ClassicGlassBlock",
       "type": "block",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_block",
@@ -2297,7 +2297,7 @@
     {
       "name": "ClassicGlassBreakProc",
       "type": "procedure",
-      "sortid": 198,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_break_proc",
@@ -2324,12 +2324,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Classic"
     },
     {
       "name": "ClassicGlassPane",
       "type": "block",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_pane",
@@ -2354,7 +2354,7 @@
     {
       "name": "ClassicGlassBlockRecipe1",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_block_recipe_1",
@@ -2363,12 +2363,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glass_block_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGlassStairsRecipe",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_stairs_recipe",
@@ -2377,12 +2377,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glass_stairs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGlassPaneRecipe",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_pane_recipe",
@@ -2391,12 +2391,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glass_pane_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "NetherPortalButton",
       "type": "block",
-      "sortid": 83,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_portal_button",
@@ -2419,7 +2419,7 @@
     {
       "name": "EndPortalButton",
       "type": "block",
-      "sortid": 77,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "end_portal_button",
@@ -2442,7 +2442,7 @@
     {
       "name": "NetherButtonClick",
       "type": "procedure",
-      "sortid": 202,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_button_click",
@@ -2478,7 +2478,7 @@
     {
       "name": "NetherButtonRecipe",
       "type": "recipe",
-      "sortid": 203,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_button_recipe",
@@ -2492,7 +2492,7 @@
     {
       "name": "EndButtonRecipe",
       "type": "recipe",
-      "sortid": 204,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "end_button_recipe",
@@ -2506,7 +2506,7 @@
     {
       "name": "EndButtonClick",
       "type": "procedure",
-      "sortid": 205,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "end_button_click",
@@ -2542,7 +2542,7 @@
     {
       "name": "MissingNoButton",
       "type": "block",
-      "sortid": 82,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "missing_no_button",
@@ -2565,7 +2565,7 @@
     {
       "name": "MissingNoButtonClick",
       "type": "procedure",
-      "sortid": 206,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "missing_no_button_click",
@@ -2601,7 +2601,7 @@
     {
       "name": "LuckyBlockRecipe",
       "type": "recipe",
-      "sortid": 207,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lucky_block_recipe",
@@ -2615,7 +2615,7 @@
     {
       "name": "OnDimensionChangeProcedure",
       "type": "procedure",
-      "sortid": 208,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_dimension_change_procedure",
@@ -2624,18 +2624,6 @@
           "src/main/java/net/mcreator/derrobert/procedures/OnDimensionChangeProcedureProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
           {
             "name": "world",
             "type": "world"
@@ -2647,7 +2635,7 @@
     {
       "name": "SomeWhiteBlock",
       "type": "block",
-      "sortid": 105,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block",
@@ -2668,7 +2656,7 @@
     {
       "name": "SomeWhiteBlockRecipe",
       "type": "recipe",
-      "sortid": 209,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_recipe",
@@ -2677,12 +2665,12 @@
           "src/main/resources/data/der_robert/recipes/some_white_block_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "ClassicIronDoor",
       "type": "block",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_iron_door",
@@ -2710,7 +2698,7 @@
     {
       "name": "ClassicIronDoorRecipe1",
       "type": "recipe",
-      "sortid": 210,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_iron_door_recipe_1",
@@ -2719,12 +2707,12 @@
           "src/main/resources/data/der_robert/recipes/classic_iron_door_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicIronDoorRecipe2",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_iron_door_recipe_2",
@@ -2733,12 +2721,12 @@
           "src/main/resources/data/der_robert/recipes/classic_iron_door_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyOre",
       "type": "block",
-      "sortid": 47,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_ore",
@@ -2759,7 +2747,7 @@
     {
       "name": "ClassicEmeraldOre",
       "type": "block",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_emerald_ore",
@@ -2780,7 +2768,7 @@
     {
       "name": "ClassicRubyItem",
       "type": "item",
-      "sortid": 44,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_item",
@@ -2795,7 +2783,7 @@
     {
       "name": "ClassicEmeraldItem",
       "type": "item",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_emerald_item",
@@ -2810,7 +2798,7 @@
     {
       "name": "ClassicRubyEmeraldRecipe1",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_emerald_recipe_1",
@@ -2819,12 +2807,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyEmeraldRecipe2",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_emerald_recipe_2",
@@ -2833,12 +2821,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyEmeraldRecipe3",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_emerald_recipe_3",
@@ -2847,12 +2835,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_3.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyEmeraldRecipe4",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_emerald_recipe_4",
@@ -2861,12 +2849,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_4.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyEmeraldRecipe5",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_emerald_recipe_5",
@@ -2875,12 +2863,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_emerald_recipe_5.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyDestroyProc",
       "type": "procedure",
-      "sortid": 217,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_destroy_proc",
@@ -2907,12 +2895,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Classic"
     },
     {
       "name": "ClassicEmeraldDestroyProc",
       "type": "procedure",
-      "sortid": 218,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_emerald_destroy_proc",
@@ -2939,7 +2927,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Classic"
     },
     {
       "name": "ClassicBrickSlabs",
@@ -2990,7 +2978,7 @@
     {
       "name": "ClassicBrickStarisRecipe",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_brick_staris_recipe",
@@ -2999,12 +2987,12 @@
           "src/main/resources/data/der_robert/recipes/classic_brick_staris_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicBrickSlabsRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_brick_slabs_recipe",
@@ -3013,12 +3001,12 @@
           "src/main/resources/data/der_robert/recipes/classic_brick_slabs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "CreeponiaBrickSlabs",
       "type": "block",
-      "sortid": 74,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_brick_slabs",
@@ -3041,7 +3029,7 @@
     {
       "name": "CreeponiaBrickStairs",
       "type": "block",
-      "sortid": 75,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_brick_stairs",
@@ -3064,7 +3052,7 @@
     {
       "name": "CreeponiaBrickWall",
       "type": "block",
-      "sortid": 76,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_brick_wall",
@@ -3088,7 +3076,7 @@
     {
       "name": "CreeponiaSlabsRecipe",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_slabs_recipe",
@@ -3102,7 +3090,7 @@
     {
       "name": "CreeponiaStairsRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_stairs_recipe",
@@ -3116,7 +3104,7 @@
     {
       "name": "CreeponiaWallsRecipe",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeponia_walls_recipe",
@@ -3130,7 +3118,7 @@
     {
       "name": "ClassicWoodPane",
       "type": "block",
-      "sortid": 60,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_pane",
@@ -3155,7 +3143,7 @@
     {
       "name": "ClassicWoodPaneRecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_pane_recipe",
@@ -3164,12 +3152,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_pane_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicBiome3",
       "type": "biome",
-      "sortid": 225,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_biome_3",
@@ -3185,7 +3173,7 @@
     {
       "name": "ClassicSkyDimension",
       "type": "dimension",
-      "sortid": 57,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sky_dimension",
@@ -3209,7 +3197,7 @@
     {
       "name": "ClassicWaterBucketRecipe1",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_water_bucket_recipe_1",
@@ -3218,12 +3206,12 @@
           "src/main/resources/data/der_robert/recipes/classic_water_bucket_recipe_1.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWaterBucketRecipe2",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_water_bucket_recipe_2",
@@ -3232,12 +3220,12 @@
           "src/main/resources/data/der_robert/recipes/classic_water_bucket_recipe_2.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "NetherReactorCoreBlue",
       "type": "block",
-      "sortid": 111,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_reactor_core_blue",
@@ -3254,7 +3242,7 @@
     {
       "name": "NetherReactorCoreRed",
       "type": "block",
-      "sortid": 228,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_reactor_core_red",
@@ -3271,7 +3259,7 @@
     {
       "name": "NetherReactorCoreBlueToRed",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_reactor_core_blue_to_red",
@@ -3298,12 +3286,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Pocket"
     },
     {
       "name": "NetherReactorCoreRed2Blue",
       "type": "procedure",
-      "sortid": 230,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_reactor_core_red_2_blue",
@@ -3330,12 +3318,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Pocket"
     },
     {
       "name": "NetherReactorCoreRecipe",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_reactor_core_recipe",
@@ -3344,12 +3332,12 @@
           "src/main/resources/data/der_robert/recipes/nether_reactor_core_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pocket"
     },
     {
       "name": "ClassicWoodTable",
       "type": "block",
-      "sortid": 64,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_table",
@@ -3370,7 +3358,7 @@
     {
       "name": "ClassicWoodTableRecipe",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_table_recipe",
@@ -3379,12 +3367,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_table_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "SomeWhiteCylinder",
       "type": "block",
-      "sortid": 233,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_cylinder",
@@ -3405,7 +3393,7 @@
     {
       "name": "ClassicRubySwordRecipe",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_sword_recipe",
@@ -3414,12 +3402,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_sword_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubySword",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_sword",
@@ -3434,7 +3422,7 @@
     {
       "name": "ClassicRubyHoe",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_hoe",
@@ -3449,7 +3437,7 @@
     {
       "name": "ClassicRubyPickaxe",
       "type": "tool",
-      "sortid": 48,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_pickaxe",
@@ -3464,7 +3452,7 @@
     {
       "name": "ClassicRubyAxe",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_axe",
@@ -3479,7 +3467,7 @@
     {
       "name": "ClassicRubyShovel",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_shovel",
@@ -3494,7 +3482,7 @@
     {
       "name": "ClassicRubyHoeRecipe",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_hoe_recipe",
@@ -3503,12 +3491,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_hoe_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyAxeRecipe",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_axe_recipe",
@@ -3517,12 +3505,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_axe_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyPickaxeRecipe",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_pickaxe_recipe",
@@ -3531,12 +3519,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyShovelRecipe",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_shovel_recipe",
@@ -3545,12 +3533,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_shovel_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "SomeWhiteSideSlab",
       "type": "block",
-      "sortid": 106,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_side_slab",
@@ -3571,7 +3559,7 @@
     {
       "name": "SomeWhiteBlockSideSlabsRecipe",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_side_slabs_recipe",
@@ -3580,12 +3568,12 @@
           "src/main/resources/data/der_robert/recipes/some_white_block_side_slabs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "ClassicWoodSideSlab",
       "type": "block",
-      "sortid": 61,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_side_slab",
@@ -3606,7 +3594,7 @@
     {
       "name": "ClassicWoodSideSlabRecipe",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_side_slab_recipe",
@@ -3615,12 +3603,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_side_slab_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "SomeWhiteBlockSlabs",
       "type": "block",
-      "sortid": 107,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_slabs",
@@ -3643,7 +3631,7 @@
     {
       "name": "SomeWhiteBlockStairs",
       "type": "block",
-      "sortid": 108,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_stairs",
@@ -3666,7 +3654,7 @@
     {
       "name": "SomeWhiteBlockSlabsRecipe",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_slabs_recipe",
@@ -3675,12 +3663,12 @@
           "src/main/resources/data/der_robert/recipes/some_white_block_slabs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "SomeWhiteBlockStairsRecipe",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "some_white_block_stairs_recipe",
@@ -3689,12 +3677,12 @@
           "src/main/resources/data/der_robert/recipes/some_white_block_stairs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Alpha"
     },
     {
       "name": "ClassicDirtTriangle",
       "type": "block",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_triangle",
@@ -3715,7 +3703,7 @@
     {
       "name": "ClassicRubyArmor",
       "type": "armor",
-      "sortid": 51,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_armor",
@@ -3733,7 +3721,7 @@
     {
       "name": "ClassicRubyHelmetRecipe",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_helmet_recipe",
@@ -3742,12 +3730,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_helmet_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyLeggingsRecipe",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_leggings_recipe",
@@ -3756,12 +3744,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_leggings_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyBootsRecipe",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_boots_recipe",
@@ -3770,12 +3758,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_boots_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicRubyChestplateRecipe",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ruby_chestplate_recipe",
@@ -3784,12 +3772,12 @@
           "src/main/resources/data/der_robert/recipes/classic_ruby_chestplate_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicDirtTrapDoor",
       "type": "block",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_trap_door",
@@ -3812,7 +3800,7 @@
     {
       "name": "ClassicDirtTrapDoorRecipe",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt_trap_door_recipe",
@@ -3821,12 +3809,12 @@
           "src/main/resources/data/der_robert/recipes/classic_dirt_trap_door_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGhostDirt",
       "type": "block",
-      "sortid": 78,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ghost_dirt",
@@ -3842,12 +3830,12 @@
           "src/main/resources/assets/der_robert/models/block/classic_ghost_dirt.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/AprilFools"
     },
     {
       "name": "ClassicGhostDirtRecipe",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_ghost_dirt_recipe",
@@ -3856,23 +3844,27 @@
           "src/main/resources/data/der_robert/recipes/classic_ghost_dirt_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGlassWall",
       "type": "block",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_wall",
       "metadata": {
         "files": [
           "src/main/resources/assets/der_robert/models/block/classic_glass_wall_post.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_glass_wall.json",
           "src/main/resources/assets/der_robert/models/block/classic_glass_wall_side_tall.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_glass_wall_biome_modifier.json",
           "src/main/resources/assets/der_robert/models/item/classic_glass_wall.json",
           "src/main/resources/assets/der_robert/models/block/classic_glass_wall_inventory.json",
           "src/main/java/net/mcreator/derrobert/block/ClassicGlassWallBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_glass_wall.json",
           "src/main/resources/assets/der_robert/blockstates/classic_glass_wall.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicGlassWallFeature.java",
           "src/main/resources/assets/der_robert/models/block/classic_glass_wall.json"
         ]
       },
@@ -3881,7 +3873,7 @@
     {
       "name": "ClassicGlassWallRecipe",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_wall_recipe",
@@ -3890,12 +3882,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glass_wall_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "CustomWalls",
       "type": "tag",
-      "sortid": 250,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custom_walls",
@@ -3909,7 +3901,7 @@
     {
       "name": "ClassicMossySlabs",
       "type": "block",
-      "sortid": 37,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_slabs",
@@ -3932,7 +3924,7 @@
     {
       "name": "ClassicMossyStoneStairs",
       "type": "block",
-      "sortid": 38,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_stairs",
@@ -3955,7 +3947,7 @@
     {
       "name": "ClassicMossyStoneWall",
       "type": "block",
-      "sortid": 39,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stone_wall",
@@ -3975,7 +3967,7 @@
     {
       "name": "ClassicMossySlabsRecipe",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_slabs_recipe",
@@ -3984,12 +3976,12 @@
           "src/main/resources/data/der_robert/recipes/classic_mossy_slabs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicMossyStairsRecipe",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_stairs_recipe",
@@ -3998,12 +3990,12 @@
           "src/main/resources/data/der_robert/recipes/classic_mossy_stairs_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicMossyWallRecipe",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_mossy_wall_recipe",
@@ -4012,12 +4004,12 @@
           "src/main/resources/data/der_robert/recipes/classic_mossy_wall_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicGlowStoneDust",
       "type": "item",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glow_stone_dust",
@@ -4032,7 +4024,7 @@
     {
       "name": "ClassicGlowstoneRecipe3",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glowstone_recipe_3",
@@ -4041,12 +4033,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glowstone_recipe_3.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoodTrapdoor",
       "type": "block",
-      "sortid": 65,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_trapdoor",
@@ -4069,7 +4061,7 @@
     {
       "name": "ClassicWoodDorrRecipe",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_dorr_recipe",
@@ -4078,12 +4070,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_dorr_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "ClassicWoodTrabdoorRecipe",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_wood_trabdoor_recipe",
@@ -4092,12 +4084,12 @@
           "src/main/resources/data/der_robert/recipes/classic_wood_trabdoor_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "KillAllHerobrineEntities",
       "type": "procedure",
-      "sortid": 257,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill_all_herobrine_entities",
@@ -4129,7 +4121,7 @@
     {
       "name": "HerobrineNetherrackGlow",
       "type": "block",
-      "sortid": 258,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herobrine_netherrack_glow",
@@ -4150,7 +4142,7 @@
     {
       "name": "HerbrineBlockActivate",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herbrine_block_activate",
@@ -4182,7 +4174,7 @@
     {
       "name": "HerobrineBlockDeactivate",
       "type": "procedure",
-      "sortid": 260,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herobrine_block_deactivate",
@@ -4214,7 +4206,7 @@
     {
       "name": "NotNetherDimension",
       "type": "dimension",
-      "sortid": 86,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "not_nether_dimension",
@@ -4238,7 +4230,7 @@
     {
       "name": "NotNetherWaterRecipe1",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "not_nether_water_recipe_1",
@@ -4252,7 +4244,7 @@
     {
       "name": "NotNetherWaterRecipe2",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "not_nether_water_recipe_2",
@@ -4266,7 +4258,7 @@
     {
       "name": "RobertsManicDigger",
       "type": "tab",
-      "sortid": 263,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_manic_digger",
@@ -4278,7 +4270,7 @@
     {
       "name": "ManicGrassBlock",
       "type": "block",
-      "sortid": 124,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manic_grass_block",
@@ -4299,7 +4291,7 @@
     {
       "name": "ManicDirtBlock",
       "type": "block",
-      "sortid": 123,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manic_dirt_block",
@@ -4320,7 +4312,7 @@
     {
       "name": "ManicGrassOnly",
       "type": "block",
-      "sortid": 264,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manic_grass_only",
@@ -4329,7 +4321,11 @@
           "src/main/resources/assets/der_robert/models/item/manic_grass_only.json",
           "src/main/resources/assets/der_robert/blockstates/manic_grass_only.json",
           "src/main/resources/assets/der_robert/models/block/manic_grass_only.json",
-          "src/main/java/net/mcreator/derrobert/block/ManicGrassOnlyBlock.java"
+          "src/main/java/net/mcreator/derrobert/block/ManicGrassOnlyBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicGrassOnlyFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_grass_only_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_grass_only.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_grass_only.json"
         ]
       },
       "path": "~/Blocks/ManicDigger"
@@ -4337,7 +4333,7 @@
     {
       "name": "ManicStoneBlock",
       "type": "block",
-      "sortid": 125,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manic_stone_block",
@@ -4358,7 +4354,7 @@
     {
       "name": "ManicCobblestone",
       "type": "block",
-      "sortid": 122,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manic_cobblestone",
@@ -4379,7 +4375,7 @@
     {
       "name": "CustomSpawn",
       "type": "tag",
-      "sortid": 265,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custom_spawn",
@@ -4393,13 +4389,14 @@
     {
       "name": "Notch",
       "type": "livingentity",
-      "sortid": 118,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "notch",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/derrobert/entity/NotchEntity.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/notch_biome_modifier.json",
           "src/main/resources/assets/der_robert/models/item/notch_spawn_egg.json",
           "src/main/java/net/mcreator/derrobert/client/renderer/NotchRenderer.java"
         ]
@@ -4409,7 +4406,7 @@
     {
       "name": "EpixKev",
       "type": "livingentity",
-      "sortid": 88,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epix_kev",
@@ -4417,7 +4414,8 @@
         "files": [
           "src/main/java/net/mcreator/derrobert/entity/EpixKevEntity.java",
           "src/main/resources/assets/der_robert/models/item/epix_kev_spawn_egg.json",
-          "src/main/java/net/mcreator/derrobert/client/renderer/EpixKevRenderer.java"
+          "src/main/java/net/mcreator/derrobert/client/renderer/EpixKevRenderer.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/epix_kev_biome_modifier.json"
         ]
       },
       "path": "~/Entities"
@@ -4425,7 +4423,7 @@
     {
       "name": "TracyMoodalie",
       "type": "livingentity",
-      "sortid": 94,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tracy_moodalie",
@@ -4433,7 +4431,8 @@
         "files": [
           "src/main/resources/assets/der_robert/models/item/tracy_moodalie_spawn_egg.json",
           "src/main/java/net/mcreator/derrobert/entity/TracyMoodalieEntity.java",
-          "src/main/java/net/mcreator/derrobert/client/renderer/TracyMoodalieRenderer.java"
+          "src/main/java/net/mcreator/derrobert/client/renderer/TracyMoodalieRenderer.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/tracy_moodalie_biome_modifier.json"
         ]
       },
       "path": "~/Entities"
@@ -4441,13 +4440,14 @@
     {
       "name": "Gronkh",
       "type": "livingentity",
-      "sortid": 90,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gronkh",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/derrobert/client/renderer/GronkhRenderer.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/gronkh_biome_modifier.json",
           "src/main/java/net/mcreator/derrobert/entity/GronkhEntity.java",
           "src/main/resources/assets/der_robert/models/item/gronkh_spawn_egg.json"
         ]
@@ -4457,13 +4457,14 @@
     {
       "name": "SonKi",
       "type": "livingentity",
-      "sortid": 92,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "son_ki",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/derrobert/client/renderer/SonKiRenderer.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/son_ki_biome_modifier.json",
           "src/main/java/net/mcreator/derrobert/entity/SonKiEntity.java",
           "src/main/resources/assets/der_robert/models/item/son_ki_spawn_egg.json"
         ]
@@ -4473,7 +4474,7 @@
     {
       "name": "NoChest",
       "type": "block",
-      "sortid": 84,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_chest",
@@ -4494,7 +4495,7 @@
     {
       "name": "NoChestRecipe",
       "type": "recipe",
-      "sortid": 266,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_chest_recipe",
@@ -4508,7 +4509,7 @@
     {
       "name": "PocketStoneCutter",
       "type": "block",
-      "sortid": 112,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pocket_stone_cutter",
@@ -4525,7 +4526,7 @@
     {
       "name": "PocketStoneCutterRecipe",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pocket_stone_cutter_recipe",
@@ -4534,12 +4535,12 @@
           "src/main/resources/data/der_robert/recipes/pocket_stone_cutter_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pocket"
     },
     {
       "name": "OnStoneCutterPocketRightClick",
       "type": "procedure",
-      "sortid": 268,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_stone_cutter_pocket_right_click",
@@ -4571,7 +4572,7 @@
     {
       "name": "BoulderDashBonusBlock",
       "type": "block",
-      "sortid": 71,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boulder_dash_bonus_block",
@@ -4588,7 +4589,7 @@
     {
       "name": "BoulderDashBonusRecipe",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boulder_dash_bonus_recipe",
@@ -4597,12 +4598,12 @@
           "src/main/resources/data/der_robert/recipes/boulder_dash_bonus_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/BoulderDash"
     },
     {
       "name": "BoulderDashBonusBlockBW",
       "type": "block",
-      "sortid": 72,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boulder_dash_bonus_block_bw",
@@ -4619,7 +4620,7 @@
     {
       "name": "BoulderDashBonusRecipeBW",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boulder_dash_bonus_recipe_bw",
@@ -4628,12 +4629,12 @@
           "src/main/resources/data/der_robert/recipes/boulder_dash_bonus_recipe_bw.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/BoulderDash"
     },
     {
       "name": "PlasticBrickWhite",
       "type": "block",
-      "sortid": 95,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_white",
@@ -4650,7 +4651,7 @@
     {
       "name": "PlasticPaintBrush0",
       "type": "item",
-      "sortid": 98,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_0",
@@ -4665,7 +4666,7 @@
     {
       "name": "PlasticPaintBrush1",
       "type": "item",
-      "sortid": 271,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_1",
@@ -4680,7 +4681,7 @@
     {
       "name": "PlasticPaintBrush2",
       "type": "item",
-      "sortid": 272,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_2",
@@ -4695,7 +4696,7 @@
     {
       "name": "PlasticPaintBrush3",
       "type": "item",
-      "sortid": 273,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_3",
@@ -4710,7 +4711,7 @@
     {
       "name": "PlasticPaintBrush4",
       "type": "item",
-      "sortid": 274,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_4",
@@ -4725,7 +4726,7 @@
     {
       "name": "PlasticPaintBrush5",
       "type": "item",
-      "sortid": 275,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_5",
@@ -4740,7 +4741,7 @@
     {
       "name": "PlasticPaintBrush6",
       "type": "item",
-      "sortid": 276,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_6",
@@ -4755,7 +4756,7 @@
     {
       "name": "PlasticPaintBrush7",
       "type": "item",
-      "sortid": 277,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_7",
@@ -4770,7 +4771,7 @@
     {
       "name": "PlasticPaintBrushProc0",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_0",
@@ -4797,12 +4798,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc1",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_1",
@@ -4829,12 +4830,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc2",
       "type": "procedure",
-      "sortid": 280,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_2",
@@ -4861,12 +4862,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc3",
       "type": "procedure",
-      "sortid": 281,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_3",
@@ -4893,12 +4894,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc4",
       "type": "procedure",
-      "sortid": 282,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_4",
@@ -4925,12 +4926,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc5",
       "type": "procedure",
-      "sortid": 283,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_5",
@@ -4957,12 +4958,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc6",
       "type": "procedure",
-      "sortid": 284,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_6",
@@ -4989,12 +4990,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc7",
       "type": "procedure",
-      "sortid": 285,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_7",
@@ -5021,12 +5022,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticBrick0",
       "type": "block",
-      "sortid": 286,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_0",
@@ -5043,7 +5044,7 @@
     {
       "name": "PlasticBrick1",
       "type": "block",
-      "sortid": 287,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_1",
@@ -5060,7 +5061,7 @@
     {
       "name": "PlasticBrick2",
       "type": "block",
-      "sortid": 288,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_2",
@@ -5077,7 +5078,7 @@
     {
       "name": "PlasticBrick3",
       "type": "block",
-      "sortid": 289,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_3",
@@ -5094,7 +5095,7 @@
     {
       "name": "PlasticBrick4",
       "type": "block",
-      "sortid": 290,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_4",
@@ -5111,7 +5112,7 @@
     {
       "name": "PlasticBrick5",
       "type": "block",
-      "sortid": 291,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_5",
@@ -5128,7 +5129,7 @@
     {
       "name": "PlasticBrick6",
       "type": "block",
-      "sortid": 292,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_6",
@@ -5145,7 +5146,7 @@
     {
       "name": "PlasticBrick7",
       "type": "block",
-      "sortid": 293,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_7",
@@ -5162,7 +5163,7 @@
     {
       "name": "PlasticPaintBrushRecipe",
       "type": "recipe",
-      "sortid": 294,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_recipe",
@@ -5171,12 +5172,12 @@
           "src/main/resources/data/der_robert/recipes/plastic_paint_brush_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Plastic"
     },
     {
       "name": "PlasticStairsWhite",
       "type": "block",
-      "sortid": 100,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_white",
@@ -5195,7 +5196,7 @@
     {
       "name": "PlasticStairs0",
       "type": "block",
-      "sortid": 295,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_0",
@@ -5214,7 +5215,7 @@
     {
       "name": "PlasticStairs1",
       "type": "block",
-      "sortid": 296,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_1",
@@ -5233,7 +5234,7 @@
     {
       "name": "PlasticStairs2",
       "type": "block",
-      "sortid": 297,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_2",
@@ -5252,7 +5253,7 @@
     {
       "name": "PlasticStairs3",
       "type": "block",
-      "sortid": 298,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_3",
@@ -5271,7 +5272,7 @@
     {
       "name": "PlasticStairs4",
       "type": "block",
-      "sortid": 299,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_4",
@@ -5290,7 +5291,7 @@
     {
       "name": "PlasticStairs5",
       "type": "block",
-      "sortid": 300,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_5",
@@ -5309,7 +5310,7 @@
     {
       "name": "PlasticStairs6",
       "type": "block",
-      "sortid": 301,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_6",
@@ -5328,7 +5329,7 @@
     {
       "name": "PlasticStairs7",
       "type": "block",
-      "sortid": 302,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_7",
@@ -5347,7 +5348,7 @@
     {
       "name": "GlassStairs",
       "type": "block",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_stairs",
@@ -5366,7 +5367,7 @@
     {
       "name": "GlassSlabs",
       "type": "block",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_slabs",
@@ -5385,7 +5386,7 @@
     {
       "name": "PlasticSlabsWhite",
       "type": "block",
-      "sortid": 99,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_white",
@@ -5404,7 +5405,7 @@
     {
       "name": "PlasticSlabs0",
       "type": "block",
-      "sortid": 303,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_0",
@@ -5423,7 +5424,7 @@
     {
       "name": "PlasticSlabs1",
       "type": "block",
-      "sortid": 304,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_1",
@@ -5442,7 +5443,7 @@
     {
       "name": "PlasticSlabs2",
       "type": "block",
-      "sortid": 305,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_2",
@@ -5461,7 +5462,7 @@
     {
       "name": "PlasticSlabs3",
       "type": "block",
-      "sortid": 306,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_3",
@@ -5480,7 +5481,7 @@
     {
       "name": "PlasticSlabs4",
       "type": "block",
-      "sortid": 307,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_4",
@@ -5499,7 +5500,7 @@
     {
       "name": "PlasticSlabs5",
       "type": "block",
-      "sortid": 308,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_5",
@@ -5518,7 +5519,7 @@
     {
       "name": "PlasticSlabs6",
       "type": "block",
-      "sortid": 309,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_6",
@@ -5537,7 +5538,7 @@
     {
       "name": "PlasticSlabs7",
       "type": "block",
-      "sortid": 310,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_7",
@@ -5556,7 +5557,7 @@
     {
       "name": "ClassicGlassSlabRecipe",
       "type": "recipe",
-      "sortid": 311,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_glass_slab_recipe",
@@ -5565,12 +5566,12 @@
           "src/main/resources/data/der_robert/recipes/classic_glass_slab_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Classic"
     },
     {
       "name": "PlasticPaintBrush8",
       "type": "item",
-      "sortid": 312,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_8",
@@ -5585,7 +5586,7 @@
     {
       "name": "PlasticPaintBrush9",
       "type": "item",
-      "sortid": 313,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_9",
@@ -5600,7 +5601,7 @@
     {
       "name": "PlasticPaintBrush10",
       "type": "item",
-      "sortid": 314,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_10",
@@ -5615,7 +5616,7 @@
     {
       "name": "PlasticPaintBrush11",
       "type": "item",
-      "sortid": 315,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_11",
@@ -5630,7 +5631,7 @@
     {
       "name": "PlasticPaintBrushProc8",
       "type": "procedure",
-      "sortid": 316,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_8",
@@ -5657,12 +5658,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc9",
       "type": "procedure",
-      "sortid": 317,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_9",
@@ -5689,12 +5690,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc10",
       "type": "procedure",
-      "sortid": 318,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_10",
@@ -5721,12 +5722,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticPaintBrushProc11",
       "type": "procedure",
-      "sortid": 319,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_paint_brush_proc_11",
@@ -5753,12 +5754,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticBrick8",
       "type": "block",
-      "sortid": 320,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_8",
@@ -5775,7 +5776,7 @@
     {
       "name": "PlasticBrick9",
       "type": "block",
-      "sortid": 321,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_9",
@@ -5792,7 +5793,7 @@
     {
       "name": "PlasticBrick10",
       "type": "block",
-      "sortid": 322,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_10",
@@ -5809,7 +5810,7 @@
     {
       "name": "PlasticBrick11",
       "type": "block",
-      "sortid": 323,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_brick_11",
@@ -5826,7 +5827,7 @@
     {
       "name": "PlasticStairs8",
       "type": "block",
-      "sortid": 324,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_8",
@@ -5845,7 +5846,7 @@
     {
       "name": "PlasticStairs9",
       "type": "block",
-      "sortid": 325,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_9",
@@ -5864,7 +5865,7 @@
     {
       "name": "PlasticStairs10",
       "type": "block",
-      "sortid": 326,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_10",
@@ -5883,7 +5884,7 @@
     {
       "name": "PlasticStairs11",
       "type": "block",
-      "sortid": 327,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stairs_11",
@@ -5902,7 +5903,7 @@
     {
       "name": "PlasticSlabs8",
       "type": "block",
-      "sortid": 328,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_8",
@@ -5921,7 +5922,7 @@
     {
       "name": "PlasticSlabs9",
       "type": "block",
-      "sortid": 329,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_9",
@@ -5940,7 +5941,7 @@
     {
       "name": "PlasticSlabs10",
       "type": "block",
-      "sortid": 330,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_10",
@@ -5959,7 +5960,7 @@
     {
       "name": "PlasticSlabs11",
       "type": "block",
-      "sortid": 331,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_slabs_11",
@@ -5978,7 +5979,7 @@
     {
       "name": "PlasticWallsWhite",
       "type": "block",
-      "sortid": 101,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_white",
@@ -5998,7 +5999,7 @@
     {
       "name": "GetPaintBrushIndex",
       "type": "procedure",
-      "sortid": 332,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_paint_brush_index",
@@ -6019,7 +6020,7 @@
     {
       "name": "PlasticWalls0",
       "type": "block",
-      "sortid": 333,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_0",
@@ -6039,7 +6040,7 @@
     {
       "name": "GetPlasticType",
       "type": "procedure",
-      "sortid": 334,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_plastic_type",
@@ -6072,7 +6073,7 @@
     {
       "name": "PlasticWalls1",
       "type": "block",
-      "sortid": 335,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_1",
@@ -6092,7 +6093,7 @@
     {
       "name": "PlasticWalls2",
       "type": "block",
-      "sortid": 336,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_2",
@@ -6112,7 +6113,7 @@
     {
       "name": "PlasticWalls3",
       "type": "block",
-      "sortid": 337,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_3",
@@ -6132,7 +6133,7 @@
     {
       "name": "PlasticWalls4",
       "type": "block",
-      "sortid": 338,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_4",
@@ -6152,7 +6153,7 @@
     {
       "name": "PlasticWalls5",
       "type": "block",
-      "sortid": 339,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_5",
@@ -6172,7 +6173,7 @@
     {
       "name": "PlasticWalls6",
       "type": "block",
-      "sortid": 340,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_6",
@@ -6192,7 +6193,7 @@
     {
       "name": "PlasticWalls7",
       "type": "block",
-      "sortid": 341,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_7",
@@ -6212,7 +6213,7 @@
     {
       "name": "PlasticWalls8",
       "type": "block",
-      "sortid": 342,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_8",
@@ -6232,7 +6233,7 @@
     {
       "name": "PlasticWalls9",
       "type": "block",
-      "sortid": 343,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_9",
@@ -6252,7 +6253,7 @@
     {
       "name": "PlasticWalls10",
       "type": "block",
-      "sortid": 344,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_10",
@@ -6272,7 +6273,7 @@
     {
       "name": "PlasticWalls11",
       "type": "block",
-      "sortid": 345,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_walls_11",
@@ -6292,7 +6293,7 @@
     {
       "name": "PlasticPaneWhite",
       "type": "block",
-      "sortid": 97,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_white",
@@ -6313,7 +6314,7 @@
     {
       "name": "PlasticPane0",
       "type": "block",
-      "sortid": 346,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_0",
@@ -6334,7 +6335,7 @@
     {
       "name": "PlasticPane1",
       "type": "block",
-      "sortid": 347,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_1",
@@ -6355,7 +6356,7 @@
     {
       "name": "PlasticPane2",
       "type": "block",
-      "sortid": 348,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_2",
@@ -6376,7 +6377,7 @@
     {
       "name": "PlasticPane3",
       "type": "block",
-      "sortid": 349,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_3",
@@ -6397,7 +6398,7 @@
     {
       "name": "PlasticPane4",
       "type": "block",
-      "sortid": 350,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_4",
@@ -6418,7 +6419,7 @@
     {
       "name": "PlasticPane5",
       "type": "block",
-      "sortid": 351,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_5",
@@ -6439,7 +6440,7 @@
     {
       "name": "PlasticPane6",
       "type": "block",
-      "sortid": 352,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_6",
@@ -6460,7 +6461,7 @@
     {
       "name": "PlasticPane7",
       "type": "block",
-      "sortid": 353,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_7",
@@ -6481,7 +6482,7 @@
     {
       "name": "PlasticPane8",
       "type": "block",
-      "sortid": 354,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_8",
@@ -6502,7 +6503,7 @@
     {
       "name": "PlasticPane9",
       "type": "block",
-      "sortid": 355,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_9",
@@ -6523,7 +6524,7 @@
     {
       "name": "PlasticPane10",
       "type": "block",
-      "sortid": 356,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_10",
@@ -6544,7 +6545,7 @@
     {
       "name": "PlasticPane11",
       "type": "block",
-      "sortid": 357,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_pane_11",
@@ -6565,7 +6566,7 @@
     {
       "name": "PlasticDoorWhite",
       "type": "block",
-      "sortid": 96,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_white",
@@ -6589,7 +6590,7 @@
     {
       "name": "RobertsPlasticTab",
       "type": "tab",
-      "sortid": 358,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roberts_plastic_tab",
@@ -6601,7 +6602,7 @@
     {
       "name": "OnGlassPaintBrushProc",
       "type": "procedure",
-      "sortid": 359,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_glass_paint_brush_proc",
@@ -6634,7 +6635,7 @@
     {
       "name": "OnPlasticPaintBrushProc",
       "type": "procedure",
-      "sortid": 360,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_plastic_paint_brush_proc",
@@ -6665,12 +6666,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Plastic"
     },
     {
       "name": "PlasticDoor0",
       "type": "block",
-      "sortid": 361,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_0",
@@ -6694,7 +6695,7 @@
     {
       "name": "PlasticDoor1",
       "type": "block",
-      "sortid": 362,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_1",
@@ -6718,7 +6719,7 @@
     {
       "name": "PlasticDoor2",
       "type": "block",
-      "sortid": 363,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_2",
@@ -6742,7 +6743,7 @@
     {
       "name": "PlasticDoor3",
       "type": "block",
-      "sortid": 364,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_3",
@@ -6766,7 +6767,7 @@
     {
       "name": "PlasticDoor4",
       "type": "block",
-      "sortid": 365,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_4",
@@ -6790,7 +6791,7 @@
     {
       "name": "PlasticDoor5",
       "type": "block",
-      "sortid": 366,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_5",
@@ -6814,7 +6815,7 @@
     {
       "name": "PlasticDoor6",
       "type": "block",
-      "sortid": 367,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_6",
@@ -6838,7 +6839,7 @@
     {
       "name": "PlasticDoor7",
       "type": "block",
-      "sortid": 368,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_7",
@@ -6862,7 +6863,7 @@
     {
       "name": "PlasticDoor8",
       "type": "block",
-      "sortid": 369,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_8",
@@ -6886,7 +6887,7 @@
     {
       "name": "PlasticDoor9",
       "type": "block",
-      "sortid": 370,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_9",
@@ -6910,7 +6911,7 @@
     {
       "name": "PlasticDoor10",
       "type": "block",
-      "sortid": 371,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_10",
@@ -6934,7 +6935,7 @@
     {
       "name": "PlasticDoor11",
       "type": "block",
-      "sortid": 372,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_door_11",
@@ -6958,7 +6959,7 @@
     {
       "name": "BoulderDashBonusRecipePlastic",
       "type": "recipe",
-      "sortid": 373,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boulder_dash_bonus_recipe_plastic",
@@ -6967,12 +6968,12 @@
           "src/main/resources/data/der_robert/recipes/boulder_dash_bonus_recipe_plastic.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/BoulderDash"
     },
     {
       "name": "LuckyBlockOff",
       "type": "block",
-      "sortid": 79,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lucky_block_off",
@@ -6989,7 +6990,7 @@
     {
       "name": "LuckyBlockOn",
       "type": "block",
-      "sortid": 80,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lucky_block_on",
@@ -7006,7 +7007,7 @@
     {
       "name": "OnLuckyBlockDestroy",
       "type": "procedure",
-      "sortid": 374,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_lucky_block_destroy",
@@ -7038,7 +7039,7 @@
     {
       "name": "GetRandomBlock",
       "type": "procedure",
-      "sortid": 375,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_random_block",
@@ -7054,7 +7055,7 @@
     {
       "name": "GetLetter",
       "type": "procedure",
-      "sortid": 376,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_letter",
@@ -7075,7 +7076,7 @@
     {
       "name": "AlphaGrassSlab",
       "type": "block",
-      "sortid": 103,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpha_grass_slab",
@@ -7094,6 +7095,1802 @@
         ]
       },
       "path": "~/Blocks/Alpha"
+    },
+    {
+      "name": "ClassicSmoothStone",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_smooth_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicSmoothStoneFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_smooth_stone.json",
+          "src/main/resources/assets/der_robert/models/item/classic_smooth_stone.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicSmoothStoneBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_smooth_stone.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_smooth_stone.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_smooth_stone_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "ClassicSmoothStoneSlab",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_smooth_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicSmoothStoneSlabFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone_slab_top.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_smooth_stone_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone_slab_full.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_smooth_stone_slab.json",
+          "src/main/resources/assets/der_robert/models/item/classic_smooth_stone_slab.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_smooth_stone_slab_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone_slab.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicSmoothStoneSlabBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_smooth_stone_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "ClassicStoneSlab",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ClassicStoneSlabBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_stone_slab_full.json",
+          "src/main/resources/assets/der_robert/models/item/classic_stone_slab.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_stone_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_stone_slab.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicStoneSlabFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_stone_slab_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_stone_slab.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_stone_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_stone_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "ClassicStoneStairs",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_stone_stairs_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicStoneStairsBlock.java",
+          "src/main/resources/assets/der_robert/models/block/classic_stone_stairs.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_stone_stairs.json",
+          "src/main/resources/assets/der_robert/models/item/classic_stone_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_stone_stairs_inner.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_stone_stairs.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicStoneStairsFeature.java",
+          "src/main/resources/assets/der_robert/models/block/classic_stone_stairs_outer.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_stone_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "SmoothStoneSlabsRecipe",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/smooth_stone_slabs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SmoothStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/smooth_stone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicSmoothStoneStairs",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_smooth_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_smooth_stone_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone_stairs_outer.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_smooth_stone_stairs_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicSmoothStoneStairsBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_smooth_stone_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone_stairs.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicSmoothStoneStairsFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_smooth_stone_stairs.json",
+          "src/main/resources/assets/der_robert/models/item/classic_smooth_stone_stairs.json",
+          "src/main/resources/assets/der_robert/models/block/classic_smooth_stone_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "SixSidedPiston",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_piston",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/six_sided_piston.json",
+          "src/main/java/net/mcreator/derrobert/block/SixSidedPistonBlock.java",
+          "src/main/resources/assets/der_robert/models/item/six_sided_piston.json",
+          "src/main/resources/assets/der_robert/blockstates/six_sided_piston.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SixSidedStickyPiston",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_sticky_piston",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/six_sided_sticky_piston.json",
+          "src/main/resources/assets/der_robert/models/block/six_sided_sticky_piston.json",
+          "src/main/java/net/mcreator/derrobert/block/SixSidedStickyPistonBlock.java",
+          "src/main/resources/assets/der_robert/models/item/six_sided_sticky_piston.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SixSidedPistonRecipe",
+      "type": "recipe",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_piston_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/six_sided_piston_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SixSidedStickyPistonRecipe",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_sticky_piston_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/six_sided_sticky_piston_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicPigman",
+      "type": "livingentity",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_pigman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/ClassicPigmanEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ClassicPigmanRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/classic_pigman_spawn_egg.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_pigman_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ClassicZombiePigman",
+      "type": "livingentity",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_zombie_pigman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_zombie_pigman_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_zombie_pigman_spawn_egg.json",
+          "src/main/java/net/mcreator/derrobert/entity/ClassicZombiePigmanEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ClassicZombiePigmanRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Version",
+      "type": "command",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "version",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/command/VersionCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "ShowVersion",
+      "type": "procedure",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_version",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ShowVersionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TransformToClassicZombiePigman",
+      "type": "procedure",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transform_to_classic_zombie_pigman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/TransformToClassicZombiePigmanProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SkyBlockBiome",
+      "type": "biome",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_block_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/biome/sky_block_biome.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "SkyBlockDimension",
+      "type": "dimension",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_block_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/dimension_type/sky_block_dimension.json",
+          "src/main/java/net/mcreator/derrobert/world/dimension/SkyBlockDimensionDimension.java",
+          "src/main/java/net/mcreator/derrobert/world/teleporter/SkyBlockDimensionTeleporter.java",
+          "src/main/resources/data/der_robert/dimension/sky_block_dimension.json",
+          "src/main/resources/assets/der_robert/models/item/sky_block_dimension.json",
+          "src/main/java/net/mcreator/derrobert/block/SkyBlockDimensionPortalBlock.java",
+          "src/main/java/net/mcreator/derrobert/item/SkyBlockDimensionItem.java",
+          "src/main/java/net/mcreator/derrobert/world/teleporter/SkyBlockDimensionPortalShape.java",
+          "src/main/resources/assets/der_robert/blockstates/sky_block_dimension_portal.json",
+          "src/main/resources/assets/der_robert/models/block/sky_block_dimension_portal_ew.json",
+          "src/main/resources/assets/der_robert/models/block/sky_block_dimension_portal_ns.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "SkyBlockDimensionPrepare",
+      "type": "procedure",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_block_dimension_prepare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/SkyBlockDimensionPrepareProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SkyBlockWaterRecipe",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_block_water_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/sky_block_water_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ManicZombie",
+      "type": "livingentity",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_zombie_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/manic_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/derrobert/entity/ManicZombieEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ManicZombieRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ManicHuman",
+      "type": "livingentity",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/ManicHumanEntity.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_human_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ManicHumanRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/manic_human_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ManicWoodPlanks",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicWoodPlanksFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_wood_planks.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_wood_planks.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_wood_planks_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/manic_wood_planks.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_wood_planks.json",
+          "src/main/resources/assets/der_robert/models/block/manic_wood_planks.json",
+          "src/main/java/net/mcreator/derrobert/block/ManicWoodPlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicWater",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicWaterFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_water.json",
+          "src/main/java/net/mcreator/derrobert/block/ManicWaterBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_water_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/manic_water.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_water.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_water.json",
+          "src/main/resources/assets/der_robert/models/item/manic_water.json"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicLava",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_lava",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ManicLavaBlock.java",
+          "src/main/resources/assets/der_robert/models/item/manic_lava.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_lava.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_lava_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/manic_lava.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicLavaFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_lava.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_lava.json"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicRoofBlock",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_roof_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/manic_roof_block.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_roof_block.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_roof_block.json",
+          "src/main/java/net/mcreator/derrobert/block/ManicRoofBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/manic_roof_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_roof_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_roof_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicRoofBlockFeature.java"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ClassicHayStack",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_hay_stack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicHayStackFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_hay_stack_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_hay_stack.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_hay_stack.json",
+          "src/main/resources/assets/der_robert/models/block/classic_hay_stack.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicHayStackBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_hay_stack.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_hay_stack.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "SixSidedHayBlock",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_hay_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/six_sided_hay_block.json",
+          "src/main/resources/assets/der_robert/models/item/six_sided_hay_block.json",
+          "src/main/resources/assets/der_robert/blockstates/six_sided_hay_block.json",
+          "src/main/resources/assets/der_robert/models/block/six_sided_hay_block.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/SixSidedHayBlockFeature.java",
+          "src/main/java/net/mcreator/derrobert/block/SixSidedHayBlockBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/six_sided_hay_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/six_sided_hay_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SixSidedHayRecipe",
+      "type": "recipe",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_hay_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/six_sided_hay_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClassicHayStackRecipe",
+      "type": "recipe",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_hay_stack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/classic_hay_stack_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Classic"
+    },
+    {
+      "name": "ManicLeaves",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ManicLeavesBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_leaves.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicLeavesFeature.java",
+          "src/main/resources/assets/der_robert/models/block/manic_leaves.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_leaves_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_leaves.json",
+          "src/main/resources/assets/der_robert/models/item/manic_leaves.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicCamouflage",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_camouflage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/manic_camouflage.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/manic_camouflage_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/manic_camouflage.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/manic_camouflage.json",
+          "src/main/resources/assets/der_robert/models/item/manic_camouflage.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ManicCamouflageFeature.java",
+          "src/main/resources/assets/der_robert/blockstates/manic_camouflage.json",
+          "src/main/java/net/mcreator/derrobert/block/ManicCamouflageBlock.java"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicCamouflageRecipe",
+      "type": "recipe",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_camouflage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_camouflage_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ClassicMissingNo",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_missing_no",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_missing_no.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_missing_no.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicMissingNoBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_missing_no_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_missing_no.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicMissingNoFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_missing_no.json",
+          "src/main/resources/assets/der_robert/models/block/classic_missing_no.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "ManicDiggerCrafter",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_digger_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/manic_digger_crafter.json",
+          "src/main/resources/assets/der_robert/models/block/manic_digger_crafter.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_digger_crafter.json",
+          "src/main/java/net/mcreator/derrobert/block/ManicDiggerCrafterBlock.java"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicLeavesRecipe",
+      "type": "recipe",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_leaves_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_leaves_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe1",
+      "type": "recipe",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicDiggerM",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_digger_m",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ManicDiggerMBlock.java",
+          "src/main/resources/assets/der_robert/models/block/manic_digger_m.json",
+          "src/main/resources/assets/der_robert/models/item/manic_digger_m.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_digger_m.json"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicDiggerD",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_digger_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/ManicDiggerDBlock.java",
+          "src/main/resources/assets/der_robert/models/block/manic_digger_d.json",
+          "src/main/resources/assets/der_robert/models/item/manic_digger_d.json",
+          "src/main/resources/assets/der_robert/blockstates/manic_digger_d.json"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe2",
+      "type": "recipe",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe3",
+      "type": "recipe",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe4",
+      "type": "recipe",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_4.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicDiiggerEmpty",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_diigger_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/manic_diigger_empty.json",
+          "src/main/resources/assets/der_robert/models/block/manic_diigger_empty.json",
+          "src/main/java/net/mcreator/derrobert/block/ManicDiiggerEmptyBlock.java",
+          "src/main/resources/assets/der_robert/models/item/manic_diigger_empty.json"
+        ]
+      },
+      "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe5",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_5.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe6",
+      "type": "recipe",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_6.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ManicCrafterRecipe7",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manic_crafter_recipe_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/manic_crafter_recipe_7.json"
+        ]
+      },
+      "path": "~/Recipes/ManicDigger"
+    },
+    {
+      "name": "ClassicGiant",
+      "type": "livingentity",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_giant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/entity/ClassicGiantEntity.java",
+          "src/main/java/net/mcreator/derrobert/client/renderer/ClassicGiantRenderer.java",
+          "src/main/resources/assets/der_robert/models/item/classic_giant_spawn_egg.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_giant_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SpawnGiant",
+      "type": "procedure",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_giant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/SpawnGiantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Classic"
+    },
+    {
+      "name": "UpdateBlock",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "update_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/UpdateBlockFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/update_block_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/update_block.json",
+          "src/main/resources/assets/der_robert/blockstates/update_block.json",
+          "src/main/java/net/mcreator/derrobert/block/UpdateBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/update_block.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/update_block.json",
+          "src/main/resources/assets/der_robert/models/item/update_block.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "RobertsAprilsTab",
+      "type": "tab",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_aprils_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "PickaxeBlockOn",
+      "type": "block",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_block_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/pickaxe_block_on.json",
+          "src/main/java/net/mcreator/derrobert/block/PickaxeBlockOnBlock.java",
+          "src/main/resources/assets/der_robert/models/item/pickaxe_block_on.json",
+          "src/main/resources/assets/der_robert/blockstates/pickaxe_block_on.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "PickaxeBlockOff",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_block_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/pickaxe_block_off.json",
+          "src/main/resources/assets/der_robert/models/item/pickaxe_block_off.json",
+          "src/main/resources/assets/der_robert/models/block/pickaxe_block_off.json",
+          "src/main/java/net/mcreator/derrobert/block/PickaxeBlockOffBlock.java"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "OnPickaxeBlockActivate",
+      "type": "procedure",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_pickaxe_block_activate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/OnPickaxeBlockActivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "OnPickaxeBlockDeactivate",
+      "type": "procedure",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_pickaxe_block_deactivate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/OnPickaxeBlockDeactivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "PickaxeBlockRecipe",
+      "type": "recipe",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/pickaxe_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/AprilsFools"
+    },
+    {
+      "name": "Pickaxes",
+      "type": "tag",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/pickaxes.json"
+        ]
+      },
+      "path": "~/Labels"
+    },
+    {
+      "name": "CobbleStones",
+      "type": "tag",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_stones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/cobble_stones.json"
+        ]
+      },
+      "path": "~/Labels"
+    },
+    {
+      "name": "Oxygene",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxygene",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/oxygene.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/oxygene.json",
+          "src/main/resources/assets/der_robert/models/item/oxygene.json",
+          "src/main/java/net/mcreator/derrobert/block/OxygeneBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/oxygene.json",
+          "src/main/resources/assets/der_robert/models/block/oxygene.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/OxygeneFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/oxygene_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks/Education"
+    },
+    {
+      "name": "Hydrogene",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogene",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/hydrogene.json",
+          "src/main/resources/assets/der_robert/models/item/hydrogene.json",
+          "src/main/java/net/mcreator/derrobert/block/HydrogeneBlock.java",
+          "src/main/resources/assets/der_robert/models/block/hydrogene.json"
+        ]
+      },
+      "path": "~/Blocks/Education"
+    },
+    {
+      "name": "EducationWaterRecipe",
+      "type": "recipe",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "education_water_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/education_water_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Education"
+    },
+    {
+      "name": "EducationOzoneRecipe",
+      "type": "recipe",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "education_ozone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/education_ozone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Education"
+    },
+    {
+      "name": "EducationWaterToHydrogenRecipe",
+      "type": "recipe",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "education_water_to_hydrogen_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/education_water_to_hydrogen_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Education"
+    },
+    {
+      "name": "Tnt10Block",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_10_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/tnt_10_block.json",
+          "src/main/java/net/mcreator/derrobert/block/Tnt10BlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/tnt_10_block.json",
+          "src/main/resources/assets/der_robert/models/item/tnt_10_block.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "Tnt100Block",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_100_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/Tnt100BlockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/tnt_100_block.json",
+          "src/main/resources/assets/der_robert/blockstates/tnt_100_block.json",
+          "src/main/resources/assets/der_robert/models/item/tnt_100_block.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "ClassicTntIgnited",
+      "type": "block",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tnt_ignited",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_tnt_ignited.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_tnt_ignited.json",
+          "src/main/resources/assets/der_robert/models/block/classic_tnt_ignited.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicTntIgnitedBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "Tnt10IgnitionProc",
+      "type": "procedure",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_10_ignition_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/Tnt10IgnitionProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "Tnt100IgnitionProc",
+      "type": "procedure",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_100_ignition_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/Tnt100IgnitionProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "Tnt10ExplodeProc",
+      "type": "procedure",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_10_explode_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/Tnt10ExplodeProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "Tnt100ExplodeProc",
+      "type": "procedure",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_100_explode_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/Tnt100ExplodeProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "LuckyTntBlock",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_tnt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/lucky_tnt_block.json",
+          "src/main/resources/assets/der_robert/models/block/lucky_tnt_block.json",
+          "src/main/java/net/mcreator/derrobert/block/LuckyTntBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/item/lucky_tnt_block.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "LuckyTntExplodeProc",
+      "type": "procedure",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_tnt_explode_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/LuckyTntExplodeProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LuckyTntIgnitionProc",
+      "type": "procedure",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_tnt_ignition_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/LuckyTntIgnitionProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Tnt10Recipe",
+      "type": "recipe",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_10_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/tnt_10_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/AprilsFools"
+    },
+    {
+      "name": "Tnt100Recipe",
+      "type": "recipe",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_100_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/tnt_100_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/AprilsFools"
+    },
+    {
+      "name": "LuckyTntRecipe",
+      "type": "recipe",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/lucky_tnt_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/AprilsFools"
+    },
+    {
+      "name": "EducationOxygeneRecipe",
+      "type": "recipe",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "education_oxygene_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/education_oxygene_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Education"
+    },
+    {
+      "name": "PlaceBlockOff",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_block_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/place_block_off.json",
+          "src/main/resources/assets/der_robert/blockstates/place_block_off.json",
+          "src/main/java/net/mcreator/derrobert/block/PlaceBlockOffBlock.java",
+          "src/main/resources/assets/der_robert/models/item/place_block_off.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "PlaceBlockOn",
+      "type": "block",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_block_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/PlaceBlockOnBlock.java",
+          "src/main/resources/assets/der_robert/models/item/place_block_on.json",
+          "src/main/resources/assets/der_robert/models/block/place_block_on.json",
+          "src/main/resources/assets/der_robert/blockstates/place_block_on.json"
+        ]
+      },
+      "path": "~/Blocks/AprilFools"
+    },
+    {
+      "name": "PlaceBlockRecipe",
+      "type": "recipe",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/place_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/AprilsFools"
+    },
+    {
+      "name": "OnPlaceBlockActivate",
+      "type": "procedure",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "on_place_block_activate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "OnPlaceBlockDeactivate",
+      "type": "procedure",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_place_block_deactivate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/OnPlaceBlockDeactivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "RobertsEducationTab",
+      "type": "tab",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_education_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "ClassicChest",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/classic_chest.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicChestBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_chest.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicChestFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_chest.json",
+          "src/main/resources/assets/der_robert/models/block/classic_chest.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_chest_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_chest.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "ClassicTntSlab",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tnt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/classic_tnt_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_tnt_slab_top.json",
+          "src/main/resources/assets/der_robert/models/block/classic_tnt_slab_full.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicTntSlabBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/classic_tnt_slab.json",
+          "src/main/resources/assets/der_robert/models/block/classic_tnt_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "TntSlabRecipe",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/tnt_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Classic"
+    },
+    {
+      "name": "OnPlaceBlockActiveBAK",
+      "type": "procedure",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_place_block_active_bak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/OnPlaceBlockActiveBAKProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "InternalUpdateBlock",
+      "type": "block",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "internal_update_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/internal_update_block.json",
+          "src/main/resources/assets/der_robert/blockstates/internal_update_block.json",
+          "src/main/java/net/mcreator/derrobert/block/InternalUpdateBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/item/internal_update_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "InfiniminerDirt",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_dirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerDirtBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_dirt_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_dirt.json",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_dirt.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_dirt.json",
+          "src/main/resources/assets/der_robert/models/item/infiniminer_dirt.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_dirt.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerDirtFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
+    },
+    {
+      "name": "RobertsInfiniminer",
+      "type": "tab",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_infiniminer",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "InfiniminerRock",
+      "type": "block",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/infiniminer_rock.json",
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_rock.json",
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerRockBlock.java",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_rock.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_rock_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_rock.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_rock.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerRockFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
+    },
+    {
+      "name": "InfiniminerRoad",
+      "type": "block",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_road.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerRoadFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_road.json",
+          "src/main/resources/assets/der_robert/models/item/infiniminer_road.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_road.json",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_road.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_road_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerRoadBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
+    },
+    {
+      "name": "LernProzedur",
+      "type": "procedure",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lern_prozedur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/LernProzedurProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "InfiniminerDirtSign",
+      "type": "block",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniminer_dirt_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/placed_feature/infiniminer_dirt_sign.json",
+          "src/main/resources/assets/der_robert/blockstates/infiniminer_dirt_sign.json",
+          "src/main/java/net/mcreator/derrobert/block/InfiniminerDirtSignBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/InfiniminerDirtSignFeature.java",
+          "src/main/resources/assets/der_robert/models/item/infiniminer_dirt_sign.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/infiniminer_dirt_sign.json",
+          "src/main/resources/assets/der_robert/models/block/infiniminer_dirt_sign.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/infiniminer_dirt_sign_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks/Infiniminer"
     }
   ],
   "variable_elements": [
@@ -7109,8 +8906,11 @@
     "en_us": {
       "block.der_robert.classic_ruby_ore": "Classic Ruby Ore",
       "block.der_robert.manic_cobblestone": "Manic Stone",
+      "block.der_robert.classic_smooth_stone_stairs": "Classic Smooth Stone Stiars",
       "entity.der_robert.tracy_moodalie": "Tracy88",
       "block.der_robert.classic_dirt_block": "Classic Dirt",
+      "block.der_robert.manic_leaves": "Manic Leaves",
+      "block.der_robert.place_block_off": "Place Block",
       "block.der_robert.plastic_pane_7": "Plastic Pane",
       "block.der_robert.plastic_pane_8": "Plastic Pane",
       "block.der_robert.plastic_pane_9": "Plastic Pane",
@@ -7118,19 +8918,23 @@
       "block.der_robert.plastic_pane_3": "Plastic Pane",
       "block.der_robert.plastic_pane_4": "Plastic Pane",
       "block.der_robert.plastic_pane_5": "Plastic Pane",
+      "block.der_robert.hydrogene": "Hydrogene",
       "block.der_robert.plastic_pane_6": "Plastic Pane",
-      "block.der_robert.plastic_pane_0": "Plastic Pane",
-      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
       "block.der_robert.classic_mossy_stone_block": "Classic Mossy Stone",
+      "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
+      "block.der_robert.plastic_pane_0": "Plastic Pane",
       "block.der_robert.plastic_pane_1": "Plastic Pane",
+      "entity.der_robert.classic_pigman": "Classic Pigman",
+      "item_group.der_robert.roberts_mojang_tab": "R-Mojang",
       "block.der_robert.plastic_pane_2": "Plastic Pane",
-      "item_group.der_robert.roberts_mojang_tab": "Robert\u0027s Mojang",
       "item.der_robert.classic_human_spawn_egg": "Classic Human Spawn Egg",
       "block.der_robert.classic_wood_table": "Classic Wood Table",
       "block.der_robert.missing_no_block": "Missing No.",
+      "block.der_robert.classic_smooth_stone_slab": "Classic Smooth Stone Slab",
       "block.der_robert.plastic_door_11": "Plastic Door",
       "block.der_robert.plastic_slabs_white": "Plastic Slabs",
       "block.der_robert.plastic_door_10": "Plastic Door",
+      "block.der_robert.classic_missing_no": "Classic Missing No.",
       "block.der_robert.plastic_walls_1": "Plastic Wall",
       "block.der_robert.plastic_walls_0": "Plastic Wall",
       "item.der_robert.classic_ruby_armor_chestplate": "Classic Ruby Chestplate",
@@ -7138,18 +8942,20 @@
       "block.der_robert.manic_grass_block": "Manic Grass Block",
       "block.der_robert.glass_slabs": "Glass Slabs",
       "block.der_robert.classic_stone_block": "Classic Stone",
-      "item_group.der_robert.roberts_mod_tab": "Robert\u0027s Mod",
+      "item_group.der_robert.roberts_mod_tab": "R-Mod",
       "entity.der_robert.notch": "Notch",
+      "entity.der_robert.manic_zombie": "Manic Digger Zombie",
       "block.der_robert.plastic_walls_white": "Plastic Wall",
       "block.der_robert.beta_gravel_block": "Beta Gravel",
       "block.der_robert.creeponia_brick_wall": "Creeponia Brick Wall",
       "block.der_robert.classic_oak_leaves_block": "Classic Oak Leaves",
       "entity.der_robert.piggy_creeper": "Piggy Creeper",
+      "block.der_robert.classic_hay_stack": "Classic Hay Stack",
       "biome.der_robert.classic_biome_2": "Classic Biome 2",
-      "item_group.der_robert.roberts_pocket_tab": "Robert\u0027s Pocket",
+      "item_group.der_robert.roberts_pocket_tab": "R-Pocket",
       "biome.der_robert.classic_biome_3": "Classic Biome 3",
-      "block.der_robert.plastic_stairs_9": "Plastic Stairs",
       "block.der_robert.classic_ghost_dirt": "Ghost Dirt",
+      "block.der_robert.plastic_stairs_9": "Plastic Stairs",
       "biome.der_robert.classic_biome_1": "Classic Biome 1",
       "entity.der_robert.template_human": "Template Human",
       "block.der_robert.plastic_walls_9": "Plastic Wall",
@@ -7158,23 +8964,27 @@
       "block.der_robert.plastic_walls_6": "Plastic Wall",
       "block.der_robert.plastic_walls_5": "Plastic Wall",
       "block.der_robert.plastic_walls_4": "Plastic Wall",
-      "block.der_robert.plastic_walls_3": "Plastic Wall",
+      "block.der_robert.manic_diigger_empty": "Manic Digger Block (Empty)",
       "block.der_robert.mojang_block": "Mojang Block",
+      "block.der_robert.plastic_walls_3": "Plastic Wall",
       "block.der_robert.plastic_walls_2": "Plastic Wall",
+      "block.der_robert.manic_lava": "Manic Lava",
+      "item.der_robert.manic_zombie_spawn_egg": "Manic Digger Zombie Spawn Egg",
       "block.der_robert.lucky_block_on": "Lucky Block",
       "block.der_robert.end_portal_button": "End Portal Button",
       "block.der_robert.classic_brick_stairs": "Classic Brick Stairs",
-      "item_group.der_robert.roberts_classic_tab": "Robert\u0027s Classic",
+      "item_group.der_robert.roberts_classic_tab": "R-Classic",
       "block.der_robert.classic_monster_spawner": "Classic Monster Spawner",
       "block.der_robert.classic_pack_block": "Classic Pack Block",
-      "block.der_robert.aether_portal_block": "Aether Portal Block",
-      "block.der_robert.glowing_obsidian": "Glowing Obsidian",
+      "block.der_robert.aether_portal_block": "Aether Portal",
       "block.der_robert.plastic_stairs_7": "Plastic Stairs",
+      "block.der_robert.glowing_obsidian": "Glowing Obsidian",
       "block.der_robert.plastic_stairs_8": "Plastic Stairs",
       "block.der_robert.plastic_stairs_5": "Plastic Stairs",
+      "block.der_robert.manic_water": "Manic Water",
       "block.der_robert.plastic_stairs_6": "Plastic Stairs",
-      "block.der_robert.plastic_stairs_11": "Plastic Stairs",
       "block.der_robert.plastic_stairs_3": "Plastic Stairs",
+      "block.der_robert.plastic_stairs_11": "Plastic Stairs",
       "gui.der_robert.classic_workbench_gui.label_workbench": "Workbench",
       "block.der_robert.plastic_stairs_4": "Plastic Stairs",
       "block.der_robert.plastic_stairs_10": "Plastic Stairs",
@@ -7182,7 +8992,10 @@
       "block.der_robert.creeponia_brick_slabs": "Creeponia Brick Slabs",
       "block.der_robert.plastic_stairs_2": "Plastic Stairs",
       "block.der_robert.plastic_stairs_0": "Plastic Stairs",
+      "block.der_robert.infiniminer_dirt_sign": "Dirt with Sign",
+      "entity.der_robert.classic_giant": "Classic Giant",
       "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
+      "item.der_robert.sky_block_dimension": "Sky Block Water",
       "block.der_robert.plastic_brick_10": "Plastic Brick",
       "block.der_robert.plastic_brick_11": "Plastic Brick",
       "block.der_robert.aether_dirt_block": "Aether Dirt",
@@ -7205,31 +9018,40 @@
       "entity.der_robert.epix_kev": "EpixKev04",
       "block.der_robert.plastic_brick_1": "Plastic Brick",
       "block.der_robert.classic_wood_door": "Classic Wood Door",
-      "item_group.der_robert.roberts_plastic_tab": "Robert\u0027s Plastic",
-      "block.der_robert.aether_wisproot_log": "Aether Wisproot Log",
+      "block.der_robert.tnt_100_block": "TNT-100",
+      "item_group.der_robert.roberts_plastic_tab": "R-Plastic",
+      "block.der_robert.aether_wisproot_log": "Wisproot Log",
       "block.der_robert.boulder_dash_bonus_block_bw": "Boulder Dash Bonus Block (B\u0026W)",
       "block.der_robert.classic_dirt_stairs": "Classic Dirt Stairs",
-      "block.der_robert.beta_end_stone": "Classic End Stone",
+      "block.der_robert.beta_end_stone": "Beta  End Stone",
       "item.der_robert.classic_zombie_spawn_egg": "Classic Zombie Spawn Egg",
+      "block.der_robert.classic_chest": "Chest",
+      "block.der_robert.lucky_tnt_block": "Lucky TNT",
       "block.der_robert.classic_wood_stairs": "Classic Wood Stairs",
+      "item.der_robert.classic_pigman_spawn_egg": "Classic Pigman Spawn Egg",
       "block.der_robert.pocket_stone_cutter": "Pocket Stonecutter",
-      "item_group.der_robert.roberts_alpha_tab": "Robert\u0027s Alpha",
+      "block.der_robert.classic_stone_slab": "Classic Stone",
+      "item_group.der_robert.roberts_alpha_tab": "R-Alpha",
       "block.der_robert.classic_obsidian_block": "Classic Obsidian",
       "block.der_robert.classic_nether_quartz_ore": "Classic Nether Quartz Ore",
       "block.der_robert.no_chest": "No Chest",
+      "block.der_robert.classic_stone_stairs": "Classic Stone",
       "item.der_robert.piggy_creeper_spawn_egg": "Piggy Creeper Spawn Egg",
+      "block.der_robert.manic_digger_m": "Manic Digger M-Block",
       "block.der_robert.some_white_block_slabs": "Some White Block",
       "item.der_robert.gronkh_spawn_egg": "Gronkh Spawn Egg",
+      "entity.der_robert.manic_human": "Manic Digger Human",
       "entity.der_robert.alpha_creeper": "Alpha Creeper",
       "block.der_robert.some_white_side_slab": "Some White Sideslab",
       "block.der_robert.classic_endstone_block": "Classic End Stone",
       "block.der_robert.classic_sponge_block": "Classic Sponge",
-      "block.der_robert.aether_greatroot_log": "Aether Greatroot Log",
+      "block.der_robert.aether_greatroot_log": "Greatroot Log",
       "block.der_robert.classic_dirt_slab": "Classic Dirt Slab",
       "entity.der_robert.classic_zombie": "Classic Zombie",
       "item.der_robert.classic_emerald_item": "Classic Emerald",
       "item.der_robert.classic_ruby_axe": "Classic Ruby Axe",
       "block.der_robert.plastic_pane_white": "Plastic Pane",
+      "block.der_robert.six_sided_piston": "Six Sided Piston",
       "block.der_robert.plastic_pane_10": "Plastic Pane",
       "block.der_robert.plastic_pane_11": "Plastic Pane",
       "item.der_robert.plastic_paint_brush_9": "Plastic Paint Brush",
@@ -7238,9 +9060,11 @@
       "block.der_robert.classic_wood_pane": "Classic Wood Pane",
       "block.der_robert.glass_door": "Glass Door",
       "block.der_robert.nether_reactor_core_blue": "Nether Reactor Core",
+      "entity.der_robert.classic_zombie_pigman": "Classic Zombie Pigman",
       "block.der_robert.classic_iron_door": "Classic Wooden Door",
-      "block.der_robert.water_portal_block": "Water Portal Block",
+      "block.der_robert.water_portal_block": "Water Portal",
       "item.der_robert.notch_spawn_egg": "Notch Spawn Egg",
+      "block.der_robert.six_sided_hay_block": "Six Sided Hay Block",
       "item.der_robert.plastic_paint_brush_1": "Plastic Paint Brush",
       "item.der_robert.plastic_paint_brush_0": "Plastic Paint Brush",
       "item.der_robert.plastic_paint_brush_3": "Plastic Paint Brush",
@@ -7251,6 +9075,7 @@
       "entity.der_robert.classic_human": "Classic Human",
       "item.der_robert.plastic_paint_brush_7": "Plastic Paint Brush",
       "item.der_robert.plastic_paint_brush_6": "Plastic Paint Brush",
+      "block.der_robert.manic_wood_planks": "Manic Wood Planks",
       "item.der_robert.classic_herobrine_spawn_egg": "Classic Herobrine Spawn Egg",
       "block.der_robert.classic_wood_trapdoor": "Classic Wood Planks",
       "block.der_robert.classic_sand_block": "Classic Sand",
@@ -7265,30 +9090,39 @@
       "block.der_robert.plastic_walls_10": "Plastic Wall",
       "block.der_robert.plastic_walls_11": "Plastic Wall",
       "block.der_robert.nether_reactor_core_red": "Nether Reactor Core (On)",
+      "item_group.der_robert.roberts_infiniminer": "R-Infiniminer",
       "block.der_robert.classic_glowstone_block": "Classic Glowstone",
       "item.der_robert.classic_ruby_armor_helmet": "Classic Ruby Helmet",
       "block.der_robert.plastic_door_white": "Plastic Door",
+      "item_group.der_robert.roberts_aprils_tab": "R-AprilFools",
       "block.der_robert.classic_emerald_ore": "Classic Emerald Ore",
       "block.der_robert.manic_dirt_block": "Manic Dirt Block",
       "block.der_robert.creeponia_brick_stairs": "Creeponia Brick Stairs",
       "block.der_robert.classic_mossy_stone_stairs": "Classic Mossy Stone Stairs",
+      "block.der_robert.manic_digger_d": "Manic Digger D-Block",
+      "block.der_robert.infiniminer_road": "Road",
+      "block.der_robert.manic_roof_block": "Manic Roof Block",
       "block.der_robert.classic_netherrack_block": "Classic Netherrack",
-      "item_group.der_robert.roberts_aether_tab": "Robert\u0027s Aether",
+      "item_group.der_robert.roberts_aether_tab": "R-Aether",
       "block.der_robert.classic_crying_obsidian": "Classic Crying Obsidian",
       "item.der_robert.classic_ruby_armor_boots": "Classic Ruby Boots",
       "item.der_robert.plastic_paint_brush_11": "Plastic Paint Brush",
       "block.der_robert.classic_dirt_trap_door": "Classic Dirt",
+      "block.der_robert.six_sided_sticky_piston": "Six Sided Sticky Piston",
       "block.der_robert.alpha_grass_slab": "Alpha Grass Slab",
       "item.der_robert.plastic_paint_brush_10": "Plastic Paint Brush",
       "block.der_robert.classic_brick_slabs": "Classic Brick Slabs",
       "block.der_robert.classic_soul_sand": "Classic Soul Sand",
       "block.der_robert.modern_pack_block": "Pack Block",
       "block.der_robert.classic_dirt_triangle": "Classic Dirt Triangle",
-      "block.der_robert.aether_skyroot_log": "Aether Skyroot Log",
+      "block.der_robert.aether_skyroot_log": "Skyroot Log",
+      "block.der_robert.manic_digger_crafter": "Manic Digger Block",
+      "block.der_robert.pickaxe_block_off": "Pickaxe Block",
       "item.der_robert.classic_glow_stone_dust": "Classic Glowstone Dust",
-      "block.der_robert.aether_amberoot_log": "Aether Amberroot Log",
+      "block.der_robert.aether_amberoot_log": "Amberroot Log",
       "item.der_robert.classic_sky_dimension": "Classic Water Bucket",
       "item.der_robert.classic_ruby_armor_leggings": "Classic Ruby Leggings",
+      "block.der_robert.update_block": "Update Block",
       "block.der_robert.plastic_slabs_1": "Plastic Slabs",
       "block.der_robert.plastic_slabs_0": "Plastic Slabs",
       "block.der_robert.classic_brick_block": "Classic Bricks",
@@ -7314,40 +9148,56 @@
       "block.der_robert.plastic_door_2": "Plastic Door",
       "block.der_robert.plastic_door_3": "Plastic Door",
       "block.der_robert.plastic_door_4": "Plastic Door",
+      "item.der_robert.manic_human_spawn_egg": "Manic Digger Human Spawn Egg",
       "item.der_robert.classic_ruby_hoe": "Classic Ruby Hoe",
+      "block.der_robert.infiniminer_dirt": "Dirt",
       "entity.der_robert.son_ki": "Sonki84",
+      "item.der_robert.classic_zombie_pigman_spawn_egg": "Classic Zombie Pigman Spawn Egg",
+      "biome.der_robert.sky_block_biome": "Sky Block Biome",
+      "item_group.der_robert.roberts_education_tab": "R-Education",
       "block.der_robert.alpha_grass_block": "Alpha Grass",
       "block.der_robert.some_white_block": "Some White Block",
       "block.der_robert.plastic_slabs_11": "Plastic Slabs",
+      "block.der_robert.classic_tnt_ignited": "Classic TNT",
       "block.der_robert.plastic_slabs_10": "Plastic Slabs",
       "block.der_robert.herobrine_netherrack_glow": "Herobrine Netherrack (On)",
       "block.der_robert.background_dirt": "Background Dirt",
       "block.der_robert.classic_wood_block": "Classic Wood Planks",
+      "block.der_robert.internal_update_block": "?",
       "block.der_robert.classic_workbench_block": "Workbench",
       "block.der_robert.classic_bedrock_block": "Classic Bedrock",
       "block.der_robert.plastic_brick_white": "Plastic Brick",
       "block.der_robert.classic_grass_block": "Classic Grass",
       "block.der_robert.classic_glass_pane": "Glass Block",
       "block.der_robert.manic_stone_block": "Manic Stone",
+      "block.der_robert.tnt_10_block": "TNT-10",
       "block.der_robert.herobrine_netherrack": "Herobrine Netherrack",
+      "block.der_robert.classic_tnt_slab": "TNT Slab",
+      "block.der_robert.place_block_on": "Place Block",
       "block.der_robert.manic_grass_only": "Manic Digger Logo",
+      "block.der_robert.manic_camouflage": "Manic Camouflage",
       "entity.der_robert.classic_herobrine": "Classic Herobrine",
+      "item.der_robert.classic_giant_spawn_egg": "Classic Giant Spawn Egg",
       "block.der_robert.anti_light_block": "Anti Light Block",
+      "block.der_robert.classic_smooth_stone": "Classic Smooth Stone",
+      "block.der_robert.pickaxe_block_on": "Pickaxe Block",
       "block.der_robert.glass_stairs": "Glass Stairs",
-      "item_group.der_robert.roberts_manic_digger": "Robert\u0027s Manic",
+      "item_group.der_robert.roberts_manic_digger": "R-Manic",
       "item.der_robert.epix_kev_spawn_egg": "EpixKev04 Spawn Egg",
-      "block.der_robert.missing_no_button": "Missing No.",
+      "block.der_robert.missing_no_button": "Missing No. Button",
       "block.der_robert.classic_wood_slabs": "Classic Wood Slabs",
       "block.der_robert.plastic_stairs_white": "Plastic Stairs",
       "block.der_robert.classic_mossy_stone_wall": "Classic Mossy Stone Wall",
       "block.der_robert.some_white_block_stairs": "Some White Block",
-      "item_group.der_robert.roberts_beta_tab": "Robert\u0027s Beta",
+      "item_group.der_robert.roberts_beta_tab": "R-Beta",
       "block.der_robert.aether_grass_block": "Aether Grass",
       "item.der_robert.classic_ruby_shovel": "Classic Ruby Shovel",
       "item.der_robert.tracy_moodalie_spawn_egg": "Tracy88 Spawn Egg",
       "block.der_robert.boulder_dash_bonus_block": "Boulder Dash Bonus Block",
+      "block.der_robert.oxygene": "Oxygene",
       "block.der_robert.classic_tnt_block": "Classic TNT",
-      "block.der_robert.aether_therawood_log": "Aether Therawood Log"
+      "block.der_robert.infiniminer_rock": "Rock",
+      "block.der_robert.aether_therawood_log": "Therawood Log"
     }
   },
   "foldersRoot": {
@@ -7391,6 +9241,18 @@
           {
             "name": "Mojang",
             "children": []
+          },
+          {
+            "name": "AprilFools",
+            "children": []
+          },
+          {
+            "name": "Education",
+            "children": []
+          },
+          {
+            "name": "Infiniminer",
+            "children": []
           }
         ]
       },
@@ -7400,11 +9262,73 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Classic",
+            "children": []
+          },
+          {
+            "name": "Plastic",
+            "children": []
+          },
+          {
+            "name": "Pocket",
+            "children": []
+          },
+          {
+            "name": "AprilFools",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "Aether",
+            "children": []
+          },
+          {
+            "name": "Alpha",
+            "children": []
+          },
+          {
+            "name": "Beta",
+            "children": []
+          },
+          {
+            "name": "Classic",
+            "children": []
+          },
+          {
+            "name": "BoulderDash",
+            "children": []
+          },
+          {
+            "name": "ManicDigger",
+            "children": []
+          },
+          {
+            "name": "Mojang",
+            "children": []
+          },
+          {
+            "name": "Pocket",
+            "children": []
+          },
+          {
+            "name": "Plastic",
+            "children": []
+          },
+          {
+            "name": "AprilsFools",
+            "children": []
+          },
+          {
+            "name": "Education",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Biomes",
@@ -7433,13 +9357,17 @@
       {
         "name": "Labels",
         "children": []
+      },
+      {
+        "name": "Commands",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "der_robert",
     "modName": "Robert\u0027s Mod",
-    "version": "1.23.40",
+    "version": "1.23.41",
     "description": "My First Mod",
     "author": "Der Robert",
     "websiteURL": "https://www.youtube.com/@DerRobert28",

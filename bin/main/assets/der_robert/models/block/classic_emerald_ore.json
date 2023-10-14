@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "der_robert:block/classic_emerald_ore",
-    "particle": "der_robert:block/classic_emerald_ore"
-  },
-  "render_type": "solid"
-}

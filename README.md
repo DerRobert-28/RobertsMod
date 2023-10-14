@@ -10,31 +10,56 @@
     - Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
-## Current version 1.23.40
+## Current version 1.23.41
 
 - Mod development:
+  - General:
+    - New tab: "April's Fools"
+    - Shorten tab names
   - Blocks/items:
-    - Plastic Brick (White & 12 Colours)
-    - Plastic Doors (White & 12 Colours)
-    - Plastic Panes (White & 12 Colours)
-    - Plastic Slabs (White & 12 Colours)
-    - Plastic Stairs (White & 12 Colours)
-    - Plastic Walls (White & 12 Colours)
-    - Plastic Paint Brush (12 Colours)
+    - Classic Chest
+    - Classic Smooth Stone Block, Slabs & Stairs
+    - Classic Stone Slabs & Stairs
+    - Infiniminer Dirt Block
+    - Infiniminer Rock Block
+    - Infiniminer Road Block
+    - Lucky-TNT, TNT-10 & TNT-100 blocks
+    - Manic Digger Blocks (empty, M, D and MD)
+    - Manic Camouflage Block
+    - Manic Lava (Block)
+    - Manic Leaves (Block)
+    - Manic Roof Block
+    - Manic Water (Block)
+    - Manic Wood Planks
+    - Pickaxe & Place Block
+    - Six Sided Piston
+    - Six Sided Sticky Piston
+    - Update Block
+  - Commands:
+    - "/version": Show current mod version
+  - Dimensions:
+    - new Sky Block Dimension (with secret exit)
   - Crafting recipies:
-  	- Plastic Brick (made from Classic Glass Block)
-  	- Plastic Stairs (made from Classic Glass Stairs)
-  	- Plastic Paint Brush
+    - Classic Smooth Stone Block, Slabs & Stairs
+    - Lucky-TNT, TNT-10 & TNT-100 blocks
+    - Manic Crafter Recipe
+    - Pickaxe & Place Block
+    - Six Sided Piston
+    - Six Sided Sticky Piston
+  - Entities:
+    - Classic Pigman (& Spawn Egg)
+    - Classic Zombie Pigman (& Spawn Egg)
+    - Giant (as a test, with Zombie AI)
+    - Manic Digger Human & Zombie (& Spawn Eggs)
 - Repository development:
-  - Changes:
-    - Lucky Block:
-      - gives random block on destroy
-      - gets deactivated afterwards ("Lucky Block (empty)")
-      - possible blocks (testwise):
-        - Bedrock
-        - Cobblestone
-        - Dirt
-  - Known bugs and issues:
-    - Colouring Plastic Doors doesn't work properly
   - Bugfixes:
-    - Fixed bug in crafting recipe for glass stairs and slabs
+    - Fixed spawn disability for Custom Entities
+  - Changes:
+    - Classic Stone Block drops Classic Smooth Stone
+    - Classic Tnt gets primed for 5 secs. until explosion
+    - First own Java package for better/custom development
+    - Re-included ".gitignore"
+  - Known bugs and issues:
+    - Bugfix for Placebug work in progress
+    - Colouring Plastic Doors doesn't work properly
+    - Teleport Buttons cannot create safety glass cage

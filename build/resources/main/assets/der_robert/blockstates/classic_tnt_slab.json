@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "der_robert:block/classic_tnt_slab"
+    },
+    "type=top": {
+      "model": "der_robert:block/classic_tnt_slab_top"
+    },
+    "type=double": {
+      "model": "der_robert:block/classic_tnt_slab_full"
+    }
+  }
+}

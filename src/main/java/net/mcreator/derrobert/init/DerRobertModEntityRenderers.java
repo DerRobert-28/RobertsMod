@@ -14,13 +14,18 @@ import net.mcreator.derrobert.client.renderer.TemplateHumanRenderer;
 import net.mcreator.derrobert.client.renderer.SonKiRenderer;
 import net.mcreator.derrobert.client.renderer.PiggyCreeperRenderer;
 import net.mcreator.derrobert.client.renderer.NotchRenderer;
+import net.mcreator.derrobert.client.renderer.ManicZombieRenderer;
+import net.mcreator.derrobert.client.renderer.ManicHumanRenderer;
 import net.mcreator.derrobert.client.renderer.GronkhRenderer;
 import net.mcreator.derrobert.client.renderer.EvilHerobrineRenderer;
 import net.mcreator.derrobert.client.renderer.EpixKevRenderer;
 import net.mcreator.derrobert.client.renderer.CreeperPigRenderer;
 import net.mcreator.derrobert.client.renderer.ClassicZombieRenderer;
+import net.mcreator.derrobert.client.renderer.ClassicZombiePigmanRenderer;
+import net.mcreator.derrobert.client.renderer.ClassicPigmanRenderer;
 import net.mcreator.derrobert.client.renderer.ClassicHumanRenderer;
 import net.mcreator.derrobert.client.renderer.ClassicHerobrineRenderer;
+import net.mcreator.derrobert.client.renderer.ClassicGiantRenderer;
 import net.mcreator.derrobert.client.renderer.AlphaCreeperRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -30,6 +35,9 @@ public class DerRobertModEntityRenderers {
 		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_HEROBRINE.get(), ClassicHerobrineRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_HUMAN.get(), ClassicHumanRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_ZOMBIE.get(), ClassicZombieRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_PIGMAN.get(), ClassicPigmanRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_ZOMBIE_PIGMAN.get(), ClassicZombiePigmanRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.CLASSIC_GIANT.get(), ClassicGiantRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.CREEPER_PIG.get(), CreeperPigRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.EPIX_KEV.get(), EpixKevRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.EVIL_HEROBRINE.get(), EvilHerobrineRenderer::new);
@@ -40,5 +48,7 @@ public class DerRobertModEntityRenderers {
 		event.registerEntityRenderer(DerRobertModEntities.TRACY_MOODALIE.get(), TracyMoodalieRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.ALPHA_CREEPER.get(), AlphaCreeperRenderer::new);
 		event.registerEntityRenderer(DerRobertModEntities.NOTCH.get(), NotchRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.MANIC_HUMAN.get(), ManicHumanRenderer::new);
+		event.registerEntityRenderer(DerRobertModEntities.MANIC_ZOMBIE.get(), ManicZombieRenderer::new);
 	}
 }

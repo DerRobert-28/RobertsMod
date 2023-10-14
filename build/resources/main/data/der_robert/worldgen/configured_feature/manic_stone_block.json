@@ -12,6 +12,28 @@
         "state": {
           "Name": "der_robert:manic_stone_block"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_stone_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cobblestone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_stone_block"
+        }
       }
     ]
   }

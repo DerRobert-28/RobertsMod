@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "der_robert:block/sky_block_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "der_robert:block/sky_block_dimension_portal_ns"
+    }
+  }
+}

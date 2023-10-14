@@ -6,9 +6,54 @@
     "targets": [
       {
         "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "der_robert:classic_ghost_dirt"
+        }
+      },
+      {
+        "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
             "Name": "minecraft:dirt"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_ghost_dirt"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:coarse_dirt"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_ghost_dirt"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:podzol",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_ghost_dirt"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:rooted_dirt"
           }
         },
         "state": {

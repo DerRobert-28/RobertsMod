@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "der_robert:block/classic_smooth_stone_slab"
+    },
+    "type=top": {
+      "model": "der_robert:block/classic_smooth_stone_slab_top"
+    },
+    "type=double": {
+      "model": "der_robert:block/classic_smooth_stone_slab_full"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "type": "der_robert:manic_wood_planks",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:planks"
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:oak_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:spruce_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:birch_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:jungle_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:acacia_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dark_oak_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crimson_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:warped_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:mangrove_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cherry_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:bamboo_planks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_wood_planks"
+        }
+      }
+    ]
+  }
+}

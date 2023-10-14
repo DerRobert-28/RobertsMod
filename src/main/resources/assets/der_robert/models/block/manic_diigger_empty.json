@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/manic_digger_empty",
+    "particle": "der_robert:block/manic_digger_empty"
+  },
+  "render_type": "solid"
+}

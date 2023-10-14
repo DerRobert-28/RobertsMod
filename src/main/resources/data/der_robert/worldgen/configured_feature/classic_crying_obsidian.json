@@ -14,6 +14,28 @@
         "state": {
           "Name": "der_robert:classic_crying_obsidian"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:obsidian"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_crying_obsidian"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crying_obsidian"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_crying_obsidian"
+        }
       }
     ]
   }

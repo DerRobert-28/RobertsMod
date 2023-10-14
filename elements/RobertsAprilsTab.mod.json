@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "R-AprilFools",
+    "icon": {
+      "value": "CUSTOM:UpdateBlock"
+    },
+    "showSearch": false
+  }
+}

@@ -20,6 +20,23 @@
         "state": {
           "Name": "der_robert:classic_brick_stairs"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_brick_stairs"
+        }
       }
     ]
   }

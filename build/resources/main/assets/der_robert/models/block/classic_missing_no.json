@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/classic_missing_no",
+    "particle": "der_robert:block/classic_missing_no"
+  },
+  "render_type": "solid"
+}

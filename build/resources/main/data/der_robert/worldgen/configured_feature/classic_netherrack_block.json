@@ -8,7 +8,29 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
+            "Name": "minecraft:netherite_block"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_netherrack_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
             "Name": "minecraft:netherrack"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_netherrack_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:nether_wart_block"
           }
         },
         "state": {

@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "der_robert:some_white_side_slab",
-  "step": "underground_ores"
-}

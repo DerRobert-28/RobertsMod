@@ -2,9 +2,9 @@
   "_fv": 47,
   "_type": "tab",
   "definition": {
-    "name": "Robert's Manic",
+    "name": "R-Manic",
     "icon": {
-      "value": "CUSTOM:ManicGrassOnly"
+      "value": "CUSTOM:ManicDiggerCrafter"
     },
     "showSearch": false
   }

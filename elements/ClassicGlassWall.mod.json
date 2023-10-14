@@ -124,7 +124,13 @@
     "onDestroyedByExplosion": {
       "name": "ClassicGlassBreakProc"
     },
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface",
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

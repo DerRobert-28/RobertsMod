@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:manic_leaves"
+    },
+    "1": {
+      "item": "der_robert:manic_leaves"
+    },
+    "2": {
+      "item": "der_robert:manic_leaves"
+    },
+    "3": {
+      "item": "der_robert:manic_leaves"
+    },
+    "5": {
+      "item": "der_robert:manic_leaves"
+    },
+    "6": {
+      "item": "der_robert:manic_leaves"
+    },
+    "7": {
+      "item": "der_robert:manic_leaves"
+    },
+    "8": {
+      "item": "der_robert:manic_leaves"
+    }
+  },
+  "result": {
+    "item": "der_robert:manic_camouflage",
+    "count": 1
+  }
+}

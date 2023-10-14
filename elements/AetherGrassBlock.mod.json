@@ -119,12 +119,18 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface",
-      "End"
+      "Nether",
+      "End",
+      "CUSTOM:ClassicSkyDimension",
+      "CUSTOM:NotNetherDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.GRASS_PATH"
       }
     ],
     "generationShape": "UNIFORM",

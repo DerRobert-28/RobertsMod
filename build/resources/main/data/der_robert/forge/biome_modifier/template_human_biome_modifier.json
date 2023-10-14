@@ -1,12 +1,14 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "der_robert:classic_biome_1",
+    "der_robert:classic_biome_3",
+    "der_robert:classic_biome_2"
+  ],
   "spawners": {
     "type": "der_robert:template_human",
-    "weight": 20,
-    "minCount": 4,
-    "maxCount": 4
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 3
   }
 }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 20,
+  "ingredient": {
+    "item": "der_robert:classic_oak_leaves_block"
+  },
+  "result": "der_robert:oxygene"
+}

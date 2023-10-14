@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/manic_digger_bottom",
+    "up": "der_robert:block/manic_digger_top",
+    "north": "der_robert:block/manic_digger_side_d_front",
+    "east": "der_robert:block/manic_digger_side_m_front",
+    "south": "der_robert:block/manic_digger_side_d_back",
+    "west": "der_robert:block/manic_digger_side_m_back",
+    "particle": "der_robert:block/manic_digger_bottom"
+  },
+  "render_type": "solid"
+}

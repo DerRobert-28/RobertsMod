@@ -1,0 +1,37 @@
+{
+  "type": "der_robert:manic_water",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_water"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_water"
+        }
+      }
+    ]
+  }
+}

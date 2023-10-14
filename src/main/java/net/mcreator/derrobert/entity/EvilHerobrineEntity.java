@@ -26,6 +26,8 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
@@ -33,6 +35,8 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.derrobert.init.DerRobertModEntities;
 
 public class EvilHerobrineEntity extends Zombie {
+	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.PROGRESS);
+
 	public EvilHerobrineEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(DerRobertModEntities.EVIL_HEROBRINE.get(), world);
 	}
@@ -42,7 +46,6 @@ public class EvilHerobrineEntity extends Zombie {
 		setMaxUpStep(0.6f);
 		xpReward = 10000;
 		setNoAi(false);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -68,11 +71,6 @@ public class EvilHerobrineEntity extends Zombie {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEAD;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
@@ -120,6 +118,29 @@ public class EvilHerobrineEntity extends Zombie {
 		if (source.is(DamageTypes.WITHER_SKULL))
 			return false;
 		return super.hurt(source, amount);
+	}
+
+	@Override
+	public boolean canChangeDimensions() {
+		return false;
+	}
+
+	@Override
+	public void startSeenByPlayer(ServerPlayer player) {
+		super.startSeenByPlayer(player);
+		this.bossInfo.addPlayer(player);
+	}
+
+	@Override
+	public void stopSeenByPlayer(ServerPlayer player) {
+		super.stopSeenByPlayer(player);
+		this.bossInfo.removePlayer(player);
+	}
+
+	@Override
+	public void customServerAiStep() {
+		super.customServerAiStep();
+		this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
 	}
 
 	public static void init() {

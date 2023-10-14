@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocks",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_smooth_stone"
+    },
+    "1": {
+      "item": "der_robert:classic_smooth_stone"
+    },
+    "2": {
+      "item": "der_robert:classic_smooth_stone"
+    },
+    "3": {
+      "item": "der_robert:classic_smooth_stone"
+    },
+    "4": {
+      "item": "der_robert:classic_smooth_stone"
+    },
+    "5": {
+      "item": "der_robert:classic_smooth_stone"
+    }
+  },
+  "result": {
+    "item": "der_robert:classic_smooth_stone_slab",
+    "count": 6
+  }
+}

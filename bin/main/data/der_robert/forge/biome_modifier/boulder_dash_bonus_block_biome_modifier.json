@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "der_robert:boulder_dash_bonus_block",
-  "step": "underground_ores"
-}

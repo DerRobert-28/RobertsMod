@@ -18,6 +18,21 @@
         "state": {
           "Name": "der_robert:classic_brick_slabs"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone_brick_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_brick_slabs"
+        }
       }
     ]
   }

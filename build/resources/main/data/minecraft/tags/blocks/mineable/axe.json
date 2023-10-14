@@ -6,6 +6,7 @@
     "der_robert:aether_skyroot_log",
     "der_robert:aether_therawood_log",
     "der_robert:aether_wisproot_log",
+    "der_robert:classic_chest",
     "der_robert:classic_wood_block",
     "der_robert:classic_wood_door",
     "der_robert:classic_wood_pane",
@@ -15,6 +16,9 @@
     "der_robert:classic_wood_table",
     "der_robert:classic_wood_trapdoor",
     "der_robert:classic_workbench_block",
-    "der_robert:no_chest"
+    "der_robert:no_chest",
+    "der_robert:six_sided_piston",
+    "der_robert:six_sided_sticky_piston",
+    "der_robert:manic_wood_planks"
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "der_robert:classic_tnt_block"
+    },
+    {
+      "item": "der_robert:classic_tnt_block"
+    },
+    {
+      "item": "der_robert:classic_tnt_block"
+    },
+    {
+      "item": "der_robert:classic_tnt_block"
+    }
+  ],
+  "result": {
+    "item": "der_robert:tnt_10_block",
+    "count": 1
+  }
+}

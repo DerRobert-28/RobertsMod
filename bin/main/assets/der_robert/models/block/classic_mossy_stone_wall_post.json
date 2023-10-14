@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "der_robert:block/classic_mossy_stone",
-    "particle": "der_robert:block/classic_mossy_stone"
-  },
-  "render_type": "solid"
-}

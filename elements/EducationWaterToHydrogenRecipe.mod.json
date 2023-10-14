@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 20,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.POTIONITEM"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Hydrogene"
+    },
+    "name": "education_water_to_hydrogen_recipe",
+    "namespace": "mod"
+  }
+}

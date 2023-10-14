@@ -14,6 +14,28 @@
         "state": {
           "Name": "der_robert:classic_brick_block"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone_bricks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_brick_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:chiseled_stone_bricks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_brick_block"
+        }
       }
     ]
   }

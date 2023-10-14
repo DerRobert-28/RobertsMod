@@ -14,6 +14,17 @@
         "state": {
           "Name": "der_robert:beta_end_stone"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:end_stone_bricks"
+          }
+        },
+        "state": {
+          "Name": "der_robert:beta_end_stone"
+        }
       }
     ]
   }

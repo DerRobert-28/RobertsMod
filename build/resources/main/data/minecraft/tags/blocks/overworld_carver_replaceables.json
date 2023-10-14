@@ -4,6 +4,7 @@
     "der_robert:classic_stone_block",
     "der_robert:classic_grass_block",
     "der_robert:classic_dirt_block",
-    "der_robert:alpha_grass_block"
+    "der_robert:alpha_grass_block",
+    "minecraft:air"
   ]
 }

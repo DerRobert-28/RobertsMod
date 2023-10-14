@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "der_robert:block/pickaxe_block_on"
+    },
+    "facing=east": {
+      "model": "der_robert:block/pickaxe_block_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "der_robert:block/pickaxe_block_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "der_robert:block/pickaxe_block_on",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "der_robert:block/pickaxe_block_on",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "der_robert:block/pickaxe_block_on",
+      "x": 90
+    }
+  }
+}
