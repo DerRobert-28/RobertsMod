@@ -20,6 +20,9 @@
     - Classic Chest
     - Classic Smooth Stone Block, Slabs & Stairs
     - Classic Stone Slabs & Stairs
+    - Infiniminer Dirt Block
+    - Infiniminer Rock Block
+    - Infiniminer Road Block
     - Lucky-TNT, TNT-10 & TNT-100 blocks
     - Manic Digger Blocks (empty, M, D and MD)
     - Manic Camouflage Block
@@ -49,11 +52,12 @@
     - Giant (as a test, with Zombie AI)
     - Manic Digger Human & Zombie (& Spawn Eggs)
 - Repository development:
-  - Bugixes:
+  - Bugfixes:
     - Fixed spawn disability for Custom Entities
   - Changes:
     - Classic Stone Block drops Classic Smooth Stone
     - Classic Tnt gets primed for 5 secs. until explosion
+    - First own Java package for better/custom development
     - Re-included ".gitignore"
   - Known bugs and issues:
     - Bugfix for Placebug work in progress
