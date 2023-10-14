@@ -136,6 +136,7 @@ import net.mcreator.derrobert.block.ManicCamouflageBlock;
 import net.mcreator.derrobert.block.LuckyTntBlockBlock;
 import net.mcreator.derrobert.block.LuckyBlockOnBlock;
 import net.mcreator.derrobert.block.LuckyBlockOffBlock;
+import net.mcreator.derrobert.block.InternalUpdateBlockBlock;
 import net.mcreator.derrobert.block.HydrogeneBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackGlowBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackBlock;
@@ -157,6 +158,7 @@ import net.mcreator.derrobert.block.ClassicWoodSideSlabBlock;
 import net.mcreator.derrobert.block.ClassicWoodPaneBlock;
 import net.mcreator.derrobert.block.ClassicWoodDoorBlock;
 import net.mcreator.derrobert.block.ClassicWoodBlockBlock;
+import net.mcreator.derrobert.block.ClassicTntSlabBlock;
 import net.mcreator.derrobert.block.ClassicTntIgnitedBlock;
 import net.mcreator.derrobert.block.ClassicTntBlockBlock;
 import net.mcreator.derrobert.block.ClassicStoneStairsBlock;
@@ -238,6 +240,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> CLASSIC_BRICK_BLOCK = REGISTRY.register("classic_brick_block", () -> new ClassicBrickBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_BRICK_SLABS = REGISTRY.register("classic_brick_slabs", () -> new ClassicBrickSlabsBlock());
 	public static final RegistryObject<Block> CLASSIC_BRICK_STAIRS = REGISTRY.register("classic_brick_stairs", () -> new ClassicBrickStairsBlock());
+	public static final RegistryObject<Block> CLASSIC_CHEST = REGISTRY.register("classic_chest", () -> new ClassicChestBlock());
 	public static final RegistryObject<Block> CLASSIC_CRYING_OBSIDIAN = REGISTRY.register("classic_crying_obsidian", () -> new ClassicCryingObsidianBlock());
 	public static final RegistryObject<Block> CLASSIC_DIRT_BLOCK = REGISTRY.register("classic_dirt_block", () -> new ClassicDirtBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_DIRT_SLAB = REGISTRY.register("classic_dirt_slab", () -> new ClassicDirtSlabBlock());
@@ -279,6 +282,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> CLASSIC_STONE_SLAB = REGISTRY.register("classic_stone_slab", () -> new ClassicStoneSlabBlock());
 	public static final RegistryObject<Block> CLASSIC_STONE_STAIRS = REGISTRY.register("classic_stone_stairs", () -> new ClassicStoneStairsBlock());
 	public static final RegistryObject<Block> CLASSIC_TNT_BLOCK = REGISTRY.register("classic_tnt_block", () -> new ClassicTntBlockBlock());
+	public static final RegistryObject<Block> CLASSIC_TNT_SLAB = REGISTRY.register("classic_tnt_slab", () -> new ClassicTntSlabBlock());
 	public static final RegistryObject<Block> CLASSIC_SKY_DIMENSION_PORTAL = REGISTRY.register("classic_sky_dimension_portal", () -> new ClassicSkyDimensionPortalBlock());
 	public static final RegistryObject<Block> CLASSIC_WOOD_BLOCK = REGISTRY.register("classic_wood_block", () -> new ClassicWoodBlockBlock());
 	public static final RegistryObject<Block> CLASSIC_WOOD_DOOR = REGISTRY.register("classic_wood_door", () -> new ClassicWoodDoorBlock());
@@ -435,5 +439,5 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> PICKAXE_BLOCK_ON = REGISTRY.register("pickaxe_block_on", () -> new PickaxeBlockOnBlock());
 	public static final RegistryObject<Block> CLASSIC_TNT_IGNITED = REGISTRY.register("classic_tnt_ignited", () -> new ClassicTntIgnitedBlock());
 	public static final RegistryObject<Block> PLACE_BLOCK_ON = REGISTRY.register("place_block_on", () -> new PlaceBlockOnBlock());
-	public static final RegistryObject<Block> CLASSIC_CHEST = REGISTRY.register("classic_chest", () -> new ClassicChestBlock());
+	public static final RegistryObject<Block> INTERNAL_UPDATE_BLOCK = REGISTRY.register("internal_update_block", () -> new InternalUpdateBlockBlock());
 }

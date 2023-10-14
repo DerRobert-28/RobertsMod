@@ -26,6 +26,9 @@ public class NetherButtonClickProcedure {
 			return;
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+					("say DIM=" + (world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD)));
+		if (world instanceof ServerLevel _level)
+			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:glass hollow");
 		if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 			ResourceKey<Level> destinationType = Level.NETHER;
@@ -45,6 +48,14 @@ public class NetherButtonClickProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:glass hollow");
+			DerRobertMod.queueServerWork(200, () -> {
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							("say DIM=" + (world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD)));
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:glass hollow");
+			});
 		});
 	}
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "der_robert:block/classic_tnt_bottom",
+    "top": "der_robert:block/classic_tnt_bottom",
+    "side": "der_robert:block/classic_tnt_slab"
+  },
+  "render_type": "solid"
+}

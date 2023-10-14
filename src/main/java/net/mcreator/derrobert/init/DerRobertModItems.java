@@ -55,6 +55,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_BRICK_BLOCK = block(DerRobertModBlocks.CLASSIC_BRICK_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_BRICK_SLABS = block(DerRobertModBlocks.CLASSIC_BRICK_SLABS);
 	public static final RegistryObject<Item> CLASSIC_BRICK_STAIRS = block(DerRobertModBlocks.CLASSIC_BRICK_STAIRS);
+	public static final RegistryObject<Item> CLASSIC_CHEST = block(DerRobertModBlocks.CLASSIC_CHEST);
 	public static final RegistryObject<Item> CLASSIC_CRYING_OBSIDIAN = block(DerRobertModBlocks.CLASSIC_CRYING_OBSIDIAN);
 	public static final RegistryObject<Item> CLASSIC_DIRT_BLOCK = block(DerRobertModBlocks.CLASSIC_DIRT_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_DIRT_SLAB = block(DerRobertModBlocks.CLASSIC_DIRT_SLAB);
@@ -108,6 +109,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> CLASSIC_STONE_SLAB = block(DerRobertModBlocks.CLASSIC_STONE_SLAB);
 	public static final RegistryObject<Item> CLASSIC_STONE_STAIRS = block(DerRobertModBlocks.CLASSIC_STONE_STAIRS);
 	public static final RegistryObject<Item> CLASSIC_TNT_BLOCK = block(DerRobertModBlocks.CLASSIC_TNT_BLOCK);
+	public static final RegistryObject<Item> CLASSIC_TNT_SLAB = block(DerRobertModBlocks.CLASSIC_TNT_SLAB);
 	public static final RegistryObject<Item> CLASSIC_SKY_DIMENSION = REGISTRY.register("classic_sky_dimension", () -> new ClassicSkyDimensionItem());
 	public static final RegistryObject<Item> CLASSIC_WOOD_BLOCK = block(DerRobertModBlocks.CLASSIC_WOOD_BLOCK);
 	public static final RegistryObject<Item> CLASSIC_WOOD_DOOR = doubleBlock(DerRobertModBlocks.CLASSIC_WOOD_DOOR);
@@ -294,7 +296,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> PICKAXE_BLOCK_ON = block(DerRobertModBlocks.PICKAXE_BLOCK_ON);
 	public static final RegistryObject<Item> CLASSIC_TNT_IGNITED = block(DerRobertModBlocks.CLASSIC_TNT_IGNITED);
 	public static final RegistryObject<Item> PLACE_BLOCK_ON = block(DerRobertModBlocks.PLACE_BLOCK_ON);
-	public static final RegistryObject<Item> CLASSIC_CHEST = block(DerRobertModBlocks.CLASSIC_CHEST);
+	public static final RegistryObject<Item> INTERNAL_UPDATE_BLOCK = block(DerRobertModBlocks.INTERNAL_UPDATE_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

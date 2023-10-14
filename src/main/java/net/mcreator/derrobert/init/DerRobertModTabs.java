@@ -57,6 +57,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_BRICK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_BRICK_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_BRICK_STAIRS.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_CHEST.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_CRYING_OBSIDIAN.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_DIRT_SLAB.get().asItem());
@@ -110,6 +111,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_SLAB.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_STONE_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_TNT_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.CLASSIC_TNT_SLAB.get().asItem());
 				tabData.accept(DerRobertModItems.CLASSIC_SKY_DIMENSION.get());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_WOOD_DOOR.get().asItem());
@@ -126,7 +128,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_PIGMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_PIGMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_GIANT_SPAWN_EGG.get());
-				tabData.accept(DerRobertModBlocks.CLASSIC_CHEST.get().asItem());
 			})
 
 					.build());

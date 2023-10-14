@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "der_robert:classic_tnt_block"
+    },
+    "1": {
+      "item": "der_robert:classic_tnt_block"
+    },
+    "2": {
+      "item": "der_robert:classic_tnt_block"
+    },
+    "3": {
+      "item": "der_robert:classic_tnt_block"
+    },
+    "4": {
+      "item": "der_robert:classic_tnt_block"
+    },
+    "5": {
+      "item": "der_robert:classic_tnt_block"
+    }
+  },
+  "result": {
+    "item": "der_robert:classic_tnt_slab",
+    "count": 6
+  }
+}

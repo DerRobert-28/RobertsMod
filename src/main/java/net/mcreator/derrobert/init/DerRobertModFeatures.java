@@ -126,6 +126,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_BRICK_BLOCK = REGISTRY.register("classic_brick_block", ClassicBrickBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_BRICK_SLABS = REGISTRY.register("classic_brick_slabs", ClassicBrickSlabsFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_BRICK_STAIRS = REGISTRY.register("classic_brick_stairs", ClassicBrickStairsFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_CHEST = REGISTRY.register("classic_chest", ClassicChestFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_CRYING_OBSIDIAN = REGISTRY.register("classic_crying_obsidian", ClassicCryingObsidianFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_DIRT_BLOCK = REGISTRY.register("classic_dirt_block", ClassicDirtBlockFeature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_DIRT_SLAB = REGISTRY.register("classic_dirt_slab", ClassicDirtSlabFeature::new);
@@ -213,5 +214,4 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
-	public static final RegistryObject<Feature<?>> CLASSIC_CHEST = REGISTRY.register("classic_chest", ClassicChestFeature::new);
 }

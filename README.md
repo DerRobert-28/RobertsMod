@@ -56,5 +56,6 @@
     - Classic Tnt gets primed for 5 secs. until explosion
     - Re-included ".gitignore"
   - Known bugs and issues:
+    - Bugfix for Placebug work in progress
     - Colouring Plastic Doors doesn't work properly
     - Teleport Buttons cannot create safety glass cage
