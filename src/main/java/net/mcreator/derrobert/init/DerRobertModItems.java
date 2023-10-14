@@ -42,9 +42,9 @@ import net.mcreator.derrobert.DerRobertMod;
 
 public class DerRobertModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DerRobertMod.MODID);
-	public static final RegistryObject<Item> AETHER_AMBEROOT_LOG = block(DerRobertModBlocks.AETHER_AMBEROOT_LOG);
 	public static final RegistryObject<Item> AETHER_DIRT_BLOCK = block(DerRobertModBlocks.AETHER_DIRT_BLOCK);
 	public static final RegistryObject<Item> AETHER_GRASS_BLOCK = block(DerRobertModBlocks.AETHER_GRASS_BLOCK);
+	public static final RegistryObject<Item> AETHER_AMBEROOT_LOG = block(DerRobertModBlocks.AETHER_AMBEROOT_LOG);
 	public static final RegistryObject<Item> AETHER_GREATROOT_LOG = block(DerRobertModBlocks.AETHER_GREATROOT_LOG);
 	public static final RegistryObject<Item> AETHER_PORTAL_BLOCK = block(DerRobertModBlocks.AETHER_PORTAL_BLOCK);
 	public static final RegistryObject<Item> AETHER_SKYROOT_LOG = block(DerRobertModBlocks.AETHER_SKYROOT_LOG);
@@ -206,6 +206,7 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> MANIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("manic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(DerRobertModEntities.MANIC_ZOMBIE, -8421505, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> OXYGENE = block(DerRobertModBlocks.OXYGENE);
 	public static final RegistryObject<Item> HYDROGENE = block(DerRobertModBlocks.HYDROGENE);
+	public static final RegistryObject<Item> INFINIMINER_DIRT = block(DerRobertModBlocks.INFINIMINER_DIRT);
 	public static final RegistryObject<Item> NETHER_REACTOR_CORE_RED = block(DerRobertModBlocks.NETHER_REACTOR_CORE_RED);
 	public static final RegistryObject<Item> SOME_WHITE_CYLINDER = block(DerRobertModBlocks.SOME_WHITE_CYLINDER);
 	public static final RegistryObject<Item> HEROBRINE_NETHERRACK_GLOW = block(DerRobertModBlocks.HEROBRINE_NETHERRACK_GLOW);

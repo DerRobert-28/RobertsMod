@@ -18,9 +18,9 @@ public class DerRobertModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DerRobertMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ROBERTS_AETHER_TAB = REGISTRY.register("roberts_aether_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_aether_tab")).icon(() -> new ItemStack(DerRobertModBlocks.AETHER_DIRT_BLOCK.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(DerRobertModBlocks.AETHER_AMBEROOT_LOG.get().asItem());
 				tabData.accept(DerRobertModBlocks.AETHER_DIRT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.AETHER_GRASS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.AETHER_AMBEROOT_LOG.get().asItem());
 				tabData.accept(DerRobertModBlocks.AETHER_GREATROOT_LOG.get().asItem());
 				tabData.accept(DerRobertModBlocks.AETHER_PORTAL_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.AETHER_SKYROOT_LOG.get().asItem());
@@ -232,6 +232,12 @@ public class DerRobertModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_education_tab")).icon(() -> new ItemStack(DerRobertModBlocks.HYDROGENE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.OXYGENE.get().asItem());
 				tabData.accept(DerRobertModBlocks.HYDROGENE.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_INFINIMINER = REGISTRY.register("roberts_infiniminer",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_infiniminer")).icon(() -> new ItemStack(DerRobertModBlocks.INFINIMINER_DIRT.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.INFINIMINER_DIRT.get().asItem());
 			})
 
 					.build());

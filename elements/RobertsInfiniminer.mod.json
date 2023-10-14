@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "R-Infiniminer",
+    "icon": {
+      "value": "CUSTOM:InfiniminerDirt"
+    },
+    "showSearch": false
+  }
+}

@@ -137,6 +137,7 @@ import net.mcreator.derrobert.block.LuckyTntBlockBlock;
 import net.mcreator.derrobert.block.LuckyBlockOnBlock;
 import net.mcreator.derrobert.block.LuckyBlockOffBlock;
 import net.mcreator.derrobert.block.InternalUpdateBlockBlock;
+import net.mcreator.derrobert.block.InfiniminerDirtBlock;
 import net.mcreator.derrobert.block.HydrogeneBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackGlowBlock;
 import net.mcreator.derrobert.block.HerobrineNetherrackBlock;
@@ -227,9 +228,9 @@ import net.mcreator.derrobert.DerRobertMod;
 
 public class DerRobertModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DerRobertMod.MODID);
-	public static final RegistryObject<Block> AETHER_AMBEROOT_LOG = REGISTRY.register("aether_amberoot_log", () -> new AetherAmberootLogBlock());
 	public static final RegistryObject<Block> AETHER_DIRT_BLOCK = REGISTRY.register("aether_dirt_block", () -> new AetherDirtBlockBlock());
 	public static final RegistryObject<Block> AETHER_GRASS_BLOCK = REGISTRY.register("aether_grass_block", () -> new AetherGrassBlockBlock());
+	public static final RegistryObject<Block> AETHER_AMBEROOT_LOG = REGISTRY.register("aether_amberoot_log", () -> new AetherAmberootLogBlock());
 	public static final RegistryObject<Block> AETHER_GREATROOT_LOG = REGISTRY.register("aether_greatroot_log", () -> new AetherGreatrootLogBlock());
 	public static final RegistryObject<Block> AETHER_PORTAL_BLOCK = REGISTRY.register("aether_portal_block", () -> new AetherPortalBlockBlock());
 	public static final RegistryObject<Block> AETHER_SKYROOT_LOG = REGISTRY.register("aether_skyroot_log", () -> new AetherSkyrootLogBlock());
@@ -360,6 +361,7 @@ public class DerRobertModBlocks {
 	public static final RegistryObject<Block> MANIC_WOOD_PLANKS = REGISTRY.register("manic_wood_planks", () -> new ManicWoodPlanksBlock());
 	public static final RegistryObject<Block> OXYGENE = REGISTRY.register("oxygene", () -> new OxygeneBlock());
 	public static final RegistryObject<Block> HYDROGENE = REGISTRY.register("hydrogene", () -> new HydrogeneBlock());
+	public static final RegistryObject<Block> INFINIMINER_DIRT = REGISTRY.register("infiniminer_dirt", () -> new InfiniminerDirtBlock());
 	public static final RegistryObject<Block> NETHER_REACTOR_CORE_RED = REGISTRY.register("nether_reactor_core_red", () -> new NetherReactorCoreRedBlock());
 	public static final RegistryObject<Block> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", () -> new SomeWhiteCylinderBlock());
 	public static final RegistryObject<Block> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", () -> new HerobrineNetherrackGlowBlock());

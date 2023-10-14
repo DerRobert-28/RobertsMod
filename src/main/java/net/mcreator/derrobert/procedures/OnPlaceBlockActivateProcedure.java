@@ -27,6 +27,10 @@ public class OnPlaceBlockActivateProcedure
 			return false;
 		}
 
+		return true;
+	}
+
+}
 		
 		
 		
@@ -35,10 +39,6 @@ public class OnPlaceBlockActivateProcedure
 //		//
 //		world.setBlock(_testBlock1, _front);
 //		world.setBlock(_testBlock2, _behind);
-		return true;
-	}
-
-}
 
 //		world.setBlock(
 //			BWU.getBlockPos(_fx, _fy, _fz),

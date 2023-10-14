@@ -36,6 +36,7 @@ import net.mcreator.derrobert.world.features.ores.ManicGrassBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ManicDirtBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ManicCobblestoneFeature;
 import net.mcreator.derrobert.world.features.ores.ManicCamouflageFeature;
+import net.mcreator.derrobert.world.features.ores.InfiniminerDirtFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackGlowFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackFeature;
 import net.mcreator.derrobert.world.features.ores.GlowingObsidianFeature;
@@ -115,9 +116,9 @@ import net.mcreator.derrobert.DerRobertMod;
 @Mod.EventBusSubscriber
 public class DerRobertModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, DerRobertMod.MODID);
-	public static final RegistryObject<Feature<?>> AETHER_AMBEROOT_LOG = REGISTRY.register("aether_amberoot_log", AetherAmberootLogFeature::new);
 	public static final RegistryObject<Feature<?>> AETHER_DIRT_BLOCK = REGISTRY.register("aether_dirt_block", AetherDirtBlockFeature::new);
 	public static final RegistryObject<Feature<?>> AETHER_GRASS_BLOCK = REGISTRY.register("aether_grass_block", AetherGrassBlockFeature::new);
+	public static final RegistryObject<Feature<?>> AETHER_AMBEROOT_LOG = REGISTRY.register("aether_amberoot_log", AetherAmberootLogFeature::new);
 	public static final RegistryObject<Feature<?>> AETHER_GREATROOT_LOG = REGISTRY.register("aether_greatroot_log", AetherGreatrootLogFeature::new);
 	public static final RegistryObject<Feature<?>> AETHER_SKYROOT_LOG = REGISTRY.register("aether_skyroot_log", AetherSkyrootLogFeature::new);
 	public static final RegistryObject<Feature<?>> AETHER_THERAWOOD_LOG = REGISTRY.register("aether_therawood_log", AetherTherawoodLogFeature::new);
@@ -211,6 +212,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MANIC_WATER = REGISTRY.register("manic_water", ManicWaterFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_WOOD_PLANKS = REGISTRY.register("manic_wood_planks", ManicWoodPlanksFeature::new);
 	public static final RegistryObject<Feature<?>> OXYGENE = REGISTRY.register("oxygene", OxygeneFeature::new);
+	public static final RegistryObject<Feature<?>> INFINIMINER_DIRT = REGISTRY.register("infiniminer_dirt", InfiniminerDirtFeature::new);
 	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
 	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
