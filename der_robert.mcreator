@@ -8865,10 +8865,24 @@
       "locked_code": false,
       "registry_name": "lern_prozedur",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/derrobert/procedures/LernProzedurProcedure.java"
-        ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
@@ -9367,7 +9381,7 @@
   "workspaceSettings": {
     "modid": "der_robert",
     "modName": "Robert\u0027s Mod",
-    "version": "1.23.41",
+    "version": "1.23.42",
     "description": "My First Mod",
     "author": "Der Robert",
     "websiteURL": "https://www.youtube.com/@DerRobert28",

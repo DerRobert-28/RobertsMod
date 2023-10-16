@@ -1,30 +1,43 @@
 package der.robert.Custom;
-
+//
+//	JAVA
+//
+import java.util.concurrent.atomic.AtomicReference;
+//
+//	MINECRAFT
+//
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.LevelAccessor;
-import com.google.common.base.Supplier;
+//
+//	MINECRAFT-FORGE
+//
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.registries.RegistryObject;
 
 
-public class BlockWorldUtils
-{
+public class BlockWorldUtils extends LanguageCandy {
 	//
 	//	lokale Welt-Daten:
 	//
+	private final Variant variant = new Variant();
 	private final LevelAccessor level;
 	private double x, y, z;
 
 
 	//
-	//	generiere Zugirff auf aktuelle Welt:
+	//	generiere Zugriff auf aktuelle Welt:
 	//
-	public static BlockWorldUtils of(LevelAccessor level)
-	{
+	public static BlockWorldUtils of(LevelAccessor level) {
 		return new BlockWorldUtils(level);
 	}
 
@@ -32,320 +45,383 @@ public class BlockWorldUtils
 	//
 	//	Welt-Position:
 	//
-	public BlockWorldUtils at(double x, double y, double z)
-	{
+	public BlockWorldUtils at(double x, double y, double z)	{
 		this.x = x;
 		this.y = y;
 		this.z = z;
 		return this;
 	}
-	public void locate(double x, double y, double z)
-	{
-		this.at(x, y, z);
-	}
 
 
 	//
-	//	hole Block als Position:
+	//	Convert to Block (or AIR if impossible):
 	//
-	public BlockPos getPosition()
-	{
-		return BlockPos.containing((int)this.x, (int)this.y, (int)this.z);
+	public BlockState convertToState(Item item) {
+		if(item instanceof BlockItem $item) return $item.getBlock().defaultBlockState();
+		return Blocks.AIR.defaultBlockState();
 	}
-	public BlockPos getPosition(double x, double y, double z)
-	{
-		return BlockPos.containing((int)x, (int)y, (int)z);
+	public BlockState convertToState(ItemStack stack) {
+		Item _item = stack.getItem();
+		return convertToState(_item);
 	}
 
-
-	//
-	//	hole Block als Status:
-	//
-	public BlockState getState()
-	{
-		BlockPos _bp = this.getPosition();
-		return this.getState(_bp);
-		
-	}
-	public BlockState getState(double x, double y, double z)
-	{
-		BlockPos _bp = this.getPosition(x, y, z);
-		return this.getState(_bp);
-	}
-	public BlockState getState(BlockPos bp)
-	{
-		return this.level.getBlockState(bp);
-	}
 
 	//
 	//	hole einen Block (direkt):
 	//
-	public Block getBlock()
-	{
+	public Block getBlock() {
 		return this.getState().getBlock();
 	}
-	public Block getBlock(double x, double y, double z)
-	{
-		return this.getState(x, y, z).getBlock();
-	}
-	public Block getBlock(BlockPos bp)
-	{
+	public Block getBlock(BlockPos bp) {
 		BlockState _bs = this.getState(bp);
 		return this.getBlock(_bs);
 	}
-	public Block getBlock(BlockState bs)
-	{
+	public Block getBlock(BlockState bs) {
 		return bs.getBlock();
 	}
-
-
-	//
-	//	setze einen Block:
-	//
-	public boolean setBlock(BlockState bs, BlockPos bp)
-	{
-		return this.level.setBlock(bp, bs, 3);
-	}
-	public boolean setBlock(BlockState bs, double x, double y, double z)
-	{
-		return this.level.setBlock(this.getPosition(x, y, z), bs, 3);
-	}
-
-
-	//
-	//	hole Blickrichtung:
-	//
-	public Direction getDirection()
-	{
-		BlockState _bs = this.getState();
-		return this.getDirection(_bs);
-	}
-	public Direction getDirection(double x, double y, double z)
-	{
-		BlockState _bs = this.getState(x, y, z);
-		return this.getDirection(_bs);
-	}
-	public Direction getDirection(BlockState bs)
-	{
-		Property<?> _p = this
-			.getBlock(bs)
-			.getStateDefinition()
-			.getProperty("facing");
-		//
-		//	Blickrichtung kann direkt geholt werden:
-		//
-		if(_p != null && bs.getValue(_p) instanceof Direction _d)
-		{
-			return _d;
-		}
-		//
-		//	Blickrichtung nach oben oder unten:
-		//
-		if(bs.hasProperty(BlockStateProperties.AXIS))
-		{
-			return Direction.fromAxisAndDirection(
-				bs.getValue(BlockStateProperties.AXIS),
-				Direction.AxisDirection.POSITIVE
-			);
-		}
-		//
-		//	Blickrichtung zur Seite:
-		//
-		if(bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-		{
-			return Direction.fromAxisAndDirection(
-				bs.getValue(BlockStateProperties.HORIZONTAL_AXIS),
-				Direction.AxisDirection.POSITIVE);
-		}
-		//
-		//	Im Zweifel schaut der Block immer nach Norden:
-		//
-		return Direction.NORTH;
+	public Block getBlock(double x, double y, double z) {
+		return this.getState(x, y, z).getBlock();
 	}
 
 
 	//
 	//	hole Block HINTER aktuellem:
 	//
-	public BlockPos getBackwardBlock()
-	{
-		return this.getBackwardBlock(this.getDirection(), this.x, this.y, this.z);
+	public BlockPos getBlockBehind() {
+		return this.getBlockBehind(this.x, this.y, this.z, this.getDirection());
 	}
-	public BlockPos getBackwardBlock(Direction d, double x, double y, double z)
-	{
-		double _bx = this.getBackwardX(d, x);
-		double _by = this.getBackwardY(d, y);
-		double _bz = this.getBackwardZ(d, z);
+	public BlockPos getBlockBehind(double x, double y, double z, Direction dir) {
+		double _bx = this.getX_ofBack(x, dir);
+		double _by = this.getY_ofBack(y, dir);
+		double _bz = this.getZ_ofBack(z, dir);
 		return this.getPosition(_bx, _by, _bz);
-	}
-	public double getBackwardX()
-	{
-		return this.getBackwardX(this.getDirection(), this.x);
-	}
-	public double getBackwardX(Direction d, double x)
-	{
-		double _bx = x;
-		if(d == Direction.EAST)
-		{
-			_bx--;
-		}
-		if(d == Direction.WEST)
-		{
-			_bx++;
-		}
-		return _bx;
-	}
-	public double getBackwardY()
-	{
-		return this.getBackwardY(this.getDirection(), this.y);
-	}
-	public double getBackwardY(Direction d, double y)
-	{
-		double _by = y;
-		if(d == Direction.DOWN)
-		{
-			_by++;
-		}
-		if(d == Direction.UP)
-		{
-			_by--;
-		}
-		return _by;
-	}
-	public double getBackwardZ()
-	{
-		return this.getBackwardZ(this.getDirection(), this.z);
-	}
-	public double getBackwardZ(Direction d, double z)
-	{
-		double _bz = z;
-		if(d == Direction.NORTH)
-		{
-			_bz++;
-		}
-		if(d == Direction.SOUTH)
-		{
-			_bz--;
-		}
-		return _bz;
 	}
 
 
 	//
 	//	hole Block VOR aktuellem:
 	//
-	public BlockPos getForwardBlock()
-	{
-		return this.getForwardBlock(this.getDirection(), this.x, this.y, this.z);
+	public BlockPos getBlockInFront() {
+		return this.getBlockInFront(this.x, this.y, this.z, this.getDirection());
 	}
-	public BlockPos getForwardBlock(Direction d, double x, double y, double z)
-	{
-		double _fx = this.getForwardX(d, x);
-		double _fy = this.getForwardY(d, y);
-		double _fz = this.getForwardZ(d, z);
+	public BlockPos getBlockInFront(double x, double y, double z, Direction dir) {
+		double _fx = this.getX_ofFront(x, dir);
+		double _fy = this.getY_ofFront(y, dir);
+		double _fz = this.getZ_ofFront(z, dir);
 		return this.getPosition(_fx, _fy, _fz);
 	}
-	public double getForwardX()
-	{
-		return this.getForwardX(this.getDirection(), this.x);
+
+
+	//
+	//	hole einen Custom Block:
+	//
+	public BlockState getCustom(RegistryObject<Block> reg) {
+		return reg.get().defaultBlockState();
 	}
-	public double getForwardX(Direction d, double x)
-	{
+
+
+	//
+	//	hole Blickrichtung:
+	//
+	public Direction getDirection() {
+		BlockState _bs = this.getState();
+		return this.getDirection(_bs);
+	}
+	public Direction getDirection(BlockState state) {
+		Property<?> _property = this
+			.getBlock(state)
+			.getStateDefinition()
+			.getProperty("facing");
+		//
+		//	Blickrichtung kann direkt geholt werden:
+		//
+		if(_property != null && state.getValue(_property) instanceof Direction $dir)
+			return $dir;
+		//
+		//	Blickrichtung nach oben oder unten:
+		//
+		if(state.hasProperty(BlockStateProperties.AXIS)) {
+			return Direction.fromAxisAndDirection(
+				state.getValue(BlockStateProperties.AXIS),
+				Direction.AxisDirection.POSITIVE
+			);
+		}
+		//
+		//	Blickrichtung zur Seite:
+		//
+		if(state.hasProperty(BlockStateProperties.HORIZONTAL_AXIS)) {
+			return Direction.fromAxisAndDirection(
+				state.getValue(BlockStateProperties.HORIZONTAL_AXIS),
+				Direction.AxisDirection.POSITIVE
+			);
+		}
+		//
+		//	Im Zweifel schaut der Block immer nach Norden:
+		//
+		return Direction.NORTH;
+	}
+	public Direction getDirection(double x, double y, double z) {
+		BlockState _state = this.getState(x, y, z);
+		return this.getDirection(_state);
+	}
+
+
+	//
+	//	hole Block als Entity:
+	//
+	public BlockEntity getEntity(BlockPos pos) {
+		return level.getBlockEntity(pos);
+
+	}
+	public BlockEntity getEntity(double x, double y, double z) {
+		BlockPos _pos = this.getPosition(x, y, z);
+		return level.getBlockEntity(_pos);
+	}
+
+
+	//
+	//	hole Block als Position:
+	//
+	public BlockPos getPosition() {
+		return BlockPos.containing((int)(this.x), (int)(this.y), (int)(this.z));
+	}
+	public BlockPos getPosition(double x, double y, double z) {
+		return BlockPos.containing((int)x, (int)y, (int)z);
+	}
+
+
+	//
+	//	Hole die Anzahl der Slots eines Containers:
+	//
+	public int getSlotCount(BlockPos pos) {
+		variant.set(0);
+		BlockEntity _entity = this.getEntity(pos);
+		//
+		if(_entity == null) return 0;
+		//
+		_entity
+			.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
+			.ifPresent($capability -> variant.set($capability.getSlots()));		
+		return variant.get();
+	}
+	public int getSlotCount(double x, double y, double z) {
+		BlockPos _pos = this.getPosition(x, y, z);
+		return this.getSlotCount(_pos);
+	}
+
+
+	//
+	//	Hole Stack in Slot:
+	//
+	public ItemStack getStack(BlockPos pos, int slot) {
+		AtomicReference<ItemStack> _stack = new AtomicReference<>(ItemStack.EMPTY);
+		BlockEntity _entity =this.getEntity(pos);
+		//
+		if(_entity == null) return ItemStack.EMPTY;
+		//
+		_entity
+			.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
+			.ifPresent($capability -> _stack.set($capability.getStackInSlot(slot)));		
+		return _stack.get();		
+	}
+	public ItemStack getStack(double x, double y, double z, int slot) {
+		BlockPos _pos = this.getPosition(x, y, z);
+		return this.getStack(_pos, slot);
+	}
+
+
+	//
+	//	Alternativname für getSlotCount()
+	//
+	public int getSlotNumber(BlockPos pos) {
+		return getSlotCount(pos);
+	}
+	public int getSlotNumber(double x, double y, double z) {
+		return getSlotCount(x, y, z);
+	}
+
+
+	//
+	//	Hole Block als Status:
+	//
+	public BlockState getState() {
+		BlockPos _bp = this.getPosition();
+		return this.getState(_bp);
+		
+	}
+	public BlockState getState(BlockPos bp) {
+		return this.level.getBlockState(bp);
+	}
+	public BlockState getState(double x, double y, double z) {
+		BlockPos _bp = this.getPosition(x, y, z);
+		return this.getState(_bp);
+	}
+
+
+	//
+	//	hole X-Koordinate von hinterem/vorderen Block:
+	//
+	public double getX_ofBack() {
+		return this.getX_ofBack(this.x, this.getDirection());
+	}
+	public double getX_ofBack(double x, Direction dir) {
+		double _bx = x;
+		if(dir == Direction.EAST) _bx--;
+		if(dir == Direction.WEST) _bx++;
+		return _bx;
+	}
+	public double getX_ofFront() {
+		return this.getX_ofFront(this.x, this.getDirection());
+	}
+	public double getX_ofFront(double x, Direction dir) {
 		double _fx = x;
-		if(d == Direction.EAST)
-		{
-			_fx++;
-		}
-		if(d == Direction.WEST)
-		{
-			_fx--;
-		}
+		if(dir == Direction.EAST) _fx++;
+		if(dir == Direction.WEST) _fx--;
 		return _fx;
 	}
-	public double getForwardY()
-	{
-		return this.getForwardY(this.getDirection(), this.y);
+
+
+	//
+	//	hole Y-Koordinate von hinterem/vorderen Block:
+	//
+	public double getY_ofBack() {
+		return this.getY_ofBack(this.y, this.getDirection());
 	}
-	public double getForwardY(Direction d, double y)
-	{
+	public double getY_ofBack(double y, Direction dir) {
+		double _by = y;
+		if(dir == Direction.DOWN) _by++;
+		if(dir == Direction.UP) _by--;
+		return _by;
+	}
+	public double getY_ofFront() {
+		return this.getY_ofFront(this.y, this.getDirection());
+	}
+	public double getY_ofFront(double y, Direction dir) {
 		double _fy = y;
-		if(d == Direction.DOWN)
-		{
-			_fy--;
-		}
-		if(d == Direction.UP)
-		{
-			_fy++;
-		}
+		if(dir == Direction.DOWN) _fy--;
+		if(dir == Direction.UP) _fy++;
 		return _fy;
-	}
-	public double getForwardZ()
-	{
-		return this.getForwardZ(this.getDirection(), this.z);
-	}
-	public double getForwardZ(Direction d, double z)
-	{
-		double _fz = z;
-		if(d == Direction.NORTH)
-		{
-			_fz--;
-		}
-		if(d == Direction.SOUTH)
-		{
-			_fz++;
-		}
-		return _fz;
 	}
 
 	
 	//
-	//	Ist an der aktuellen Stelle ein Block?
+	//	hole Z-Koordinate von hinterem/vorderen Block:
 	//
-	public boolean isFilled()
-	{
-		return !this.isEmpty();
+	public double getZ_ofBack() {
+		return this.getZ_ofBack(this.z, this.getDirection());
 	}
-	public boolean isFilled(Block b)
-	{
-		return !this.isEmpty(b);
+	public double getZ_ofBack(double z, Direction dir) {
+		double _bz = z;
+		if(dir == Direction.NORTH) _bz++;
+		if(dir == Direction.SOUTH) _bz--;
+		return _bz;
 	}
-	public boolean isFilled(BlockPos bp)
-	{
-		return !this.isEmpty(bp);
+	public double getZ_ofFront() {
+		return this.getZ_ofFront(this.z, this.getDirection());
 	}
-	public boolean isFilled(double x, double y, double z)
-	{
-		return !this.isEmpty(x, y, z);
+	public double getZ_ofFront(double z, Direction dir) {
+		double _fz = z;
+		if(dir == Direction.NORTH) _fz--;
+		if(dir == Direction.SOUTH) _fz++;
+		return _fz;
 	}
 
 
 	//
 	//	Ist an der aktuellen Stelle frei?
 	//
-	public boolean isEmpty()
-	{
+	public boolean isEmpty() {
 		return this.isEmpty(this.x, this.y, this.z);
 	}
-	public boolean isEmpty(Block b)
-	{
-		return (b == Blocks.AIR) || (b == Blocks.CAVE_AIR) || (b == Blocks.VOID_AIR);
+	public boolean isEmpty(Block block) {
+		return (block == Blocks.AIR)
+			|| (block == Blocks.CAVE_AIR)
+			|| (block == Blocks.VOID_AIR);
 	}
-	public boolean isEmpty(BlockPos bp)
-	{
-		return this.isEmpty(this.getBlock(bp));
+	public boolean isEmpty(BlockPos pos) {
+		return this.isEmpty(this.getBlock(pos));
 	}
-	public boolean isEmpty(double x, double y, double z)
-	{
-		Block _b = this.getBlock(x, y, z);
-		return this.isEmpty(_b);
+	public boolean isEmpty(double x, double y, double z) {
+		Block _block = this.getBlock(x, y, z);
+		return this.isEmpty(_block);
+	}
+
+	
+	//
+	//	Ist an der aktuellen Stelle ein Block?
+	//
+	public boolean isFilled() {
+		boolean _empty = this.isEmpty();
+		return this.NOT(_empty);
+	}
+	public boolean isFilled(Block block) {
+		boolean _empty = this.isEmpty(block);
+		return this.NOT(_empty);
+	}
+	public boolean isFilled(BlockPos pos) {
+		boolean _empty = this.isEmpty(pos);
+		return this.NOT(_empty);
+	}
+	public boolean isFilled(double x, double y, double z) {
+		boolean _empty = this.isEmpty(x, y, z);
+		return this.NOT(_empty);
+	}
+
+	
+	//
+	//	directly locate world position:
+	//
+	public void locate(double x, double y, double z) {
+		this.setLocation(x, y, z);
+	}
+
+
+	//
+	//	Remove items from slot and return success:
+	//
+	public boolean removeStack(BlockPos pos, int slot, int count) {
+		AtomicReference<ItemStack> _stack = new AtomicReference<>(ItemStack.EMPTY);
+		BlockEntity _entity = this.getEntity(pos);
+		//
+		if(_entity == null) return false;
+		//
+		_entity
+			.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
+			.ifPresent($capability -> _stack.set($capability.extractItem(slot, count, false)));
+		ItemStack _get = _stack.get();
+		return (_get != null) && (_get != ItemStack.EMPTY);
+	}
+	public boolean removeStack(double x, double y, double z, int slot, int count) {
+		BlockPos _pos = this.getPosition(x, y, z);
+		return this.removeStack(_pos, slot, count);
+	}
+
+
+	//
+	//	setze einen Block:
+	//
+	public boolean setBlock(BlockPos pos, BlockState state) {
+		return this.level.setBlock(pos, state, 3);
+	}
+	public boolean setBlock(double x, double y, double z, BlockState state) {
+		return this.level.setBlock(this.getPosition(x, y, z), state, 3);
+	}
+
+
+	//
+	//	set world location/position:
+	//
+	public void setLocation(double x, double y, double z) {
+		this.x = x;
+		this.y = y;
+		this.z = z;
 	}
 
 
 	//
 	//	privater Konstruktor:
 	//
-	private BlockWorldUtils(LevelAccessor level)
-	{
+	private BlockWorldUtils(LevelAccessor level) {
 		this.level = level;
 	}
 }
