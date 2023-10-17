@@ -13,11 +13,14 @@
 
 - Mod development:
   - General:
+    - Shortening further block names
   - Blocks/items:
-  - Commands:
-  - Dimensions:
+  	- Boulder Dash Diamond
+  	- Boulder Dash Cave Dirt
+  	- Boulder Dash Cave Rock
+  	- Boulder Dash Cave Walls
   - Crafting recipies:
-  - Entities:
+  	- Boulder Dash Cave Rock 1 & 2
 - Repository development:
   - Bugfixes:
     - PlaceBlock is now functional!

@@ -99,6 +99,11 @@ import net.mcreator.derrobert.world.features.ores.ClassicBrickStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBedrockBlockFeature;
+import net.mcreator.derrobert.world.features.ores.BoulderDaskCaveRockBlockFeature;
+import net.mcreator.derrobert.world.features.ores.BoulderDashDiamondBlockFeature;
+import net.mcreator.derrobert.world.features.ores.BoulderDashCaveWall2Feature;
+import net.mcreator.derrobert.world.features.ores.BoulderDashCaveWall1Feature;
+import net.mcreator.derrobert.world.features.ores.BoulderDashCaveUndergroundFeature;
 import net.mcreator.derrobert.world.features.ores.BetaMonsterSpawnerFeature;
 import net.mcreator.derrobert.world.features.ores.BetaGravelBlockFeature;
 import net.mcreator.derrobert.world.features.ores.BetaEndStoneFeature;
@@ -189,6 +194,9 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> NO_CHEST = REGISTRY.register("no_chest", NoChestFeature::new);
 	public static final RegistryObject<Feature<?>> SIX_SIDED_HAY_BLOCK = REGISTRY.register("six_sided_hay_block", SixSidedHayBlockFeature::new);
 	public static final RegistryObject<Feature<?>> WHITE_LIGHT_BLOCK = REGISTRY.register("white_light_block", WhiteLightBlockFeature::new);
+	public static final RegistryObject<Feature<?>> BOULDER_DASH_CAVE_UNDERGROUND = REGISTRY.register("boulder_dash_cave_underground", BoulderDashCaveUndergroundFeature::new);
+	public static final RegistryObject<Feature<?>> BOULDER_DASH_CAVE_WALL_1 = REGISTRY.register("boulder_dash_cave_wall_1", BoulderDashCaveWall1Feature::new);
+	public static final RegistryObject<Feature<?>> BOULDER_DASH_CAVE_WALL_2 = REGISTRY.register("boulder_dash_cave_wall_2", BoulderDashCaveWall2Feature::new);
 	public static final RegistryObject<Feature<?>> CLASSIC_GHOST_DIRT = REGISTRY.register("classic_ghost_dirt", ClassicGhostDirtFeature::new);
 	public static final RegistryObject<Feature<?>> UPDATE_BLOCK = REGISTRY.register("update_block", UpdateBlockFeature::new);
 	public static final RegistryObject<Feature<?>> ALPHA_GRASS_BLOCK = REGISTRY.register("alpha_grass_block", AlphaGrassBlockFeature::new);
@@ -216,10 +224,12 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MANIC_WOOD_PLANKS = REGISTRY.register("manic_wood_planks", ManicWoodPlanksFeature::new);
 	public static final RegistryObject<Feature<?>> OXYGENE = REGISTRY.register("oxygene", OxygeneFeature::new);
 	public static final RegistryObject<Feature<?>> INFINIMINER_DIRT = REGISTRY.register("infiniminer_dirt", InfiniminerDirtFeature::new);
-	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
-	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
-	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
 	public static final RegistryObject<Feature<?>> INFINIMINER_ROCK = REGISTRY.register("infiniminer_rock", InfiniminerRockFeature::new);
 	public static final RegistryObject<Feature<?>> INFINIMINER_ROAD = REGISTRY.register("infiniminer_road", InfiniminerRoadFeature::new);
 	public static final RegistryObject<Feature<?>> INFINIMINER_DIRT_SIGN = REGISTRY.register("infiniminer_dirt_sign", InfiniminerDirtSignFeature::new);
+	public static final RegistryObject<Feature<?>> SOME_WHITE_CYLINDER = REGISTRY.register("some_white_cylinder", SomeWhiteCylinderFeature::new);
+	public static final RegistryObject<Feature<?>> HEROBRINE_NETHERRACK_GLOW = REGISTRY.register("herobrine_netherrack_glow", HerobrineNetherrackGlowFeature::new);
+	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
+	public static final RegistryObject<Feature<?>> BOULDER_DASH_DIAMOND_BLOCK = REGISTRY.register("boulder_dash_diamond_block", BoulderDashDiamondBlockFeature::new);
+	public static final RegistryObject<Feature<?>> BOULDER_DASK_CAVE_ROCK_BLOCK = REGISTRY.register("boulder_dask_cave_rock_block", BoulderDaskCaveRockBlockFeature::new);
 }

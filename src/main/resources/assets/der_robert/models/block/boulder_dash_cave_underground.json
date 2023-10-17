@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/boulder_dash_cave_underground",
+    "particle": "der_robert:block/boulder_dash_cave_underground"
+  },
+  "render_type": "solid"
+}

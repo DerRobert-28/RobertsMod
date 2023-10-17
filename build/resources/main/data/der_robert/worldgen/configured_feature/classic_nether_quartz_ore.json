@@ -8,7 +8,18 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:netherrack"
+            "Name": "minecraft:nether_quartz_ore"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_nether_quartz_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:nether_gold_ore"
           }
         },
         "state": {

@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Classic Nether Quartz Ore",
+    "name": "Nether Quartz Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 3.0,
@@ -123,7 +123,10 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
       }
     ],
     "generationShape": "UNIFORM",

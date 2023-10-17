@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Beta Monster Spawner",
+    "name": "Monster Spawner",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 5.0,

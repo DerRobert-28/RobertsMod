@@ -6,9 +6,18 @@
     "targets": [
       {
         "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:stone"
+        },
+        "state": {
+          "Name": "der_robert:manic_cobblestone"
+        }
+      },
+      {
+        "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:cobbled_deepslate"
+            "Name": "minecraft:stone"
           }
         },
         "state": {
@@ -20,6 +29,17 @@
           "predicate_type": "blockstate_match",
           "block_state": {
             "Name": "minecraft:cobblestone"
+          }
+        },
+        "state": {
+          "Name": "der_robert:manic_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:mossy_cobblestone"
           }
         },
         "state": {

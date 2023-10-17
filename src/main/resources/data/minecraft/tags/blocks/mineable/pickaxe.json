@@ -37,6 +37,7 @@
     "der_robert:missing_no_button",
     "der_robert:nether_portal_button",
     "der_robert:white_light_block",
+    "der_robert:boulder_dash_cave_wall_1",
     "der_robert:pickaxe_block_off",
     "der_robert:place_block_off",
     "der_robert:glowing_obsidian",
@@ -48,10 +49,12 @@
     "der_robert:manic_cobblestone",
     "der_robert:manic_roof_block",
     "der_robert:manic_stone_block",
+    "der_robert:infiniminer_rock",
     "der_robert:nether_reactor_core_red",
     "der_robert:herobrine_netherrack_glow",
     "der_robert:pickaxe_block_on",
     "der_robert:place_block_on",
-    "der_robert:infiniminer_rock"
+    "der_robert:boulder_dash_diamond_block",
+    "der_robert:boulder_dask_cave_rock_block"
   ]
 }

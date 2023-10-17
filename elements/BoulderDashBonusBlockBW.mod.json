@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Boulder Dash Bonus Block (B&W)",
+    "name": "Bonus Level Block (B&W)",
     "specialInfo": [],
     "hardness": 10.0,
     "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RobertsModTab"
+      "value": "CUSTOM:RobertsBoulderDashTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {

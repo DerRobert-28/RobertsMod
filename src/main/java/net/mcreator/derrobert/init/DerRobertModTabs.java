@@ -145,8 +145,6 @@ public class DerRobertModTabs {
 	public static final RegistryObject<CreativeModeTab> ROBERTS_MOD_TAB = REGISTRY.register("roberts_mod_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_mod_tab")).icon(() -> new ItemStack(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.ANTI_LIGHT_BLOCK.get().asItem());
-				tabData.accept(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK.get().asItem());
-				tabData.accept(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_SLABS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS.get().asItem());
@@ -188,7 +186,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MANIC_CAMOUFLAGE.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_DIGGER_CRAFTER.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_DIGGER_D.get().asItem());
-				tabData.accept(DerRobertModBlocks.MANIC_DIIGGER_EMPTY.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_DIGGER_M.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_COBBLESTONE.get().asItem());
 				tabData.accept(DerRobertModBlocks.MANIC_DIRT_BLOCK.get().asItem());
@@ -201,6 +198,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MANIC_WOOD_PLANKS.get().asItem());
 				tabData.accept(DerRobertModItems.MANIC_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.MANIC_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.MANIC_DIGGER_EMPTY.get().asItem());
 			})
 
 					.build());
@@ -241,6 +239,20 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.INFINIMINER_ROCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.INFINIMINER_ROAD.get().asItem());
 				tabData.accept(DerRobertModBlocks.INFINIMINER_DIRT_SIGN.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_BOULDER_DASH_TAB = REGISTRY.register("roberts_boulder_dash_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_boulder_dash_tab")).icon(() -> new ItemStack(DerRobertModBlocks.BOULDER_DASH_ROCKFORD.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_BONUS_BLOCK_BW.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_CAVE_UNDERGROUND.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_CAVE_WALL_1.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_CAVE_WALL_2.get().asItem());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASH_DIAMOND_BLOCK.get().asItem());
+				tabData.accept(DerRobertModItems.BOULDER_DASH_DIAMOND.get());
+				tabData.accept(DerRobertModBlocks.BOULDER_DASK_CAVE_ROCK_BLOCK.get().asItem());
+				tabData.accept(DerRobertModItems.BOULDER_DASH_CAVE_ROCK_ITEM.get());
 			})
 
 					.build());
