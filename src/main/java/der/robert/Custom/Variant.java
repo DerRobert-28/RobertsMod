@@ -7,6 +7,8 @@ import java.lang.String;
 
 public class Variant {
 
+	public static Variant use() { return new Variant(); }
+
 	private boolean b = false;
 	public boolean isFalse() { return (this.b == false); }
 	public boolean isTrue() { return this.b; }
@@ -45,4 +47,6 @@ public class Variant {
 	public void setFalse() { this.b = false; }
 	public void setTrue() { this.b = true; }
 	public void toggle() { this.negate(); }
+
+	private Variant() {};
 }

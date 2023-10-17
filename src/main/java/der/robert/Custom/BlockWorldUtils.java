@@ -1,5 +1,10 @@
 package der.robert.Custom;
 //
+//	CUSTOM
+//
+import der.robert.Custom.LanguageCandy;
+import der.robert.Custom.Stack;
+//
 //	JAVA
 //
 import java.util.concurrent.atomic.AtomicReference;
@@ -25,11 +30,10 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.registries.RegistryObject;
 
 
-public class BlockWorldUtils extends LanguageCandy {
+public class BlockWorldUtils {
 	//
 	//	lokale Welt-Daten:
 	//
-	private final Variant variant = new Variant();
 	private final LevelAccessor level;
 	private double x, y, z;
 
@@ -57,12 +61,13 @@ public class BlockWorldUtils extends LanguageCandy {
 	//	Convert to Block (or AIR if impossible):
 	//
 	public BlockState convertToState(Item item) {
-		if(item instanceof BlockItem $item) return $item.getBlock().defaultBlockState();
+		if(item instanceof BlockItem $item)
+			return $item.getBlock().defaultBlockState();
 		return Blocks.AIR.defaultBlockState();
 	}
 	public BlockState convertToState(ItemStack stack) {
 		Item _item = stack.getItem();
-		return convertToState(_item);
+		return this.convertToState(_item);
 	}
 
 
@@ -194,15 +199,15 @@ public class BlockWorldUtils extends LanguageCandy {
 	//	Hole die Anzahl der Slots eines Containers:
 	//
 	public int getSlotCount(BlockPos pos) {
-		variant.set(0);
+		Variant _variant = Variant.use();
 		BlockEntity _entity = this.getEntity(pos);
 		//
 		if(_entity == null) return 0;
 		//
 		_entity
 			.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-			.ifPresent($capability -> variant.set($capability.getSlots()));		
-		return variant.get();
+			.ifPresent($capability -> _variant.set($capability.getSlots()));		
+		return _variant.get();
 	}
 	public int getSlotCount(double x, double y, double z) {
 		BlockPos _pos = this.getPosition(x, y, z);
@@ -215,7 +220,7 @@ public class BlockWorldUtils extends LanguageCandy {
 	//
 	public ItemStack getStack(BlockPos pos, int slot) {
 		AtomicReference<ItemStack> _stack = new AtomicReference<>(ItemStack.EMPTY);
-		BlockEntity _entity =this.getEntity(pos);
+		BlockEntity _entity = this.getEntity(pos);
 		//
 		if(_entity == null) return ItemStack.EMPTY;
 		//
@@ -352,19 +357,19 @@ public class BlockWorldUtils extends LanguageCandy {
 	//
 	public boolean isFilled() {
 		boolean _empty = this.isEmpty();
-		return this.NOT(_empty);
+		return LanguageCandy.NOT(_empty);
 	}
 	public boolean isFilled(Block block) {
 		boolean _empty = this.isEmpty(block);
-		return this.NOT(_empty);
+		return LanguageCandy.NOT(_empty);
 	}
 	public boolean isFilled(BlockPos pos) {
 		boolean _empty = this.isEmpty(pos);
-		return this.NOT(_empty);
+		return LanguageCandy.NOT(_empty);
 	}
 	public boolean isFilled(double x, double y, double z) {
 		boolean _empty = this.isEmpty(x, y, z);
-		return this.NOT(_empty);
+		return LanguageCandy.NOT(_empty);
 	}
 
 	
@@ -387,7 +392,11 @@ public class BlockWorldUtils extends LanguageCandy {
 		//
 		_entity
 			.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-			.ifPresent($capability -> _stack.set($capability.extractItem(slot, count, false)));
+			.ifPresent($capability ->
+				_stack.set(
+					$capability.extractItem(slot, count, false)
+				)
+			);
 		ItemStack _get = _stack.get();
 		return (_get != null) && (_get != ItemStack.EMPTY);
 	}

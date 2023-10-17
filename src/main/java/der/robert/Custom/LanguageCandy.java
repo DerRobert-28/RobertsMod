@@ -1,16 +1,16 @@
 package der.robert.Custom;
 
 
-public class LanguageCandy {
+public final class LanguageCandy {
 	//
 	//	NOT-LanguageCandy
 	//
-	protected static boolean NOT(boolean condition) {
+	public static boolean NOT(boolean condition) {
 		return condition == false;
 	}
 
 	//
 	//	should not be instanciated:
 	//
-	protected LanguageCandy() {}
+	private LanguageCandy() {}
 }
