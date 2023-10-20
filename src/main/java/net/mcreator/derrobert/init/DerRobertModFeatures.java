@@ -44,6 +44,7 @@ import net.mcreator.derrobert.world.features.ores.InfiniminerDirtSignFeature;
 import net.mcreator.derrobert.world.features.ores.InfiniminerDirtFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackGlowFeature;
 import net.mcreator.derrobert.world.features.ores.HerobrineNetherrackFeature;
+import net.mcreator.derrobert.world.features.ores.GreyDirtBlockFeature;
 import net.mcreator.derrobert.world.features.ores.GlowingObsidianFeature;
 import net.mcreator.derrobert.world.features.ores.GlassDoorFeature;
 import net.mcreator.derrobert.world.features.ores.EndPortalButtonFeature;
@@ -102,6 +103,7 @@ import net.mcreator.derrobert.world.features.ores.ClassicBrickStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickSlabsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBrickBlockFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicBedrockBlockFeature;
+import net.mcreator.derrobert.world.features.ores.CarbonFeature;
 import net.mcreator.derrobert.world.features.ores.BoulderDaskCaveRockBlockFeature;
 import net.mcreator.derrobert.world.features.ores.BoulderDashDiamondBlockFeature;
 import net.mcreator.derrobert.world.features.ores.BoulderDashCaveWall2Feature;
@@ -238,4 +240,6 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> CLASSIC_TORCH = REGISTRY.register("classic_torch", ClassicTorchFeature::new);
 	public static final RegistryObject<Feature<?>> STARDEW_VALLEY_SALOON_GREEN_WALL_BLOCK = REGISTRY.register("stardew_valley_saloon_green_wall_block", StardewValleySaloonGreenWallBlockFeature::new);
 	public static final RegistryObject<Feature<?>> STARDEW_VALLEY_GENERIC_DOOR = REGISTRY.register("stardew_valley_generic_door", StardewValleyGenericDoorFeature::new);
+	public static final RegistryObject<Feature<?>> CARBON = REGISTRY.register("carbon", CarbonFeature::new);
+	public static final RegistryObject<Feature<?>> GREY_DIRT_BLOCK = REGISTRY.register("grey_dirt_block", GreyDirtBlockFeature::new);
 }

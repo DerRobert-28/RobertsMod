@@ -3,16 +3,26 @@ package der.robert.Custom;
 //	CUSTOM
 //
 import der.robert.Custom.LanguageCandy;
-import der.robert.Custom.Stack;
+//import der.robert.Custom.ObjectStack;
 //
 //	JAVA
 //
 import java.util.concurrent.atomic.AtomicReference;
 //
+//	JAVAX
+//
+import javax.annotation.Nullable;
+//
 //	MINECRAFT
 //
+import net.minecraft.commands.Commands;
+import net.minecraft.commands.CommandSource;
+import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -23,25 +33,30 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.phys.Vec3;
 //
 //	MINECRAFT-FORGE
 //
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.registries.RegistryObject;
-
-
-public class BlockWorldUtils {
+//
+//
+public class BlockWorldUtils
+{
 	//
-	//	lokale Welt-Daten:
+	//	Lokale Welt-Daten:
 	//
 	private final LevelAccessor level;
 	private double x, y, z;
-
+	private Vec3 vector = null;
+	private CommandSourceStack sourceStack = null;
 
 	//
-	//	generiere Zugriff auf aktuelle Welt:
+	//	Generiere Zugriff auf aktuelle Welt:
 	//
-	public static BlockWorldUtils of(LevelAccessor level) {
+	public static BlockWorldUtils of(LevelAccessor level)
+	{
 		return new BlockWorldUtils(level);
 	}
 
@@ -49,10 +64,9 @@ public class BlockWorldUtils {
 	//
 	//	Welt-Position:
 	//
-	public BlockWorldUtils at(double x, double y, double z)	{
-		this.x = x;
-		this.y = y;
-		this.z = z;
+	public BlockWorldUtils at(double x, double y, double z)
+	{
+		this.setLocation(x, y, z);
 		return this;
 	}
 
@@ -60,31 +74,68 @@ public class BlockWorldUtils {
 	//
 	//	Convert to Block (or AIR if impossible):
 	//
-	public BlockState convertToState(Item item) {
+	public BlockState convertToState(Item item)
+	{
 		if(item instanceof BlockItem $item)
+		{
 			return $item.getBlock().defaultBlockState();
+		}
 		return Blocks.AIR.defaultBlockState();
 	}
-	public BlockState convertToState(ItemStack stack) {
+	public BlockState convertToState(ItemStack stack)
+	{
 		Item _item = stack.getItem();
 		return this.convertToState(_item);
+	}
+
+	
+	public CommandSourceStack useSourceStack()
+	{
+		CommandSourceStack _stack = this.sourceStack;
+		if(_stack == null)
+		{
+			// WIP
+		}
+		return _stack;
+	}
+	
+	//
+	//	Führe einen Befehl aus:
+	//
+	public boolean execute(String chatCommand)
+	{
+		Commands _cmd = this.getCommands();
+		if(_cmd == null)
+		{
+			return false;
+		}
+		_cmd.performPrefixedCommand
+		(
+			this.sourceStack.withSuppressedOutput(),
+			chatCommand
+		);
+		return true;
 	}
 
 
 	//
 	//	hole einen Block (direkt):
 	//
-	public Block getBlock() {
+	public Block getBlock()
+	{
 		return this.getState().getBlock();
 	}
-	public Block getBlock(BlockPos bp) {
+	public Block getBlock(BlockPos bp)
+	{
 		BlockState _bs = this.getState(bp);
 		return this.getBlock(_bs);
 	}
-	public Block getBlock(BlockState bs) {
+	public Block getBlock(BlockState bs)
+	{
 		return bs.getBlock();
 	}
-	public Block getBlock(double x, double y, double z) {
+	public Block getBlock(double x, double y, double z)
+	{
 		return this.getState(x, y, z).getBlock();
 	}
 
@@ -92,10 +143,12 @@ public class BlockWorldUtils {
 	//
 	//	hole Block HINTER aktuellem:
 	//
-	public BlockPos getBlockBehind() {
+	public BlockPos getBlockBehind()
+	{
 		return this.getBlockBehind(this.x, this.y, this.z, this.getDirection());
 	}
-	public BlockPos getBlockBehind(double x, double y, double z, Direction dir) {
+	public BlockPos getBlockBehind(double x, double y, double z, Direction dir)
+	{
 		double _bx = this.getX_ofBack(x, dir);
 		double _by = this.getY_ofBack(y, dir);
 		double _bz = this.getZ_ofBack(z, dir);
@@ -106,10 +159,12 @@ public class BlockWorldUtils {
 	//
 	//	hole Block VOR aktuellem:
 	//
-	public BlockPos getBlockInFront() {
+	public BlockPos getBlockInFront()
+	{
 		return this.getBlockInFront(this.x, this.y, this.z, this.getDirection());
 	}
-	public BlockPos getBlockInFront(double x, double y, double z, Direction dir) {
+	public BlockPos getBlockInFront(double x, double y, double z, Direction dir)
+	{
 		double _fx = this.getX_ofFront(x, dir);
 		double _fy = this.getY_ofFront(y, dir);
 		double _fz = this.getZ_ofFront(z, dir);
@@ -118,9 +173,25 @@ public class BlockWorldUtils {
 
 
 	//
+	//	Hole Befehlsliste
+	//
+	@Nullable
+	public Commands getCommands()
+	{
+		MinecraftServer _server = this.getServer();
+		if(_server == null)
+		{
+			return null;
+		}
+		return _server.getCommands();
+	}
+
+
+	//
 	//	hole einen Custom Block:
 	//
-	public BlockState getCustom(RegistryObject<Block> reg) {
+	public BlockState getCustom(RegistryObject<Block> reg)
+	{
 		return reg.get().defaultBlockState();
 	}
 
@@ -128,11 +199,13 @@ public class BlockWorldUtils {
 	//
 	//	hole Blickrichtung:
 	//
-	public Direction getDirection() {
+	public Direction getDirection()
+	{
 		BlockState _bs = this.getState();
 		return this.getDirection(_bs);
 	}
-	public Direction getDirection(BlockState state) {
+	public Direction getDirection(BlockState state)
+	{
 		Property<?> _property = this
 			.getBlock(state)
 			.getStateDefinition()
@@ -141,12 +214,16 @@ public class BlockWorldUtils {
 		//	Blickrichtung kann direkt geholt werden:
 		//
 		if(_property != null && state.getValue(_property) instanceof Direction $dir)
+		{
 			return $dir;
+		}
 		//
 		//	Blickrichtung nach oben oder unten:
 		//
-		if(state.hasProperty(BlockStateProperties.AXIS)) {
-			return Direction.fromAxisAndDirection(
+		if(state.hasProperty(BlockStateProperties.AXIS))
+		{
+			return Direction.fromAxisAndDirection
+			(
 				state.getValue(BlockStateProperties.AXIS),
 				Direction.AxisDirection.POSITIVE
 			);
@@ -154,8 +231,10 @@ public class BlockWorldUtils {
 		//
 		//	Blickrichtung zur Seite:
 		//
-		if(state.hasProperty(BlockStateProperties.HORIZONTAL_AXIS)) {
-			return Direction.fromAxisAndDirection(
+		if(state.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
+		{
+			return Direction.fromAxisAndDirection
+			(
 				state.getValue(BlockStateProperties.HORIZONTAL_AXIS),
 				Direction.AxisDirection.POSITIVE
 			);
@@ -165,7 +244,8 @@ public class BlockWorldUtils {
 		//
 		return Direction.NORTH;
 	}
-	public Direction getDirection(double x, double y, double z) {
+	public Direction getDirection(double x, double y, double z)
+	{
 		BlockState _state = this.getState(x, y, z);
 		return this.getDirection(_state);
 	}
@@ -174,11 +254,13 @@ public class BlockWorldUtils {
 	//
 	//	hole Block als Entity:
 	//
-	public BlockEntity getEntity(BlockPos pos) {
+	public BlockEntity getEntity(BlockPos pos)
+	{
 		return level.getBlockEntity(pos);
 
 	}
-	public BlockEntity getEntity(double x, double y, double z) {
+	public BlockEntity getEntity(double x, double y, double z)
+	{
 		BlockPos _pos = this.getPosition(x, y, z);
 		return level.getBlockEntity(_pos);
 	}
@@ -187,11 +269,42 @@ public class BlockWorldUtils {
 	//
 	//	hole Block als Position:
 	//
-	public BlockPos getPosition() {
+	public BlockPos getPosition()
+	{
 		return BlockPos.containing((int)(this.x), (int)(this.y), (int)(this.z));
 	}
-	public BlockPos getPosition(double x, double y, double z) {
+	public BlockPos getPosition(double x, double y, double z)
+	{
 		return BlockPos.containing((int)x, (int)y, (int)z);
+	}
+
+
+	//
+	//	Hole den Weltserver
+	//
+	@Nullable
+	public MinecraftServer getServer()
+	{
+		ServerLevel _level = this.getServerLevel();
+		if(_level == null)
+		{
+			return null;
+		}
+		return _level.getServer();
+	}
+
+
+	//
+	//	Hole das Weltserver-Level
+	//
+	@Nullable
+	public ServerLevel getServerLevel()
+	{
+		if(this.level instanceof ServerLevel _level)
+		{
+			return _level;
+		}
+		return null;
 	}
 
 
@@ -424,6 +537,18 @@ public class BlockWorldUtils {
 		this.x = x;
 		this.y = y;
 		this.z = z;
+		this.vector = new Vec3(x, y, z);
+		this.sourceStack = new CommandSourceStack(
+			CommandSource.NULL,
+			this.vector,
+			Vec2.ZERO,
+			this.getServerLevel(),
+			4,
+			"",
+			Component.literal(""),
+			this.getServer(),
+			null
+		);
 	}
 
 

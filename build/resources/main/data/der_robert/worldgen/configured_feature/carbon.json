@@ -1,0 +1,42 @@
+{
+  "type": "der_robert:carbon",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:coal_ore"
+          }
+        },
+        "state": {
+          "Name": "der_robert:carbon"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_coal_ore"
+          }
+        },
+        "state": {
+          "Name": "der_robert:carbon"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:coal_block"
+          }
+        },
+        "state": {
+          "Name": "der_robert:carbon"
+        }
+      }
+    ]
+  }
+}

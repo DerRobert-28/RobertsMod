@@ -317,6 +317,10 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> STARDEW_VALLEY_SALOON_GREEN_WALL_CANDLES = block(DerRobertModBlocks.STARDEW_VALLEY_SALOON_GREEN_WALL_CANDLES);
 	public static final RegistryObject<Item> STARDEW_VALLEY_PURPLE_CRYSTAL_BLOCK = block(DerRobertModBlocks.STARDEW_VALLEY_PURPLE_CRYSTAL_BLOCK);
 	public static final RegistryObject<Item> STARDEW_VALLEY_GENERIC_DOOR = doubleBlock(DerRobertModBlocks.STARDEW_VALLEY_GENERIC_DOOR);
+	public static final RegistryObject<Item> CARBON = block(DerRobertModBlocks.CARBON);
+	public static final RegistryObject<Item> POCKET_CAMERA_BLOCK = block(DerRobertModBlocks.POCKET_CAMERA_BLOCK);
+	public static final RegistryObject<Item> SIX_SIDED_TRAP_DOOR_BLOCK = block(DerRobertModBlocks.SIX_SIDED_TRAP_DOOR_BLOCK);
+	public static final RegistryObject<Item> GREY_DIRT_BLOCK = block(DerRobertModBlocks.GREY_DIRT_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

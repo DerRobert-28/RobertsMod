@@ -3,8 +3,8 @@ package der.robert.Custom;
 //	JAVA
 //
 import java.util.LinkedList;
-
-
+//
+//
 public final class ObjectStack {
 
 	private LinkedList<Object> stack = new LinkedList();

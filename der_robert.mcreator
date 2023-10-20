@@ -4490,7 +4490,7 @@
           "src/main/resources/data/der_robert/forge/biome_modifier/no_chest_biome_modifier.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/AprilFools"
     },
     {
       "name": "NoChestRecipe",
@@ -7355,9 +7355,6 @@
       "locked_code": false,
       "registry_name": "show_version",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/derrobert/procedures/ShowVersionProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -8848,9 +8845,6 @@
       "locked_code": false,
       "registry_name": "lern_prozedur",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/derrobert/procedures/LernProzedurProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -9297,6 +9291,111 @@
         ]
       },
       "path": "~/Blocks/StardewValley"
+    },
+    {
+      "name": "Carbon",
+      "type": "block",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/item/carbon.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/carbon.json",
+          "src/main/java/net/mcreator/derrobert/block/CarbonBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/carbon.json",
+          "src/main/resources/assets/der_robert/models/block/carbon.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/CarbonFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/carbon_biome_modifier.json",
+          "src/main/resources/assets/der_robert/blockstates/carbon.json"
+        ]
+      },
+      "path": "~/Blocks/Education"
+    },
+    {
+      "name": "PocketCameraBlock",
+      "type": "block",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pocket_camera_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/pocket_camera_block.json",
+          "src/main/resources/assets/der_robert/blockstates/pocket_camera_block.json",
+          "src/main/java/net/mcreator/derrobert/block/PocketCameraBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/item/pocket_camera_block.json"
+        ]
+      },
+      "path": "~/Blocks/Pocket"
+    },
+    {
+      "name": "SixSidedTrapDoorBlock",
+      "type": "block",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_trap_door_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/six_sided_trap_door_block.json",
+          "src/main/java/net/mcreator/derrobert/block/SixSidedTrapDoorBlockBlock.java",
+          "src/main/resources/assets/der_robert/models/item/six_sided_trap_door_block.json",
+          "src/main/resources/assets/der_robert/models/block/six_sided_trap_door_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SixSidedTrapDoorRecipe",
+      "type": "recipe",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "six_sided_trap_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/recipes/six_sided_trap_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyDirtBlock",
+      "type": "block",
+      "sortid": 496,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/grey_dirt_block.json",
+          "src/main/java/net/mcreator/derrobert/block/GreyDirtBlockBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/grey_dirt_block.json",
+          "src/main/resources/assets/der_robert/blockstates/grey_dirt_block.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/grey_dirt_block_biome_modifier.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/GreyDirtBlockFeature.java",
+          "src/main/resources/assets/der_robert/models/item/grey_dirt_block.json",
+          "src/main/resources/assets/der_robert/models/block/grey_dirt_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PocketCameraOnRedstone",
+      "type": "procedure",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pocket_camera_on_redstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/PocketCameraOnRedstoneProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Pocket"
     }
   ],
   "variable_elements": [
@@ -9310,9 +9409,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.der_robert.classic_smooth_stone_stairs": "Smooth Stone Stiars",
-      "block.der_robert.manic_cobblestone": "Cobblestone",
       "block.der_robert.classic_ruby_ore": "Ruby Ore",
+      "block.der_robert.manic_cobblestone": "Cobblestone",
+      "block.der_robert.classic_smooth_stone_stairs": "Smooth Stone Stiars",
       "entity.der_robert.tracy_moodalie": "Tracy88",
       "block.der_robert.classic_dirt_block": "Dirt",
       "block.der_robert.stardew_valley_purple_crystal_block": "Purple Crystal Block",
@@ -9324,8 +9423,8 @@
       "block.der_robert.classic_glass_wall": "Glass Wall",
       "block.der_robert.plastic_pane_3": "Plastic Pane",
       "block.der_robert.plastic_pane_4": "Plastic Pane",
-      "block.der_robert.hydrogene": "Hydrogene",
       "block.der_robert.plastic_pane_5": "Plastic Pane",
+      "block.der_robert.hydrogene": "Hydrogene",
       "block.der_robert.plastic_pane_6": "Plastic Pane",
       "block.der_robert.plastic_pane_0": "Plastic Pane",
       "block.der_robert.creeponia_brick_block": "Creeponia Bricks",
@@ -9355,6 +9454,7 @@
       "item_group.der_robert.roberts_mod_tab": "Robert\u0027s Mod",
       "entity.der_robert.notch": "Notch",
       "entity.der_robert.manic_zombie": "Manic Digger Zombie",
+      "block.der_robert.pocket_camera_block": "Camera Block",
       "block.der_robert.plastic_walls_white": "Plastic Wall",
       "block.der_robert.beta_gravel_block": "Gravel",
       "block.der_robert.creeponia_brick_wall": "Creeponia Brick Wall",
@@ -9381,6 +9481,7 @@
       "item.der_robert.manic_zombie_spawn_egg": "Manic Digger Zombie Spawn Egg",
       "block.der_robert.stardew_valley_generic_door": "Interior Door",
       "block.der_robert.lucky_block_on": "Lucky Block",
+      "block.der_robert.carbon": "Carbon",
       "block.der_robert.end_portal_button": "End Portal Button",
       "block.der_robert.classic_brick_stairs": "Brick Stairs",
       "item_group.der_robert.roberts_classic_tab": "Classic",
@@ -9568,6 +9669,7 @@
       "block.der_robert.plastic_door_1": "Plastic Door",
       "block.der_robert.plastic_door_2": "Plastic Door",
       "block.der_robert.plastic_door_3": "Plastic Door",
+      "block.der_robert.grey_dirt_block": "Grey Dirt",
       "block.der_robert.plastic_door_4": "Plastic Door",
       "item.der_robert.manic_human_spawn_egg": "Manic Digger Human Spawn Egg",
       "item.der_robert.classic_ruby_hoe": "Classic Ruby Hoe",
@@ -9606,6 +9708,7 @@
       "block.der_robert.glass_stairs": "Glass Stairs",
       "item_group.der_robert.roberts_manic_digger": "Manic Digger",
       "item.der_robert.epix_kev_spawn_egg": "EpixKev04 Spawn Egg",
+      "block.der_robert.six_sided_trap_door_block": "Trap Door Block",
       "block.der_robert.missing_no_button": "Missing No. Button",
       "block.der_robert.classic_wood_slabs": "Wood Slabs",
       "block.der_robert.plastic_stairs_white": "Plastic Stairs",

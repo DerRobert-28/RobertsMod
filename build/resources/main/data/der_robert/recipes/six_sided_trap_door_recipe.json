@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_trapdoor"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    }
+  ],
+  "result": {
+    "item": "der_robert:six_sided_trap_door_block",
+    "count": 1
+  }
+}

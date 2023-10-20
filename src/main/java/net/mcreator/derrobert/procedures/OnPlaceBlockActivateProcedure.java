@@ -17,13 +17,13 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 
 
-public class OnPlaceBlockActivateProcedure {
-
+public class OnPlaceBlockActivateProcedure 
+{
 	private static BlockWorldUtils world;
 	private static final DerRobertModBlocks robert = new DerRobertModBlocks();
 
-
-	public static boolean execute(LevelAccessor level, double x, double y, double z) {	
+	public static boolean execute(LevelAccessor level, double x, double y, double z) 
+	{
 		world = BlockWorldUtils.of(level).at(x, y, z);
 		//
 		BlockPos _behind = world.getBlockBehind();

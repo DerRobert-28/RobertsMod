@@ -20,6 +20,8 @@
   	- Boulder Dash Cave Rock
   	- Boulder Dash Cave Walls
   	- Classic Torch (first attempt)
+  	- Pocket Camera Block (non-functional)
+  	- Six Sided Trap Door Block
   	- Stardew Valley (generic) Interior Door
   	- Stardew Valley Green Saloon Wall & Candle
   	- Stardew Valley Purple Crystal Block

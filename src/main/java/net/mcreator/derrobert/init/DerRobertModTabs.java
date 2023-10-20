@@ -156,7 +156,6 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BUTTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_PORTAL_BUTTON.get().asItem());
-				tabData.accept(DerRobertModBlocks.NO_CHEST.get().asItem());
 				tabData.accept(DerRobertModBlocks.SIX_SIDED_HAY_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.SIX_SIDED_PISTON.get().asItem());
 				tabData.accept(DerRobertModBlocks.SIX_SIDED_STICKY_PISTON.get().asItem());
@@ -171,6 +170,8 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.SON_KI_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TEMPLATE_HUMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.TRACY_MOODALIE_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.SIX_SIDED_TRAP_DOOR_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.GREY_DIRT_BLOCK.get().asItem());
 			})
 
 					.build());
@@ -179,6 +180,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.GLOWING_OBSIDIAN.get().asItem());
 				tabData.accept(DerRobertModBlocks.NETHER_REACTOR_CORE_BLUE.get().asItem());
 				tabData.accept(DerRobertModBlocks.POCKET_STONE_CUTTER.get().asItem());
+				tabData.accept(DerRobertModBlocks.POCKET_CAMERA_BLOCK.get().asItem());
 			})
 
 					.build());
@@ -217,6 +219,7 @@ public class DerRobertModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> ROBERTS_APRILS_TAB = REGISTRY.register("roberts_aprils_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_aprils_tab")).icon(() -> new ItemStack(DerRobertModBlocks.UPDATE_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.NO_CHEST.get().asItem());
 				tabData.accept(DerRobertModBlocks.CLASSIC_GHOST_DIRT.get().asItem());
 				tabData.accept(DerRobertModBlocks.LUCKY_TNT_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.PICKAXE_BLOCK_OFF.get().asItem());
@@ -231,6 +234,7 @@ public class DerRobertModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_education_tab")).icon(() -> new ItemStack(DerRobertModBlocks.HYDROGENE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DerRobertModBlocks.OXYGENE.get().asItem());
 				tabData.accept(DerRobertModBlocks.HYDROGENE.get().asItem());
+				tabData.accept(DerRobertModBlocks.CARBON.get().asItem());
 			})
 
 					.build());

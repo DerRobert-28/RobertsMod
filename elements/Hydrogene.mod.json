@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "edu_hydrogene",
+    "texture": "education_hydrogene",
     "textureTop": "crafting_table_top",
     "textureLeft": "crafting_table_side",
     "textureFront": "crafting_table_front",
@@ -123,7 +123,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 255
+    "minGenerateHeight": 128,
+    "maxGenerateHeight": 320
   }
 }
