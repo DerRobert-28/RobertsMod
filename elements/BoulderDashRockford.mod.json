@@ -120,46 +120,46 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onBlockAdded": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onNeighbourBlockChanges": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onTickUpdate": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onRandomUpdateEvent": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onDestroyedByPlayer": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onDestroyedByExplosion": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onStartToDestroy": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onEntityCollides": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onEntityWalksOn": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onBlockPlayedBy": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onRedstoneOn": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onRedstoneOff": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "onHitByProjectile": {
-      "name": "BoulderDashRockfordUnset"
+      "name": "ForInternalUseOnly"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

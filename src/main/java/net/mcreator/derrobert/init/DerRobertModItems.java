@@ -311,6 +311,12 @@ public class DerRobertModItems {
 	public static final RegistryObject<Item> BOULDER_DASK_CAVE_ROCK_BLOCK = block(DerRobertModBlocks.BOULDER_DASK_CAVE_ROCK_BLOCK);
 	public static final RegistryObject<Item> BOULDER_DASH_CAVE_ROCK_ITEM = REGISTRY.register("boulder_dash_cave_rock_item", () -> new BoulderDashCaveRockItemItem());
 	public static final RegistryObject<Item> MANIC_DIGGER_EMPTY = block(DerRobertModBlocks.MANIC_DIGGER_EMPTY);
+	public static final RegistryObject<Item> CLASSIC_TORCH = block(DerRobertModBlocks.CLASSIC_TORCH);
+	public static final RegistryObject<Item> STARDEW_VALLEY_INTERNAL = block(DerRobertModBlocks.STARDEW_VALLEY_INTERNAL);
+	public static final RegistryObject<Item> STARDEW_VALLEY_SALOON_GREEN_WALL_BLOCK = block(DerRobertModBlocks.STARDEW_VALLEY_SALOON_GREEN_WALL_BLOCK);
+	public static final RegistryObject<Item> STARDEW_VALLEY_SALOON_GREEN_WALL_CANDLES = block(DerRobertModBlocks.STARDEW_VALLEY_SALOON_GREEN_WALL_CANDLES);
+	public static final RegistryObject<Item> STARDEW_VALLEY_PURPLE_CRYSTAL_BLOCK = block(DerRobertModBlocks.STARDEW_VALLEY_PURPLE_CRYSTAL_BLOCK);
+	public static final RegistryObject<Item> STARDEW_VALLEY_GENERIC_DOOR = doubleBlock(DerRobertModBlocks.STARDEW_VALLEY_GENERIC_DOOR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

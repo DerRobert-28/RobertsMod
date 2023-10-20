@@ -1,0 +1,59 @@
+{
+  "type": "der_robert:classic_torch",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:torch"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_torch"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:wall_torch",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_torch"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_torch"
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_torch"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_wall_torch",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        "state": {
+          "Name": "der_robert:classic_torch"
+        }
+      }
+    ]
+  }
+}

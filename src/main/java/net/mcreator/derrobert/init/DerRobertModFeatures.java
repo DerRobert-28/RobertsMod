@@ -13,6 +13,8 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.derrobert.world.features.ores.WhiteLightBlockFeature;
 import net.mcreator.derrobert.world.features.ores.UpdateBlockFeature;
+import net.mcreator.derrobert.world.features.ores.StardewValleySaloonGreenWallBlockFeature;
+import net.mcreator.derrobert.world.features.ores.StardewValleyGenericDoorFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteSideSlabFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteCylinderFeature;
 import net.mcreator.derrobert.world.features.ores.SomeWhiteBlockStairsFeature;
@@ -58,6 +60,7 @@ import net.mcreator.derrobert.world.features.ores.ClassicWoodSideSlabFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWoodPaneFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWoodDoorFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicWoodBlockFeature;
+import net.mcreator.derrobert.world.features.ores.ClassicTorchFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicStoneStairsFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicStoneSlabFeature;
 import net.mcreator.derrobert.world.features.ores.ClassicStoneBlockFeature;
@@ -232,4 +235,7 @@ public class DerRobertModFeatures {
 	public static final RegistryObject<Feature<?>> MANIC_GRASS_ONLY = REGISTRY.register("manic_grass_only", ManicGrassOnlyFeature::new);
 	public static final RegistryObject<Feature<?>> BOULDER_DASH_DIAMOND_BLOCK = REGISTRY.register("boulder_dash_diamond_block", BoulderDashDiamondBlockFeature::new);
 	public static final RegistryObject<Feature<?>> BOULDER_DASK_CAVE_ROCK_BLOCK = REGISTRY.register("boulder_dask_cave_rock_block", BoulderDaskCaveRockBlockFeature::new);
+	public static final RegistryObject<Feature<?>> CLASSIC_TORCH = REGISTRY.register("classic_torch", ClassicTorchFeature::new);
+	public static final RegistryObject<Feature<?>> STARDEW_VALLEY_SALOON_GREEN_WALL_BLOCK = REGISTRY.register("stardew_valley_saloon_green_wall_block", StardewValleySaloonGreenWallBlockFeature::new);
+	public static final RegistryObject<Feature<?>> STARDEW_VALLEY_GENERIC_DOOR = REGISTRY.register("stardew_valley_generic_door", StardewValleyGenericDoorFeature::new);
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "der_robert:item/stardew_valley_generic_door"
+  },
+  "render_type": "translucent"
+}

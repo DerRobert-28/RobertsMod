@@ -19,6 +19,10 @@
   	- Boulder Dash Cave Dirt
   	- Boulder Dash Cave Rock
   	- Boulder Dash Cave Walls
+  	- Classic Torch (first attempt)
+  	- Stardew Valley (generic) Interior Door
+  	- Stardew Valley Green Saloon Wall & Candle
+  	- Stardew Valley Purple Crystal Block
   - Crafting recipies:
   	- Boulder Dash Cave Rock 1 & 2
 - Repository development:

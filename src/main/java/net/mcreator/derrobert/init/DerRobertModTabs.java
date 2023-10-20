@@ -128,6 +128,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.CLASSIC_PIGMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_ZOMBIE_PIGMAN_SPAWN_EGG.get());
 				tabData.accept(DerRobertModItems.CLASSIC_GIANT_SPAWN_EGG.get());
+				tabData.accept(DerRobertModBlocks.CLASSIC_TORCH.get().asItem());
 			})
 
 					.build());
@@ -253,6 +254,15 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModItems.BOULDER_DASH_DIAMOND.get());
 				tabData.accept(DerRobertModBlocks.BOULDER_DASK_CAVE_ROCK_BLOCK.get().asItem());
 				tabData.accept(DerRobertModItems.BOULDER_DASH_CAVE_ROCK_ITEM.get());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_STARDEW_VALLEY_TAB = REGISTRY.register("roberts_stardew_valley_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_stardew_valley_tab")).icon(() -> new ItemStack(DerRobertModBlocks.STARDEW_VALLEY_INTERNAL.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_SALOON_GREEN_WALL_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_SALOON_GREEN_WALL_CANDLES.get().asItem());
+				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_PURPLE_CRYSTAL_BLOCK.get().asItem());
+				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_GENERIC_DOOR.get().asItem());
 			})
 
 					.build());

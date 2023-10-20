@@ -32,7 +32,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.derrobert.procedures.BoulderDashRockfordUnsetProcedure;
+import net.mcreator.derrobert.procedures.ForInternalUseOnlyProcedure;
 
 import java.util.List;
 
@@ -65,18 +65,18 @@ public class BoulderDashRockfordBlock extends Block {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
-			BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		} else {
-			BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
@@ -85,7 +85,7 @@ public class BoulderDashRockfordBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		BoulderDashRockfordUnsetProcedure.execute(world, x, y, z);
+		ForInternalUseOnlyProcedure.execute(world, x, y, z);
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -96,49 +96,49 @@ public class BoulderDashRockfordBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		BoulderDashRockfordUnsetProcedure.execute(world, x, y, z);
+		ForInternalUseOnlyProcedure.execute(world, x, y, z);
 	}
 
 	@Override
 	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
 	}
 
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
 	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
 		super.attack(blockstate, world, pos, entity);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
-		BoulderDashRockfordUnsetProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
+		ForInternalUseOnlyProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
 	}
 
 	@Override
 	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
 		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		BoulderDashRockfordUnsetProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ForInternalUseOnlyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
@@ -151,7 +151,7 @@ public class BoulderDashRockfordBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		BoulderDashRockfordUnsetProcedure.execute(world, x, y, z);
+		ForInternalUseOnlyProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }

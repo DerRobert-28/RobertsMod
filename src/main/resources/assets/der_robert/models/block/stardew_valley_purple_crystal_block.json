@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "der_robert:block/stardew_valley_purple_crystal_block",
+    "particle": "der_robert:block/stardew_valley_purple_crystal_block"
+  },
+  "render_type": "solid"
+}

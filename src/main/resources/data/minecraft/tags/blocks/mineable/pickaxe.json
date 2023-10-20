@@ -55,6 +55,9 @@
     "der_robert:pickaxe_block_on",
     "der_robert:place_block_on",
     "der_robert:boulder_dash_diamond_block",
-    "der_robert:boulder_dask_cave_rock_block"
+    "der_robert:boulder_dask_cave_rock_block",
+    "der_robert:stardew_valley_saloon_green_wall_block",
+    "der_robert:stardew_valley_saloon_green_wall_candles",
+    "der_robert:stardew_valley_purple_crystal_block"
   ]
 }

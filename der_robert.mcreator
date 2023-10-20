@@ -9132,6 +9132,171 @@
         ]
       },
       "path": "~/Blocks/ManicDigger"
+    },
+    {
+      "name": "ClassicTorch",
+      "type": "block",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/der_robert/worldgen/configured_feature/classic_torch.json",
+          "src/main/java/net/mcreator/derrobert/block/ClassicTorchBlock.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/classic_torch.json",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/ClassicTorchFeature.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/classic_torch_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/item/classic_torch.json",
+          "src/main/resources/assets/der_robert/models/block/classic_torch.json",
+          "src/main/resources/assets/der_robert/blockstates/classic_torch.json"
+        ]
+      },
+      "path": "~/Blocks/Classic"
+    },
+    {
+      "name": "ForInternalUseOnly",
+      "type": "procedure",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_internal_use_only",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ForInternalUseOnlyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StardewValleyInternal",
+      "type": "block",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardew_valley_internal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_internal.json",
+          "src/main/resources/assets/der_robert/models/item/stardew_valley_internal.json",
+          "src/main/resources/assets/der_robert/blockstates/stardew_valley_internal.json",
+          "src/main/java/net/mcreator/derrobert/block/StardewValleyInternalBlock.java"
+        ]
+      },
+      "path": "~/Blocks/StardewValley"
+    },
+    {
+      "name": "StardewValleySaloonGreenWallBlock",
+      "type": "block",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardew_valley_saloon_green_wall_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/world/features/ores/StardewValleySaloonGreenWallBlockFeature.java",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/stardew_valley_saloon_green_wall_block.json",
+          "src/main/java/net/mcreator/derrobert/block/StardewValleySaloonGreenWallBlockBlock.java",
+          "src/main/resources/data/der_robert/forge/biome_modifier/stardew_valley_saloon_green_wall_block_biome_modifier.json",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/stardew_valley_saloon_green_wall_block.json",
+          "src/main/resources/assets/der_robert/blockstates/stardew_valley_saloon_green_wall_block.json",
+          "src/main/resources/assets/der_robert/models/item/stardew_valley_saloon_green_wall_block.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_saloon_green_wall_block.json"
+        ]
+      },
+      "path": "~/Blocks/StardewValley"
+    },
+    {
+      "name": "RobertsStardewValleyTab",
+      "type": "tab",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roberts_stardew_valley_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "StardewValleySaloonGreenWallCandles",
+      "type": "block",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardew_valley_saloon_green_wall_candles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/blockstates/stardew_valley_saloon_green_wall_candles.json",
+          "src/main/resources/assets/der_robert/models/item/stardew_valley_saloon_green_wall_candles.json",
+          "src/main/java/net/mcreator/derrobert/block/StardewValleySaloonGreenWallCandlesBlock.java",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_saloon_green_wall_candles.json"
+        ]
+      },
+      "path": "~/Blocks/StardewValley"
+    },
+    {
+      "name": "StardewValleyPurpleCrystalBlock",
+      "type": "block",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardew_valley_purple_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/block/StardewValleyPurpleCrystalBlockBlock.java",
+          "src/main/resources/assets/der_robert/blockstates/stardew_valley_purple_crystal_block.json",
+          "src/main/resources/assets/der_robert/models/item/stardew_valley_purple_crystal_block.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_purple_crystal_block.json"
+        ]
+      },
+      "path": "~/Blocks/StardewValley"
+    },
+    {
+      "name": "StardewValleyGenericDoor",
+      "type": "block",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardew_valley_generic_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_bottom_left.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_bottom_left_open.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_top_right_open.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_bottom_right.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_top_left.json",
+          "src/main/java/net/mcreator/derrobert/block/StardewValleyGenericDoorBlock.java",
+          "src/main/java/net/mcreator/derrobert/world/features/ores/StardewValleyGenericDoorFeature.java",
+          "src/main/resources/data/der_robert/worldgen/configured_feature/stardew_valley_generic_door.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_bottom_right_open.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_top_left_open.json",
+          "src/main/resources/data/der_robert/forge/biome_modifier/stardew_valley_generic_door_biome_modifier.json",
+          "src/main/resources/assets/der_robert/models/block/stardew_valley_generic_door_top_right.json",
+          "src/main/resources/data/der_robert/worldgen/placed_feature/stardew_valley_generic_door.json",
+          "src/main/resources/assets/der_robert/blockstates/stardew_valley_generic_door.json",
+          "src/main/resources/assets/der_robert/models/item/stardew_valley_generic_door.json"
+        ]
+      },
+      "path": "~/Blocks/StardewValley"
     }
   ],
   "variable_elements": [
@@ -9150,6 +9315,7 @@
       "block.der_robert.classic_ruby_ore": "Ruby Ore",
       "entity.der_robert.tracy_moodalie": "Tracy88",
       "block.der_robert.classic_dirt_block": "Dirt",
+      "block.der_robert.stardew_valley_purple_crystal_block": "Purple Crystal Block",
       "block.der_robert.manic_leaves": "Leaves",
       "block.der_robert.place_block_off": "Place Block",
       "block.der_robert.plastic_pane_7": "Plastic Pane",
@@ -9213,6 +9379,7 @@
       "block.der_robert.plastic_walls_2": "Plastic Wall",
       "block.der_robert.manic_lava": "Lava",
       "item.der_robert.manic_zombie_spawn_egg": "Manic Digger Zombie Spawn Egg",
+      "block.der_robert.stardew_valley_generic_door": "Interior Door",
       "block.der_robert.lucky_block_on": "Lucky Block",
       "block.der_robert.end_portal_button": "End Portal Button",
       "block.der_robert.classic_brick_stairs": "Brick Stairs",
@@ -9240,6 +9407,7 @@
       "item.der_robert.evil_herobrine_spawn_egg": "Evil Herobrine Spawn Egg",
       "item.der_robert.sky_block_dimension": "Sky Block Water",
       "block.der_robert.plastic_brick_10": "Plastic Brick",
+      "item_group.der_robert.roberts_stardew_valley_tab": "Stardew Valley",
       "block.der_robert.plastic_brick_11": "Plastic Brick",
       "block.der_robert.aether_dirt_block": "Aether Dirt",
       "item.der_robert.son_ki_spawn_egg": "Sonki84 Spawn Egg",
@@ -9278,6 +9446,7 @@
       "item.der_robert.boulder_dash_diamond": "Diamond",
       "item_group.der_robert.roberts_alpha_tab": "Alpha",
       "block.der_robert.classic_obsidian_block": "Obsidian",
+      "block.der_robert.classic_torch": "Torch",
       "block.der_robert.classic_nether_quartz_ore": "Nether Quartz Ore",
       "block.der_robert.no_chest": "No Chest",
       "block.der_robert.classic_stone_stairs": "Stone",
@@ -9288,6 +9457,7 @@
       "entity.der_robert.manic_human": "Manic Digger Human",
       "block.der_robert.boulder_dash_cave_underground": "Cave Underground",
       "block.der_robert.boulder_dash_diamond_block": "Diamond Block",
+      "block.der_robert.stardew_valley_internal": "Stardew Valley",
       "entity.der_robert.alpha_creeper": "Alpha Creeper",
       "block.der_robert.some_white_side_slab": "Some White Sideslab",
       "block.der_robert.classic_endstone_block": "End Stone",
@@ -9333,6 +9503,7 @@
       "block.der_robert.boulder_dask_cave_rock_block": "Cave Rock",
       "block.der_robert.beta_monster_spawner": "Monster Spawner",
       "item.der_robert.alpha_creeper_spawn_egg": "Alpha Creeper Spawn Egg",
+      "block.der_robert.stardew_valley_saloon_green_wall_candles": "Green Saloon Wall Candles",
       "block.der_robert.classic_wood_side_slab": "Wood Side Slab",
       "block.der_robert.classic_gravel_block": "Gravel",
       "entity.der_robert.creeper_pig": "Creeper Pig",
@@ -9426,6 +9597,7 @@
       "block.der_robert.place_block_on": "Place Block",
       "block.der_robert.manic_grass_only": "Manic Digger Logo",
       "block.der_robert.manic_camouflage": "Camouflage",
+      "block.der_robert.stardew_valley_saloon_green_wall_block": "Green Saloon Wall",
       "entity.der_robert.classic_herobrine": "Classic Herobrine",
       "item.der_robert.classic_giant_spawn_egg": "Classic Giant Spawn Egg",
       "block.der_robert.anti_light_block": "Anti Light Block",
@@ -9502,6 +9674,10 @@
           },
           {
             "name": "Infiniminer",
+            "children": []
+          },
+          {
+            "name": "StardewValley",
             "children": []
           }
         ]

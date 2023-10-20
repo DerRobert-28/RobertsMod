@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "der_robert:block/classic_torch",
+    "particle": "der_robert:block/classic_torch"
+  },
+  "render_type": "cutout"
+}
