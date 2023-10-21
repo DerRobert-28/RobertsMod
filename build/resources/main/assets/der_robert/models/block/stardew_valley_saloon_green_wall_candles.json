@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/stardew_valley_saloon_green_wall_top",
+    "up": "der_robert:block/stardew_valley_saloon_green_wall_top",
+    "north": "der_robert:block/stardew_valley_saloon_green_wall_candles",
+    "east": "der_robert:block/stardew_valley_saloon_green_wall_candles",
+    "south": "der_robert:block/stardew_valley_saloon_green_wall_candles",
+    "west": "der_robert:block/stardew_valley_saloon_green_wall_candles",
+    "particle": "der_robert:block/stardew_valley_saloon_green_wall_top"
+  },
+  "render_type": "solid"
+}

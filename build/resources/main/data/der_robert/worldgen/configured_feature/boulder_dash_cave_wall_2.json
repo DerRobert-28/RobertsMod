@@ -1,0 +1,42 @@
+{
+  "type": "der_robert:boulder_dash_cave_wall_2",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:bedrock"
+          }
+        },
+        "state": {
+          "Name": "der_robert:boulder_dash_cave_wall_2"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:obsidian"
+          }
+        },
+        "state": {
+          "Name": "der_robert:boulder_dash_cave_wall_2"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crying_obsidian"
+          }
+        },
+        "state": {
+          "Name": "der_robert:boulder_dash_cave_wall_2"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    },
+    {
+      "item": "der_robert:boulder_dash_cave_wall_1"
+    }
+  ],
+  "result": {
+    "item": "der_robert:boulder_dash_cave_wall_2",
+    "count": 1
+  }
+}

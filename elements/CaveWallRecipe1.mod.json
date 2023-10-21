@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      },
+      {
+        "value": "CUSTOM:BoulderDashCaveUnderground"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BoulderDashCaveWall1"
+    },
+    "name": "cave_wall_recipe_1",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/boulder_dash_rockford_top_bottom",
+    "up": "der_robert:block/boulder_dash_rockford_top_bottom",
+    "north": "der_robert:block/boulder_dash_rockford_side",
+    "east": "der_robert:block/boulder_dash_rockford_side",
+    "south": "der_robert:block/boulder_dash_rockford_side",
+    "west": "der_robert:block/boulder_dash_rockford_side",
+    "particle": "der_robert:block/boulder_dash_rockford_top_bottom"
+  },
+  "render_type": "cutout"
+}

@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Classic Ruby Ore",
+    "name": "Ruby Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 3.0,
@@ -44,9 +44,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:ClassicRubyItem"
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 3,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

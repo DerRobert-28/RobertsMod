@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Manic Stone",
+    "name": "Cobblestone",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -127,10 +127,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.COBBLED_DEEPSLATE"
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#0"
       },
       {
         "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
       }
     ],
     "generationShape": "UNIFORM",

@@ -10,13 +10,24 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
+
+import java.util.List;
 
 public class InternalUpdateBlockBlock extends Block {
 	public InternalUpdateBlockBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.EMPTY).strength(-1, 3600000).requiresCorrectToolForDrops().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("This is for internal use only!"));
 	}
 
 	@Override

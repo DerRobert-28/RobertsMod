@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.TRAPDOOR"
+      },
+      {
+        "value": "Blocks.TRAPDOOR"
+      },
+      {
+        "value": "Blocks.TRAPDOOR"
+      },
+      {
+        "value": "Blocks.TRAPDOOR"
+      },
+      {
+        "value": "Blocks.TRAPDOOR"
+      },
+      {
+        "value": "Blocks.TRAPDOOR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SixSidedTrapDoorBlock"
+    },
+    "name": "six_sided_trap_door_recipe",
+    "namespace": "mod"
+  }
+}

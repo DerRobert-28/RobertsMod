@@ -33,8 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Classic TNT",
-    "specialInfo": [],
+    "name": "Ignited TNT ",
+    "specialInfo": [
+      "This is for internal use only!"
+    ],
     "hardness": 0.5,
     "resistance": 0.0,
     "hasGravity": false,

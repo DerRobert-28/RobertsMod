@@ -34,7 +34,9 @@
       }
     ],
     "name": "?",
-    "specialInfo": [],
+    "specialInfo": [
+      "This is for internal use only!"
+    ],
     "hardness": 999.0,
     "resistance": 999999.0,
     "hasGravity": false,

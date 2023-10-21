@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Classic Monster Spawner",
+    "name": "Monster Spawner",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 5.0,
