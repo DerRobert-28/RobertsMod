@@ -7,6 +7,7 @@ import der.robert.Custom.LanguageCandy;
 //
 //	JAVA
 //
+import java.lang.reflect.*;
 import java.util.concurrent.atomic.AtomicReference;
 //
 //	JAVAX
@@ -32,6 +33,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.levelgen.WorldOptions;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
@@ -276,6 +278,44 @@ public class BlockWorldUtils
 	public BlockPos getPosition(double x, double y, double z)
 	{
 		return BlockPos.containing((int)x, (int)y, (int)z);
+	}
+
+
+	//
+	//	Hole den World-Seed:
+	//
+	@Nullable
+	public Long getSeed()
+	{
+		MinecraftServer _server = this.getServer();
+		if(_server == null) return null;
+		//
+		return _server.getWorldData().worldGenOptions().seed();
+	}
+
+
+	//
+	//	Setze den World-Seed:
+	//
+	public boolean setSeed(long theSeed)
+	{
+		try
+		{	
+			MinecraftServer _server = this.getServer();
+			WorldOptions _options = _server.getWorldData().worldGenOptions();
+			//
+			Field _seedField = WorldOptions.class.getField("seed");
+			_seedField.setAccessible(true);
+			Field _modifiersField = Field.class.getDeclaredField("modifiers");
+			_modifiersField.setAccessible(true);
+			_modifiersField.setInt(_seedField, _seedField.getModifiers() & ~Modifier.FINAL);
+			_seedField.set(null, theSeed);
+			return true;
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
 	}
 
 

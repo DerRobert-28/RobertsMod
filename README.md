@@ -17,6 +17,7 @@
   - Crafting recipies:
 - Repository development:
   - Bugfixes:
+  	- Comnmand "//version" showed wrong version
   - Changes:
   - Known bugs and issues:
     - Colouring Plastic Doors doesn't work properly

@@ -20,7 +20,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.derrobert.procedures.OnPlaceBlockDeactivateProcedure;
-import net.mcreator.derrobert.procedures.OnPlaceBlockActivateProcedure;
+import net.mcreator.derrobert.procedures.ActivatePlaceBlockProcedure;
 
 public class PlaceBlockOffBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
@@ -64,7 +64,7 @@ public class PlaceBlockOffBlock extends Block {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
-			OnPlaceBlockActivateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			ActivatePlaceBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		} else {
 			OnPlaceBlockDeactivateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}

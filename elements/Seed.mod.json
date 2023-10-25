@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "command",
+  "definition": {
+    "commandName": "/seed",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"number_default\" x=\"666\" y=\"49\"><field name=\"name\">value</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SetSeed</field></block></statement></block><block type=\"args_start\" deletable=\"false\" x=\"84\" y=\"91\"><next><block type=\"old_command\"><field name=\"procedure\">SetSeed</field></block></next></block></xml>"
+  }
+}
