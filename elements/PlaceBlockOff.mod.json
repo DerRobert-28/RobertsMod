@@ -121,7 +121,7 @@
       "name": "ActivatePlaceBlock"
     },
     "onRedstoneOff": {
-      "name": "OnPlaceBlockDeactivate"
+      "name": "DeactivatePlaceBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

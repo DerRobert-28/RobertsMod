@@ -19,7 +19,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.derrobert.procedures.OnPlaceBlockDeactivateProcedure;
+import net.mcreator.derrobert.procedures.DeactivatePlaceBlockProcedure;
 import net.mcreator.derrobert.procedures.ActivatePlaceBlockProcedure;
 
 public class PlaceBlockOffBlock extends Block {
@@ -66,7 +66,7 @@ public class PlaceBlockOffBlock extends Block {
 		if (world.getBestNeighborSignal(pos) > 0) {
 			ActivatePlaceBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		} else {
-			OnPlaceBlockDeactivateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			DeactivatePlaceBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
 	}
 }

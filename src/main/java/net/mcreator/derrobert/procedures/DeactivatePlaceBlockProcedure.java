@@ -9,11 +9,11 @@ import net.mcreator.derrobert.init.DerRobertModBlocks;
 
 import java.util.Map;
 
-public class ActivatePlaceBlockProcedure {
+public class DeactivatePlaceBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockPos _bp = BlockPos.containing(x, y, z);
-			BlockState _bs = DerRobertModBlocks.PLACE_BLOCK_ON.get().defaultBlockState();
+			BlockState _bs = DerRobertModBlocks.PLACE_BLOCK_OFF.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -25,6 +25,5 @@ public class ActivatePlaceBlockProcedure {
 			}
 			world.setBlock(_bp, _bs, 3);
 		}
-		UpdatePlaceBlockProcedure.execute(world, x, y, z);
 	}
 }

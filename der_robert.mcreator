@@ -9494,6 +9494,38 @@
         ]
       },
       "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "DeactivatePlaceBlock",
+      "type": "procedure",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deactivate_place_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/DeactivatePlaceBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
     }
   ],
   "variable_elements": [

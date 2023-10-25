@@ -20,5 +20,6 @@
   	- Comnmand "//version" showed wrong version
   - Changes:
   - Known bugs and issues:
-    - Colouring Plastic Doors doesn't work properly
+    - Colouring Plastic Doors is not work properly
+    - Place Block is not working properly
     - Teleport Buttons cannot create safety glass cage
