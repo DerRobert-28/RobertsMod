@@ -1,22 +1,9 @@
 package der.robert.Custom;
-//
-//	CUSTOM
-//
-import der.robert.Custom.LanguageCandy;
-//
-//	JAVA
-//
+
+
 import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.OptionalLong;
-//
-//	JAVAX
-//
 import javax.annotation.Nullable;
-//
-//	MINECRAFT
-//
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.CommandSource;
 import net.minecraft.commands.CommandSourceStack;
@@ -38,18 +25,11 @@ import net.minecraft.world.level.levelgen.WorldOptions;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
-
-//
-//	MINECRAFT-FORGE
-//
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.registries.RegistryObject;
-//
-//	SUN (JAVA/ORACLE):
-//
 import sun.misc.Unsafe;
-//
-//
+
+
 public class BlockWorldUtils
 {
 	//
@@ -60,12 +40,12 @@ public class BlockWorldUtils
 	private Vec3 vector = null;
 	private CommandSourceStack sourceStack = null;
 
+
 	//
 	//	Generiere Zugriff auf aktuelle Welt:
 	//
 	public static BlockWorldUtils of(LevelAccessor level)
 	{
-		//net.minecraftforge.
 		return new BlockWorldUtils(level);
 	}
 
@@ -300,30 +280,6 @@ public class BlockWorldUtils
 		return _server.getWorldData().worldGenOptions().seed();
 	}
 
-
-	//
-	//	Setze den World-Seed:
-	//
-	public boolean setSeed(long theSeed)
-	{
-		try
-		{	
-			MinecraftServer _server = this.getServer();
-			WorldOptions _options = _server.getWorldData().worldGenOptions();
-			Field _seedFeld = _options.getClass().getDeclaredField("seed");
-			Field _theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
-			_theUnsafe.setAccessible(true);
-			var _unsafe = (Unsafe) _theUnsafe.get(null);
-			var _offset = _unsafe.objectFieldOffset(_seedFeld);
-			_unsafe.getAndSetLong(_options, _offset, theSeed);
-			return true;
-		}
-		catch(Exception e)
-		{
-			e.printStackTrace();
-			return false;
-		}
-	}
 
 	//
 	//	Hole den Weltserver
@@ -595,6 +551,31 @@ public class BlockWorldUtils
 			this.getServer(),
 			null
 		);
+	}
+
+
+	//
+	//	Setze den World-Seed:
+	//
+	public boolean setSeed(long theSeed)
+	{
+		try
+		{	
+			MinecraftServer _server = this.getServer();
+			WorldOptions _options = _server.getWorldData().worldGenOptions();
+			Field _seedFeld = _options.getClass().getDeclaredField("seed");
+			Field _theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+			_theUnsafe.setAccessible(true);
+			var _unsafe = (Unsafe) _theUnsafe.get(null);
+			var _offset = _unsafe.objectFieldOffset(_seedFeld);
+			_unsafe.getAndSetLong(_options, _offset, theSeed);
+			return true;
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			return false;
+		}
 	}
 
 
