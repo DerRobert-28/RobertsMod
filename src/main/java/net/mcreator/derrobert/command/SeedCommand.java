@@ -13,9 +13,7 @@ import net.minecraft.commands.Commands;
 
 import net.mcreator.derrobert.procedures.SetSeedProcedure;
 
-import java.util.HashMap;
-
-import com.mojang.brigadier.arguments.StringArgumentType;
+import com.mojang.brigadier.arguments.DoubleArgumentType;
 
 @Mod.EventBusSubscriber
 public class SeedCommand {
@@ -23,7 +21,7 @@ public class SeedCommand {
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher().register(Commands.literal("/seed")
 
-				.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(arguments -> {
+				.then(Commands.argument("value", DoubleArgumentType.doubleArg()).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();
@@ -32,35 +30,9 @@ public class SeedCommand {
 					if (entity == null)
 						entity = FakePlayerFactory.getMinecraft(world);
 					Direction direction = entity.getDirection();
-					HashMap<String, String> cmdparams = new HashMap<>();
-					int index = -1;
-					for (String param : arguments.getInput().split("\\s+")) {
-						if (index >= 0)
-							cmdparams.put(Integer.toString(index), param);
-						index++;
-					}
 
-					SetSeedProcedure.execute(arguments);
+					SetSeedProcedure.execute(world, x, y, z, arguments, entity);
 					return 0;
-				})).executes(arguments -> {
-					ServerLevel world = arguments.getSource().getLevel();
-					double x = arguments.getSource().getPosition().x();
-					double y = arguments.getSource().getPosition().y();
-					double z = arguments.getSource().getPosition().z();
-					Entity entity = arguments.getSource().getEntity();
-					if (entity == null)
-						entity = FakePlayerFactory.getMinecraft(world);
-					Direction direction = entity.getDirection();
-					HashMap<String, String> cmdparams = new HashMap<>();
-					int index = -1;
-					for (String param : arguments.getInput().split("\\s+")) {
-						if (index >= 0)
-							cmdparams.put(Integer.toString(index), param);
-						index++;
-					}
-
-					SetSeedProcedure.execute(arguments);
-					return 0;
-				}));
+				})));
 	}
 }

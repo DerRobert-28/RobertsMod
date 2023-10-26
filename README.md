@@ -13,6 +13,7 @@
 
 - Mod development:
   - General:
+    - "//seed" command allows you to change world seed
   - Blocks/items:
   - Crafting recipies:
 - Repository development:

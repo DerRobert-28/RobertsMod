@@ -3,12 +3,13 @@ package der.robert.Custom;
 //	CUSTOM
 //
 import der.robert.Custom.LanguageCandy;
-//import der.robert.Custom.ObjectStack;
 //
 //	JAVA
 //
-import java.lang.reflect.*;
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.OptionalLong;
 //
 //	JAVAX
 //
@@ -37,11 +38,16 @@ import net.minecraft.world.level.levelgen.WorldOptions;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
+
 //
 //	MINECRAFT-FORGE
 //
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.registries.RegistryObject;
+//
+//	SUN (JAVA/ORACLE):
+//
+import sun.misc.Unsafe;
 //
 //
 public class BlockWorldUtils
@@ -59,6 +65,7 @@ public class BlockWorldUtils
 	//
 	public static BlockWorldUtils of(LevelAccessor level)
 	{
+		//net.minecraftforge.
 		return new BlockWorldUtils(level);
 	}
 
@@ -303,21 +310,20 @@ public class BlockWorldUtils
 		{	
 			MinecraftServer _server = this.getServer();
 			WorldOptions _options = _server.getWorldData().worldGenOptions();
-			//
-			Field _seedField = WorldOptions.class.getField("seed");
-			_seedField.setAccessible(true);
-			Field _modifiersField = Field.class.getDeclaredField("modifiers");
-			_modifiersField.setAccessible(true);
-			_modifiersField.setInt(_seedField, _seedField.getModifiers() & ~Modifier.FINAL);
-			_seedField.set(null, theSeed);
+			Field _seedFeld = _options.getClass().getDeclaredField("seed");
+			Field _theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+			_theUnsafe.setAccessible(true);
+			var _unsafe = (Unsafe) _theUnsafe.get(null);
+			var _offset = _unsafe.objectFieldOffset(_seedFeld);
+			_unsafe.getAndSetLong(_options, _offset, theSeed);
 			return true;
 		}
 		catch(Exception e)
 		{
+			e.printStackTrace();
 			return false;
 		}
 	}
-
 
 	//
 	//	Hole den Weltserver
