@@ -118,10 +118,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRedstoneOn": {
-      "name": "OnPlaceBlockActivate"
+      "name": "ActivatePlaceBlock"
     },
     "onRedstoneOff": {
-      "name": "OnPlaceBlockDeactivate"
+      "name": "DeactivatePlaceBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -117,8 +117,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "UpdatePlaceBlock"
+    },
+    "onRedstoneOn": {
+      "name": "ActivatePlaceBlock"
+    },
     "onRedstoneOff": {
-      "name": "OnPlaceBlockDeactivate"
+      "name": "DeactivatePlaceBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

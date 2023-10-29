@@ -1,20 +1,9 @@
 package der.robert.Custom;
-//
-//	CUSTOM
-//
-import der.robert.Custom.LanguageCandy;
-//import der.robert.Custom.ObjectStack;
-//
-//	JAVA
-//
+
+
+import java.lang.reflect.Field;
 import java.util.concurrent.atomic.AtomicReference;
-//
-//	JAVAX
-//
 import javax.annotation.Nullable;
-//
-//	MINECRAFT
-//
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.CommandSource;
 import net.minecraft.commands.CommandSourceStack;
@@ -32,16 +21,15 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.levelgen.WorldOptions;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
-//
-//	MINECRAFT-FORGE
-//
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.registries.RegistryObject;
-//
-//
+import sun.misc.Unsafe;
+
+
 public class BlockWorldUtils
 {
 	//
@@ -51,6 +39,7 @@ public class BlockWorldUtils
 	private double x, y, z;
 	private Vec3 vector = null;
 	private CommandSourceStack sourceStack = null;
+
 
 	//
 	//	Generiere Zugriff auf aktuelle Welt:
@@ -276,6 +265,19 @@ public class BlockWorldUtils
 	public BlockPos getPosition(double x, double y, double z)
 	{
 		return BlockPos.containing((int)x, (int)y, (int)z);
+	}
+
+
+	//
+	//	Hole den World-Seed:
+	//
+	@Nullable
+	public Long getSeed()
+	{
+		MinecraftServer _server = this.getServer();
+		if(_server == null) return null;
+		//
+		return _server.getWorldData().worldGenOptions().seed();
 	}
 
 
@@ -549,6 +551,36 @@ public class BlockWorldUtils
 			this.getServer(),
 			null
 		);
+	}
+
+
+	//
+	//	Setze den World-Seed:
+	//
+	public boolean setSeed(String theSeed)
+	{
+		return this.setSeed(Long.parseLong(theSeed));
+	}
+	
+	public boolean setSeed(long theSeed)
+	{
+		try
+		{	
+			MinecraftServer _server = this.getServer();
+			WorldOptions _options = _server.getWorldData().worldGenOptions();
+			Field _seedFeld = _options.getClass().getDeclaredField("seed");
+			Field _theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+			_theUnsafe.setAccessible(true);
+			var _unsafe = (Unsafe) _theUnsafe.get(null);
+			var _offset = _unsafe.objectFieldOffset(_seedFeld);
+			_unsafe.getAndSetLong(_options, _offset, theSeed);
+			return true;
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			return false;
+		}
 	}
 
 

@@ -7355,6 +7355,9 @@
       "locked_code": false,
       "registry_name": "show_version",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ShowVersionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -8721,9 +8724,6 @@
       "locked_code": false,
       "registry_name": "on_place_block_active_bak",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/derrobert/procedures/OnPlaceBlockActiveBAKProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -9396,6 +9396,156 @@
         "dependencies": []
       },
       "path": "~/Procedures/Pocket"
+    },
+    {
+      "name": "Seed",
+      "type": "command",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/command/SeedCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "SetSeed",
+      "type": "procedure",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_seed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/SetSeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ActivatePlaceBlock",
+      "type": "procedure",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_place_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/ActivatePlaceBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "UpdatePlaceBlock",
+      "type": "procedure",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "update_place_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/UpdatePlaceBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
+    },
+    {
+      "name": "DeactivatePlaceBlock",
+      "type": "procedure",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deactivate_place_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/derrobert/procedures/DeactivatePlaceBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AprilFools"
     }
   ],
   "variable_elements": [
@@ -9913,7 +10063,7 @@
   "workspaceSettings": {
     "modid": "der_robert",
     "modName": "Robert\u0027s Mod",
-    "version": "1.23.42",
+    "version": "1.23.43",
     "description": "My First Mod",
     "author": "Der Robert",
     "websiteURL": "https://www.youtube.com/@DerRobert28",

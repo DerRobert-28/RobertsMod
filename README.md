@@ -5,32 +5,22 @@
 - How to use:
   - Install Minecraft Forge 1.20.1
   - Download the archive here:
-    - Click on [Robert's Mod.jar](https://github.com/DerRobert-28/RobertsMod/releases/download/v1.23.42/RobertsMod.jar). 
+    - Click on [Robert's Mod.jar](https://github.com/DerRobert-28/RobertsMod/releases/download/v1.23.43/RobertsMod.jar). 
 	- Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
-## Current version 1.23.42
+## Current version 1.23.43
 
 - Mod development:
   - General:
-    - Shortening further block names
+    - "//seed" command allows you to change world seed
   - Blocks/items:
-  	- Boulder Dash Diamond
-  	- Boulder Dash Cave Dirt
-  	- Boulder Dash Cave Rock
-  	- Boulder Dash Cave Walls
-  	- Classic Torch (first attempt)
-  	- Pocket Camera Block (non-functional)
-  	- Six Sided Trap Door Block
-  	- Stardew Valley (generic) Interior Door
-  	- Stardew Valley Green Saloon Wall & Candle
-  	- Stardew Valley Purple Crystal Block
   - Crafting recipies:
-  	- Boulder Dash Cave Rock 1 & 2
 - Repository development:
   - Bugfixes:
-    - PlaceBlock is now functional!
+  	- Comnmand "//version" showed wrong version
   - Changes:
   - Known bugs and issues:
-    - Colouring Plastic Doors doesn't work properly
+    - Colouring Plastic Doors does not work properly
+    - Place Block is not working properly
     - Teleport Buttons cannot create safety glass cage

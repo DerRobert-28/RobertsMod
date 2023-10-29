@@ -21,10 +21,14 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.derrobert.procedures.OnPlaceBlockDeactivateProcedure;
+import net.mcreator.derrobert.procedures.UpdatePlaceBlockProcedure;
+import net.mcreator.derrobert.procedures.DeactivatePlaceBlockProcedure;
+import net.mcreator.derrobert.procedures.ActivatePlaceBlockProcedure;
 
 public class PlaceBlockOnBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
@@ -74,8 +78,18 @@ public class PlaceBlockOnBlock extends Block {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
+			ActivatePlaceBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		} else {
-			OnPlaceBlockDeactivateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			DeactivatePlaceBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		UpdatePlaceBlockProcedure.execute(world, x, y, z);
 	}
 }
