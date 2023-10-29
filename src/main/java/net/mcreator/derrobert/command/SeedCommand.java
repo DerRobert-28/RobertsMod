@@ -13,7 +13,7 @@ import net.minecraft.commands.Commands;
 
 import net.mcreator.derrobert.procedures.SetSeedProcedure;
 
-import com.mojang.brigadier.arguments.DoubleArgumentType;
+import com.mojang.brigadier.arguments.StringArgumentType;
 
 @Mod.EventBusSubscriber
 public class SeedCommand {
@@ -21,7 +21,7 @@ public class SeedCommand {
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher().register(Commands.literal("/seed")
 
-				.then(Commands.argument("value", DoubleArgumentType.doubleArg()).executes(arguments -> {
+				.then(Commands.argument("value", StringArgumentType.word()).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();

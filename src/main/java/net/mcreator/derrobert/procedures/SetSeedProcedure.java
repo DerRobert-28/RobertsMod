@@ -10,7 +10,7 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.arguments.DoubleArgumentType;
+import com.mojang.brigadier.arguments.StringArgumentType;
 
 public class SetSeedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments, Entity entity) {
@@ -19,11 +19,12 @@ public class SetSeedProcedure {
 		double theSeed = 0;
 		boolean success = false;
 		String message = "";
-		theSeed = Math.round(DoubleArgumentType.getDouble(arguments, "value"));
+		String seedString = "";
+		seedString = StringArgumentType.getString(arguments, "value");
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					("say Attempt to set world seed " + theSeed));
-		success = der.robert.Custom.BlockWorldUtils.of(world).setSeed((long) theSeed);
+					("say Attempt to set world seed " + seedString));
+		success = der.robert.Custom.BlockWorldUtils.of(world).setSeed(seedString);
 		if (success) {
 			{
 				Entity _ent = entity;

@@ -45,6 +45,9 @@ public class CommonUtils
 	///	TODO: Herausfinden, wie man die Workspace-Version dynamisch holt!
 	public static String getModVersion()
 	{
+		//InputStream is = this.getClass().getClassLoader().getResourceAsStream("./META-INF/mods.toml");
+		//var ver = net.minecraftforge.versions.mcp.MCPVersion.getMCVersion();
+		//return ver;
 		return "1.23.43";
 	}
 

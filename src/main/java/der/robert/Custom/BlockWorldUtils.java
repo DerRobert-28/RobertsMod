@@ -557,6 +557,11 @@ public class BlockWorldUtils
 	//
 	//	Setze den World-Seed:
 	//
+	public boolean setSeed(String theSeed)
+	{
+		return this.setSeed(Long.parseLong(theSeed));
+	}
+	
 	public boolean setSeed(long theSeed)
 	{
 		try
