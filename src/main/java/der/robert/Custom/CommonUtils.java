@@ -48,7 +48,7 @@ public class CommonUtils
 		//InputStream is = this.getClass().getClassLoader().getResourceAsStream("./META-INF/mods.toml");
 		//var ver = net.minecraftforge.versions.mcp.MCPVersion.getMCVersion();
 		//return ver;
-		return "1.23.43";
+		return "1.23.45";
 	}
 
 }

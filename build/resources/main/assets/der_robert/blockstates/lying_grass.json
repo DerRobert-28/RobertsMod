@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "der_robert:block/lying_grass"
+    },
+    "facing=east": {
+      "model": "der_robert:block/lying_grass",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "der_robert:block/lying_grass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "der_robert:block/lying_grass",
+      "y": 270
+    }
+  }
+}

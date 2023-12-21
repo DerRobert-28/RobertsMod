@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/lying_grass_bottom",
+    "up": "der_robert:block/lying_grass_top",
+    "north": "der_robert:block/alpha_grass_block",
+    "east": "der_robert:block/lying_grass_left",
+    "south": "der_robert:block/classic_dirt",
+    "west": "der_robert:block/lying_grass_right",
+    "particle": "der_robert:block/lying_grass_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "der_robert:block/win_maze_bricks",
+    "up": "der_robert:block/win_maze_bricks",
+    "north": "der_robert:block/win_maze_painting",
+    "east": "der_robert:block/win_maze_painting",
+    "south": "der_robert:block/win_maze_painting",
+    "west": "der_robert:block/win_maze_painting",
+    "particle": "der_robert:block/win_maze_bricks"
+  },
+  "render_type": "solid"
+}

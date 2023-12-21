@@ -13,7 +13,9 @@
     "der_robert:classic_hay_stack",
     "der_robert:classic_sand_block",
     "der_robert:classic_soul_sand",
+    "der_robert:lying_grass",
     "der_robert:six_sided_hay_block",
+    "der_robert:grey_dirt_block",
     "der_robert:boulder_dash_cave_underground",
     "der_robert:alpha_grass_block",
     "der_robert:alpha_grass_slab",
@@ -24,7 +26,6 @@
     "der_robert:infiniminer_dirt",
     "der_robert:infiniminer_road",
     "der_robert:infiniminer_dirt_sign",
-    "der_robert:manic_grass_only",
-    "der_robert:grey_dirt_block"
+    "der_robert:manic_grass_only"
   ]
 }

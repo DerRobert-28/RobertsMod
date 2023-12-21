@@ -9,16 +9,15 @@
 	- Save it into your Minecraft mod folder.
   - Start Minecraft and have fun!
 
-## Current version 1.23.43
+## Current version 1.23.51
 
 - Mod development:
   - General:
-    - "//seed" command allows you to change world seed
   - Blocks/items:
+    - Lying Grass
   - Crafting recipies:
 - Repository development:
   - Bugfixes:
-  	- Comnmand "//version" showed wrong version
   - Changes:
   - Known bugs and issues:
     - Colouring Plastic Doors does not work properly

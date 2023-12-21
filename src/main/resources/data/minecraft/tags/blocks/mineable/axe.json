@@ -16,11 +16,11 @@
     "der_robert:classic_wood_table",
     "der_robert:classic_wood_trapdoor",
     "der_robert:classic_workbench_block",
-    "der_robert:no_chest",
     "der_robert:six_sided_piston",
     "der_robert:six_sided_sticky_piston",
+    "der_robert:six_sided_trap_door_block",
+    "der_robert:no_chest",
     "der_robert:manic_wood_planks",
-    "der_robert:stardew_valley_generic_door",
-    "der_robert:six_sided_trap_door_block"
+    "der_robert:stardew_valley_generic_door"
   ]
 }

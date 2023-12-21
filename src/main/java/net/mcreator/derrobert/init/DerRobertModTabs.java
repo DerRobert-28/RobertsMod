@@ -151,6 +151,7 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_STAIRS.get().asItem());
 				tabData.accept(DerRobertModBlocks.CREEPONIA_BRICK_WALL.get().asItem());
 				tabData.accept(DerRobertModBlocks.END_PORTAL_BUTTON.get().asItem());
+				tabData.accept(DerRobertModBlocks.LYING_GRASS.get().asItem());
 				tabData.accept(DerRobertModBlocks.LUCKY_BLOCK_OFF.get().asItem());
 				tabData.accept(DerRobertModBlocks.LUCKY_BLOCK_ON.get().asItem());
 				tabData.accept(DerRobertModBlocks.MISSING_NO_BLOCK.get().asItem());
@@ -267,6 +268,15 @@ public class DerRobertModTabs {
 				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_SALOON_GREEN_WALL_CANDLES.get().asItem());
 				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_PURPLE_CRYSTAL_BLOCK.get().asItem());
 				tabData.accept(DerRobertModBlocks.STARDEW_VALLEY_GENERIC_DOOR.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ROBERTS_WIN_MAZE_TAB = REGISTRY.register("roberts_win_maze_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.der_robert.roberts_win_maze_tab")).icon(() -> new ItemStack(DerRobertModBlocks.WIN_MAZE_PAINTING.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DerRobertModBlocks.WIN_MAZE_BRICKS.get().asItem());
+				tabData.accept(DerRobertModBlocks.WIN_MAZE_WOOD.get().asItem());
+				tabData.accept(DerRobertModBlocks.WIN_MAZE_STONE.get().asItem());
+				tabData.accept(DerRobertModBlocks.WIN_MAZE_PAINTING.get().asItem());
 			})
 
 					.build());
